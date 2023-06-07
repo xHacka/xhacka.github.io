@@ -13,7 +13,7 @@ Can you deal with dwarfs and elfs
 
 **Link:** [SecurityValley/PublicCTFChallenges/reversing/the_elf](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/reversing/the_elf)
 
-## Observation
+## Analysis
 ```sh
 └─$ chmod u+x crackme-01        
 

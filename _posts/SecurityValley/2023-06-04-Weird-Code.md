@@ -13,7 +13,7 @@ I've found a weird piece of code in the internet. That looks strange....but ther
 
 **Link:** [SecurityValley/PublicCTFChallenges/coding/weird_code](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/coding/weird_code)
 
-## Observation
+## Analysis
 
 1. We are given what seems to be a disassambled code.
 2. Its not Assembly

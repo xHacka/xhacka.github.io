@@ -13,7 +13,7 @@ I've forgotten my archive password. Help me restore it
 
 **Link:** [SecurityValley/PublicCTFChallenges/miscellaneous/the_archive](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/miscellaneous/the_archive)
 
-## Observation
+## Analysis
 
 We are given a zip file with a flag in it, but its requires a password
 

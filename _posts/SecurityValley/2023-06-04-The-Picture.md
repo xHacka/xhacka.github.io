@@ -13,7 +13,7 @@ WTF... we need a forensic specialist here
 
 **Link:** [SecurityValley/PublicCTFChallenges/miscellaneous/the_picture](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/miscellaneous/the_picture)
 
-## Observation 
+## Analysis 
 
 ![the_picture](https://github.com/SecurityValley/PublicCTFChallenges/blob/master/miscellaneous/the_picture/challenge.png?raw=true)
 1. `strings` has nothing such as flag

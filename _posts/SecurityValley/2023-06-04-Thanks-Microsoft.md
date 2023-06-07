@@ -2,7 +2,7 @@
 title: SecurityValley - Thanks Microsoft
 date: Sun Jun  4 01:03:10 AM +04 2023
 categories: [Writeup]
-tags: [ctf,securityvalley,crytography]
+tags: [ctf,securityvalley,cryptography]
 ---
 
 #  Thanks Microsoft
@@ -15,7 +15,7 @@ During our hack we have stolen a pieces of weird and old C code. But it seems th
 
 **Link:** [SecurityValley/PublicCTFChallenges/crypto/thanks_microsoft](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/crypto/thanks_microsoft)
 
-## Observation
+## Analysis
 
 1. Program takes in command line argument as input
 2. Input is getting encoded character by character

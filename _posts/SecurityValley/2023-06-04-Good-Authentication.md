@@ -2,7 +2,7 @@
 title: SecurityValley - Good Authentication
 date: Sun Jun  4 12:30:41 AM +04 2023
 categories: [Writeup]
-tags: [ctf,securityvalley,crytography]
+tags: [ctf,securityvalley,cryptography]
 ---
 
 ## Description
@@ -11,7 +11,7 @@ After your first strike, the development team has increased the power of there l
 
 **Link:** [SecurityValley/PublicCTFChallenges/coding/good_authentication](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/coding/good_authentication)
 
-## Observation
+## Analysis
 
 1. Password length must be 12
 2. Password is split into 3 chucks (blocks)

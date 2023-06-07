@@ -2,7 +2,7 @@
 title: SecurityValley - Capture Message (1)
 date: Sun Jun  4 12:30:01 AM +04 2023
 categories: [Writeup]
-tags: [ctf,securityvalley,crytography]
+tags: [ctf,securityvalley,cryptography]
 ---
 
 ## Description 
@@ -13,7 +13,7 @@ We have captured a message. But what is the content??? Help us, please!
 
 **Link:** [SecurityValley/PublicCTFChallenges/crypto/old_history](https://github.com/SecurityValley/PublicCTFChallenges/blob/master/crypto/old_history/message.txt)
  
-## Observation 
+## Analysis 
 
 1. We are given encrypted message`message.txt`
 2. Using [dcode cipher identifier](https://www.dcode.fr/cipher-identifier) we find that cipher is either [ROT13](https://www.wikiwand.com/en/ROT13#introduction) or [Caesar Cipher](https://www.wikiwand.com/en/Caesar_cipher#introduction)

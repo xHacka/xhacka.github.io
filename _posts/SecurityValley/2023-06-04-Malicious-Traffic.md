@@ -13,7 +13,7 @@ Strange things are happening here, help! Someone stole my flag. I only remember 
 
 **Link:** [SecurityValley/PublicCTFChallenges/network/malicious_traffic](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/network/malicious_traffic)
 
-## Observation
+## Analysis
 
 1. We are given file with a small network traffic which can be opened using [Wireshark](https://www.wireshark.org/)
 2. Main traffic seems to be DNS 

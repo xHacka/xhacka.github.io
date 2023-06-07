@@ -2,7 +2,7 @@
 title: SecurityValley - Capture Message (2)
 date: Sun Jun  4 12:30:18 AM +04 2023
 categories: [Writeup]
-tags: [ctf,securityvalley,crytography]
+tags: [ctf,securityvalley,cryptography]
 ---
 
 ## Description
@@ -13,7 +13,7 @@ Hm hm hm. We have seen this before... a long time ago. But we are to stupid to c
 
 **Link:** [SecurityValley/PublicCTFChallenges/crypto/weird_but_old](https://github.com/SecurityValley/PublicCTFChallenges/blob/master/crypto/weird_but_old/message.txt)
 
-## Observation
+## Analysis
 
 1. We are given a `message.txt` which is all uppercase.
 2. [dcode cipher identifier](https://www.dcode.fr/cipher-identifier) doesn't give us much.

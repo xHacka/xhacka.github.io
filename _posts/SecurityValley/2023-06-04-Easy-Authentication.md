@@ -13,7 +13,7 @@ Let's start simple in this game. We have collected a piece of javascript. There 
 
 **Link:** [SecurityValley/PublicCTFChallenges/coding/easy_authentication](https://github.com/SecurityValley/PublicCTFChallenges/blob/master/coding/easy_authentication)
 
-## Observation
+## Analysis
 
 `const pass = [106,117,115,116,95,119,97,114,109,105,110,103,95,117,112];`
 We are given an array of numbers, which seem like ascii character codes.

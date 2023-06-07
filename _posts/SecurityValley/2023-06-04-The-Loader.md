@@ -15,7 +15,7 @@ I've seen that in malware before. There must be something inside
 
 **Link:** [SecurityValley/PublicCTFChallenges/reversing/the_loader](https://github.com/SecurityValley/PublicCTFChallenges/tree/master/reversing/the_loader) 
 
-## Observation 
+## Analysis 
 
 ```bash
 └─$ file ./crackme-03                  

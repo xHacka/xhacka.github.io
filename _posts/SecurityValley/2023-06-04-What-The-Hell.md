@@ -13,7 +13,7 @@ All hell is breaking loose. Once again a frontend developer went completely nuts
 
 **Link:** [http://pwnme.org:8666](http://pwnme.org:8666/)
 
-## Observation
+## Analysis
 
 1. When visiting website we have a simple input which requires a key.
 2. Viewing source code of website (Ctrl+U or Right Click) we find ***[hell.js](http://pwnme.org:8666/hell.js)***
