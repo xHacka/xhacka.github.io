@@ -2,7 +2,7 @@
 title: HSCTF 10 - mystery-methods
 date: Mon Jun  5 02:25:37 PM +04 2023
 categories: [Writeup]
-tags: [ctf,hsctf2023,rev]
+tags: [ctf,hsctf2023,reversing]
 ---
 
 ## Description

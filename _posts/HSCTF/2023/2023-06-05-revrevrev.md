@@ -2,7 +2,7 @@
 title: HSCTF 10 - revrevrev
 date: Mon Jun  5 03:59:50 PM +04 2023
 categories: [Writeup]
-tags: [ctf,hsctf2023,rev]
+tags: [ctf,hsctf2023,reversing]
 ---
 
 ## Desciption
