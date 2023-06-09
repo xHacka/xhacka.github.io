@@ -45,10 +45,10 @@ aA==0xFF.4530234dsf3.cdn.aws.com
 I used CyberChef to create proper data
 
 Replace regex = `\.?4530234dsf3\.cdn\.aws\.com|0xAA|0xFF|\n`
-![the-data-1](/assets/images/SecurityValleymalicious-traffic-1.png)
-![the-data-2](/assets/images/SecurityValleymalicious-traffic-2.png)
+![the-data-1](/assets/images/SecurityValley/malicious-traffic-1.png)
+![the-data-2](/assets/images/SecurityValley/malicious-traffic-2.png)
 
 The challenge requires one more step. The description mentions that `I only know that my key was "bad".`, so I tried XOR-ing the result.
-![the-data-3](/assets/images/SecurityValleymalicious-traffic-3.png)
+![the-data-3](/assets/images/SecurityValley/malicious-traffic-3.png)
 
 <small>Note: Key is in `LATIN1` format</small>
