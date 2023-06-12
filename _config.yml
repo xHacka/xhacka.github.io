@@ -20,7 +20,7 @@ timezone: Asia/Tbilisi
 
 title: xHacka # the main title
 
-tagline: Personal Blog # it will display as the sub-title
+tagline: CTF Player # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
