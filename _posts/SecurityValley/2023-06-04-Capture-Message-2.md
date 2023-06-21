@@ -21,8 +21,8 @@ Hm hm hm. We have seen this before... a long time ago. But we are to stupid to c
 
 ## Solution
 
-There's a great Cryptogram Solver online by [Edwin Olson](http://april.eecs.umich.edu/people/ebolson) called [_quipqiup_](https://quipqiup.com/)
-Using `statistics` (default solver) to solve, the tool quickly generates possible results and most likely the first result is going to be what we need. 
+There's a great Cryptogram Solver online by [Edwin Olson](http://april.eecs.umich.edu/people/ebolson) called [_quipqiup_](https://quipqiup.com/)<br>
+By using `statistics` solver the tool quickly generates possible results and most likely the first result is going to be what we need. 
 
 When reading the text we come across line
 ```

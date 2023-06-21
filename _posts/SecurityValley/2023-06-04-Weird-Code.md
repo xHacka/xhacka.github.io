@@ -28,13 +28,13 @@ After fiddling around with `dis.dis()` I came to solution which looks like this.
 import dis
 
 def enc():
-	flag = "k\\PbYUHDAM[[VJlVAMVk[VWQE"
-	key = "8934"
-	out = ""
-	for i in range(len(flag)):
-		out += chr(ord(flag[i]) ^ ord(key[i % len(key)]))
-	
-	print(out)
+    flag = "k\\PbYUHDAM[[VJlVAMVk[VWQE"
+    key = "8934"
+    out = ""
+    for i in range(len(flag)):
+        out += chr(ord(flag[i]) ^ ord(key[i % len(key)]))
+    
+    print(out)
 
 print(dis.dis(enc)) # Debug
 

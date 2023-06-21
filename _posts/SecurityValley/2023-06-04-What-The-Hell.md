@@ -18,7 +18,7 @@ All hell is breaking loose. Once again a frontend developer went completely nuts
 1. When visiting website we have a simple input which requires a key.
 2. Viewing source code of website (Ctrl+U or Right Click) we find ***[hell.js](http://pwnme.org:8666/hell.js)***
 3. hell.js is obfuscated program. Cmd variable contains hex values which is XOR-ed with key `0x0A`
-	* Using CyberChef we can take this hex values, decode and XOR <----**************** with key `0x0A`
+	* Using CyberChef we can take this hex values, decode and XOR with key `0x0A`
 	* Due to this line `if (window.hell_key == "666")` if we enter the code `666` this process is done automatically by website.
 4. After entering `666` we get `message_from_hell.txt`
 ```js

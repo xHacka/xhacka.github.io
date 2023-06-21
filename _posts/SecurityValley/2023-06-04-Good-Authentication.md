@@ -34,15 +34,15 @@ const  block  = [
 let  crafted  =  "";
 
 for (let  i  =  0; i  <  block.length; i++) {
-	for (let  a  =  0; a  <  block[i].length; a++) {
-		if (i  ==  0) {
-			crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  7)
-		} else  if (i  ==  1) {
-			crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  11)
-		} else {
-			crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  9)
-		}
-	}
+  for (let  a  =  0; a  <  block[i].length; a++) {
+    if (i  ==  0) {
+      crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  7)
+    } else  if (i  ==  1) {
+      crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  11)
+    } else {
+      crafted  +=  String.fromCharCode(String(block[i][a]).charCodeAt(0) ^  9)
+    }
+  }
 }
 
 console.log(crafted)

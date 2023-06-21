@@ -15,11 +15,16 @@ Let's start simple in this game. We have collected a piece of javascript. There 
 
 ## Analysis
 
-`const pass = [106,117,115,116,95,119,97,114,109,105,110,103,95,117,112];`
 We are given an array of numbers, which seem like ascii character codes.
+```js
+const pass = [106,117,115,116,95,119,97,114,109,105,110,103,95,117,112];
+```
 
-`if(pa[i].charCodeAt(0)  !==  pass[i])`
 Validation happens on this line of code which checks that each character in password is same as defined in `pass`. 
+```js
+if(pa[i].charCodeAt(0)  !==  pass[i])
+```
+
 
 ## Solution
 
