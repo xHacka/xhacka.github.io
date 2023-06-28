@@ -2,7 +2,7 @@
 title: SecurityValley - The Archive
 date: Sun Jun  4 10:27:47 AM +04 2023
 categories: [Writeup]
-tags: [ctf,securityvalley,miscellaneous]
+tags: [ctf,securityvalley,misc]
 ---
 
 # Description
