@@ -186,7 +186,7 @@ Yeah, science!
 ### Analysis
 
 ```bash
-└─$ exiftool doc.jpg  | clip
+└─$ exiftool doc.jpg
 ...
 Comment                         : where did the protagonist lived ?
 ```
