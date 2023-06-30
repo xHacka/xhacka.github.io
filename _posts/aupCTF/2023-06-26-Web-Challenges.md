@@ -2,7 +2,7 @@
 title: aupCTF 2023 - Web Challenges
 date: Mon Jun 26 03:23:49 PM +04 2023
 categories: [Writeup]
-tags: [ctf,aupctf,web]
+tags: [ctf, aupctf, web]
 ---
 
 ## Starter
@@ -39,6 +39,7 @@ By using most basic payload: `' or 1=1 --` we are able to get in.
 
 > Flag: `aupCTF{3a5y-sql-1nj3cti0n}`
 {: .prompt-tip }
+
 ## SQLi - 2
 
 Challenge: [Click Here](https://challs.aupctf.live/sqli-2/)
@@ -52,9 +53,9 @@ Same challenge as previous. I tried the previous payload but it didnt work. `' o
 
 ## Header
 
-Carefully analyze the source code  
-  
-Challenge:  [Click Here](https://challs.aupctf.live/header/)
+Carefully analyze the source code
+
+Challenge: [Click Here](https://challs.aupctf.live/header/)
 
 ### Solution
 
@@ -64,14 +65,15 @@ def headar_easy(request):
         context = {
             'flag': '[REDACTED]',
         }
-        
+
         return render(request, 'aa/flag.html', context)
-    
+
     return render(request, 'aa/index.html')
 ```
+
 _[request.META](https://docs.djangoproject.com/en/4.2/ref/request-response/#django.http.HttpRequest.META) is a dictionary containing all available HTTP headers. Available headers depend on the client and server._
 
-Documentation also says: _Any HTTP headers in the request are converted to `META` keys by converting all characters to uppercase, replacing any hyphens with underscores and adding an `HTTP_` prefix to the name. So, for example, a header called `X-Bender` would be mapped to the `META` key `HTTP_X_BENDER`._
+Documentation also says: _Any HTTP headers in the request are converted to `META` keys by converting all characters to uppercase, replacing any hyphens with underscores and adding an `HTTP_`prefix to the name. So, for example, a header called`X-Bender`would be mapped to the`META`key`HTTP*X_BENDER`.*
 
 To get the flag we must send request to server with `GETFLAG` header.
 
@@ -87,7 +89,7 @@ aupCTF{cust0m-he4d3r-r3qu3st}
 
 Use your time travel skills to recover the hidden flag
 
-Challenge:  [Click Here](https://iasad.me/tags)
+Challenge: [Click Here](https://iasad.me/tags)
 
 ### Solution
 
@@ -103,8 +105,8 @@ Finally view source to find the flag.
 
 ## Directory
 
-The flag is buried in one of the directory  
-  
+The flag is buried in one of the directory
+
 Source: [Click Here](https://challs.aupctf.live/dir/)
 
 ### Solution
@@ -120,11 +122,12 @@ err = "No flag for you"
 for page in range(1001):
     resp = requests.get(URL % page) # Old School Formatting
     if err not in resp.text: # If error not in page flag is found
-        print(f"Flag found inside page: {page}\nHTML:") 
+        print(f"Flag found inside page: {page}\nHTML:")
         print(resp.text)
         break
     print(f"{page=}", end='\r') # Status Bar
 ```
+
 > Just for the sake of time flag is at page `712`
 {: .prompt-info }
 
@@ -141,17 +144,16 @@ After trying every possible SQLi I could, I was ready to give up on SQLi. Then I
 
 ```html
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="robots" content="NONE,NOARCHIVE">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="NONE,NOARCHIVE" />
   <title>403 Forbidden</title>
+</head>
 ```
 
 I was so focused on SQLi that I forgot to check `/robots.txt`, and the huge SQLi rabbithole was patched.
 
 ```html
-User-agent: *
-Disallow: /usernames/
-Disallow: /passwords/
+User-agent: * Disallow: /usernames/ Disallow: /passwords/
 ```
 
 I parsed and downloaded the information and will try to bruteforce the logic with _Burpsuite Intruder (Clusterbomb Attack)_
@@ -164,10 +166,33 @@ URL = "https://challs.aupctf.live/conundrum/%s/"
 
 for page in ("usernames", "passwords"):
     html = BS(requests.get(URL % page).text, 'html.parser')
-    with open(page, 'w') as f: 
+    with open(page, 'w') as f:
         for item in html.find_all('li'):
             f.write(f'{item.text}\n')
 ```
+
+| Username           | Password    |
+| ------------------ | ----------- |
+| ironman07          | 6!7A3O9?b&  |
+| spidey91           | 4H0.b@2E5W  |
+| wakanda4ever       | 8z^3@9b1#J  |
+| hulksmash99        | 1T9g$8y0D!  |
+| marvelcaptain      | 7N1R$6u5q%  |
+| thorhammer23       | 2C1!f9R6r$  |
+| blackwidow007      | 0J2y&9m5B%  |
+| deadpoolfanatic    | 4W9B^7b2g#  |
+| xmenmutant55       | 9m3H%5y7t@  |
+| scarletwitch23     | 1A8$5k7!eR  |
+| starlord69         | 7U4v@6Q9h\* |
+| strangewizard      | 9O6p#1d3@Q  |
+| pantherking        | 5K8x\*2v1@Q |
+| captainamerica1776 | 2L5i!9t0^Q  |
+| grootlover88       | 3J4G&1k7X!  |
+| antman42           | 4M6s$2j1r\* |
+| lokiobsessed9      | 8X1w@5G3u#  |
+| hawkeyearcher007   | 6C8z^0m3B!  |
+| thanosfollower13   | 7D1#f5w3S^  |
+| wandafor3v3r       | 9Y3r$0t6A!  |
 
 ![conundrum-1](/assets/images/aupCTF/2023/conundrum-1.png)
 
@@ -178,11 +203,11 @@ for page in ("usernames", "passwords"):
 
 Ughh... Couldn't be that easy... `logout` button takes us to `/phash` which is not logout, but rather new login form...
 
-*~~Cool, new login form doesn’t accept any previous usernames/passwords.~~* Another rabbit hole, `/phash` is a different challenge.
+_~~Cool, new login form doesn’t accept any previous usernames/passwords.~~_ Another rabbit hole, `/phash` is a different challenge.
 
-I couldn't find a solution for last step on my own, after browsing web I found a [solution on gist](https://gist.github.com/Xib3rR4dAr/32b30234dda814a50361364bfe9aa1e7) by <strong>[Xib3rR4dAr](https://github.com/Xib3rR4dAr)</strong>.
+I couldn't find a solution for last step on my own, after browsing web I found a [solution on gist](https://gist.github.com/Xib3rR4dAr/32b30234dda814a50361364bfe9aa1e7) by _[Xib3rR4dAr](https://github.com/Xib3rR4dAr)._
 
-By adding `admin=true` in POST request via burp we are able to login as admin. 
+By adding `admin=true` in POST request via burp we are able to login as admin.
 
 ```
 srfmiddlewaretoken=TOKEN&username=starlord69&password=1A8$5k7!eR&admin=true
