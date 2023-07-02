@@ -221,4 +221,72 @@ aupCTF{j0hncr4ck5pa55w0rd5!}
 
 ## MemDump
 
-... Still Thinking ...
+You are investigating a potential security incident within your organization. Malicious activity has been detected on one of the company's servers. To gather more information, you need to analyze a memory image of the affected server. You are provided with a memory image of the infected host.
+
+you need to download the memory image from this link: [download file](https://aupctf.s3.eu-north-1.amazonaws.com/memdump2.mem)
+
+Your goal is to find the flag, which consists of the process name of the malicious activity.
+
+Flag format: `aupCTF{processname.exe}`
+
+### Solution
+
+I was having trouble opening the file, huge thank you to the [author of aupCTF](https://github.com/asadse7en) for recommending [Volatility](https://www.volatilityfoundation.org)
+
+I found a great post demonstrating how to use tool at <https://www.varonis.com/blog/how-to-use-volatility>
+
+`windows.malfind` _displays a list of processes that Volatility suspects may contain injected code based on the header_.
+
+```bash
+└─$ py vol.py -f ../memdump2.mem windows.malfind | tee output_malfind.log
+Volatility 3 Framework 2.4.2    PDB scanning finished
+
+PID     Process Start VPN       End VPN Tag     Protection      CommitCharge    PrivateMemory   File output     Hexdump Disasm
+
+5964    notepad.exe     0x20c91fd0000   0x20c92018fff   VadS    PAGE_EXECUTE_READWRITE  73      1       Disabled
+4d 5a 41 52 55 48 89 e5 MZARUH..
+48 81 ec 20 00 00 00 48 H......H
+8d 1d ea ff ff ff 48 89 ......H.
+df 48 81 c3 a4 6e 01 00 .H...n..
+ff d3 41 b8 f0 b5 a2 56 ..A....V
+68 04 00 00 00 5a 48 89 h....ZH.
+f9 ff d0 00 00 00 00 00 ........
+00 00 00 00 10 01 00 00 ........        
+
+5964    notepad.exe     0x20c92590000   0x20c925e5fff   VadS    PAGE_EXECUTE_READWRITE  86      1       Disabled
+4d 5a 41 52 55 48 89 e5 MZARUH..
+48 81 ec 20 00 00 00 48 H......H
+8d 1d ea ff ff ff 48 89 ......H.
+df 48 81 c3 a4 6e 01 00 .H...n..
+ff d3 41 b8 f0 b5 a2 56 ..A....V
+68 04 00 00 00 5a 48 89 h....ZH.
+f9 ff d0 00 00 00 00 00 ........
+00 00 00 00 10 01 00 00 ........        
+```
+
+```bash
+└─$ py vol.py -f ../memdump2.mem windows.pstree | tee output_pstree.log
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime
+...
+2384	2176	EC2Launch.exe	0x9781f7f96080	0	-	0	False	2023-03-27 15:48:57.000000 	2023-03-27 15:49:17.000000
+3536	2564	csrss.exe	0x9781f7f90080	10	-	2	False	2023-03-27 16:00:33.000000 	N/A
+3352	2564	winlogon.exe	0x9781f7f9a080	3	-	2	False	2023-03-27 16:00:33.000000 	N/A
+* 3520	3352	fontdrvhost.ex	0x9781f5143080	5	-	2	False	2023-03-27 16:00:34.000000 	N/A
+* 1112	3352	userinit.exe	0x9781f8f5b0c0	0	-	2	False	2023-03-27 16:00:42.000000 	2023-03-27 16:01:24.000000
+** 3420	1112	explorer.exe	0x9781f8f60080	51	-	2	False	2023-03-27 16:00:42.000000 	N/A
+*** 4504	3420	win32calc.exe	0x9781fafed0c0	3	-	2	False	2023-03-27 17:06:34.000000 	N/A
+*** 5964	3420	notepad.exe	0x9781f9932080	4	-	2	False	2023-03-27 17:06:25.000000 	N/A
+*** 7052	3420	cmd.exe	0x9781fa67d080	1	-	2	False	2023-03-27 17:09:24.000000 	N/A
+**** 7072	7052	conhost.exe	0x9781fa849080	3	-	2	False	2023-03-27 17:09:24.000000 	N/A
+*** 6000	3420	msedge.exe	0x9781fa0b1380	33	-	2	False	2023-03-27 17:07:12.000000 	N/A
+...
+*** 4408	3420	Taskmgr.exe	0x9781f9921080	12	-	2	False	2023-03-27 16:19:31.000000 	N/A
+*** 4668	3420	powershell.exe	0x9781f8f613c0	9	-	2	False	2023-03-27 17:09:16.000000 	N/A
+**** 5828	4668	conhost.exe	0x9781f9d28080	4	-	2	False	2023-03-27 17:09:16.000000 	N/A
+...
+```
+
+DLL injection is a technique that allows code to be inserted into a running process. From `pstree` we see that first `notepad.exe` is opened, followed up with `cmd.exe`. It's unclear whether injection happened via `cmd` or `powershell`. I found a [post](https://tbhaxor.com/createremotethread-process-injection/) demonstrating this technique and it's highly likely that `powershell` was used.
+
+> Flag: aupCTF{notepad.exe}
+{: .prompt-tip }
