@@ -2,7 +2,7 @@
 title: Odyssey CTF - Mythic PDF Forge
 date: Sun Jul 23 04:43:32 PM +04 2023
 categories: [Writeup]
-tags: [ctf,hsctf2023,web]
+tags: [ctf,hackrocksctf,odysseyctf,web]
 ---
 
 ## Description
