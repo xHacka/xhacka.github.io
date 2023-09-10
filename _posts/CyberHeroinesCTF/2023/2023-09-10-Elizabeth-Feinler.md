@@ -19,6 +19,8 @@ Author:  [Rusheel](https://github.com/Rusheelraj)
 
 ## Solution
 
+![Elizabeth-Feinler-1](/assets/images/CyberHeroinesCTF/2023/Elizabeth-Feinler-1.png)
+
 We are given a Wireshark file which only contains DNS traffic. The subdomains look like they are ASCII Code characters. 
 
 First we need to extract the names.

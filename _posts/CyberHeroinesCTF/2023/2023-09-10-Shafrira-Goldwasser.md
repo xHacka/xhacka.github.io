@@ -62,3 +62,9 @@ DROP TABLE letmein;
 
 > Flag: chctf{CH4ng3d_h0w_w3_th1Nk_of_pr00f$}
 {: .prompt-tip }
+
+## Note
+
+If challenge is broken you know who to blame <!-- krississy (╯°□°）╯︵ ┻━┻ -->
+
+![broken](/assets/images/CyberHeroinesCTF/2023/Shafrira-Goldwasser-Broken.png)
