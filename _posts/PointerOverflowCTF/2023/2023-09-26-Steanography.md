@@ -11,7 +11,7 @@ tags: [ctf,poctf,poctf2023,steganography]
 
 Sometimes the oldest and simplest tricks can be the most fun. Here's an old stego tactic that requires no special software - just a little knowledge and maybe a keen eye.
 
-![](https://pointeroverflowctf.com/stego1.gif)
+![stego1.gif](https://pointeroverflowctf.com/stego1.gif)
 
 ### Solution
 
@@ -87,7 +87,7 @@ Using tool [SSuite Picsel Security](https://www.ssuiteoffice.com/software/ssuite
 
 Picture stego sure is a lot of fun. It's not exactly a party conversation starter, but once someone mentions hiding data I can't help but open that big can of beans. Here - you try!
 
-![](https://pointeroverflowctf.com/bean.png)
+![bean can](https://pointeroverflowctf.com/bean.png)
 
 ### Solution
 
