@@ -7,9 +7,12 @@ tags: [ctf,metaredctf,metaredctf2023,web,php]
 
 ## Description
 
-\<No Description After CTF Ended...\>
+Author: <strong>puck</strong>
+
+Welcome to Mienteles. We are a telecommunications company from Latin America. We have a bug bounty program through which we dont pay for critical vulnerabilities, but at least you can win a flag: <a href="https://mienteles.ctf.cert.unlp.edu.ar/">Link</a> 
 
 [Challenge](https://mienteles.ctf.cert.unlp.edu.ar/)<br>
+[Mirror](https://mienteles-mirror.mirror-ctf.cert.unlp.edu.ar/)<br>
 [Source](https://mienteles.ctf.cert.unlp.edu.ar/?src)
 
 ## Solution
