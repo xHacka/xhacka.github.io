@@ -29,6 +29,4 @@ end
 
 gem "webrick", "~> 1.8"
 
-gem "faraday-retry", "~> 2.2"
-
 gem 'json', '~> 2.6', '>= 2.6.3'
