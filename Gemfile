@@ -28,5 +28,5 @@ if RUBY_PLATFORM =~ /linux-musl/
 end
 
 gem "webrick", "~> 1.8"
-
+gem 'google-protobuf', '< 3.25.2'
 gem 'json', '~> 2.6', '>= 2.6.3'
