@@ -15,6 +15,7 @@ Flag format: aupCTF{\*\*\*\_\*\*\*\*\*}
 
 When we try to read the file we get a huge output (the file is one line), it seems giberish but looks to be Base64 encoding. To check that its Base64 let's try decoding.
 
+{% raw %}
 ```bash
 └─$ cat dump.txt | base64 -d > unknown
 
@@ -25,6 +26,7 @@ unknown: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment
 
 └─$ display unknown.jpeg
 ```
+{% endraw %}
 
 ![syrio-forel-1](/assets/images/aupCTF/2023/syrio-forel-1.jpeg)
 
@@ -87,7 +89,7 @@ Hint: looking for password ? well thats the iconic dialogue of iron man
 
 The audio file starts by saying [a quote from Iron Man 2](https://quotecatalog.com/quote/justin-theroux-my-bond-is-with-R1k29ea) and then [quote from Iron Man 3](https://www.reddit.com/r/marvelstudios/comments/3ra89l/little_joke_i_just_noticed_in_iron_man_3/), but it's unclear what it has to do with the puzzle. 
 
-Hint mentions password, but there's nothing that requires password unless `steghide` or alternative. I tried searching around Audio Steganography combined with Deep and found [Deep Sound](https://wiki.bi0s.in/steganography/deep-sound/). Luckily John has a tool _[deepsound2john]()_
+Hint mentions password, but there's nothing that requires password unless `steghide` or alternative. I tried searching around Audio Steganography combined with Deep and found [Deep Sound](https://wiki.bi0s.in/steganography/deep-sound/). Luckily John has a tool _*deepsound2john*_.
 
 ```bash
 └─$ deepsound2john truefan.wav > truefan.hash

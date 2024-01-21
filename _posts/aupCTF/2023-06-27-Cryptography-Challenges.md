@@ -13,7 +13,7 @@ Challenge: `0*%pgs8.K*H5K*#3H"N:`
 
 ### Solution
 
-From the description we know that we are dealing with rotation ciphers. After fiddling around a lot in [CyberChef]() I found that its first ROT47 and then ROT13.
+From the description we know that we are dealing with rotation ciphers. After fiddling around a lot in [CyberChef](https://gchq.github.io/CyberChef/) I found that its first ROT47 and then ROT13.
 
 ![rotation-1](/assets/images/aupCTF/2023/rotation-1.png)
 
