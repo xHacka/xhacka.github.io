@@ -60,4 +60,4 @@ print(flag)
 ```
 
 > Flag: picoCTF{http_h34d3rs_v3ry_c0Ol_much_w0w_8d5d8d77}
-{ .prompt-tip }
+{: .prompt-tip }
