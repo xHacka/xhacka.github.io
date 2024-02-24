@@ -1,5 +1,5 @@
 ---
-title: Balloons Over Iowa
+title: KC7Cyber - Balloons Over Iowa
 date: Wed Feb 21 01:07:21 AM +04 2024
 categories: [Writeup]
 tags: [ctf,kc7cyber,sql,kql,soc]

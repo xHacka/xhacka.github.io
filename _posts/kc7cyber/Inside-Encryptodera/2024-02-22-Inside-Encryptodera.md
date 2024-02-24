@@ -1,5 +1,5 @@
 ---
-title: Inside Encryptodera
+title: KC7Cyber - Inside Encryptodera
 date: Thu Feb 22 11:59:48 PM +04 2024
 categories: [Writeup]
 tags: [ctf,kc7cyber,sql,kql,soc]
