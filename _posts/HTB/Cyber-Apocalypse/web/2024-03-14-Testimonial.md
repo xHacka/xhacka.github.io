@@ -11,7 +11,7 @@ As the leader of the Revivalists you are determined to take down the KORP, you a
 
 ## Analysis
 
-time
+{::options parse_block_html="true" /}
 
 <details>
 <summary markdown="span">client.go</summary>
