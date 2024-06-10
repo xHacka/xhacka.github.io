@@ -2,7 +2,7 @@
 title: DownUnderCTF 2023 - All Father's Wisdom
 date: Sun Sep  3 02:05:29 PM +04 2023
 categories: [Writeup]
-tags: [ctf,downunderctf,downunderctf2023,rev]
+tags: [ctf,downunderctf,downunderctf2023,reversing]
 ---
 
 ## Description

@@ -2,7 +2,7 @@
 title: SPCS CTF - Easy Reverse
 date: Mon Jan 15 04:43:02 PM +04 2024
 categories: [Writeup]
-tags: [ctf,spcsctf,spcsctf2024,rev]
+tags: [ctf,spcsctf,spcsctf2024,reversing]
 ---
 
 ### Description
