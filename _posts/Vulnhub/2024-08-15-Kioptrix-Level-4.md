@@ -215,7 +215,7 @@ Nmap done: 1 IP address (1 host up) scanned in 29.55 seconds
 10.0.2.22       Kioptrix4.localdomain
 ```
 
-# SMB 
+## SMB 
 
 ```bash
 └─$ netexec smb 10.0.2.22 -u '' -p '' --shares
