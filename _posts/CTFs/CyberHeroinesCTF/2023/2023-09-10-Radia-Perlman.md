@@ -21,7 +21,7 @@ Author:  [Rusheel](https://github.com/Rusheelraj)
 
 ![Radia-Perlman-1](/assets/images/CyberHeroinesCTF/2023/Radia-Perlman-1.png)
 
-Same as [Grace Hopper]({% post_url CyberHeroinesCTF/2023/2023-09-10-Grace-Hopper %}), when we execute dns request we get: 
+Same as [Grace Hopper]({% post_url CTFs/CyberHeroinesCTF/2023/2023-09-10-Grace-Hopper %}), when we execute dns request we get: 
 
 ```
 Command Output: Server: 127.0.0.11 

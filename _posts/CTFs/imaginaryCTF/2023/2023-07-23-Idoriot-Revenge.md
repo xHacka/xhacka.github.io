@@ -15,7 +15,7 @@ The idiot who made it, made it so bad that the first version was super easy. It 
 
 ## Solution
 
-Same as [Idoriot]({% post_url /imaginaryCTF/2023/2023-07-23-Idoriot %}), we register and get source code.
+Same as [Idoriot]({% post_url CTFs/imaginaryCTF/2023/2023-07-23-Idoriot %}), we register and get source code.
 
 ```php
 // Check user_id
