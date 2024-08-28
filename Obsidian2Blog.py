@@ -3,7 +3,6 @@ import re
 from pathlib import Path
 import shutil
 from datetime import datetime
-import string
 
 class Obsidian:
     def __init__(self, path: Path) -> None:
@@ -57,13 +56,12 @@ class Obsidian:
             pattern = re.compile("|".join(map(re.escape, image_links)))
             return pattern.sub(lambda match: replacement[match.group(0)], post_text)
 
-        with open(self.post, 'r+', encoding='UTF-8') as post:
+        with open(self.post, 'r', encoding='UTF-8') as post:
             post_text = post.read()
-
             post_text = replace_nmap(post_text)
             post_text = replace_images(post_text)
 
-            post.seek(0)
+        with open(self.post, 'w', encoding='UTF-8') as post:
             post.write(post_text)
 
     def setup(self):
