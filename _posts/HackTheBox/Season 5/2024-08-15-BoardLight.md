@@ -106,7 +106,7 @@ Nmap done: 1 IP address (1 host up) scanned in 16.54 seconds
 
 ## HTTP (80)
 
-![Pasted image 20240527235805.png](/assets/images/Season 5/Runner/Pasted image 20240527235805.png)
+![Pasted image 20240527235805.png](/assets/images/Season 5/BoardLight/Pasted image 20240527235805.png)
 
 ```bash
 └─$ feroxbuster -u http://10.10.11.11/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -d 1 -x php
@@ -149,7 +149,7 @@ by Ben "epi" Risher 🤓                 ver: 2.10.3
 
 Hmm.. nothing
 We do have email linked  to `board.htb`, let's add it to hosts and try enumerate subdomains.
-![Pasted image 20240528000035.png](/assets/images/Season 5/Runner/Pasted image 20240528000035.png)
+![Pasted image 20240528000035.png](/assets/images/Season 5/BoardLight/Pasted image 20240528000035.png)
 
 ### crm.board.htb
 
@@ -174,18 +174,18 @@ crm                     [Status: 200, Size: 6360, Words: 397, Lines: 150, Durati
 :: Progress: [4989/4989] :: Job [1/1] :: 170 req/sec :: Duration: [0:00:29] :: Errors: 0 ::
 ```
 
-![Pasted image 20240528000258.png](/assets/images/Season 5/Runner/Pasted image 20240528000258.png)
+![Pasted image 20240528000258.png](/assets/images/Season 5/BoardLight/Pasted image 20240528000258.png)
 
 Searching for version we end up with CVE:
 https://www.swascan.com/security-advisory-dolibarr-17-0-0/
 
 We are able to login with default credentials:
-![Pasted image 20240528000551.png](/assets/images/Season 5/Runner/Pasted image 20240528000551.png)
+![Pasted image 20240528000551.png](/assets/images/Season 5/BoardLight/Pasted image 20240528000551.png)
 
 > Creds: `admin:admin`
 {: .prompt-tip }
 
-![Pasted image 20240528000734.png](/assets/images/Season 5/Runner/Pasted image 20240528000734.png)
+![Pasted image 20240528000734.png](/assets/images/Season 5/BoardLight/Pasted image 20240528000734.png)
 
 ### RCE
 
