@@ -1,2 +1,3 @@
 # Meh
-Disallow: *
+User-agent: *
+Disallow: /
