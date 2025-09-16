@@ -49,7 +49,7 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
                         
                 return (
                     f"::: details {target_name}\n"
-                    f"```log\n{scan.strip()}\n"
+                    f"```log\n{scan.strip()}\n```\n"
                     f":::"
                 )
             else:
@@ -81,25 +81,27 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    for i in range(1, 9):
-        input_dir = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Seasonal' / f'Season {i}'
-        output_dir = Path(r'src\pentest\htb') / f'season{i}'
-        images_dir = Path(r'src\public\assets\pentest\htb')
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
+    for base_dir in base.glob('*'):
+        input_dir = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks' / base_dir
+        output_dir = Path(r'src\soc\sherlocks')
+        images_dir = Path(r'src\public\assets\soc\sherlocks')
         for directory in input_dir.glob('*'):
             writeup = directory / 'Writeup.md'
             
             directory_name = directory.name.replace('- NOPE', '').lower().strip()
-            vitepress = (output_dir / directory_name).with_suffix('.md')
+            vitepress = (output_dir / base_dir.name.lower() / directory_name).with_suffix('.md')
+            images = images_dir / directory_name.replace(' ', '-').lower()
             
-            # if vitepress.exists():
-            #     continue
+            print(f'{writeup=}\n{vitepress=}\n{images=}\n--- --- --- --- --- ---')
+            # break
             
+            vitepress.parent.mkdir(exist_ok=True, parents=True)
             output_dir.mkdir(exist_ok=True, parents=True)
-            
-            images_src = (directory / 'images').glob('*')
-            images = images_dir / directory_name
             images.mkdir(exist_ok=True, parents=True)
             
+
+            images_src = (directory / 'images').glob('*')
             for image in images_src:
                 copy(image, images / image.name)
 

@@ -24,11 +24,11 @@ export default defineConfig({
         sidebar: [
             {
                 text: "CTFs",
-                collapsed: false,
+                collapsed: true,
                 items: [],
             },
             {
-                text: "Pentest",
+                text: "Offensive Security",
                 items: [
                     {
                         text: "HackTheBox",
@@ -780,11 +780,6 @@ export default defineConfig({
                                     },
                                 ],
                             },
-                            {
-                                text: "Sherlocks",
-                                collapsed: true,
-                                link: "/pentest/htb/sherlocks/index.md",
-                            },
                         ],
                     },
                     {
@@ -833,6 +828,117 @@ export default defineConfig({
                         text: "HackMyVM",
                         collapsed: false,
                         items: [],
+                    },
+                ],
+            },
+            {
+                text: "Defensive Security",
+                items: [
+                    {
+                        text: "Sherlocks",
+                        collapsed: true,
+                        items: [
+                            {
+                                text: "Cloud",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "Heartbreaker-Denouement",
+                                        link: "/soc/sherlocks/cloud/heartbreaker-denouement.md",
+                                    },
+                                    {
+                                        text: "Nubilum-2",
+                                        link: "/soc/sherlocks/cloud/nubilum-2.md",
+                                    },
+                                ],
+                            },
+                            {
+                                text: "DFIR",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "BFT",
+                                        link: "/soc/sherlocks/dfir/bft.md",
+                                    },
+                                    {
+                                        text: "Brutus",
+                                        link: "/soc/sherlocks/dfir/brutus.md",
+                                    },
+                                    {
+                                        text: "Campfire-1",
+                                        link: "/soc/sherlocks/dfir/campfire-1.md",
+                                    },
+                                    {
+                                        text: "Campfire-2",
+                                        link: "/soc/sherlocks/dfir/campfire-2.md",
+                                    },
+                                    {
+                                        text: "Fragility",
+                                        link: "/soc/sherlocks/dfir/fragility.md",
+                                    },
+                                    {
+                                        text: "Heartbreaker",
+                                        link: "/soc/sherlocks/dfir/heartbreaker.md",
+                                    },
+                                    {
+                                        text: "Jingle Bell",
+                                        link: "/soc/sherlocks/dfir/jinglebell.md",
+                                    },
+                                    {
+                                        text: "Logjammer",
+                                        link: "/soc/sherlocks/dfir/logjammer.md",
+                                    },
+                                    {
+                                        text: "OpSalwarKameez24-2 Magic-Show ",
+                                        link: "/soc/sherlocks/dfir/opsalwarkameez24-2magic-show.md",
+                                    },
+                                    {
+                                        text: "Reaper",
+                                        link: "/soc/sherlocks/dfir/reaper.md",
+                                    },
+                                    {
+                                        text: "Recollection",
+                                        link: "/soc/sherlocks/dfir/recollection.md",
+                                    },
+                                    {
+                                        text: "RogueOne",
+                                        link: "/soc/sherlocks/dfir/rogueone.md",
+                                    },
+                                    {
+                                        text: "Ultimatum",
+                                        link: "/soc/sherlocks/dfir/ultimatum.md",
+                                    },
+                                    {
+                                        text: "Unit42",
+                                        link: "/soc/sherlocks/dfir/unit42.md",
+                                    },
+                                ],
+                            },
+                            {
+                                text: "Malware Analysis",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "Lockpick",
+                                        link: "/soc/sherlocks/malware/lockpick.md",
+                                    },
+                                    {
+                                        text: "OpSalwarKameez24-1 Super-Star",
+                                        link: "/soc/sherlocks/malware/opsalwarkameez24-1super-star.md",
+                                    },
+                                ],
+                            },
+                            {
+                                text: "SOC",
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: "Noxious",
+                                        link: "/soc/sherlocks/soc/noxious.md",
+                                    },
+                                ],
+                            },
+                        ],
                     },
                 ],
             },
