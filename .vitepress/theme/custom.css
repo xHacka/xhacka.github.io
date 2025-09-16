@@ -1,0 +1,35 @@
+/* Only apply flex layout to colored blocks */
+.vp-doc .custom-block.tip,
+.vp-doc .custom-block.info,
+.vp-doc .custom-block.warning,
+.vp-doc .custom-block.danger {
+    padding: 0.8em 1em;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+/* Tip block */
+.vp-doc .custom-block.tip {
+    background-color: #e4fee9;
+    color: #1a3d1a;
+}
+
+/* Info block */
+.vp-doc .custom-block.info {
+    background-color: #e1f5fe;
+    color: #0a3d62;
+}
+
+/* Warning block */
+.vp-doc .custom-block.warning {
+    background-color: #fff3cd;
+    color: #5f370e;
+}
+
+/* Danger block */
+.vp-doc .custom-block.danger {
+    background-color: #fbe8ea;
+    color: #611a15;
+}
