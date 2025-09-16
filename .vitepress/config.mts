@@ -19,7 +19,6 @@ export default defineConfig({
             { text: "Blog", link: "/" },
             { text: "Cheatsheets", link: "/cheatsheets" },
         ],
-        outline: "deep",
         sidebar: [
             {
                 text: "CTFs",
@@ -28,11 +27,10 @@ export default defineConfig({
             },
             {
                 text: "Pentest",
-                collapsed: true,
                 items: [
                     {
                         text: "HackTheBox",
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             {
                                 text: "Machines",
@@ -40,11 +38,11 @@ export default defineConfig({
                                 items: [
                                     {
                                         text: "Linux",
-                                        collapsed: false,
+                                        collapsed: true,
                                         items: [
                                             {
                                                 text: "Easy",
-                                                collapsed: false,
+                                                collapsed: true,
                                                 items: [
                                                     {
                                                         text: "Alert",
@@ -158,7 +156,7 @@ export default defineConfig({
                                             },
                                             {
                                                 text: "Medium",
-                                                collapsed: false,
+                                                collapsed: true,
                                                 items: [
                                                     {
                                                         text: "Backend",
@@ -224,15 +222,23 @@ export default defineConfig({
                                             },
                                             {
                                                 text: "Hard",
-                                                link: "/pentest/htb/machines/linux/hard/index.md",
-                                                collapsed: false,
-                                                items: [],
+                                                collapsed: true,
+                                                items: [
+                                                    {
+                                                        text: "Zipper",
+                                                        link: "/pentest/htb/machines/linux/hard/zipper.md",
+                                                    },
+                                                ],
                                             },
                                             {
                                                 text: "Insane",
-                                                link: "/pentest/htb/machines/linux/insane/index.md",
-                                                collapsed: false,
-                                                items: [],
+                                                collapsed: true,
+                                                items: [
+                                                    {
+                                                        text: "Skyfall",
+                                                        link: "/pentest/htb/machines/linux/insane/skyfall.md",
+                                                    },
+                                                ],
                                             },
                                         ],
                                     },

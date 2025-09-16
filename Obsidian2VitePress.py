@@ -73,16 +73,19 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    input_dir = Path(r'C:\Users\pvpga\OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Machines\Linux\Medium')
-    output_dir = Path(r'src\pentest\htb\machines\linux\medium')
-    images_dir = Path(r'src\public\assets\pentest\htb')
-    for directory in input_dir.glob('*'):
-        writeup = directory / 'Writeup.md'
-        vitepress = (output_dir / directory.name.lower()).with_suffix('.md')
-        images_src = (directory / 'images').glob('*')
-        images = images_dir / directory.name.lower()
-        images.mkdir(exist_ok=True, parents=True)
-        for image in images_src:
-            copy(image, images / image.name)
+    for type_ in ('Easy', 'Medium', 'Hard', 'Insane'):
+        input_dir = Path(r'C:\Users\pvpga\OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Machines\Windows') / type_
+        output_dir = Path(r'src\pentest\htb\machines\windows') / type_.lower()
+        images_dir = Path(r'src\public\assets\pentest\htb')
+        for directory in input_dir.glob('*'):
+            if '- NOPE' in str(directory):
+                continue
+            writeup = directory / 'Writeup.md'
+            vitepress = (output_dir / directory.name.lower()).with_suffix('.md')
+            images_src = (directory / 'images').glob('*')
+            images = images_dir / directory.name.lower()
+            images.mkdir(exist_ok=True, parents=True)
+            for image in images_src:
+                copy(image, images / image.name)
 
-        obsidian_to_vitepress(writeup, vitepress, images)
+            obsidian_to_vitepress(writeup, vitepress, images)
