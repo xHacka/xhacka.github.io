@@ -28,7 +28,7 @@ export default defineConfig({
             },
             {
                 text: "Pentest",
-                collapsed: false,
+                collapsed: true,
                 items: [
                     {
                         text: "HackTheBox",
@@ -36,15 +36,15 @@ export default defineConfig({
                         items: [
                             {
                                 text: "Machines",
-                                link: "/pentest/htb/machines/index.md",
+                                collapsed: true,
                                 items: [
                                     {
                                         text: "Linux",
-                                        link: "/pentest/htb/machines/linux/index.md",
+                                        collapsed: false,
                                         items: [
                                             {
                                                 text: "Easy",
-                                                link: "/pentest/htb/machines/linux/easy/index.md",
+                                                collapsed: false,
                                                 items: [
                                                     {
                                                         text: "Alert",
@@ -57,7 +57,7 @@ export default defineConfig({
                                                     {
                                                         text: "Cap",
                                                         link: "/pentest/htb/machines/linux/easy/cap.md",
-                                                    }, 
+                                                    },
                                                     {
                                                         text: "GoodGames",
                                                         link: "/pentest/htb/machines/linux/easy/goodgames.md",
@@ -145,7 +145,7 @@ export default defineConfig({
                                                     {
                                                         text: "UnderPass",
                                                         link: "/pentest/htb/machines/linux/easy/underpass.md",
-                                                    }, 
+                                                    },
                                                     {
                                                         text: "Usage",
                                                         link: "/pentest/htb/machines/linux/easy/usage.md",
@@ -158,17 +158,80 @@ export default defineConfig({
                                             },
                                             {
                                                 text: "Medium",
-                                                link: "/pentest/htb/machines/linux/medium/index.md",
-                                                items: [],
+                                                collapsed: false,
+                                                items: [
+                                                    {
+                                                        text: "Backend",
+                                                        link: "/pentest/htb/machines/linux/medium/backend.md",
+                                                    },
+                                                    {
+                                                        text: "BroScience",
+                                                        link: "/pentest/htb/machines/linux/medium/broscience.md",
+                                                    },
+                                                    {
+                                                        text: "Clicker",
+                                                        link: "/pentest/htb/machines/linux/medium/clicker.md",
+                                                    },
+                                                    {
+                                                        text: "Cronos",
+                                                        link: "/pentest/htb/machines/linux/medium/cronos.md",
+                                                    },
+                                                    {
+                                                        text: "Environment",
+                                                        link: "/pentest/htb/machines/linux/medium/environment.md",
+                                                    },
+                                                    {
+                                                        text: "Epsilon",
+                                                        link: "/pentest/htb/machines/linux/medium/epsilon.md",
+                                                    },
+                                                    {
+                                                        text: "Forgot",
+                                                        link: "/pentest/htb/machines/linux/medium/forgot.md",
+                                                    },
+                                                    {
+                                                        text: "IClean",
+                                                        link: "/pentest/htb/machines/linux/medium/iclean.md",
+                                                    },
+                                                    {
+                                                        text: "Interface",
+                                                        link: "/pentest/htb/machines/linux/medium/interface.md",
+                                                    },
+                                                    {
+                                                        text: "Jupiter",
+                                                        link: "/pentest/htb/machines/linux/medium/jupiter.md",
+                                                    },
+                                                    {
+                                                        text: "Noter",
+                                                        link: "/pentest/htb/machines/linux/medium/noter.md",
+                                                    },
+                                                    {
+                                                        text: "Poison",
+                                                        link: "/pentest/htb/machines/linux/medium/poison.md",
+                                                    },
+                                                    {
+                                                        text: "Ransom",
+                                                        link: "/pentest/htb/machines/linux/medium/ransom.md",
+                                                    },
+                                                    {
+                                                        text: "Strutted",
+                                                        link: "/pentest/htb/machines/linux/medium/strutted.md",
+                                                    },
+                                                    {
+                                                        text: "Unrested",
+                                                        link: "/pentest/htb/machines/linux/medium/unrested.md",
+                                                    },
+                                                ],
                                             },
                                             {
                                                 text: "Hard",
                                                 link: "/pentest/htb/machines/linux/hard/index.md",
+                                                collapsed: false,
                                                 items: [],
                                             },
                                             {
                                                 text: "Insane",
                                                 link: "/pentest/htb/machines/linux/insane/index.md",
+                                                collapsed: false,
                                                 items: [],
                                             },
                                         ],

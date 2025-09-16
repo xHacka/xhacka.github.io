@@ -73,8 +73,8 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    input_dir = Path(r'C:\Users\pvpga\OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Machines\Linux\Easy')
-    output_dir = Path(r'src\pentest\htb\machines\linux\easy')
+    input_dir = Path(r'C:\Users\pvpga\OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Machines\Linux\Medium')
+    output_dir = Path(r'src\pentest\htb\machines\linux\medium')
     images_dir = Path(r'src\public\assets\pentest\htb')
     for directory in input_dir.glob('*'):
         writeup = directory / 'Writeup.md'
@@ -84,5 +84,5 @@ if __name__ == "__main__":
         images.mkdir(exist_ok=True, parents=True)
         for image in images_src:
             copy(image, images / image.name)
-            
-        # obsidian_to_vitepress(writeup, vitepress, images)
+
+        obsidian_to_vitepress(writeup, vitepress, images)
