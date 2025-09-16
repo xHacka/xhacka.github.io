@@ -28,11 +28,11 @@ export default defineConfig({
             },
             {
                 text: "Pentest",
-                collapsed: true,
+                collapsed: false,
                 items: [
                     {
                         text: "HackTheBox",
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             {
                                 text: "Machines",
@@ -51,21 +51,13 @@ export default defineConfig({
                                                         link: "/pentest/htb/machines/linux/easy/alert.md",
                                                     },
                                                     {
-                                                        text: "Analytics",
-                                                        link: "/pentest/htb/machines/linux/easy/analytics.md",
-                                                    },
-                                                    {
                                                         text: "Broker",
                                                         link: "/pentest/htb/machines/linux/easy/broker.md",
                                                     },
                                                     {
                                                         text: "Cap",
                                                         link: "/pentest/htb/machines/linux/easy/cap.md",
-                                                    },
-                                                    {
-                                                        text: "CozyHosting",
-                                                        link: "/pentest/htb/machines/linux/easy/cozyhosting.md",
-                                                    },
+                                                    }, 
                                                     {
                                                         text: "GoodGames",
                                                         link: "/pentest/htb/machines/linux/easy/goodgames.md",
@@ -153,11 +145,7 @@ export default defineConfig({
                                                     {
                                                         text: "UnderPass",
                                                         link: "/pentest/htb/machines/linux/easy/underpass.md",
-                                                    },
-                                                    {
-                                                        text: "Untitled",
-                                                        link: "/pentest/htb/machines/linux/easy/untitled.md",
-                                                    },
+                                                    }, 
                                                     {
                                                         text: "Usage",
                                                         link: "/pentest/htb/machines/linux/easy/usage.md",
@@ -227,7 +215,7 @@ export default defineConfig({
                     },
                     {
                         text: "VulnHub",
-                        collapsed: false,
+                        collapsed: true,
                         items: [
                             {
                                 text: "Kioprtix",

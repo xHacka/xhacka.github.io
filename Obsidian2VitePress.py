@@ -1,6 +1,7 @@
 from pathlib import Path
 import re
-import argparse 
+import argparse
+from shutil import copy 
 
 def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path):
     content = input_file.read_text(encoding="utf-8")
@@ -27,7 +28,7 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
             if log_path.exists():
                 scan = ''
                 skip = True
-                with open(log_path) as f:
+                with open(log_path, encoding='utf-8', errors='replace') as f:
                     for line in f:
                         if line.startswith(('Open', 'PORT')):
                             skip = False
@@ -78,7 +79,10 @@ if __name__ == "__main__":
     for directory in input_dir.glob('*'):
         writeup = directory / 'Writeup.md'
         vitepress = (output_dir / directory.name.lower()).with_suffix('.md')
+        images_src = (directory / 'images').glob('*')
         images = images_dir / directory.name.lower()
         images.mkdir(exist_ok=True, parents=True)
-        
-        obsidian_to_vitepress(writeup, vitepress, images)
+        for image in images_src:
+            copy(image, images / image.name)
+            
+        # obsidian_to_vitepress(writeup, vitepress, images)
