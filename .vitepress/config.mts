@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+// Import lightbox plugin
+import lightbox from "vitepress-plugin-lightbox";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -841,5 +843,11 @@ export default defineConfig({
                 link: "https://github.com/xHacka/xhacka.github.io",
             },
         ],
+    },
+    markdown: {
+        config: (md) => {
+            // Use lightbox plugin
+            md.use(lightbox, {});
+        },
     },
 });

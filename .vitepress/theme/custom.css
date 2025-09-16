@@ -1,4 +1,5 @@
 /* Only apply flex layout to colored blocks */
+/* 
 .vp-doc .custom-block.tip,
 .vp-doc .custom-block.info,
 .vp-doc .custom-block.warning,
@@ -8,28 +9,17 @@
     display: flex;
     align-items: center;
     gap: 0.5em;
-}
+} 
+*/
 
-/* Tip block */
-.vp-doc .custom-block.tip {
-    background-color: #e4fee9;
-    color: #1a3d1a;
-}
+/* Light theme */
+.vp-doc .custom-block.tip { background-color: #e4fee9; }
+.vp-doc .custom-block.info { background-color: #e1f5fe; }
+.vp-doc .custom-block.warning { background-color: #fff3cd; }
+.vp-doc .custom-block.danger { background-color: #fbe8ea; }
 
-/* Info block */
-.vp-doc .custom-block.info {
-    background-color: #e1f5fe;
-    color: #0a3d62;
-}
-
-/* Warning block */
-.vp-doc .custom-block.warning {
-    background-color: #fff3cd;
-    color: #5f370e;
-}
-
-/* Danger block */
-.vp-doc .custom-block.danger {
-    background-color: #fbe8ea;
-    color: #611a15;
-}
+/* Dark theme */
+html.dark .vp-doc .custom-block.tip { background-color: #1b3c2b; }
+html.dark .vp-doc .custom-block.info { background-color: #0d3a4d; }
+html.dark .vp-doc .custom-block.warning { background-color: #4d3a0d; }
+html.dark .vp-doc .custom-block.danger { background-color: #4d0d15; }

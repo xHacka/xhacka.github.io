@@ -723,6 +723,11 @@ mdast-util-to-hast@^13.0.0:
     unist-util-visit "^5.0.0"
     vfile "^6.0.0"
 
+medium-zoom@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/medium-zoom/-/medium-zoom-1.1.0.tgz#6efb6bbda861a02064ee71a2617a8dc4381ecc71"
+  integrity sha512-ewyDsp7k4InCUp3jRmwHBRFGyjBimKps/AJLjRSox+2q/2H4p/PNpQf+pwONWlJiOudkBXtbdmVbFjqyybfTmQ==
+
 micromark-util-character@^2.0.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/micromark-util-character/-/micromark-util-character-2.1.1.tgz#2f987831a40d4c510ac261e89852c4e9703ccda6"
@@ -788,6 +793,11 @@ perfect-debounce@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/perfect-debounce/-/perfect-debounce-2.0.0.tgz#0ff94f1ecbe0a6bca4b1703a2ed08bbe43739aa7"
   integrity sha512-fkEH/OBiKrqqI/yIgjR92lMfs2K8105zt/VT6+7eTjNwisrsh47CeIED9z58zI7DfKdH3uHAn25ziRZn3kgAow==
+
+photoswipe@^5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/photoswipe/-/photoswipe-5.4.4.tgz#e045dc036453493188d5c8665b0e8f1000ac4d6e"
+  integrity sha512-WNFHoKrkZNnvFFhbHL93WDkW3ifwVOXSW3w1UuZZelSmgXpIGiZSNlZJq37rR8YejqME2rHs9EhH9ZvlvFH2NA==
 
 picocolors@^1.1.1:
   version "1.1.1"
@@ -996,6 +1006,14 @@ vite@^7.1.2:
     tinyglobby "^0.2.15"
   optionalDependencies:
     fsevents "~2.3.3"
+
+vitepress-plugin-lightbox@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-lightbox/-/vitepress-plugin-lightbox-1.0.3.tgz#5bcc661d1a0c7086bc3b9b242291fabc18abcba6"
+  integrity sha512-40E/ofp5Uk9X/yC5Mz/jeVAhaG51fOXqPZokLue2r28czyucini+NmfIiabNZi+1bCvLBF5GNUz5TJIyuQSJLA==
+  dependencies:
+    medium-zoom "^1.1.0"
+    photoswipe "^5.4.4"
 
 vitepress@^2.0.0-alpha.12:
   version "2.0.0-alpha.12"
