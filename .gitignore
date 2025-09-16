@@ -40,3 +40,4 @@ yarn-error.log
 # End of https://www.toptal.com/developers/gitignore/api/yarn,vue,vuejs
 
 assets2/
+t.py

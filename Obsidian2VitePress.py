@@ -20,15 +20,24 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
     def replace_embed(match):
         raw = match.group(1).strip()
         parts = raw.split("|", 1)
-        rel_path = Path(parts[0].strip())
+        target = input_file.parent / Path(parts[0].strip()).name
+        target_name = target.name
 
+        # --- Images ---
+        if target.suffix.lower() == ".png":
+            # Find relative subpath after "public"
+            index = next(i+1 for i, part in enumerate(images_dir.parts) if part == 'public')
+            images_subdir = Path(*images_dir.parts[index:]).as_posix()
+            return f"![{target_name}](/{images_subdir}/{target_name})"
+
+        target = target.with_name(target_name + '.md')
+        
         # --- Inline log files ---
-        if rel_path.name == "nmap_scan.log":
-            log_path = input_file.parent / f'{rel_path}.md'
-            if log_path.exists():
+        if target_name == "nmap_scan.log":
+            if target.exists():
                 scan = ''
                 skip = True
-                with open(log_path, encoding='utf-8', errors='replace') as f:
+                with open(target, encoding='utf-8', errors='replace') as f:
                     for line in f:
                         if line.startswith(('Open', 'PORT')):
                             skip = False
@@ -39,22 +48,21 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
                         scan += line
                         
                 return (
-                    f"::: details {rel_path.name}\n"
-                    f"```log\n{scan.strip()}\n```\n"
+                    f"::: details {target_name}\n"
+                    f"```log\n{scan.strip()}\n"
                     f":::"
                 )
             else:
-                raise FileNotFoundError(f"Missing log file: {log_path}")
-
-        # --- Images ---
-        if rel_path.suffix.lower() == ".png":
-            # Find relative subpath after "public"
-            index = next(i+1 for i, part in enumerate(images_dir.parts) if part == 'public')
-            images_subdir = Path(*images_dir.parts[index:]).as_posix()
-            return f"![{rel_path.name}](/{images_subdir}/{rel_path.name})"
+                raise FileNotFoundError(f"Missing log file: {target}")
         
         # --- Fallback ---
-        return f"[{rel_path}]({rel_path})"
+        # return f"[{rel_path}]({rel_path})"
+        text = target.read_text(encoding='utf-8', errors='replace').strip('`').strip()
+        return (
+            f"::: details {target_name}\n"
+            f"```replaceme\n{text}\n```\n"
+            f":::"
+        )
 
     content = re.sub(r"!\[\[(.*?)\]\]", replace_embed, content)
 
@@ -73,18 +81,25 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    for type_ in ('Easy', 'Medium', 'Hard', 'Insane'):
-        input_dir = Path(r'C:\Users\pvpga\OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Machines\Windows') / type_
-        output_dir = Path(r'src\pentest\htb\machines\windows') / type_.lower()
+    for i in range(1, 9):
+        input_dir = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Seasonal' / f'Season {i}'
+        output_dir = Path(r'src\pentest\htb') / f'season{i}'
         images_dir = Path(r'src\public\assets\pentest\htb')
         for directory in input_dir.glob('*'):
-            if '- NOPE' in str(directory):
-                continue
             writeup = directory / 'Writeup.md'
-            vitepress = (output_dir / directory.name.lower()).with_suffix('.md')
+            
+            directory_name = directory.name.replace('- NOPE', '').lower().strip()
+            vitepress = (output_dir / directory_name).with_suffix('.md')
+            
+            # if vitepress.exists():
+            #     continue
+            
+            output_dir.mkdir(exist_ok=True, parents=True)
+            
             images_src = (directory / 'images').glob('*')
-            images = images_dir / directory.name.lower()
+            images = images_dir / directory_name
             images.mkdir(exist_ok=True, parents=True)
+            
             for image in images_src:
                 copy(image, images / image.name)
 
