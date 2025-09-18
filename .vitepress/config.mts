@@ -3,11 +3,14 @@
 import lightbox from "vitepress-plugin-lightbox";
 
 // Import Pages
-import pages_ctf from './pages/ctf/ctftime.json'
-import pages_htb from './pages/pentest/htb.json'
-import pages_vulnhub from './pages/pentest/vulnhub.json'
-import pages_hackmyvm from './pages/pentest/hackmyvm.json'
-import pages_sherlocks from './pages/soc/sherlocks.json'
+import ctf_ctftime from './pages/ctf/ctftime.json'
+import ctf_cmdchallenge from './pages/ctf/cmdchallenge.json';
+import ctf_overthewire from './pages/ctf/overthewire.json';
+
+import pentest_htb from './pages/pentest/htb.json'
+import pentest_vulnhub from './pages/pentest/vulnhub.json'
+import pentest_hackmyvm from './pages/pentest/hackmyvm.json'
+import pentest_sherlocks from './pages/soc/sherlocks.json'
 
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";
@@ -32,38 +35,42 @@ export default defineConfig({
         sidebar: [
             {
                 text: "CTF",
-                items: [...pages_ctf],
-            },
-            {
-                text: "Offensive Security",
                 items: [
-                    {
-                        text: "HackTheBox",
-                        collapsed: true,
-                        items: [...pages_htb],
-                    },
-                    {
-                        text: "VulnHub",
-                        collapsed: true,
-                        items: [...pages_vulnhub],
-                    },
-                    {
-                        text: "HackMyVM",
-                        collapsed: false,
-                        items: [...pages_hackmyvm],
-                    },
+                    // ...ctf_ctftime, 
+                    // ...ctf_cmdchallenge,
+                    ...ctf_overthewire
                 ],
             },
-            {
-                text: "Defensive Security",
-                items: [
-                    {
-                        text: "Sherlocks",
-                        collapsed: true,
-                        items: [...pages_sherlocks],
-                    },
-                ],
-            },
+            // {
+            //     text: "Offensive Security",
+            //     items: [
+            //         {
+            //             text: "HackTheBox",
+            //             collapsed: true,
+            //             items: [...pentest_htb],
+            //         },
+            //         {
+            //             text: "VulnHub",
+            //             collapsed: true,
+            //             items: [...pentest_vulnhub],
+            //         },
+            //         {
+            //             text: "HackMyVM",
+            //             collapsed: false,
+            //             items: [...pentest_hackmyvm],
+            //         },
+            //     ],
+            // },
+            // {
+            //     text: "Defensive Security",
+            //     items: [
+            //         {
+            //             text: "Sherlocks",
+            //             collapsed: true,
+            //             items: [...pentest_sherlocks],
+            //         },
+            //     ],
+            // },
         ],
         socialLinks: [
             {

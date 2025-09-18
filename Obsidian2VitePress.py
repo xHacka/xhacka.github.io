@@ -21,7 +21,7 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
         raw = match.group(1).strip()
         parts = raw.split("|", 1)
         target = input_file.parent / Path(parts[0].strip()).name
-        target_name = target.name
+        target_name = target.name.replace(' ', '-').lower()
 
         # --- Images ---
         if target.suffix.lower() == ".png":
@@ -30,7 +30,7 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
             images_subdir = Path(*images_dir.parts[index:]).as_posix()
             return f"![{target_name}](/{images_subdir}/{target_name})"
 
-        target = target.with_name(target_name + '.md')
+        target = target.with_name(target.name + '.md')
         
         # --- Inline log files ---
         if target_name == "nmap_scan.log":
@@ -81,15 +81,28 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF\cmdchallenge'
-    output_dir = Path(r'src\ctf\cmdchallenge')
-    images_dir = Path(r'src\public\assets\ctf\cmdchallenge')
+    dry = False
+    
+    s = 'PromptRiddle'
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
+    output_dir = Path(r'src\ctf') / s.lower()
+    images_dir = Path(r'src\public\assets\ctf') / s.lower()
     
     output_dir.mkdir(exist_ok=True, parents=True)
+    images_dir.mkdir(exist_ok=True, parents=True)
     for file in base.glob('*.md'):
-        obsidian_to_vitepress(file, args.output_file, args.images_dir)
-
-
+        output_file = output_dir / file.name.replace(' - NOPE', '').replace(' ', '-').lower()
+        print(Path(*file.parts[6:]), '-->', output_file)
+        if not dry:
+            obsidian_to_vitepress(file, output_file, images_dir)
+        
+        images_src = (base / 'images').glob('*')
+        for image in images_src:
+            image_name = images_dir / image.name.replace(' ', '-').lower()
+            print(image, '-->', image_name)
+            if not dry:
+                copy(image, image_name)
+    
     ### WriteupCategory\WriteupName\Writeup.md
     # base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
     # for base_dir in base.glob('*'):

@@ -1,0 +1,16 @@
+[
+    {
+        "text": "CMD Challenge",
+        "collapsed": true,
+        "items": [ 
+            {
+                "text": "Basic",
+                "link": "/ctf/cmdchallenge/basic.md"
+            },
+            {
+                "text": "Oops",
+                "link": "/ctf/cmdchallenge/oops.md"
+            }
+        ]
+    }
+]
