@@ -1,0 +1,24 @@
+[
+    {
+        "text": "OverTheWire",
+        "collapsed": true,
+        "items": [ 
+            {
+                "text": "Leviathan",
+                "link": "/ctf/overthewire/leviathan.md"
+            },
+            {
+                "text": "Natas",
+                "link": "/ctf/overthewire/natas.md"
+            },
+            {
+                "text": "Krypton - NOPE",
+                "link": "/ctf/overthewire/krypton.md"
+            },
+            {
+                "text": "RedTiger - NOPE",
+                "link": "/ctf/overthewire/redtiger.md"
+            }
+        ]
+    }
+]
