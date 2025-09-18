@@ -1,0 +1,18 @@
+[
+    {
+        "text": "PromptRiddle",
+        "collapsed": true,
+        "items": [ 
+            { "text": "Level 1", "link": "/ctf/promptriddle/level-1.md" },
+            { "text": "Level 2", "link": "/ctf/promptriddle/level-2.md" },
+            { "text": "Level 3", "link": "/ctf/promptriddle/level-3.md" },
+            { "text": "Level 4", "link": "/ctf/promptriddle/level-4.md" },
+            { "text": "Level 5", "link": "/ctf/promptriddle/level-5.md" },
+            { "text": "Level 6", "link": "/ctf/promptriddle/level-6.md" },
+            { "text": "Level 7", "link": "/ctf/promptriddle/level-7.md" },
+            { "text": "Level 8", "link": "/ctf/promptriddle/level-8.md" },
+            { "text": "Level 9", "link": "/ctf/promptriddle/level-9.md" },
+            { "text": "TBU",     "link": "/ctf/promptriddle/tbu.md"     }
+        ]
+    }
+]

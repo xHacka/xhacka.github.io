@@ -81,9 +81,9 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    dry = False
+    dry = 1
     
-    s = 'PromptRiddle'
+    s = 'Randoms'
     base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
     output_dir = Path(r'src\ctf') / s.lower()
     images_dir = Path(r'src\public\assets\ctf') / s.lower()
