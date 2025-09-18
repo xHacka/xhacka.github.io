@@ -426,7 +426,7 @@
     estree-walker "^2.0.2"
     source-map-js "^1.2.1"
 
-"@vue/compiler-dom@3.5.21":
+"@vue/compiler-dom@3.5.21", "@vue/compiler-dom@^3.5.13":
   version "3.5.21"
   resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.5.21.tgz#26126447fe1e1d16c8cbac45b26e66b3f7175f65"
   integrity sha512-jNtbu/u97wiyEBJlJ9kmdw7tAr5Vy0Aj5CgQmo+6pxWNQhXZDPsRr1UWPN4v3Zf82s2H3kF51IbzZ4jMWAgPlQ==
@@ -548,6 +548,19 @@
   version "13.9.0"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-13.9.0.tgz#7168b4ed647e625b05eb4e7e80fe8aabd00e3923"
   integrity sha512-e89uuTLMh0U5cZ9iDpEI2senqPGfbPRTHM/0AaQkcxnpqjkZqDYP8rpfm7edOz8s+pOCOROEy1PIveSW8+fL5g==
+
+"@whyframe/core@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@whyframe/core/-/core-0.1.14.tgz#d3e29cbf19b98d29d2b13daff93b6f3c24f9c36b"
+  integrity sha512-cQPtXZ0zYSpa85lVZU+deMAOUfMZMKuKJGr/od8YngPfUOw4l3xIbbnR6I4xeCTfr3wqk93/pvekMjCE02w9zQ==
+
+"@whyframe/vue@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@whyframe/vue/-/vue-0.1.9.tgz#e6757cdc92cb3dece41503cd4db83156aa724625"
+  integrity sha512-uVuD0TbEcj/RDv8yomKD3y25+zbk3xp6+AWqzzh1zsKr3+W52cpa05CGm1sEK+YzzMfY1gdyCjthBBcFXt0J4w==
+  dependencies:
+    "@vue/compiler-dom" "^3.5.13"
+    magic-string "^0.30.17"
 
 birpc@^2.5.0:
   version "2.5.0"
@@ -696,7 +709,7 @@ is-what@^4.1.8:
   resolved "https://registry.yarnpkg.com/is-what/-/is-what-4.1.16.tgz#1ad860a19da8b4895ad5495da3182ce2acdd7a6f"
   integrity sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==
 
-magic-string@^0.30.18:
+magic-string@^0.30.17, magic-string@^0.30.18:
   version "0.30.19"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.19.tgz#cebe9f104e565602e5d2098c5f2e79a77cc86da9"
   integrity sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==

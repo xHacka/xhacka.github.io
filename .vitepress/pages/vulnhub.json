@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Kioprtix",
+        "link": "/pentest/kioprtix/index.md",
+        "items": [
+            {
+                "text": "Level 2",
+                "link": "/pentest/kioptrix/2.md"
+            },
+            {
+                "text": "Level 3",
+                "link": "/pentest/kioptrix/3.md"
+            },
+            {
+                "text": "Level 4",
+                "link": "/pentest/kioptrix/4.md"
+            }
+        ]
+    },
+    {
+        "text": "The Planets",
+        "link": "/pentest/the_planets/index.md",
+        "items": [
+            {
+                "text": "Earth",
+                "link": "/pentest/the_planets/earth.md"
+            },
+            {
+                "text": "Mercury",
+                "link": "/pentest/the_planets/mercury.md"
+            },
+            {
+                "text": "Venus",
+                "link": "/pentest/the_planets/venus.md"
+            }
+        ]
+    }
+]

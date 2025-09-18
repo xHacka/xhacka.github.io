@@ -81,28 +81,63 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
+    ### WriteupCategory\WriteupName\Writeup.md
+    # base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
+    # for base_dir in base.glob('*'):
+    #     input_dir = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks' / base_dir
+    #     output_dir = Path(r'src\soc\sherlocks')
+    #     images_dir = Path(r'src\public\assets\soc\sherlocks')
+    #     for directory in input_dir.glob('*'):
+    #         writeup = directory / 'Writeup.md'
+            
+    #         directory_name = directory.name.replace('- NOPE', '').lower().strip()
+    #         vitepress = (output_dir / base_dir.name.lower() / directory_name).with_suffix('.md')
+    #         images = images_dir / directory_name.replace(' ', '-').lower()
+            
+    #         print(f'{writeup=}\n{vitepress=}\n{images=}\n--- --- --- --- --- ---')
+    #         # break
+            
+    #         vitepress.parent.mkdir(exist_ok=True, parents=True)
+    #         output_dir.mkdir(exist_ok=True, parents=True)
+    #         images.mkdir(exist_ok=True, parents=True)
+            
+
+    #         images_src = (directory / 'images').glob('*')
+    #         for image in images_src:
+    #             copy(image, images / image.name)
+
+    #         obsidian_to_vitepress(writeup, vitepress, images)
+    
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF'
     for base_dir in base.glob('*'):
-        input_dir = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks' / base_dir
-        output_dir = Path(r'src\soc\sherlocks')
-        images_dir = Path(r'src\public\assets\soc\sherlocks')
+        input_dir = base / base_dir
+        output_dir = Path(r'src\ctf')
+        images_dir = Path(r'src\public\assets\ctf')
         for directory in input_dir.glob('*'):
-            writeup = directory / 'Writeup.md'
-            
-            directory_name = directory.name.replace('- NOPE', '').lower().strip()
-            vitepress = (output_dir / base_dir.name.lower() / directory_name).with_suffix('.md')
-            images = images_dir / directory_name.replace(' ', '-').lower()
-            
-            print(f'{writeup=}\n{vitepress=}\n{images=}\n--- --- --- --- --- ---')
-            # break
-            
-            vitepress.parent.mkdir(exist_ok=True, parents=True)
-            output_dir.mkdir(exist_ok=True, parents=True)
-            images.mkdir(exist_ok=True, parents=True)
-            
+            # if directory.name.isdigit():
+            if '2024' in directory.name:
+                for directory2 in directory.glob('*'):
+                    for writeup in directory2.glob('*.md'):
+                        directory_name = directory2.name.replace('- NOPE', '').lower().strip()
+                        vitepress = Path(str(output_dir / directory.name / base_dir.name / directory_name / writeup.name).lower().replace(' ', '-')).with_suffix('.md')
+                        images = Path(str(images_dir / base_dir.name / directory.name / directory2.name).replace(' ', '-').lower())
+                            
+                        print(f'{writeup=}\n{vitepress=}\n{images=}\n--- --- --- --- --- ---')
 
-            images_src = (directory / 'images').glob('*')
-            for image in images_src:
-                copy(image, images / image.name)
+                        vitepress.parent.mkdir(exist_ok=True, parents=True)
+                        output_dir.mkdir(exist_ok=True, parents=True)
+                        images.mkdir(exist_ok=True, parents=True)
 
-            obsidian_to_vitepress(writeup, vitepress, images)
+                        images_src = (directory2 / 'images').glob('*')
+                        for image in images_src:
+                            if (images / image.name).exists(): 
+                                continue
+                            copy(image, images / image.name)
+                        
+                        obsidian_to_vitepress(writeup, vitepress, images)
+                        
+        #                 break
+        #             break
+        #         break
+        #     break
+        # break

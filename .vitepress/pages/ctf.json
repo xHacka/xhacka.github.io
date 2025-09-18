@@ -1,0 +1,1618 @@
+[
+    {
+        "text": "2023",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "AmateursCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Censorship",
+                        "link": "/ctf/2023/amateursctf/censorship.md"
+                    },
+                    {
+                        "text": "Compact XORs",
+                        "link": "/ctf/2023/amateursctf/compact-xors.md"
+                    },
+                    {
+                        "text": "Funny Factorials",
+                        "link": "/ctf/2023/amateursctf/funny-factorials.md"
+                    },
+                    {
+                        "text": "Gitint",
+                        "link": "/ctf/2023/amateursctf/gitint.md"
+                    },
+                    {
+                        "text": "Latek",
+                        "link": "/ctf/2023/amateursctf/latek.md"
+                    },
+                    {
+                        "text": "Painfully Deep Flag",
+                        "link": "/ctf/2023/amateursctf/painfully-deep-flag.md"
+                    },
+                    {
+                        "text": "Waiting An Eternity",
+                        "link": "/ctf/2023/amateursctf/waiting-an-eternity.md"
+                    },
+                    {
+                        "text": "You Get Extra Information 1",
+                        "link": "/ctf/2023/amateursctf/you-get-extra-information-1.md"
+                    },
+                    {
+                        "text": "Zipper",
+                        "link": "/ctf/2023/amateursctf/zipper.md"
+                    }
+                ]
+            },
+            {
+                "text": "AupCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Cryptography Challenges",
+                        "link": "/ctf/2023/aupctf/cryptography-challenges.md"
+                    },
+                    {
+                        "text": "Forensics Challenges",
+                        "link": "/ctf/2023/aupctf/forensics-challenges.md"
+                    },
+                    {
+                        "text": "Misc Challenges",
+                        "link": "/ctf/2023/aupctf/misc-challenges.md"
+                    },
+                    {
+                        "text": "OSINT Challenges",
+                        "link": "/ctf/2023/aupctf/osint-challenges.md"
+                    },
+                    {
+                        "text": "Stegnography Challenges",
+                        "link": "/ctf/2023/aupctf/stegnography-challenges.md"
+                    },
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2023/aupctf/web-challenges.md"
+                    }
+                ]
+            },
+            {
+                "text": "BcaCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Aetherion Dynamics",
+                        "link": "/ctf/2023/bcactf/aetherion-dynamics.md"
+                    },
+                    {
+                        "text": "Baby's First Foren",
+                        "link": "/ctf/2023/bcactf/babys-first-foren.md"
+                    },
+                    {
+                        "text": "Dots and Dashes",
+                        "link": "/ctf/2023/bcactf/dots-and-dashes.md"
+                    },
+                    {
+                        "text": "duck-cord",
+                        "link": "/ctf/2023/bcactf/duck-cord.md"
+                    },
+                    {
+                        "text": "Flag+",
+                        "link": "/ctf/2023/bcactf/flagplus.md"
+                    },
+                    {
+                        "text": "FreeBee",
+                        "link": "/ctf/2023/bcactf/freebee.md"
+                    },
+                    {
+                        "text": "Here's my Hamsta",
+                        "link": "/ctf/2023/bcactf/heres-my-hamsta.md"
+                    },
+                    {
+                        "text": "Manipulate Spreadsheet",
+                        "link": "/ctf/2023/bcactf/manipulate-spreadsheet.md"
+                    },
+                    {
+                        "text": "Many Time Pad",
+                        "link": "/ctf/2023/bcactf/many-time-pad.md"
+                    },
+                    {
+                        "text": "Mushroom",
+                        "link": "/ctf/2023/bcactf/mushroom.md"
+                    },
+                    {
+                        "text": "Not Today",
+                        "link": "/ctf/2023/bcactf/not-today.md"
+                    },
+                    {
+                        "text": "Postfix Calculator",
+                        "link": "/ctf/2023/bcactf/postfix-calculator.md"
+                    },
+                    {
+                        "text": "RESTful swap",
+                        "link": "/ctf/2023/bcactf/restful-swap.md"
+                    },
+                    {
+                        "text": "Silly Squares",
+                        "link": "/ctf/2023/bcactf/silly-squares.md"
+                    },
+                    {
+                        "text": "Too Fast",
+                        "link": "/ctf/2023/bcactf/too-fast.md"
+                    },
+                    {
+                        "text": "Unionized",
+                        "link": "/ctf/2023/bcactf/unionized.md"
+                    }
+                ]
+            },
+            {
+                "text": "Bdsec",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Forensics",
+                        "link": "/ctf/2023/bdsec/bdsec-2023-forensics.md"
+                    },
+                    {
+                        "text": "Pwn Challenges",
+                        "link": "/ctf/2023/bdsec/bdsec-2023-pwn.md"
+                    },
+                    {
+                        "text": "Can You See Me?",
+                        "link": "/ctf/2023/bdsec/can-you-see-me.md"
+                    },
+                    {
+                        "text": "Lucky Number",
+                        "link": "/ctf/2023/bdsec/lucky-number.md"
+                    },
+                    {
+                        "text": "Think Like a Hacker",
+                        "link": "/ctf/2023/bdsec/think-like-a-hacker.md"
+                    }
+                ]
+            },
+            {
+                "text": "BXMCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Banking Issue",
+                        "link": "/ctf/2023/bxmctf/banking-issues.md"
+                    },
+                    {
+                        "text": "Blank Space - I mean Page",
+                        "link": "/ctf/2023/bxmctf/blank-space-i-mean-page.md"
+                    },
+                    {
+                        "text": "Deception",
+                        "link": "/ctf/2023/bxmctf/deception.md"
+                    },
+                    {
+                        "text": "New Website",
+                        "link": "/ctf/2023/bxmctf/new-website.md"
+                    },
+                    {
+                        "text": "Repository Security",
+                        "link": "/ctf/2023/bxmctf/repository-security.md"
+                    },
+                    {
+                        "text": "Secrets",
+                        "link": "/ctf/2023/bxmctf/secrets.md"
+                    },
+                    {
+                        "text": "Selfie",
+                        "link": "/ctf/2023/bxmctf/selfie.md"
+                    },
+                    {
+                        "text": "Username Decorator",
+                        "link": "/ctf/2023/bxmctf/user-decorator.md"
+                    },
+                    {
+                        "text": "Where Snakes Die",
+                        "link": "/ctf/2023/bxmctf/where-snake-die.md"
+                    }
+                ]
+            },
+            {
+                "text": "Csaw",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "1black0white",
+                        "link": "/ctf/2023/csaw/1black0white.md"
+                    },
+                    {
+                        "text": "AndroidDropper",
+                        "link": "/ctf/2023/csaw/androiddropper.md"
+                    },
+                    {
+                        "text": "Rebug",
+                        "link": "/ctf/2023/csaw/rebug.md"
+                    },
+                    {
+                        "text": "Smug-Dino",
+                        "link": "/ctf/2023/csaw/smug-dino.md"
+                    }
+                ]
+            },
+            {
+                "text": "CyberheroinesCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Barbara Liskov",
+                        "link": "/ctf/2023/cyberheroinesctf/barbara-liskov.md"
+                    },
+                    {
+                        "text": "Elizabeth Feinler",
+                        "link": "/ctf/2023/cyberheroinesctf/elizabeth-feinler.md"
+                    },
+                    {
+                        "text": "Frances Allen",
+                        "link": "/ctf/2023/cyberheroinesctf/frances-allen.md"
+                    },
+                    {
+                        "text": "Grace Hopper",
+                        "link": "/ctf/2023/cyberheroinesctf/grace-hopper.md"
+                    },
+                    {
+                        "text": "Margaret Hamilton",
+                        "link": "/ctf/2023/cyberheroinesctf/margaret-hamilton.md"
+                    },
+                    {
+                        "text": "Radia Perlman",
+                        "link": "/ctf/2023/cyberheroinesctf/radia-perlman.md"
+                    },
+                    {
+                        "text": "Shafrira Goldwasser",
+                        "link": "/ctf/2023/cyberheroinesctf/shafrira-goldwasser.md"
+                    }
+                ]
+            },
+            {
+                "text": "Deadface",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Host Busters",
+                        "link": "/ctf/2023/deadface/host-busters.md"
+                    },
+                    {
+                        "text": "Malum",
+                        "link": "/ctf/2023/deadface/malum.md"
+                    },
+                    {
+                        "text": "Scamazon",
+                        "link": "/ctf/2023/deadface/scamazon.md"
+                    },
+                    {
+                        "text": "SQL Challenges",
+                        "link": "/ctf/2023/deadface/sql.md"
+                    },
+                    {
+                        "text": "Tin Baloon",
+                        "link": "/ctf/2023/deadface/tin-balloon.md"
+                    }
+                ]
+            },
+            {
+                "text": "DeconstruCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "DebugZero",
+                        "link": "/ctf/2023/deconstructf/debugzero.md"
+                    },
+                    {
+                        "text": "Gibberish",
+                        "link": "/ctf/2023/deconstructf/gibberish.md"
+                    },
+                    {
+                        "text": "Gitcha",
+                        "link": "/ctf/2023/deconstructf/gitcha.md"
+                    },
+                    {
+                        "text": "Hash Roll",
+                        "link": "/ctf/2023/deconstructf/hash-roll.md"
+                    },
+                    {
+                        "text": "Magicplay",
+                        "link": "/ctf/2023/deconstructf/magicplay.md"
+                    },
+                    {
+                        "text": "Missing",
+                        "link": "/ctf/2023/deconstructf/missing.md"
+                    },
+                    {
+                        "text": "Snowy Rocks",
+                        "link": "/ctf/2023/deconstructf/snowy-rock.md"
+                    },
+                    {
+                        "text": "Space Ahoy",
+                        "link": "/ctf/2023/deconstructf/space-ahoy.md"
+                    },
+                    {
+                        "text": "Two Path",
+                        "link": "/ctf/2023/deconstructf/two-path.md"
+                    },
+                    {
+                        "text": "where-are-the-cookies",
+                        "link": "/ctf/2023/deconstructf/where-are-the-cookies.md"
+                    },
+                    {
+                        "text": "why-are-types-weird",
+                        "link": "/ctf/2023/deconstructf/why-are-types-weird.md"
+                    }
+                ]
+            },
+            {
+                "text": "DownunderCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "All Father's Wisdom",
+                        "link": "/ctf/2023/downunderctf/all-fathers-wisdom.md"
+                    },
+                    {
+                        "text": "Downunderflow",
+                        "link": "/ctf/2023/downunderctf/downunderflow.md"
+                    },
+                    {
+                        "text": "grades_grades_grades",
+                        "link": "/ctf/2023/downunderctf/grades_grades_grades.md"
+                    },
+                    {
+                        "text": "Helpless",
+                        "link": "/ctf/2023/downunderctf/helpless.md"
+                    },
+                    {
+                        "text": "Proxed",
+                        "link": "/ctf/2023/downunderctf/proxed.md"
+                    },
+                    {
+                        "text": "Static File Server",
+                        "link": "/ctf/2023/downunderctf/static-file-server.md"
+                    },
+                    {
+                        "text": "XXD Server",
+                        "link": "/ctf/2023/downunderctf/xxd-server.md"
+                    }
+                ]
+            },
+            {
+                "text": "Ekoparty",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Future",
+                        "link": "/ctf/2023/ekoparty/future.md"
+                    },
+                    {
+                        "text": "Github Repo",
+                        "link": "/ctf/2023/ekoparty/github-repo.md"
+                    },
+                    {
+                        "text": "Kulkan",
+                        "link": "/ctf/2023/ekoparty/kulkan.md"
+                    },
+                    {
+                        "text": "Punched",
+                        "link": "/ctf/2023/ekoparty/punched.md"
+                    },
+                    {
+                        "text": "Sync",
+                        "link": "/ctf/2023/ekoparty/sync.md"
+                    },
+                    {
+                        "text": "Welcome",
+                        "link": "/ctf/2023/ekoparty/welcome.md"
+                    }
+                ]
+            },
+            {
+                "text": "GNP-CTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Insanity Check",
+                        "link": "/ctf/2023/gnp-ctf/insanity-check.md"
+                    },
+                    {
+                        "text": "Overflow In The Fl4gtory",
+                        "link": "/ctf/2023/gnp-ctf/overflow-in-the-fl4gtory.md"
+                    },
+                    {
+                        "text": "Overlows Keep Flowing",
+                        "link": "/ctf/2023/gnp-ctf/overlows-keep-flowing.md"
+                    },
+                    {
+                        "text": "PixelPerfect",
+                        "link": "/ctf/2023/gnp-ctf/pixelperfect.md"
+                    }
+                ]
+            },
+            {
+                "text": "H4ckc0n",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Faster FastAPI",
+                        "link": "/ctf/2023/h4ckc0n/faster-fastapi.md"
+                    },
+                    {
+                        "text": "Seven Proxies",
+                        "link": "/ctf/2023/h4ckc0n/seven-proxies.md"
+                    },
+                    {
+                        "text": "Unhackable Cloud Storage",
+                        "link": "/ctf/2023/h4ckc0n/unhackable-cloud-storage.md"
+                    }
+                ]
+            },
+            {
+                "text": "HSCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "an-inaccessible-admin-panel",
+                        "link": "/ctf/2023/hsctf/an-inaccessible-admin-panel.md"
+                    },
+                    {
+                        "text": "Banana Queries",
+                        "link": "/ctf/2023/hsctf/banana-queries.md"
+                    },
+                    {
+                        "text": "Cat",
+                        "link": "/ctf/2023/hsctf/cat.md"
+                    },
+                    {
+                        "text": "Doubler",
+                        "link": "/ctf/2023/hsctf/doubler.md"
+                    },
+                    {
+                        "text": "Fancy Page",
+                        "link": "/ctf/2023/hsctf/fancy-page.md"
+                    },
+                    {
+                        "text": "keygen",
+                        "link": "/ctf/2023/hsctf/keygen.md"
+                    },
+                    {
+                        "text": "Mogodb",
+                        "link": "/ctf/2023/hsctf/mogodb.md"
+                    },
+                    {
+                        "text": "mystery-methods",
+                        "link": "/ctf/2023/hsctf/mystery-methods.md"
+                    },
+                    {
+                        "text": "revrevrev",
+                        "link": "/ctf/2023/hsctf/revrevrev.md"
+                    },
+                    {
+                        "text": "Trios",
+                        "link": "/ctf/2023/hsctf/trios.md"
+                    },
+                    {
+                        "text": "Very Secure",
+                        "link": "/ctf/2023/hsctf/very-secure.md"
+                    }
+                ]
+            },
+            {
+                "text": "ImaginaryCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Blank",
+                        "link": "/ctf/2023/imaginaryctf/blank.md"
+                    },
+                    {
+                        "text": "Discord",
+                        "link": "/ctf/2023/imaginaryctf/discord.md"
+                    },
+                    {
+                        "text": "Idoriot Revenge",
+                        "link": "/ctf/2023/imaginaryctf/idoriot-revenge.md"
+                    },
+                    {
+                        "text": "Idoriot",
+                        "link": "/ctf/2023/imaginaryctf/idoriot.md"
+                    },
+                    {
+                        "text": "Inspection",
+                        "link": "/ctf/2023/imaginaryctf/inspection.md"
+                    },
+                    {
+                        "text": "Perfect Picture",
+                        "link": "/ctf/2023/imaginaryctf/perfect-picture.md"
+                    },
+                    {
+                        "text": "Roks",
+                        "link": "/ctf/2023/imaginaryctf/roks.md"
+                    },
+                    {
+                        "text": "Web",
+                        "link": "/ctf/2023/imaginaryctf/web.md"
+                    }
+                ]
+            },
+            {
+                "text": "Intigriti",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Warmup",
+                        "link": "/ctf/2023/intigriti/warmup.md"
+                    }
+                ]
+            },
+            {
+                "text": "Metared-CTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Babyseek",
+                        "link": "/ctf/2023/metared-ctf/babyseek.md"
+                    },
+                    {
+                        "text": "Broke",
+                        "link": "/ctf/2023/metared-ctf/broke.md"
+                    },
+                    {
+                        "text": "Do Not Trust My Calculator",
+                        "link": "/ctf/2023/metared-ctf/do-not-trust-my-calculator.md"
+                    },
+                    {
+                        "text": "Extract The Flag",
+                        "link": "/ctf/2023/metared-ctf/extracttheflag.md"
+                    },
+                    {
+                        "text": "Master JWT",
+                        "link": "/ctf/2023/metared-ctf/master-jwt.md"
+                    },
+                    {
+                        "text": "Mienteles",
+                        "link": "/ctf/2023/metared-ctf/mienteles.md"
+                    },
+                    {
+                        "text": "Minute",
+                        "link": "/ctf/2023/metared-ctf/minute.md"
+                    },
+                    {
+                        "text": "RealSeek",
+                        "link": "/ctf/2023/metared-ctf/realseek.md"
+                    },
+                    {
+                        "text": "Shuffle",
+                        "link": "/ctf/2023/metared-ctf/shuffle.md"
+                    }
+                ]
+            },
+            {
+                "text": "NBCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "32 + 32 = 64",
+                        "link": "/ctf/2023/nbctf/32+32=64.md"
+                    },
+                    {
+                        "text": "Babbling About",
+                        "link": "/ctf/2023/nbctf/babbling-about.md"
+                    },
+                    {
+                        "text": "Do You Hear That?",
+                        "link": "/ctf/2023/nbctf/do-you-hear-that.md"
+                    },
+                    {
+                        "text": "Persona",
+                        "link": "/ctf/2023/nbctf/persona.md"
+                    },
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2023/nbctf/web.md"
+                    }
+                ]
+            },
+            {
+                "text": "Nullcon",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "IPFilter",
+                        "link": "/ctf/2023/nullcon/ipfilter.md"
+                    },
+                    {
+                        "text": "Magic Cars",
+                        "link": "/ctf/2023/nullcon/magic-cars.md"
+                    },
+                    {
+                        "text": "TYPicalBoss",
+                        "link": "/ctf/2023/nullcon/typicalboss.md"
+                    }
+                ]
+            },
+            {
+                "text": "OdysseyCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Mythic PDF Forge",
+                        "link": "/ctf/2023/odysseyctf/mystic-pdf-forge.md"
+                    }
+                ]
+            },
+            {
+                "text": "PicoCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "caas",
+                        "link": "/ctf/2023/picoctf/caas.md"
+                    },
+                    {
+                        "text": "Cookies",
+                        "link": "/ctf/2023/picoctf/cookies.md"
+                    },
+                    {
+                        "text": "Irish Repo Name",
+                        "link": "/ctf/2023/picoctf/irish-repo-name.md"
+                    },
+                    {
+                        "text": "Java Code Analysis!?!",
+                        "link": "/ctf/2023/picoctf/java-code-analysis.md"
+                    },
+                    {
+                        "text": "Java Script Kiddie",
+                        "link": "/ctf/2023/picoctf/java-scipt-kiddie.md"
+                    },
+                    {
+                        "text": "JaWT Scrachpad",
+                        "link": "/ctf/2023/picoctf/jawt-scrachpad.md"
+                    },
+                    {
+                        "text": "Picker",
+                        "link": "/ctf/2023/picoctf/picker.md"
+                    },
+                    {
+                        "text": "Some Assembly Required",
+                        "link": "/ctf/2023/picoctf/some-assembly-required.md"
+                    },
+                    {
+                        "text": "Vault Doors",
+                        "link": "/ctf/2023/picoctf/vault-door.md"
+                    },
+                    {
+                        "text": "Who Are You?",
+                        "link": "/ctf/2023/picoctf/who-are-you.md"
+                    }
+                ]
+            },
+            {
+                "text": "PointeroverflowCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Crypto Challenges",
+                        "link": "/ctf/2023/pointeroverflowctf/crypto.md"
+                    },
+                    {
+                        "text": "Forensics Challenges",
+                        "link": "/ctf/2023/pointeroverflowctf/forensics.md"
+                    },
+                    {
+                        "text": "Steganography Challenges",
+                        "link": "/ctf/2023/pointeroverflowctf/steanography.md"
+                    },
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2023/pointeroverflowctf/web.md"
+                    }
+                ]
+            },
+            {
+                "text": "Securityvalley",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Capture Message (1)",
+                        "link": "/ctf/2023/securityvalley/capture-message-1.md"
+                    },
+                    {
+                        "text": "Capture Message (2)",
+                        "link": "/ctf/2023/securityvalley/capture-message-2.md"
+                    },
+                    {
+                        "text": "Cookie API",
+                        "link": "/ctf/2023/securityvalley/cookie-api.md"
+                    },
+                    {
+                        "text": "Easy Authentication",
+                        "link": "/ctf/2023/securityvalley/easy-authentication.md"
+                    },
+                    {
+                        "text": "French",
+                        "link": "/ctf/2023/securityvalley/french.md"
+                    },
+                    {
+                        "text": "Good Authentication",
+                        "link": "/ctf/2023/securityvalley/good-authentication.md"
+                    },
+                    {
+                        "text": "Malicious Traffic",
+                        "link": "/ctf/2023/securityvalley/malicious-traffic.md"
+                    },
+                    {
+                        "text": "No Statics",
+                        "link": "/ctf/2023/securityvalley/no-static.md"
+                    },
+                    {
+                        "text": "RSA",
+                        "link": "/ctf/2023/securityvalley/rsa.md"
+                    },
+                    {
+                        "text": "Simple Elf",
+                        "link": "/ctf/2023/securityvalley/simple-elf.md"
+                    },
+                    {
+                        "text": "Simple One",
+                        "link": "/ctf/2023/securityvalley/simple-one.md"
+                    },
+                    {
+                        "text": "Thanks Microsoft",
+                        "link": "/ctf/2023/securityvalley/thanks-microsoft.md"
+                    },
+                    {
+                        "text": "The Archive",
+                        "link": "/ctf/2023/securityvalley/the-archive.md"
+                    },
+                    {
+                        "text": "The Data",
+                        "link": "/ctf/2023/securityvalley/the-data.md"
+                    },
+                    {
+                        "text": "The Loader",
+                        "link": "/ctf/2023/securityvalley/the-loader.md"
+                    },
+                    {
+                        "text": "The Picture",
+                        "link": "/ctf/2023/securityvalley/the-picture.md"
+                    },
+                    {
+                        "text": "The Shark",
+                        "link": "/ctf/2023/securityvalley/the-shark.md"
+                    },
+                    {
+                        "text": "The Shell",
+                        "link": "/ctf/2023/securityvalley/the-shell.md"
+                    },
+                    {
+                        "text": "The Ticketsystem",
+                        "link": "/ctf/2023/securityvalley/the-ticketsystem.md"
+                    },
+                    {
+                        "text": "Weird Code",
+                        "link": "/ctf/2023/securityvalley/weird-code.md"
+                    },
+                    {
+                        "text": "What The Hell",
+                        "link": "/ctf/2023/securityvalley/what-the-hell.md"
+                    },
+                    {
+                        "text": "XOR Pain",
+                        "link": "/ctf/2023/securityvalley/xor-pain.md"
+                    }
+                ]
+            },
+            {
+                "text": "SnakeCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Stressful Reader",
+                        "link": "/ctf/2023/snakectf/stressful-reader.md"
+                    }
+                ]
+            },
+            {
+                "text": "SpookyCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2023/spookyctf/web-challenges.md"
+                    }
+                ]
+            },
+            {
+                "text": "Tenable",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Cat Viewer",
+                        "link": "/ctf/2023/tenable/cat-viewer.md"
+                    },
+                    {
+                        "text": "OneShotGPT",
+                        "link": "/ctf/2023/tenable/oneshotgpt.md"
+                    },
+                    {
+                        "text": "Rose",
+                        "link": "/ctf/2023/tenable/rose.md"
+                    }
+                ]
+            },
+            {
+                "text": "Thefewchosen",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Diary",
+                        "link": "/ctf/2023/thefewchosen/diary.md"
+                    },
+                    {
+                        "text": "Dizzy",
+                        "link": "/ctf/2023/thefewchosen/dizzy.md"
+                    },
+                    {
+                        "text": "Down Bad",
+                        "link": "/ctf/2023/thefewchosen/down-bad.md"
+                    },
+                    {
+                        "text": "List",
+                        "link": "/ctf/2023/thefewchosen/list.md"
+                    },
+                    {
+                        "text": "Mayday!",
+                        "link": "/ctf/2023/thefewchosen/mayday.md"
+                    },
+                    {
+                        "text": "MCELLA",
+                        "link": "/ctf/2023/thefewchosen/mcella.md"
+                    },
+                    {
+                        "text": "MCTEENX",
+                        "link": "/ctf/2023/thefewchosen/mcteenx.md"
+                    },
+                    {
+                        "text": "Shello World",
+                        "link": "/ctf/2023/thefewchosen/shell-world.md"
+                    },
+                    {
+                        "text": "Some Traffic",
+                        "link": "/ctf/2023/thefewchosen/some-traffic.md"
+                    }
+                ]
+            },
+            {
+                "text": "UiuCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Corny Kernel",
+                        "link": "/ctf/2023/uiuctf/corny-kernel.md"
+                    },
+                    {
+                        "text": "VimJail",
+                        "link": "/ctf/2023/uiuctf/vimjail.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "2024",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "0xl4ugh",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Ada Indonesia Coy",
+                                "link": "/ctf/2024/0xl4ugh/web/ada-indonesia-coy.md"
+                            },
+                            {
+                                "text": "Manifesto",
+                                "link": "/ctf/2024/0xl4ugh/web/manifesto.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "BitsCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2024/bitsctf/web.md"
+                    }
+                ]
+            },
+            {
+                "text": "BraekerCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Empty Execution",
+                        "link": "/ctf/2024/braekerctf/empty-execution.md"
+                    },
+                    {
+                        "text": "Eye doctor",
+                        "link": "/ctf/2024/braekerctf/eye-doctor.md"
+                    }
+                ]
+            },
+            {
+                "text": "Hack-the-Boo",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Forensics",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Foggy Intrusion",
+                                "link": "/ctf/2024/hack-the-boo/forensics/foggy-intrusion.md"
+                            },
+                            {
+                                "text": "Ghostly Persistence",
+                                "link": "/ctf/2024/hack-the-boo/forensics/ghostly-persistence.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Cursed Stale Policy",
+                                "link": "/ctf/2024/hack-the-boo/web/cursed-stale-policy.md"
+                            },
+                            {
+                                "text": "WayWitch",
+                                "link": "/ctf/2024/hack-the-boo/web/waywitch.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Hack-the-Boo-Practice",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Crypto",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Brevi Moduli",
+                                "link": "/ctf/2024/hack-the-boo-practice/crypto/brevi-moduli.md"
+                            },
+                            {
+                                "text": "Sekur Julius",
+                                "link": "/ctf/2024/hack-the-boo-practice/crypto/sekur-julius.md"
+                            },
+                            {
+                                "text": "Sugar Free Candies",
+                                "link": "/ctf/2024/hack-the-boo-practice/crypto/sugar-free-candies.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Forensics",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Forbidden Manuscript",
+                                "link": "/ctf/2024/hack-the-boo-practice/forensics/forbidden-manuscript.md"
+                            },
+                            {
+                                "text": "Sp00ky Theme",
+                                "link": "/ctf/2024/hack-the-boo-practice/forensics/sp00ky-theme.md"
+                            },
+                            {
+                                "text": "The Shortcut Haunting",
+                                "link": "/ctf/2024/hack-the-boo-practice/forensics/the-shortcut-haunting.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rev",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Crypt Of The Undead",
+                                "link": "/ctf/2024/hack-the-boo-practice/rev/cryptoftheundead.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Phantom Script",
+                                "link": "/ctf/2024/hack-the-boo-practice/web/phantom's-script.md"
+                            },
+                            {
+                                "text": "Unholy Union",
+                                "link": "/ctf/2024/hack-the-boo-practice/web/unholy-union.md"
+                            },
+                            {
+                                "text": "Void Whispers",
+                                "link": "/ctf/2024/hack-the-boo-practice/web/void-whispers.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "HTB-Cyber-Apocalypse",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Forensics",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "An unusual sighting",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/an-unusual-sighting.md"
+                            },
+                            {
+                                "text": "Data Siege",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/data-siege.md"
+                            },
+                            {
+                                "text": "Fake Boost",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/fake-boost.md"
+                            },
+                            {
+                                "text": "Game Invitation",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/game-invitation.md"
+                            },
+                            {
+                                "text": "It Has Begun",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/it-has-begun.md"
+                            },
+                            {
+                                "text": "Phreaky",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/phreaky.md"
+                            },
+                            {
+                                "text": "Pursue The Tracks",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/forensics/pursue-the-tracks.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Misc",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Character",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/misc/character.md"
+                            },
+                            {
+                                "text": "Stop Drop and Roll",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/misc/stop-drop-and-roll.md"
+                            },
+                            {
+                                "text": "Unbreakable",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/misc/unbreakable.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Flag Command",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/flag-command.md"
+                            },
+                            {
+                                "text": "KORP Terminal",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/korp-terminal.md"
+                            },
+                            {
+                                "text": "Labyrinth Linguist",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/labyrinth-linguist.md"
+                            },
+                            {
+                                "text": "LockTalk",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/locktalk.md"
+                            },
+                            {
+                                "text": "Testimonial",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/testimonial.md"
+                            },
+                            {
+                                "text": "TimeKORP",
+                                "link": "/ctf/2024/htb-cyber-apocalypse/web/timekorp.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Spcs CTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "BEEF",
+                        "link": "/ctf/2024/spcs_ctf/beef.md"
+                    },
+                    {
+                        "text": "Beginner",
+                        "link": "/ctf/2024/spcs_ctf/beginner.md"
+                    },
+                    {
+                        "text": "Criminal Excel",
+                        "link": "/ctf/2024/spcs_ctf/criminal-excel.md"
+                    },
+                    {
+                        "text": "Easy Reverse",
+                        "link": "/ctf/2024/spcs_ctf/easy-reverse.md"
+                    },
+                    {
+                        "text": "Inept Reverser",
+                        "link": "/ctf/2024/spcs_ctf/inept-reverser.md"
+                    },
+                    {
+                        "text": "Migraine",
+                        "link": "/ctf/2024/spcs_ctf/migrane.md"
+                    },
+                    {
+                        "text": "Panda",
+                        "link": "/ctf/2024/spcs_ctf/panda.md"
+                    }
+                ]
+            },
+            {
+                "text": "TetCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Hello from API GW",
+                        "link": "/ctf/2024/tetctf/hello-from-api-gw.md"
+                    }
+                ]
+            },
+            {
+                "text": "Uscybergames",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Biocheck",
+                        "link": "/ctf/2024/uscybergames/biocheck.md"
+                    },
+                    {
+                        "text": "Certified",
+                        "link": "/ctf/2024/uscybergames/certified.md"
+                    },
+                    {
+                        "text": "Cloud Storage",
+                        "link": "/ctf/2024/uscybergames/cloud-storage.md"
+                    },
+                    {
+                        "text": "Control Panel",
+                        "link": "/ctf/2024/uscybergames/control-panel.md"
+                    },
+                    {
+                        "text": "Ding-O-Tron",
+                        "link": "/ctf/2024/uscybergames/ding-o-tron.md"
+                    },
+                    {
+                        "text": "Flag Checker",
+                        "link": "/ctf/2024/uscybergames/flag-checker.md"
+                    },
+                    {
+                        "text": "Hunt",
+                        "link": "/ctf/2024/uscybergames/hunt.md"
+                    },
+                    {
+                        "text": "I Want to Believe",
+                        "link": "/ctf/2024/uscybergames/i-want-to-believe.md"
+                    },
+                    {
+                        "text": "Math Reversal",
+                        "link": "/ctf/2024/uscybergames/math-reversal.md"
+                    },
+                    {
+                        "text": "Parts Shop",
+                        "link": "/ctf/2024/uscybergames/parts-shop.md"
+                    },
+                    {
+                        "text": "Redundant",
+                        "link": "/ctf/2024/uscybergames/redundent.md"
+                    },
+                    {
+                        "text": "SCS",
+                        "link": "/ctf/2024/uscybergames/scs.md"
+                    },
+                    {
+                        "text": "Secret",
+                        "link": "/ctf/2024/uscybergames/secret.md"
+                    },
+                    {
+                        "text": "Spreading Out",
+                        "link": "/ctf/2024/uscybergames/spreading-out.md"
+                    },
+                    {
+                        "text": "The Email Where It Happens",
+                        "link": "/ctf/2024/uscybergames/the-email-where-it-happens.md"
+                    },
+                    {
+                        "text": "Timing is Everything",
+                        "link": "/ctf/2024/uscybergames/timing-is-everything.md"
+                    },
+                    {
+                        "text": "Touch Grass",
+                        "link": "/ctf/2024/uscybergames/touch-grass.md"
+                    },
+                    {
+                        "text": "Tubes",
+                        "link": "/ctf/2024/uscybergames/tubes.md"
+                    },
+                    {
+                        "text": "VillainBnB",
+                        "link": "/ctf/2024/uscybergames/villainbnb.md"
+                    },
+                    {
+                        "text": "You Have Mail",
+                        "link": "/ctf/2024/uscybergames/you-have-mail.md"
+                    }
+                ]
+            },
+            {
+                "text": "Uwsp-Pointer-Overflow",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Crack",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "I Have Written Down My Secrets",
+                                "link": "/ctf/2024/uwsp-pointer-overflow/crack/i-have-written-down-my-secrets.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Giving Up The Game",
+                                "link": "/ctf/2024/uwsp-pointer-overflow/web/giving-up-the-game.md"
+                            },
+                            {
+                                "text": "I Have Objections",
+                                "link": "/ctf/2024/uwsp-pointer-overflow/web/i-have-objections.md"
+                            },
+                            {
+                                "text": "The Way Out Is Through",
+                                "link": "/ctf/2024/uwsp-pointer-overflow/web/the-way-out-is-through.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "VikeCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Deep Cover",
+                        "link": "/ctf/2024/vikectf/deep-cover.md"
+                    },
+                    {
+                        "text": "Hidden Treasure",
+                        "link": "/ctf/2024/vikectf/hidden-treasure.md"
+                    },
+                    {
+                        "text": "Hidden Valor",
+                        "link": "/ctf/2024/vikectf/hidden-valor.md"
+                    },
+                    {
+                        "text": "My Buddy Erik",
+                        "link": "/ctf/2024/vikectf/my-buddy-erik.md"
+                    },
+                    {
+                        "text": "Norse Cryptogram",
+                        "link": "/ctf/2024/vikectf/norse-cryptogram.md"
+                    },
+                    {
+                        "text": "The Usual",
+                        "link": "/ctf/2024/vikectf/the-usual.md"
+                    },
+                    {
+                        "text": "Time to attack",
+                        "link": "/ctf/2024/vikectf/time-to-attack.md"
+                    },
+                    {
+                        "text": "Web Challenges",
+                        "link": "/ctf/2024/vikectf/web-challenges.md"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "2025",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Cybergame",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Crypto",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Advanced Decryption Standard",
+                                "link": "/ctf/2025/cybergame/crypto/advanced-decryption-standard.md"
+                            },
+                            {
+                                "text": "Adversary",
+                                "link": "/ctf/2025/cybergame/crypto/adversary.md"
+                            },
+                            {
+                                "text": "Ransomware",
+                                "link": "/ctf/2025/cybergame/crypto/ransomware.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Forensics",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Bastion",
+                                "link": "/ctf/2025/cybergame/forensics/bastion.md"
+                            },
+                            {
+                                "text": "Eugene Fatigue",
+                                "link": "/ctf/2025/cybergame/forensics/eugene-fatigue.md"
+                            },
+                            {
+                                "text": "First Contact",
+                                "link": "/ctf/2025/cybergame/forensics/first-contact.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rev",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Connection Checker",
+                                "link": "/ctf/2025/cybergame/rev/connectionchecker.md"
+                            },
+                            {
+                                "text": "Sanity Checker",
+                                "link": "/ctf/2025/cybergame/rev/sanitychecker.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Equestria",
+                                "link": "/ctf/2025/cybergame/web/equestria.md"
+                            },
+                            {
+                                "text": "JAILE",
+                                "link": "/ctf/2025/cybergame/web/jaile.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "GPNCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Free-Flagging",
+                                "link": "/ctf/2025/gpnctf/web/free-flagging.md"
+                            },
+                            {
+                                "text": "Image Contest",
+                                "link": "/ctf/2025/gpnctf/web/image-contest.md"
+                            },
+                            {
+                                "text": "Intro to web",
+                                "link": "/ctf/2025/gpnctf/web/intro-to-web.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "idex.CTF.ae",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Blast From The Past",
+                                "link": "/ctf/2025/idex.ctf.ae/web/blast-from-the-past.md"
+                            },
+                            {
+                                "text": "Corporate Tax Calculator",
+                                "link": "/ctf/2025/idex.ctf.ae/web/corporate-tax-calculator.md"
+                            },
+                            {
+                                "text": "Crashing The Port",
+                                "link": "/ctf/2025/idex.ctf.ae/web/crashing-the-port.md"
+                            },
+                            {
+                                "text": "Free Utilities",
+                                "link": "/ctf/2025/idex.ctf.ae/web/free-utilities.md"
+                            },
+                            {
+                                "text": "Police Leakage",
+                                "link": "/ctf/2025/idex.ctf.ae/web/police-leakage.md"
+                            },
+                            {
+                                "text": "XYZ E-Municipality",
+                                "link": "/ctf/2025/idex.ctf.ae/web/xyz-e-municipality.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "IrisCTF",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Password Manager",
+                                "link": "/ctf/2025/iris/web/password-manager.md"
+                            },
+                            {
+                                "text": "Political",
+                                "link": "/ctf/2025/iris/web/political.md"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "Uscybergames",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Forensics",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Charlie",
+                                "link": "/ctf/2025/uscybergames/forensics/charlie.md"
+                            },
+                            {
+                                "text": "Deleted",
+                                "link": "/ctf/2025/uscybergames/forensics/deleted.md"
+                            },
+                            {
+                                "text": "Drive Discovery",
+                                "link": "/ctf/2025/uscybergames/forensics/drive_discovery.md"
+                            },
+                            {
+                                "text": "Echo",
+                                "link": "/ctf/2025/uscybergames/forensics/echo.md"
+                            },
+                            {
+                                "text": "End of The Line",
+                                "link": "/ctf/2025/uscybergames/forensics/end_of_the_line.md"
+                            },
+                            {
+                                "text": "FinalCorruptZip",
+                                "link": "/ctf/2025/uscybergames/forensics/finalcorruptzip.md"
+                            },
+                            {
+                                "text": "Future of SWE",
+                                "link": "/ctf/2025/uscybergames/forensics/future_of_swe.md"
+                            },
+                            {
+                                "text": "Historical Fiction",
+                                "link": "/ctf/2025/uscybergames/forensics/historical_fiction.md"
+                            },
+                            {
+                                "text": "Just Look At It",
+                                "link": "/ctf/2025/uscybergames/forensics/just_look_at_it.md"
+                            },
+                            {
+                                "text": "Logged",
+                                "link": "/ctf/2025/uscybergames/forensics/logged.md"
+                            },
+                            {
+                                "text": "Redactables",
+                                "link": "/ctf/2025/uscybergames/forensics/redactables.md"
+                            },
+                            {
+                                "text": "Silent Signal",
+                                "link": "/ctf/2025/uscybergames/forensics/silent_signal.md"
+                            },
+                            {
+                                "text": "USCG Admin was H@cked",
+                                "link": "/ctf/2025/uscybergames/forensics/uscg_admin_was_h@cked.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "pwn",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Donut",
+                                "link": "/ctf/2025/uscybergames/pwn/donut.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Rev",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "CTF Cafe",
+                                "link": "/ctf/2025/uscybergames/rev/ctf_cafe.md"
+                            },
+                            {
+                                "text": "The Magic of Bytes",
+                                "link": "/ctf/2025/uscybergames/rev/the_magic_of_bytes.md"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Web",
+                        "collapsed": true,
+                        "items": [
+                            {
+                                "text": "Beg-o-Matic 3000",
+                                "link": "/ctf/2025/uscybergames/web/beg-o-matic_3000.md"
+                            },
+                            {
+                                "text": "Cookie",
+                                "link": "/ctf/2025/uscybergames/web/cookie.md"
+                            },
+                            {
+                                "text": "L33tcoder",
+                                "link": "/ctf/2025/uscybergames/web/l33tcoder.md"
+                            },
+                            {
+                                "text": "Ninja Note",
+                                "link": "/ctf/2025/uscybergames/web/ninja_note.md"
+                            },
+                            {
+                                "text": "Spooky Proxy",
+                                "link": "/ctf/2025/uscybergames/web/spooky_proxy.md"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

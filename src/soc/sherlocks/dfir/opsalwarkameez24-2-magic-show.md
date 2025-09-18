@@ -477,7 +477,7 @@ There's 2 files associated with this name
 At this point I was running out of ideas, like where the fucking file came from??? 
 
 Poor mans grep:
-```basg
+```bash
 └─$ while read -r line; do echo $line; strings -el $line | grep -n Light.exe; done < <(find . -type f)
 ./$MFT
 248555:Light.exe
