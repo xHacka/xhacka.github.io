@@ -1,4 +1,4 @@
-# Promptriddle
+# Level 8
 
 ## Solution
 

@@ -1,9 +1,9 @@
 {
     "scripts": {
-        "check": "node scripts/validate-images.mjs",
-        "dev": "vitepress dev",
-        "build": "vitepress build",
-        "preview": "vitepress preview"
+        "docs:check": "node scripts/validate-images.mjs",
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview"
     },
     "devDependencies": {
         "@whyframe/core": "^0.1.14",

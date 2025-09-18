@@ -1,0 +1,12 @@
+[
+    {
+        "text": "Randoms",
+        "collapsed": true,
+        "items": [ 
+            { "text": "Blind SQLi via ORDER BY", "link": "/ctf/randoms/blind-sqli-via-order-by.md" },
+            { "text": "Flask Server - Flag in memory", "link": "/ctf/randoms/flask-server---flag-in-memory.md" },
+            { "text": "KITCTF 2024 - Notebook 2 (XSS)", "link": "/ctf/randoms/kitctf-2024---notebook-2-(xss).md" },
+            { "text": "PHP Server - Find", "link": "/ctf/randoms/php-server---find.md" }
+        ]
+    }
+]

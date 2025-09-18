@@ -1,4 +1,4 @@
-# Promptriddle
+# Level 2
 
 ## Description
 
