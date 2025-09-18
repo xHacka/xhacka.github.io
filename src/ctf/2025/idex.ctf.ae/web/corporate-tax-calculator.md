@@ -6,19 +6,19 @@ Our website help corporates to calculate their annual taxes, Our developers said
 
 ## Solution
 
-![Corporate Tax Calculator.png](/assets/ctf/idex.ctf.ae/2025/web/Corporate Tax Calculator.png)
+![Corporate Tax Calculator.png](/assets/ctf/idex.ctf.ae/corporate-tax-calculator.png)
 
 Post request on `/` evaluates given math expression
 
-![Corporate Tax Calculator-1.png](/assets/ctf/idex.ctf.ae/2025/web/Corporate Tax Calculator-1.png)
+![Corporate Tax Calculator-1.png](/assets/ctf/idex.ctf.ae/corporate-tax-calculator-1.png)
 
 If we cause an error we see `eval` function is used, which is considered to be dangerous for RCE.
 
-![Corporate Tax Calculator-2.png](/assets/ctf/idex.ctf.ae/2025/web/Corporate Tax Calculator-2.png)
+![Corporate Tax Calculator-2.png](/assets/ctf/idex.ctf.ae/corporate-tax-calculator-2.png)
 
 `system('id')` didn't work, use `phpinfo()` to inspect configuration. Our interest is in `disable_functions` which restricts which functions are allowed.
 
-![Corporate Tax Calculator-3.png](/assets/ctf/idex.ctf.ae/2025/web/Corporate Tax Calculator-3.png)
+![Corporate Tax Calculator-3.png](/assets/ctf/idex.ctf.ae/corporate-tax-calculator-3.png)
 
 
 With `scandir` we can locate files
@@ -53,7 +53,7 @@ Array
 1
 ```
 
-![Corporate Tax Calculator-4.png](/assets/ctf/idex.ctf.ae/2025/web/Corporate Tax Calculator-4.png)
+![Corporate Tax Calculator-4.png](/assets/ctf/idex.ctf.ae/corporate-tax-calculator-4.png)
 
 Now we just have to read it somehow.
 

@@ -10,7 +10,7 @@ The first Web challenge of the contest and I am so excited to reveal this one! I
 
 Visiting url gives 404: [http://nvstgt.com/TTiOT/index.html](http://nvstgt.com/TTiOT/index.html)
 
-![The Way Out is Through.png](/assets/ctf/uwsp-pointer-overflow/2024/web/The Way Out is Through.png)
+![The Way Out is Through.png](/assets/ctf/uwsp/the-way-out-is-through.png)
 
 View Source:
 ```html

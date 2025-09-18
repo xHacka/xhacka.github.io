@@ -8,7 +8,7 @@ In the darkest corners of the haunted web lies a forsaken domain ensnared by the
 
 Upon visiting website we get a CSP Analyzer webapp:
 
-![Cursed Stale Policy.png](/assets/ctf/htb/hack-the-boo-2024/web/Cursed Stale Policy.png)
+![Cursed Stale Policy.png](/assets/ctf/htb/cursed-stale-policy.png)
 
 We are able to view Unsafe Policy and Safe Policy, which seem to be fixed values. 
 
@@ -37,7 +37,7 @@ export function analyzeCSP(csp) {
 
 We can also `Trigger XSS` via bot. Communication is handled via sockets and not http.
 
-![Cursed Stale Policy-1.png](/assets/ctf/htb/hack-the-boo-2024/web/Cursed Stale Policy-1.png)
+![Cursed Stale Policy-1.png](/assets/ctf/htb/cursed-stale-policy-1.png)
 
 `challenge/backend/bot/bot.js`
 ```js
@@ -246,7 +246,7 @@ export async function CSPMiddleware(req, reply) {
 
 The cache might not even need poisoning because it's already poisoning itself, lol. Nonce should always be unique and never reused, but in `update_violations` key we see that it's reused. 
 
-![Cursed Stale Policy-2.png](/assets/ctf/htb/hack-the-boo-2024/web/Cursed Stale Policy-2.png)
+![Cursed Stale Policy-2.png](/assets/ctf/htb/cursed-stale-policy-2.png)
 
 `Trigger XSS` -> Refresh the page -> Take `nonce` from `script-src 'self' 'nonce-<NONCE>';` -> 
 ```html
@@ -262,7 +262,7 @@ The cache might not even need poisoning because it's already poisoning itself, l
 
 Check websockets communication for flag:
 
-![Pasted image 20241026010017.png](/assets/ctf/htb/hack-the-boo-2024/web/Pasted image 20241026010017.png)
+![Cursed Stale Policy-3.png](/assets/ctf/htb/cursed-stale-policy-3.png)
 
 > Flag: `HTB{br0k3_th3_sp3cter's_st4l3_curs3_2655b1c688aef45b8acb32b6ab623d70}`
 

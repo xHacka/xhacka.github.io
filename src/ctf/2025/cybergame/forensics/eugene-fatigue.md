@@ -91,7 +91,7 @@ _diskimage.bin.extracted/1CB0CE: Zip archive data (empty)
 _diskimage.bin.extracted/18E200: Zip archive data, at least v2.0 to extract, compression method=deflate
 ```
 
-![Eugene’s FATigue.png](/assets/ctf/cybergame/2025/forensics/Eugene’s FATigue.png)
+![Eugene’s FATigue.png](/assets/ctf/cybergame/eugene-fatigue.png)
 
 Something went wrong with extracting the files. You can open JPEG, but it still has excess data from diskimage
 ```bash
@@ -138,7 +138,7 @@ Permissions Size User Date Modified Name
 
 PDF is just decoy?
 
-![Eugene’s FATigue-1.png](/assets/ctf/cybergame/2025/forensics/Eugene’s FATigue-1.png)
+![Eugene’s FATigue-1.png](/assets/ctf/cybergame/eugene-fatigue-1.png)
 
 The image extracted by `foremost` is very insistent upon that this is not it
 ```bash
@@ -379,7 +379,7 @@ SK-CERT{d0esnt_m4ke_s3nse_7o_d0_f0rensics_anym0r3}
 
 From discord: `key='0'*63, iv='0'*31`
 
-![Eugene’s FATigue-2.png](/assets/ctf/cybergame/2025/forensics/Eugene’s FATigue-2.png)
+![Eugene’s FATigue-2.png](/assets/ctf/cybergame/eugene-fatigue-2.png)
 
 ## \[★★☆\] Wrapping it up
 

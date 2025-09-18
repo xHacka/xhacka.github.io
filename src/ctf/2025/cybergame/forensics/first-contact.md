@@ -45,7 +45,7 @@ Additional instructions from the Earth Command:
 
 Lots of `span` tag usage, but no CSS or anything.
 
-![First Contact.png](/assets/ctf/cybergame/2025/forensics/First Contact.png)
+![First Contact.png](/assets/ctf/cybergame/first-contact.png)
 
 In the console tab:
 ```bash
@@ -74,7 +74,7 @@ Additional instruction from the jellyfish:
 
 Looks ROT13 so that's the first thing I tried
 
-![First Contact-1.png](/assets/ctf/cybergame/2025/forensics/First Contact-1.png)
+![First Contact-1.png](/assets/ctf/cybergame/first-contact-1.png)
 
 > [https://rot13.com](https://rot13.com)
 
@@ -104,13 +104,13 @@ Additional instruction from the orcas, transmitting back home from the nearest s
 
 ### Solution
 
-![First Contact-2.png](/assets/ctf/cybergame/2025/forensics/First Contact-2.png)
+![First Contact-2.png](/assets/ctf/cybergame/first-contact-2.png)
 
-![First Contact-3.png](/assets/ctf/cybergame/2025/forensics/First Contact-3.png)
+![First Contact-3.png](/assets/ctf/cybergame/first-contact-3.png)
 
 This got very repetitive so I just looped over using CyberChef
 
-![First Contact-4.png](/assets/ctf/cybergame/2025/forensics/First Contact-4.png)
+![First Contact-4.png](/assets/ctf/cybergame/first-contact-4.png)
 
 [Recipe](https://gchq.github.io/CyberChef/#recipe=Label\('start'\)From_Base64\('A-Za-z0-9%2B/%3D',true,false\)Regular_expression\('Strings','%5BA-Za-z%5C%5Cd/%5C%5C-:.,_$%25%5C%5Cx27%22\(\)%3C%3E%3D!%5C%5C%5B%5C%5C%5D%7B%7D@%5D%7B10,%7D',true,true,false,false,false,false,'List%20matches'\)Jump\('start',4\)&input=VkdobElHVnVZMjlrWldRZ2JXVnpjMkZuWlNCellXbGtJR1JIYUd4SlIxcHpXVmRqWjJGWVRXZGhSMnhyV2tkV2RVbEhVbXhhV0VKc1kybENhVmRHV25GWlZVNURZVEZ3V0ZadVpHRlhSV3h1VjFkNGIxWXlSblJTYTFKclRXMVNjRll3V21GalZteFdWR3RPYUUxWVFsbFdiVFZyV1Zaa1JtSkhOVmRpV0ZKeVdXcEtTMUp0U2taaFJUVlhUVEpvZUZaR1VrSk5WMGw0V2toR1ZHSkdjR2hVVjNSaFYyeGFSMVZ0UmxSaVJYQjVWR3hWZUZaV1NuTlhiRUpXWWxob1dGbDZSbGRqVm5CR1QxWk9UazF0WjNwV2ExcFRVMnN4VjJKR1pHaFNSbkJXV1cxNFlWbFdjRmhrUlhScVlrWktWbFZzVWxOVWF6RnlWMnRhVmxaNlZucFdSM2hQVWpGa2RWWnNjRmRXTVVWM1ZtcEplRmxXV2taT1ZXaGhVbTFTYjFSWGVFdE5iR1JZWkVaa2FrMVZOVWhXTWpWWFZqSktWbGRzVG1GV00yaE1Wa1phUm1WV2JEWmlSa1pXVm5wbk5WRXlZemxRVVc4OUNnPT0)
 
@@ -133,7 +133,7 @@ Additional instruction from the orcas, transmitting back home from the nearest s
 
 If you paste Input CyberChef automatically identifies it as Hex (Wand will appear)
 
-![First Contact-5.png](/assets/ctf/cybergame/2025/forensics/First Contact-5.png)
+![First Contact-5.png](/assets/ctf/cybergame/first-contact-5.png)
 
 > Flag: `SK-CERT{637_u53d_70_h3x4d3c1m4l}`
 
@@ -149,7 +149,7 @@ Orcas were right from day one. Turns out these aliens were not friendly AT ALL. 
 
 ## Solution
 
-![First Contact-6.png](/assets/ctf/cybergame/2025/forensics/First Contact-6.png)
+![First Contact-6.png](/assets/ctf/cybergame/first-contact-6.png)
 
 > Flag: `SK-CERT{347_7h3_hum4n5,_7h3y_kn0w_700_much}`
 
@@ -208,7 +208,7 @@ First I thought it was a cipher, but upon closer inspection it's just Regex.
 
 Make AI struggle instead of you and unregex~ d:
 
-![First Contact-7.png](/assets/ctf/cybergame/2025/forensics/First Contact-7.png)
+![First Contact-7.png](/assets/ctf/cybergame/first-contact-7.png)
 
 It has extra T, fix it and submit.
 

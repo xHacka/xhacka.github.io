@@ -8,7 +8,7 @@ I downloaded a very nice haloween global theme for my Plasma installation and a 
 
 `PLASMOID_UPDATE_SOURCE` looks sus
 
-![Sp00ky Theme.png](/assets/ctf/htb/hack-the-boo-2024-practice/forensics/Sp00ky Theme.png)
+![Sp00ky Theme.png](/assets/ctf/htb/sp00ky-theme.png)
 
 ```bash
 └─$ echo 952MwBHNo9lb0M2X0FzX/Eycz02MoR3X5J2XkNjb3B3eCRFS | rev | base64 -d

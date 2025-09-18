@@ -12,15 +12,15 @@ Author: **finn, vurlo**
 
 ### Solution
 
-![Intro to web.png](/assets/ctf/gpnctf/2025/web/Intro to web.png)
+![Intro to web.png](/assets/ctf/gpnctf/intro-to-web.png)
 
 It says password is optional? After trying lots of usernames basically username can be anything you want.
 
-![Intro to web-1.png](/assets/ctf/gpnctf/2025/web/Intro to web-1.png)
+![Intro to web-1.png](/assets/ctf/gpnctf/intro-to-web-1.png)
 
 We can create new notes, but doesn't seem useful.
 
-![Intro to web-2.png](/assets/ctf/gpnctf/2025/web/Intro to web-2.png)
+![Intro to web-2.png](/assets/ctf/gpnctf/intro-to-web-2.png)
 
 Cookies are not JWT, but Flask Cookies
 ```bash
@@ -30,11 +30,11 @@ Cookies are not JWT, but Flask Cookies
 
 The STAGE_1 flag is stored inside the `.env` file, hence we need LFI to get started.
 
-![Intro to web-3.png](/assets/ctf/gpnctf/2025/web/Intro to web-3.png)
+![Intro to web-3.png](/assets/ctf/gpnctf/intro-to-web-3.png)
 
 `main.py` implements custom jinja filters which are used in the templates.
 
-![Intro to web-4.png](/assets/ctf/gpnctf/2025/web/Intro to web-4.png)
+![Intro to web-4.png](/assets/ctf/gpnctf/intro-to-web-4.png)
 
 `image_path` is controlled by the user, meaning it's injectable.
 ```python
@@ -92,13 +92,13 @@ FLAG_STAGE_1=GPNCTF{jU57_13ak_All_the_th1Ngs}
 
 For part 2 the bot logs in as random user and creates note with flag.
 
-![Intro to web-5.png](/assets/ctf/gpnctf/2025/web/Intro to web-5.png)
+![Intro to web-5.png](/assets/ctf/gpnctf/intro-to-web-5.png)
 
 We are not able to leak the `/proc/environ` as it's outside `wwwroot`.
 
 The `/report/<note_id>` route is able to interact with the bot, this is our entrypoint.
 
-![Intro to web-6.png](/assets/ctf/gpnctf/2025/web/Intro to web-6.png)
+![Intro to web-6.png](/assets/ctf/gpnctf/intro-to-web-6.png)
 
 First we need to be able to Report the notes, this requires **admin** or **moderator** access.
 
@@ -117,7 +117,7 @@ Since we leaked `.env` it's possible to forge custom cookies:
 .eJyrViotTi1SsqpWKsrPSVWyUkpMyc3MU9IBC-cl5iKEamsBTh0PAg.aFVD-g.jxv9ow2II4PqUNfoKf6ozPk0WHI
 ```
 
-![Intro to web-7.png](/assets/ctf/gpnctf/2025/web/Intro to web-7.png)
+![Intro to web-7.png](/assets/ctf/gpnctf/intro-to-web-7.png)
 
 `templates/report_note.html` contains following lines:
 ```html
@@ -186,7 +186,7 @@ Flag: GPNCTF{forg3_d15_JU1Cy_mOD}
 
 Just rerun the above script with 3rd challenge domain and check your webhook for flag.
 
-![Intro to web-8.png](/assets/ctf/gpnctf/2025/web/Intro to web-8.png)
+![Intro to web-8.png](/assets/ctf/gpnctf/intro-to-web-8.png)
 
 > Flag: `GPNCTF{i_1oVe_s7olen_cooKI3s}`
 
@@ -310,7 +310,7 @@ with Session() as session:
     print('Payload sent!')
 ```
 
-![Intro to web-9.png](/assets/ctf/gpnctf/2025/web/Intro to web-9.png)
+![Intro to web-9.png](/assets/ctf/gpnctf/intro-to-web-9.png)
 
 ## Part 5
 
@@ -421,7 +421,7 @@ with Session() as session:
     print(resp.text)
 ```
 
-![Intro to web-11.png](/assets/ctf/gpnctf/2025/web/Intro to web-11.png)
+![Intro to web-11.png](/assets/ctf/gpnctf/intro-to-web-11.png)
 
 > Flag: `GPNCTF{rcE_is_EV3RYtH1nG}`
 

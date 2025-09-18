@@ -8,11 +8,11 @@ On the haunting night of Halloween, the website of "Shadowbrook Library"—a dig
 
 PCAP file is given to investigate, mostly HTTP traffic.
 
-![Forbidden Manuscript.png](/assets/ctf/htb/hack-the-boo-2024-practice/forensics/Forbidden Manuscript.png)
+![Forbidden Manuscript.png](/assets/ctf/htb/forbidden-manuscript.png)
 
 Usually `Data` is point of interest in this type of traffic, as it's plaintext conversation which can be observed. After following few TCP streams we find reverse shell communication. Before last command reads the flag which is in hex format.
 
-![Forbidden Manuscript-1.png](/assets/ctf/htb/hack-the-boo-2024-practice/forensics/Forbidden Manuscript-1.png)
+![Forbidden Manuscript-1.png](/assets/ctf/htb/forbidden-manuscript-1.png)
 
 ```bash
 └─$ echo '4854427b66307262316464336e5f6d346e753563723170375f31355f316e5f3768335f77316c647d' | xxd -r -p

@@ -125,7 +125,7 @@ The `access` method checks the path, not files. If you have Execute permission o
 ```py
 >>> import os
 >>> os.getcwd() # Current path
-'/home/woyag/Desktop/CTFs/BraekerCTF/2024/web/Empty Exection/executables'
+'/home/woyag/Desktop/CTFs/BraekerCTF/Empty Exection/executables'
 >>> os.access('/home/woyag', os.X_OK) # We have execute permissions in our home directory 
 True
 >>> os.access('/etc/hostname', os.X_OK) # We cant execute /etc/hostname 

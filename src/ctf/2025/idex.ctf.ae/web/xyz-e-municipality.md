@@ -47,13 +47,13 @@ if __name__ == "__main__":
 
 `render_template_string` functions is clear indicator for SSTI. There's `sanitize_string` function for `content` which we will need to bypass.
 
-![XYZ E-Municipality.png](/assets/ctf/idex.ctf.ae/2025/web/XYZ E-Municipality.png)
+![XYZ E-Municipality.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality.png)
 
-![XYZ E-Municipality-1.png](/assets/ctf/idex.ctf.ae/2025/web/XYZ E-Municipality-1.png)
+![XYZ E-Municipality-1.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-1.png)
 
 SSTI confirmed with `{{7*7}}`
 
-![XYZ E-Municipality-2.png](/assets/ctf/idex.ctf.ae/2025/web/XYZ E-Municipality-2.png)
+![XYZ E-Municipality-2.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-2.png)
 
 [https://book.hacktricks.wiki/en/pentesting-web/ssti-server-side-template-injection/index.html#jinja2-python](https://book.hacktricks.wiki/en/pentesting-web/ssti-server-side-template-injection/index.html#jinja2-python)
 
@@ -62,11 +62,11 @@ There's many payloads to choose, but my favorite is
 {{ cycler.__init__.__globals__.os.popen('id').read() }}
 ```
 
-![XYZ E-Municipality-3.png](/assets/ctf/idex.ctf.ae/2025/web/XYZ E-Municipality-3.png)
+![XYZ E-Municipality-3.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-3.png)
 
 `/flag.txt` is only readable by root and we are `ctf-player`...
 
-![XYZ E-Municipality-4.png](/assets/ctf/idex.ctf.ae/2025/web/XYZ E-Municipality-4.png)
+![XYZ E-Municipality-4.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-4.png)
 
 ```python
 from requests import Session

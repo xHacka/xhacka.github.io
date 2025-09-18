@@ -12,13 +12,13 @@ Ok, I'm a little nervous about this one. It seemed like a good idea when I came 
 
 ## Solution
 
-![I Have Objections.png](/assets/ctf/uwsp-pointer-overflow/2024/web/I Have Objections.png)
+![I Have Objections.png](/assets/ctf/uwsp/i-have-objections.png)
 
 We can submit a complaint on `/complaint` route.
 
 Seemed like an SSTI vulnerability, test:
 
-![I Have Objections-1.png](/assets/ctf/uwsp-pointer-overflow/2024/web/I Have Objections-1.png)
+![I Have Objections-1.png](/assets/ctf/uwsp/i-have-objections-1.png)
 
 [https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection)
 

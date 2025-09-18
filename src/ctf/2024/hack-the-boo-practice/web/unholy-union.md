@@ -8,11 +8,11 @@ On the outskirts of a forsaken town lies an abandoned warehouse, rumored to stor
 
 Challenge provides Search functionality along with debug information about our actions:
 
-![Unholy Union.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Unholy Union.png)
+![Unholy Union.png](/assets/ctf/htb/unholy-union.png)
 
 The seems to be no filtration/sanitization to prevent SQLi
 
-![Unholy Union-1.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Unholy Union-1.png)
+![Unholy Union-1.png](/assets/ctf/htb/unholy-union-1.png)
 
 Cause an error to leak information about database:
 ```sql

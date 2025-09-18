@@ -6,7 +6,7 @@ You have been tasked with auditing a legacy system at DDA. This system is said t
 
 ## Solution
 
-![Blast From The Past.png](/assets/ctf/idex.ctf.ae/2025/web/Blast From The Past.png)
+![Blast From The Past.png](/assets/ctf/idex.ctf.ae/blast-from-the-past.png)
 
 Website is not showing any routes that go to other pages.
 

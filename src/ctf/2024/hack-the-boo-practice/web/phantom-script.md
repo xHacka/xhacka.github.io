@@ -48,7 +48,7 @@ Good luck, and beware the curse of broken code!
 
 ## Solution
 
-![Phantom's Script.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Phantom's Script.png)
+![Phantom's Script.png](/assets/ctf/htb/phantom-script.png)
 
 `Cursed Code Block`:
 ```js
@@ -68,7 +68,7 @@ searchInput.addEventListener('input', function () {
 
 Because of `innerHTML` we are able to inject html into the website:
 
-![Phantom's Script-1.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Phantom's Script-1.png)
+![Phantom's Script-1.png](/assets/ctf/htb/phantom-script-1.png)
 
 Objective is to pop an `alert`:
 ```html
@@ -77,6 +77,6 @@ Objective is to pop an `alert`:
 
 After few seconds we get flag:
 
-![Phantom's Script-2.png](/assets/ctf/htb/hack-the-boo-2024-practice/web/Phantom's Script-2.png)
+![Phantom's Script-2.png](/assets/ctf/htb/phantom-script-2.png)
 
 > Flag: `HTB{xSS-1S_E4SY_wh4t_d0_y0u_th1nk?_0fecfbf221be3ef89cf8e5007eda4836}`

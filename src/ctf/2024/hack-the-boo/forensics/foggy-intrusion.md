@@ -8,15 +8,15 @@ On a fog-covered Halloween night, a secure site experienced unauthorized access 
 
 We are given a pcap file which contains only HTTP traffic:
 
-![Foggy Intrusion.png](/assets/ctf/htb/hack-the-boo-2024/forensics/Foggy Intrusion.png)
+![Foggy Intrusion.png](/assets/ctf/htb/foggy-intrusion.png)
 
 Probably redundant method, but I started looking at exportable HTTP objects and after few 404/403 pages I ended up on some PHP code which uses `shell_exec(base64_decode(BLOB))`
 
-![Foggy Intrusion-1.png](/assets/ctf/htb/hack-the-boo-2024/forensics/Foggy Intrusion-1.png)
+![Foggy Intrusion-1.png](/assets/ctf/htb/foggy-intrusion-1.png)
 
 It's executing powershell commands, compressing it with gzip and then base64 encoding output.
 
-![Foggy Intrusion-2.png](/assets/ctf/htb/hack-the-boo-2024/forensics/Foggy Intrusion-2.png)
+![Foggy Intrusion-2.png](/assets/ctf/htb/foggy-intrusion-2.png)
 
 Automatically parse the communication:
 ```python

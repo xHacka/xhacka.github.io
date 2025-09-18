@@ -49,13 +49,13 @@ http {
 
 ### Solution
 
-![Equestria - Door To The Stable.png](/assets/ctf/cybergame/2025/web/Equestria - Door To The Stable.png)
+![Equestria - Door To The Stable.png](/assets/ctf/cybergame/equestria---door-to-the-stable.png)
 
 Nothing fancy on the frontend, but there's a Reverse Proxy running from [http://exp.cybergame.sk:7000/secretbackend/](http://exp.cybergame.sk:7000/secretbackend/)
 
 However it requires authentication.
 
-![Equestria - Door To The Stable-1.png](/assets/ctf/cybergame/2025/web/Equestria - Door To The Stable-1.png)
+![Equestria - Door To The Stable-1.png](/assets/ctf/cybergame/equestria---door-to-the-stable-1.png)
 
 The `nginx.conf` has 4 `location` blocks, so 4 routes which go somewhere else.
 ```yml
@@ -84,7 +84,7 @@ And just like that we bypassed the authorization
 </html>
 ```
 
-![Equestria - Door To The Stable-2.png](/assets/ctf/cybergame/2025/web/Equestria - Door To The Stable-2.png)
+![Equestria - Door To The Stable-2.png](/assets/ctf/cybergame/equestria---door-to-the-stable-2.png)
 
 Download source
 ```bash
@@ -98,11 +98,11 @@ curl http://exp.cybergame.sk:7000/images../secretbackend/package-lock.json -so s
 
 `db.js` contains hardcoded credentials for database. One of the users has a `SECRET_NOTE` which should probably be flag to solve the challenge.
 
-![Equestria - Door To The Stable-3.png](/assets/ctf/cybergame/2025/web/Equestria - Door To The Stable-3.png)
+![Equestria - Door To The Stable-3.png](/assets/ctf/cybergame/equestria---door-to-the-stable-3.png)
 
 or not...
 
-![Equestria - Door To The Stable-4.png](/assets/ctf/cybergame/2025/web/Equestria - Door To The Stable-4.png)
+![Equestria - Door To The Stable-4.png](/assets/ctf/cybergame/equestria---door-to-the-stable-4.png)
 
 ```bash
 └─$ base64 -d <<<'cHIxbmNlc3M6U0stQ0VSVHswZmZfYnlfNF9zMW5nbGVfc2w0c2hfZjgzNmE4YjF9'

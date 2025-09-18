@@ -6,13 +6,13 @@ You have technicians here, making noise, they are not artists because no one has
 
 ## Solution
 
-![Image Contest.png](/assets/ctf/gpnctf/2025/web/Image Contest.png)
+![Image Contest.png](/assets/ctf/gpnctf/image-contest.png)
 
 We are dropped into **Image Contest**, our username is **Suspicious**, ID 7308 and we can't logout. +No cookies.
 
 We are allowed to upload image files on server.
 
-![Image Contest-1.png](/assets/ctf/gpnctf/2025/web/Image Contest-1.png)
+![Image Contest-1.png](/assets/ctf/gpnctf/image-contest-1.png)
 
 There's very small changes to the uploaded file and original file; Most probably some metadata got stripped off, but that's about it.
 ```bash
@@ -94,7 +94,7 @@ File upload seems to be restricted to only single file. If you upload image A, t
 
 After some messing around we get our first error message.
 
-![Image Contest-2.png](/assets/ctf/gpnctf/2025/web/Image Contest-2.png)
+![Image Contest-2.png](/assets/ctf/gpnctf/image-contest-2.png)
 
 If we attempt to upload `jpeg` we get different output with a comment:
 ```bash
@@ -107,7 +107,7 @@ If we attempt to upload `jpeg` we get different output with a comment:
 
 [File upload tricks and checklist](https://www.onsecurity.io/blog/file-upload-checklist/): 
 
-![Image Contest-3.png](/assets/ctf/gpnctf/2025/web/Image Contest-3.png)
+![Image Contest-3.png](/assets/ctf/gpnctf/image-contest-3.png)
 
 Looks like JPEG is a dead end.
 

@@ -15,7 +15,7 @@ By: **User**
 
 We have a login form, but no matter what I input it always says `Invalid password!`, probably not even checking for username at all.
 
-![Password Manager.png](/assets/ctf/iris/2025/web/Password Manager.png)
+![Password Manager.png](/assets/ctf/iris/password-manager.png)
 
 ```go
 package main
