@@ -23,7 +23,7 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
         raw = match.group(1).strip()
         parts = raw.split("|", 1)
         target = input_file.parent / Path(parts[0].strip()).name
-        target_name = target.name.replace(' ', '-').lower()
+        target_name = norm(target.name)
 
         # --- Images ---
         if target.suffix.lower() == ".png":
@@ -75,10 +75,12 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
 
 def norm(s): 
     name = str(s).lower()
+    name = name.replace('+', 'and')
     name = name.replace(')', '')
     name = name.replace(' - NOPE', '')
     name = name.replace(' ', '-')
     name = name.replace('(', '-')
+    name = name.replace('--', '-')
     name = name.replace('---', '-')
     name = name.replace('--', '-')
     name = name.strip()
@@ -95,7 +97,7 @@ if __name__ == "__main__":
 
     dry = 0
     
-    s = 'SuNiNaTaS'
+    s = 'webhacking.kr'
     base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
     output_dir = Path(r'src\ctf') / s.lower()
     images_dir = Path(r'src\public\assets\ctf') / s.lower()
@@ -117,11 +119,12 @@ if __name__ == "__main__":
         
         images_src = base.rglob('**/images/*')
         for image in images_src:
-            image_name = norm(images_dir / image.parent.parent.name / image.name)
+            image_name = norm(images_dir / image.name)
             if not dry:
                 copy(image, image_name)
             else:
-                print(image, '-->', image_name)
+                # print(image, '-->', image_name)
+                ...
                         
     ### WriteupCategory\WriteupName\Writeup.md
     # base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
