@@ -2,10 +2,12 @@ from pathlib import Path
 import re
 import argparse
 from shutil import copy 
+from titlecase import titlecase
 
 def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path):
     content = input_file.read_text(encoding="utf-8")
-    title = input_file.parent.stem.capitalize()  # default title is directory name. e.g.: Alert/Writeup.md -> Alert
+    # title = input_file.parent.stem.capitalize()  # default title is directory name. e.g.: Alert/Writeup.md -> Alert
+    title = titlecase(input_file.stem.replace('-',' ')) # i-am-groot.md -> I Am Groot
 
     # 2. Extract first H1 or fallback to filename
     h1_match = re.match(r"^# (.+)", content)
@@ -71,6 +73,16 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
 
     print(f"Converted: {input_file} → {output_file}")
 
+def norm(s): 
+    name = str(s).lower()
+    name = name.replace(')', '')
+    name = name.replace(' - NOPE', '')
+    name = name.replace(' ', '-')
+    name = name.replace('(', '-')
+    name = name.replace('---', '-')
+    name = name.replace('--', '-')
+    name = name.strip()
+    return name
 
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser(description="Convert Obsidian MD notes to VitePress-compatible Markdown.")
@@ -81,28 +93,36 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    dry = True
+    dry = 1
     
-    s = 'Randoms'
+    s = 'SuNiNaTaS'
     base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
     output_dir = Path(r'src\ctf') / s.lower()
     images_dir = Path(r'src\public\assets\ctf') / s.lower()
     
-    output_dir.mkdir(exist_ok=True, parents=True)
-    images_dir.mkdir(exist_ok=True, parents=True)
-    for file in base.glob('*.md'):
-        output_file = output_dir / file.name.replace(' - NOPE', '').replace(' ', '-').lower()
-        print(Path(*file.parts[6:]), '-->', output_file)
+    if not dry:
+        output_dir.mkdir(exist_ok=True, parents=True)
+        images_dir.mkdir(exist_ok=True, parents=True)
+    
+    for file in base.rglob('*.md'):
+        output_file = Path(norm(output_dir / file.parent.name / file.name))
+
+        if not dry:
+            output_file.parent.mkdir(exist_ok=True)
+        else:
+            print(Path(*file.parts[6:]), '-->', output_file)
+
         if not dry:
             obsidian_to_vitepress(file, output_file, images_dir)
         
-        images_src = (base / 'images').glob('*')
+        images_src = base.rglob('**/images/*')
         for image in images_src:
-            image_name = images_dir / image.name.replace(' ', '-').lower()
-            print(image, '-->', image_name)
+            image_name = norm(images_dir / image.parent.parent.name / image.name)
             if not dry:
                 copy(image, image_name)
-    
+            else:
+                print(image, '-->', image_name)
+                        
     ### WriteupCategory\WriteupName\Writeup.md
     # base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
     # for base_dir in base.glob('*'):

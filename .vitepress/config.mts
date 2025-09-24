@@ -8,6 +8,7 @@ import ctf_cmdchallenge from './pages/ctf/cmdchallenge.json';
 import ctf_overthewire from './pages/ctf/overthewire.json';
 import ctf_promptriddle from './pages/ctf/promptriddle.json'
 import ctf_randoms from './pages/ctf/randoms.json'
+import ctf_root_me from './pages/ctf/root_me.json'
 
 import pentest_htb from './pages/pentest/htb.json'
 import pentest_vulnhub from './pages/pentest/vulnhub.json'
@@ -42,7 +43,8 @@ export default defineConfig({
                     // ...ctf_cmdchallenge,
                     // ...ctf_overthewire,
                     // ...ctf_promptriddle,
-                    ...ctf_randoms,
+                    // ...ctf_randoms,
+                    ...ctf_root_me,
                 ],
             },
             // {
