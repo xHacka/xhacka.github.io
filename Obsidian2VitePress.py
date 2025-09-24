@@ -97,9 +97,8 @@ if __name__ == "__main__":
 
     dry = 0
     
-    s = 'Challenges'
-    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackMyVM' / s
-    s = 'hackmyvm'
+    s = 'KC7Cyber'
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs' / s
     output_dir = Path(r'src\ctf') / s.lower()
     images_dir = Path(r'src\public\assets\ctf') / s.lower()
     
@@ -108,7 +107,11 @@ if __name__ == "__main__":
         images_dir.mkdir(exist_ok=True, parents=True)
     
     for file in base.rglob('*.md'):
-        output_file = Path(norm(output_dir / file.parent.name / file.name))
+        if '.py' in file.name: continue
+        if file.name == 'Writeup.md':
+            output_file = Path(norm(output_dir / file.parent.name)).with_suffix('.md')
+        else:
+            output_file = Path(norm(output_dir / file.name))
 
         if not dry:
             output_file.parent.mkdir(exist_ok=True)
@@ -120,7 +123,11 @@ if __name__ == "__main__":
         
         images_src = base.rglob('**/images/*')
         for image in images_src:
-            image_name = norm(images_dir / image.parent.parent.name / image.name)
+            image_name = Path(norm(images_dir / image.parent.parent.name / image.name))
+            
+            if not image_name.parent.exists():
+                image_name.parent.mkdir(exist_ok=True, parents=True)
+            
             if not dry:
                 copy(image, image_name)
             else:

@@ -3,7 +3,8 @@
         "docs:check": "node scripts/validate-images.mjs",
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
-        "docs:preview": "vitepress preview"
+        "docs:preview": "vitepress preview",
+        "postinstall": "node postinstall.js"
     },
     "devDependencies": {
         "@whyframe/core": "^0.1.14",

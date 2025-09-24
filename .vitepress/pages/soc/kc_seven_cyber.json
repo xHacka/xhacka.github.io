@@ -1,0 +1,40 @@
+[
+    {
+        "text": "KC7Cyber",
+        "collapsed": true,
+        "items": [
+            { 
+                "text": "August 2023", 
+                "link": "/soc/kc7cyber/august-2023.md" 
+            },
+            {
+                "text": "September 2023",
+                "link": "/soc/kc7cyber/september-2023.md"
+            },
+            { 
+                "text": "October 2023", 
+                "link": "/soc/kc7cyber/october-2023.md" 
+            },
+            { 
+                "text": "A Rap Beef", 
+                "link": "/soc/kc7cyber/a-rap-beef.md" 
+            },
+            {
+                "text": "Balloons Over Iowa",
+                "link": "/soc/kc7cyber/balloons-over-iowa.md"
+            },
+            { 
+                "text": "Castle & Sand", 
+                "link": "/soc/kc7cyber/castlesand.md" 
+            },
+            {
+                "text": "Inside Encryptodera",
+                "link": "/soc/kc7cyber/inside-encryptodera.md"
+            },
+            {
+                "text": "Frognado in Valdoria - NOPE",
+                "link": "/soc/kc7cyber/frognado-in-valdoria.md"
+            }
+        ]
+    }
+]

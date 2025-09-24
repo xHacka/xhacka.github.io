@@ -3,6 +3,7 @@
 import lightbox from "vitepress-plugin-lightbox";
 
 // Import Pages
+/// CTF
 import ctf_ctftime from './pages/ctf/ctftime.json'
 import ctf_cmdchallenge from './pages/ctf/cmdchallenge.json';
 import ctf_overthewire from './pages/ctf/overthewire.json';
@@ -14,10 +15,14 @@ import ctf_suninatas from './pages/ctf/suninatas.json'
 import ctf_webhacking_kr from './pages/ctf/webhacking_kr.json'
 import ctf_hackmyvm from './pages/ctf/hackmyvm.json'
 
+/// Red Team
 import pentest_htb from './pages/pentest/htb.json'
 import pentest_vulnhub from './pages/pentest/vulnhub.json'
 import pentest_hackmyvm from './pages/pentest/hackmyvm.json'
-import pentest_sherlocks from './pages/soc/sherlocks.json'
+
+/// Blue Team
+import soc_sherlocks from './pages/soc/sherlocks.json'
+import soc_kc_seven_cyber from './pages/soc/kc_seven_cyber.json'
 
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";
@@ -78,11 +83,8 @@ export default defineConfig({
             {
                 text: "Defensive Security",
                 items: [
-                    {
-                        text: "Sherlocks",
-                        collapsed: true,
-                        items: [...pentest_sherlocks],
-                    },
+                    ...soc_sherlocks,
+                    ...soc_kc_seven_cyber,
                 ],
             },
         ],
