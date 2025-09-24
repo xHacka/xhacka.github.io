@@ -1,0 +1,24 @@
+[
+    {
+        "text": "UnderTheWire",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Century",
+                "link": "/ctf/underthewire/century.md"
+            },
+            {
+                "text": "Cyborg",
+                "link": "/ctf/underthewire/cyborg.md"
+            },
+            {
+                "text": "Groot",
+                "link": "/ctf/underthewire/groot.md"
+            },
+            {
+                "text": "Oracle",
+                "link": "/ctf/underthewire/oracle.md"
+            }
+        ]
+    }
+]

@@ -22,7 +22,7 @@
                 ]
             },
             {
-                "text": "Challanges",
+                "text": "Challenge",
                 "collapsed": true,
                 "items": [
                     {
@@ -31,59 +31,59 @@
                         "items": [
                             {
                                 "text": "005",
-                                "link": "/ctf/challenges/misc/005.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/005.md"
                             },
                             {
                                 "text": "008",
-                                "link": "/ctf/challenges/misc/008.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/008.md"
                             },
                             {
                                 "text": "011",
-                                "link": "/ctf/challenges/misc/011.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/011.md"
                             },
                             {
                                 "text": "016",
-                                "link": "/ctf/challenges/misc/016.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/016.md"
                             },
                             {
                                 "text": "031",
-                                "link": "/ctf/challenges/misc/031.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/031.md"
                             },
                             {
                                 "text": "032",
-                                "link": "/ctf/challenges/misc/032.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/032.md"
                             },
                             {
                                 "text": "033",
-                                "link": "/ctf/challenges/misc/033.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/033.md"
                             },
                             {
                                 "text": "039",
-                                "link": "/ctf/challenges/misc/039.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/039.md"
                             },
                             {
                                 "text": "041",
-                                "link": "/ctf/challenges/misc/041.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/041.md"
                             },
                             {
                                 "text": "043",
-                                "link": "/ctf/challenges/misc/043.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/043.md"
                             },
                             {
                                 "text": "053",
-                                "link": "/ctf/challenges/misc/053.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/053.md"
                             },
                             {
                                 "text": "060",
-                                "link": "/ctf/challenges/misc/060.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/060.md"
                             },
                             {
                                 "text": "083",
-                                "link": "/ctf/challenges/misc/083.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/083.md"
                             },
                             {
                                 "text": "088 - Nope",
-                                "link": "/ctf/challenges/misc/088-nope.md"
+                                "link": "/ctf/hackmyvm/challenges/misc/088-nope.md"
                             }
                         ]
                     },
@@ -93,39 +93,39 @@
                         "items": [
                             {
                                 "text": "002",
-                                "link": "/ctf/challenges/web/002.md"
+                                "link": "/ctf/hackmyvm/challenges/web/002.md"
                             },
                             {
                                 "text": "014",
-                                "link": "/ctf/challenges/web/014.md"
+                                "link": "/ctf/hackmyvm/challenges/web/014.md"
                             },
                             {
                                 "text": "018",
-                                "link": "/ctf/challenges/web/018.md"
+                                "link": "/ctf/hackmyvm/challenges/web/018.md"
                             },
                             {
                                 "text": "020",
-                                "link": "/ctf/challenges/web/020.md"
+                                "link": "/ctf/hackmyvm/challenges/web/020.md"
                             },
                             {
                                 "text": "024",
-                                "link": "/ctf/challenges/web/024.md"
+                                "link": "/ctf/hackmyvm/challenges/web/024.md"
                             },
                             {
                                 "text": "027",
-                                "link": "/ctf/challenges/web/027.md"
+                                "link": "/ctf/hackmyvm/challenges/web/027.md"
                             },
                             {
                                 "text": "042",
-                                "link": "/ctf/challenges/web/042.md"
+                                "link": "/ctf/hackmyvm/challenges/web/042.md"
                             },
                             {
                                 "text": "050",
-                                "link": "/ctf/challenges/web/050.md"
+                                "link": "/ctf/hackmyvm/challenges/web/050.md"
                             },
                             {
                                 "text": "054",
-                                "link": "/ctf/challenges/web/054.md"
+                                "link": "/ctf/hackmyvm/challenges/web/054.md"
                             }
                         ]
                     }
