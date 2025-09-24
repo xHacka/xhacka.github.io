@@ -11,6 +11,7 @@ import ctf_randoms from './pages/ctf/randoms.json'
 import ctf_root_me from './pages/ctf/root_me.json'
 import ctf_suninatas from './pages/ctf/suninatas.json'
 import ctf_webhacking_kr from './pages/ctf/webhacking_kr.json'
+import ctf_hackmyvm from './pages/ctf/hackmyvm.json'
 
 import pentest_htb from './pages/pentest/htb.json'
 import pentest_vulnhub from './pages/pentest/vulnhub.json'
@@ -49,6 +50,7 @@ export default defineConfig({
                     ...ctf_root_me,
                     ...ctf_suninatas,
                     ...ctf_webhacking_kr,
+                    ...ctf_hackmyvm,
                 ],
             },
             {

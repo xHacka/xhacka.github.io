@@ -97,8 +97,9 @@ if __name__ == "__main__":
 
     dry = 0
     
-    s = 'webhacking.kr'
-    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
+    s = 'Challenges'
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackMyVM' / s
+    s = 'hackmyvm'
     output_dir = Path(r'src\ctf') / s.lower()
     images_dir = Path(r'src\public\assets\ctf') / s.lower()
     
@@ -119,11 +120,11 @@ if __name__ == "__main__":
         
         images_src = base.rglob('**/images/*')
         for image in images_src:
-            image_name = norm(images_dir / image.name)
+            image_name = norm(images_dir / image.parent.parent.name / image.name)
             if not dry:
                 copy(image, image_name)
             else:
-                # print(image, '-->', image_name)
+                print(image, '-->', image_name)
                 ...
                         
     ### WriteupCategory\WriteupName\Writeup.md
