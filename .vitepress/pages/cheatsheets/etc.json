@@ -1,0 +1,16 @@
+[
+    {
+        "text": "Etc",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Data Exfiltration",
+                "link": "/cheatsheets/etc/data-exfiltration"
+            },
+            {
+                "text": "SQL",
+                "link": "/cheatsheets/etc/sql"
+            }
+        ]
+    }
+]

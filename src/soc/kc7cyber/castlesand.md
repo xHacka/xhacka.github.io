@@ -801,8 +801,7 @@ I didn't want to go through the VirusTotal 1 by 1, so I just wrote a small scrip
 [**VirusTotal**: API Docs](https://docs.virustotal.com/reference/overview): [File Info](https://docs.virustotal.com/reference/file-info)
 
 ::: details virustotal_file.py
-```replaceme
-python
+```python
 import requests
 
 URL = 'https://www.virustotal.com/api/v3/files/' 
@@ -901,8 +900,7 @@ VirusTotal Docs: [Get comments on a file](https://docs.virustotal.com/reference/
 Same as last question, but grabbed first line of comments.
 
 ::: details virustotal_comment.py
-```replaceme
-python
+```python
 import requests
 
 URL = 'https://www.virustotal.com/api/v3/files/%s/comments'

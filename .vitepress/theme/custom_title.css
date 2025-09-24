@@ -1,0 +1,19 @@
+/* Top-level sidebar items */
+.VPSidebarItem.level-0 > .text {
+  font-weight: 700;       /* bold */
+  font-size: 1.05rem;     /* a little larger */
+  color: var(--vp-c-brand-1); /* accent color (uses your theme brand) */
+}
+
+/* Optional: add subtle underline or spacing */
+.VPSidebarItem.level-0 > .text:hover {
+  text-decoration: underline;
+}
+
+/* Sub-items (keep them normal) */
+.VPSidebarItem.level-1 > .text,
+.VPSidebarItem.level-2 > .text {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+}

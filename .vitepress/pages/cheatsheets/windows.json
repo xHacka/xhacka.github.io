@@ -1,0 +1,28 @@
+[
+    {
+        "text": "Windows",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Cronjobs",
+                "link": "/cheatsheets/windows/cronjobs"
+            },
+            {
+                "text": "Enable Web Dav",
+                "link": "/cheatsheets/windows/enable-web-dav"
+            },
+            {
+                "text": "Golang Reverse Shell",
+                "link": "/cheatsheets/windows/golang-reverse-shell"
+            },
+            {
+                "text": "Util Powershell",
+                "link": "/cheatsheets/windows/util-powershell"
+            },
+            {
+                "text": "Windows Things",
+                "link": "/cheatsheets/windows/windows-things"
+            }
+        ]
+    }
+]

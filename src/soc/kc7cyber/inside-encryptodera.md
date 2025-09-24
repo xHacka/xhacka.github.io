@@ -129,7 +129,7 @@ InboundNetworkEvents
 
 ### 13: Do you know the password he used to zip the files?
 
-```pwsh
+```powershell
 ➜ 7z.exe --help
 
 7-Zip 22.01 (x64) : Copyright (c) 1999-2022 Igor Pavlov : 2022-07-15

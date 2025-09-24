@@ -1,0 +1,28 @@
+[
+    {
+        "text": "Web",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Burp SQLi",
+                "link": "/cheatsheets/web/burp-sqli-cheatsheet"
+            },
+            {
+                "text": "Google Dorking",
+                "link": "/cheatsheets/web/google-dorking"
+            },
+            {
+                "text": "Javascript",
+                "link": "/cheatsheets/web/javascript"
+            },
+            {
+                "text": "Steal Cookies with Reflected XSS",
+                "link": "/cheatsheets/web/xss-reflected-steal-cookie"
+            },
+            {
+                "text": "Fuzzing",
+                "link": "/cheatsheets/web/fuzzing"
+            }
+        ]
+    }
+]
