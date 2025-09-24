@@ -1,157 +1,163 @@
 [
     {
-        "text": "App - Script",
+        "text": "Root-Me",
         "collapsed": true,
         "items": [
             {
-                "text": "AppArmor - Jail Introduction",
-                "link": "/ctf/root-me/app-script/apparmor-jail-introduction.md"
+                "text": "App - Script",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "AppArmor - Jail Introduction",
+                        "link": "/ctf/root-me/app-script/apparmor-jail-introduction.md"
+                    },
+                    {
+                        "text": "Bash - Cron",
+                        "link": "/ctf/root-me/app-script/bash-cron.md"
+                    },
+                    {
+                        "text": "Bash - Race Condition - NOPE",
+                        "link": "/ctf/root-me/app-script/bash-race-condition-nope.md"
+                    },
+                    {
+                        "text": "Bash - System 1",
+                        "link": "/ctf/root-me/app-script/bash-system-1.md"
+                    },
+                    {
+                        "text": "Bash - System 2",
+                        "link": "/ctf/root-me/app-script/bash-system-2.md"
+                    },
+                    {
+                        "text": "Bash - Unquoted Expression Injection",
+                        "link": "/ctf/root-me/app-script/bash-unquoted-expression-injection.md"
+                    },
+                    {
+                        "text": "Docker - I Am Groot",
+                        "link": "/ctf/root-me/app-script/docker-i-am-groot.md"
+                    },
+                    {
+                        "text": "Docker - Talk Through Me",
+                        "link": "/ctf/root-me/app-script/docker-talk-through-me.md"
+                    },
+                    {
+                        "text": "LaTeX - Command Execution",
+                        "link": "/ctf/root-me/app-script/latex-command-execution.md"
+                    },
+                    {
+                        "text": "LaTeX - Input",
+                        "link": "/ctf/root-me/app-script/latex-input.md"
+                    },
+                    {
+                        "text": "Perl - Command Injection",
+                        "link": "/ctf/root-me/app-script/perl-command-injection.md"
+                    },
+                    {
+                        "text": "PHP - Jail",
+                        "link": "/ctf/root-me/app-script/php-jail.md"
+                    },
+                    {
+                        "text": "Powershell - Command Injection",
+                        "link": "/ctf/root-me/app-script/powershell-command-injection.md"
+                    },
+                    {
+                        "text": "Powershell - SecureString",
+                        "link": "/ctf/root-me/app-script/powershell-securestring.md"
+                    },
+                    {
+                        "text": "Python - Format String - NOPE",
+                        "link": "/ctf/root-me/app-script/python-format-string-nope.md"
+                    },
+                    {
+                        "text": "Python - Input()",
+                        "link": "/ctf/root-me/app-script/python-input-.md"
+                    },
+                    {
+                        "text": "Python - Jail - Exec",
+                        "link": "/ctf/root-me/app-script/python-jail-exec.md"
+                    },
+                    {
+                        "text": "Python - PyJail 1",
+                        "link": "/ctf/root-me/app-script/python-pyjail-1.md"
+                    },
+                    {
+                        "text": "Python - PyJail2",
+                        "link": "/ctf/root-me/app-script/python-pyjail2.md"
+                    },
+                    {
+                        "text": "R Code Execution",
+                        "link": "/ctf/root-me/app-script/r-code-execution.md"
+                    },
+                    {
+                        "text": "Sudo - Weak Configuration",
+                        "link": "/ctf/root-me/app-script/sudo-weak-configuration.md"
+                    }
+                ]
             },
             {
-                "text": "Bash - Cron",
-                "link": "/ctf/root-me/app-script/bash-cron.md"
-            },
-            {
-                "text": "Bash - Race Condition - NOPE",
-                "link": "/ctf/root-me/app-script/bash-race-condition-nope.md"
-            },
-            {
-                "text": "Bash - System 1",
-                "link": "/ctf/root-me/app-script/bash-system-1.md"
-            },
-            {
-                "text": "Bash - System 2",
-                "link": "/ctf/root-me/app-script/bash-system-2.md"
-            },
-            {
-                "text": "Bash - Unquoted Expression Injection",
-                "link": "/ctf/root-me/app-script/bash-unquoted-expression-injection.md"
-            },
-            {
-                "text": "Docker - I Am Groot",
-                "link": "/ctf/root-me/app-script/docker-i-am-groot.md"
-            },
-            {
-                "text": "Docker - Talk Through Me",
-                "link": "/ctf/root-me/app-script/docker-talk-through-me.md"
-            },
-            {
-                "text": "LaTeX - Command Execution",
-                "link": "/ctf/root-me/app-script/latex-command-execution.md"
-            },
-            {
-                "text": "LaTeX - Input",
-                "link": "/ctf/root-me/app-script/latex-input.md"
-            },
-            {
-                "text": "Perl - Command Injection",
-                "link": "/ctf/root-me/app-script/perl-command-injection.md"
-            },
-            {
-                "text": "PHP - Jail",
-                "link": "/ctf/root-me/app-script/php-jail.md"
-            },
-            {
-                "text": "Powershell - Command Injection",
-                "link": "/ctf/root-me/app-script/powershell-command-injection.md"
-            },
-            {
-                "text": "Powershell - SecureString",
-                "link": "/ctf/root-me/app-script/powershell-securestring.md"
-            },
-            {
-                "text": "Python - Format String - NOPE",
-                "link": "/ctf/root-me/app-script/python-format-string-nope.md"
-            },
-            {
-                "text": "Python - Input()",
-                "link": "/ctf/root-me/app-script/python-input-.md"
-            },
-            {
-                "text": "Python - Jail - Exec",
-                "link": "/ctf/root-me/app-script/python-jail-exec.md"
-            },
-            {
-                "text": "Python - PyJail 1",
-                "link": "/ctf/root-me/app-script/python-pyjail-1.md"
-            },
-            {
-                "text": "Python - PyJail2",
-                "link": "/ctf/root-me/app-script/python-pyjail2.md"
-            },
-            {
-                "text": "R Code Execution",
-                "link": "/ctf/root-me/app-script/r-code-execution.md"
-            },
-            {
-                "text": "Sudo - Weak Configuration",
-                "link": "/ctf/root-me/app-script/sudo-weak-configuration.md"
-            }
-        ]
-    },
-    {
-        "text": "Web - Client",
-        "collapsed": true,
-        "items": [
-            {
-                "text": "AST - Deobfuscation",
-                "link": "/ctf/root-me/web-client/ast-deobfuscation.md"
-            },
-            {
-                "text": "CSP Bypass - Dangling Markup",
-                "link": "/ctf/root-me/web-client/csp-bypass-dangling-markup.md"
-            },
-            {
-                "text": "CSP Bypass - Inline Code",
-                "link": "/ctf/root-me/web-client/csp-bypass-inline-code.md"
-            },
-            {
-                "text": "CSP Bypass - JSONP",
-                "link": "/ctf/root-me/web-client/csp-bypass-jsonp.md"
-            },
-            {
-                "text": "CSP Bypass - Nonce",
-                "link": "/ctf/root-me/web-client/csp-bypass-nonce.md"
-            },
-            {
-                "text": "CSRF",
-                "link": "/ctf/root-me/web-client/csrf.md"
-            },
-            {
-                "text": "HTML - Disabled Buttons",
-                "link": "/ctf/root-me/web-client/html-disabled-buttons.md"
-            },
-            {
-                "text": "Javascript - Authentication",
-                "link": "/ctf/root-me/web-client/javascript-authentication.md"
-            },
-            {
-                "text": "Javascript - Native Code",
-                "link": "/ctf/root-me/web-client/javascript-native-code.md"
-            },
-            {
-                "text": "Javascript - Obfuscation",
-                "link": "/ctf/root-me/web-client/javascript-obfuscation.md"
-            },
-            {
-                "text": "Javascript - Source",
-                "link": "/ctf/root-me/web-client/javascript-source.md"
-            },
-            {
-                "text": "Javascript - Webpack",
-                "link": "/ctf/root-me/web-client/javascript-webpack.md"
-            },
-            {
-                "text": "XSS - DOM Based (Vic)",
-                "link": "/ctf/root-me/web-client/xss-dom-based-vic.md"
-            },
-            {
-                "text": "XSS - DOM Based",
-                "link": "/ctf/root-me/web-client/xss-dom-based.md"
-            },
-            {
-                "text": "XSS - Stored",
-                "link": "/ctf/root-me/web-client/xss-stored.md"
+                "text": "Web - Client",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "AST - Deobfuscation",
+                        "link": "/ctf/root-me/web-client/ast-deobfuscation.md"
+                    },
+                    {
+                        "text": "CSP Bypass - Dangling Markup",
+                        "link": "/ctf/root-me/web-client/csp-bypass-dangling-markup.md"
+                    },
+                    {
+                        "text": "CSP Bypass - Inline Code",
+                        "link": "/ctf/root-me/web-client/csp-bypass-inline-code.md"
+                    },
+                    {
+                        "text": "CSP Bypass - JSONP",
+                        "link": "/ctf/root-me/web-client/csp-bypass-jsonp.md"
+                    },
+                    {
+                        "text": "CSP Bypass - Nonce",
+                        "link": "/ctf/root-me/web-client/csp-bypass-nonce.md"
+                    },
+                    {
+                        "text": "CSRF",
+                        "link": "/ctf/root-me/web-client/csrf.md"
+                    },
+                    {
+                        "text": "HTML - Disabled Buttons",
+                        "link": "/ctf/root-me/web-client/html-disabled-buttons.md"
+                    },
+                    {
+                        "text": "Javascript - Authentication",
+                        "link": "/ctf/root-me/web-client/javascript-authentication.md"
+                    },
+                    {
+                        "text": "Javascript - Native Code",
+                        "link": "/ctf/root-me/web-client/javascript-native-code.md"
+                    },
+                    {
+                        "text": "Javascript - Obfuscation",
+                        "link": "/ctf/root-me/web-client/javascript-obfuscation.md"
+                    },
+                    {
+                        "text": "Javascript - Source",
+                        "link": "/ctf/root-me/web-client/javascript-source.md"
+                    },
+                    {
+                        "text": "Javascript - Webpack",
+                        "link": "/ctf/root-me/web-client/javascript-webpack.md"
+                    },
+                    {
+                        "text": "XSS - DOM Based (Vic)",
+                        "link": "/ctf/root-me/web-client/xss-dom-based-vic.md"
+                    },
+                    {
+                        "text": "XSS - DOM Based",
+                        "link": "/ctf/root-me/web-client/xss-dom-based.md"
+                    },
+                    {
+                        "text": "XSS - Stored",
+                        "link": "/ctf/root-me/web-client/xss-stored.md"
+                    }
+                ]
             }
         ]
     }

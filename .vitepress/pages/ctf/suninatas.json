@@ -1,0 +1,140 @@
+[
+    {
+        "text": "SuNiNaTaS",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Forensics",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Level 14 - Crack Password",
+                        "link": "/ctf/suninatas/forensics/level-14-crack-password.md"
+                    },
+                    {
+                        "text": "Level 15 - Metadata",
+                        "link": "/ctf/suninatas/forensics/level-15-metadata.md"
+                    },
+                    {
+                        "text": "Level 18 - Cipher I",
+                        "link": "/ctf/suninatas/forensics/level-18-cipher-i.md"
+                    },
+                    {
+                        "text": "Level 19 - Cipher II",
+                        "link": "/ctf/suninatas/forensics/level-19-cipher-ii.md"
+                    },
+                    {
+                        "text": "Level 21 - Puzzle",
+                        "link": "/ctf/suninatas/forensics/level-21-puzzle.md"
+                    },
+                    {
+                        "text": "Level 26 - Cipher III",
+                        "link": "/ctf/suninatas/forensics/level-26-cipher-iii.md"
+                    },
+                    {
+                        "text": "Level 28 - Do You Have a Password",
+                        "link": "/ctf/suninatas/forensics/level-28-do-you-have-a-password.md"
+                    },
+                    {
+                        "text": "Level 29 - Brothers",
+                        "link": "/ctf/suninatas/forensics/level-29-brothers.md"
+                    },
+                    {
+                        "text": "Level 30 - Military",
+                        "link": "/ctf/suninatas/forensics/level-30-military.md"
+                    },
+                    {
+                        "text": "Level 31 - PDF Analysis",
+                        "link": "/ctf/suninatas/forensics/level-31-pdf-analysis.md"
+                    },
+                    {
+                        "text": "Level 32 - Terrorist",
+                        "link": "/ctf/suninatas/forensics/level-32-terrorist.md"
+                    }
+                ]
+            },
+            {
+                "text": "Misc",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Level 12 - Login as Admin",
+                        "link": "/ctf/suninatas/misc/level-12-login-as-admin.md"
+                    },
+                    {
+                        "text": "Level 13 - Backup",
+                        "link": "/ctf/suninatas/misc/level-13-backup.md"
+                    },
+                    {
+                        "text": "Level 17 - QRCode",
+                        "link": "/ctf/suninatas/misc/level-17-qrcode.md"
+                    }
+                ]
+            },
+            {
+                "text": "Rev",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Level 10 - Simple C Sharp Reverse",
+                        "link": "/ctf/suninatas/rev/level-10-simple-c-sharp-reverse.md"
+                    },
+                    {
+                        "text": "Level 11 - Dynamic Analysis",
+                        "link": "/ctf/suninatas/rev/level-11-dynamic-analysis.md"
+                    },
+                    {
+                        "text": "Level 9 - Simple C Reverse",
+                        "link": "/ctf/suninatas/rev/level-9-simple-c-reverse.md"
+                    }
+                ]
+            },
+            {
+                "text": "Web",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Level 1 - VBModule",
+                        "link": "/ctf/suninatas/web/level-1-vbmodule.md"
+                    },
+                    {
+                        "text": "Level 2 - JS Bypass",
+                        "link": "/ctf/suninatas/web/level-2-js-bypass.md"
+                    },
+                    {
+                        "text": "Level 22 - Blind SQLi",
+                        "link": "/ctf/suninatas/web/level-22-blind-sqli.md"
+                    },
+                    {
+                        "text": "Level 23 - Hard Blind SQLi",
+                        "link": "/ctf/suninatas/web/level-23-hard-blind-sqli.md"
+                    },
+                    {
+                        "text": "Level 3 - Write Article",
+                        "link": "/ctf/suninatas/web/level-3-write-article.md"
+                    },
+                    {
+                        "text": "Level 4 - SuNiNaTaS Browser",
+                        "link": "/ctf/suninatas/web/level-4-suninatas-browser.md"
+                    },
+                    {
+                        "text": "Level 5 - JS Deobfuscation",
+                        "link": "/ctf/suninatas/web/level-5-js-deobfuscation.md"
+                    },
+                    {
+                        "text": "Level 6 - Simple SQLi",
+                        "link": "/ctf/suninatas/web/level-6-simple-sqli.md"
+                    },
+                    {
+                        "text": "Level 7 - Timing Attack",
+                        "link": "/ctf/suninatas/web/level-7-timing-attack.md"
+                    },
+                    {
+                        "text": "Level 8 - PIN Bruteforce",
+                        "link": "/ctf/suninatas/web/level-8-pin-bruteforce.md"
+                    }
+                ]
+            }
+        ]
+    }
+]

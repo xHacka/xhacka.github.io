@@ -93,7 +93,7 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    dry = 1
+    dry = 0
     
     s = 'SuNiNaTaS'
     base = Path.home() / r'OneDrive\Documents\Obsidian Vault\CTF' / s
