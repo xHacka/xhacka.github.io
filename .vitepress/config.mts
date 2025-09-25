@@ -88,7 +88,7 @@ export default defineConfig({
                         },
                         {
                             text: "HackMyVM",
-                            collapsed: false,
+                            collapsed: true,
                             items: [...pentest_hackmyvm],
                         },
                     ],

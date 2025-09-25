@@ -40,4 +40,4 @@ yarn-error.log
 # End of https://www.toptal.com/developers/gitignore/api/yarn,vue,vuejs
 
 t.py
-xhacka.github.io/
+__pycache__

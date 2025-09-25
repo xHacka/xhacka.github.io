@@ -4,7 +4,7 @@ import argparse
 from shutil import copy 
 from titlecase import titlecase
 
-def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path):
+def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path, dry_run: bool) -> str:
     content = input_file.read_text(encoding="utf-8")
     # title = input_file.parent.stem.capitalize()  # default title is directory name. e.g.: Alert/Writeup.md -> Alert
     title = titlecase(input_file.stem.replace('-',' ')) # i-am-groot.md -> I Am Groot
@@ -30,7 +30,9 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
             # Find relative subpath after "public"
             index = next(i+1 for i, part in enumerate(images_dir.parts) if part == 'public')
             images_subdir = Path(*images_dir.parts[index:]).as_posix()
-            return f"![{target_name}](/{images_subdir}/{target_name})"
+            image_link = f"![{target_name}](/{images_subdir}/{norm(target.parent.name)}/{target_name})"
+            print(image_link)
+            return image_link
 
         target = target.with_name(target.name + '.md')
         
@@ -69,15 +71,15 @@ def obsidian_to_vitepress(input_file: Path, output_file: Path, images_dir: Path)
     content = re.sub(r"!\[\[(.*?)\]\]", replace_embed, content)
 
     # 4. Write new file next to input
-    output_file.write_text(content, encoding="utf-8")
-
-    print(f"Converted: {input_file} → {output_file}")
+    if not dry_run:
+        output_file.write_text(content, encoding="utf-8")
+        print(f"Converted: {input_file} → {output_file}")
 
 def norm(s): 
     name = str(s).lower()
     name = name.replace('+', 'and')
     name = name.replace(')', '')
-    name = name.replace(' - NOPE', '')
+    name = name.replace(' - nope', '')
     name = name.replace(' ', '-')
     name = name.replace('(', '-')
     name = name.replace('--', '-')
@@ -95,12 +97,12 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     # obsidian_to_vitepress(args.input_file, args.output_file, args.images_dir)
 
-    dry = 0
-    
-    s = 'KC7Cyber'
-    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs' / s
+    dry = 1
+
+    s = 'Machines'
+    base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackMyVM' / s
     output_dir = Path(r'src\ctf') / s.lower()
-    images_dir = Path(r'src\public\assets\ctf') / s.lower()
+    images_dir = Path(r'src\public\assets\pentest') / 'hackmyvm' # s.lower()
     
     if not dry:
         output_dir.mkdir(exist_ok=True, parents=True)
@@ -108,31 +110,28 @@ if __name__ == "__main__":
     
     for file in base.rglob('*.md'):
         if '.py' in file.name: continue
-        if file.name == 'Writeup.md':
-            output_file = Path(norm(output_dir / file.parent.name)).with_suffix('.md')
-        else:
-            output_file = Path(norm(output_dir / file.name))
+        if 'nmap' in file.name: continue
+        output_file = Path(norm(output_dir / file.parent.parent.name / file.parent.name)).with_suffix('.md')
 
         if not dry:
             output_file.parent.mkdir(exist_ok=True)
         else:
             print(Path(*file.parts[6:]), '-->', output_file)
 
-        if not dry:
-            obsidian_to_vitepress(file, output_file, images_dir)
+        obsidian_to_vitepress(file, output_file, images_dir, dry)
         
-        images_src = base.rglob('**/images/*')
-        for image in images_src:
-            image_name = Path(norm(images_dir / image.parent.parent.name / image.name))
-            
-            if not image_name.parent.exists():
-                image_name.parent.mkdir(exist_ok=True, parents=True)
-            
-            if not dry:
-                copy(image, image_name)
-            else:
-                print(image, '-->', image_name)
-                ...
+    images_src = base.rglob('**/images/*')
+    for image in images_src:
+        image_name = Path(norm(images_dir / image.parent.parent.name / image.name))
+        
+        if not image_name.parent.exists():
+            image_name.parent.mkdir(exist_ok=True, parents=True)
+        
+        if not dry:
+            copy(image, image_name)
+        else:
+            print(image, '-->', image_name)
+            ...
                         
     ### WriteupCategory\WriteupName\Writeup.md
     # base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackTheBox\Sherlocks'
