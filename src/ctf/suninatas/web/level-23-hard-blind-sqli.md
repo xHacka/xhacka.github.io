@@ -102,4 +102,6 @@ print(f'\r[Password] {password[::-1]}{" "*16}')
 [Password] ardsqli
 ```
 
-> Flag: `v3ryhardsqli`
+::: tip Flag
+`v3ryhardsqli`
+:::

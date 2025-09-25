@@ -151,5 +151,7 @@ flag = ''.join(flags)
 print(md5(flag.encode()).hexdigest())
 ```
 
-> Flag: `c152e3fb5a6882563231b00f21a8ed5f`
+::: tip Flag
+`c152e3fb5a6882563231b00f21a8ed5f`
+:::
 

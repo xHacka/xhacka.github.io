@@ -55,5 +55,6 @@ Let's fix that with cUrl: [man page](https://curl.se/docs/manpage.html)
 DUCTF{../../../p4th/tr4v3rsal/as/a/s3rv1c3}
 ```
 
-Flag: DUCTF{../../../p4th/tr4v3rsal/as/a/s3rv1c3}
-{: .prompt-tip }
+::: tip Flag
+`DUCTF{../../../p4th/tr4v3rsal/as/a/s3rv1c3}`
+:::

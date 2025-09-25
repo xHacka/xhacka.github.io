@@ -53,5 +53,7 @@ fourth key : cf9eda4d
 3nda192n84ed1cae8abg9295cf9eda4d
 ```
 
-> Flag: `3nda192n84ed1cae8abg9295cf9eda4d`
+::: tip Flag
+`3nda192n84ed1cae8abg9295cf9eda4d`
+:::
 

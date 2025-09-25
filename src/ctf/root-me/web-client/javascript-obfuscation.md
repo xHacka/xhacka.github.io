@@ -18,7 +18,9 @@ Password is URL Encoded, since `pass` is loaded we can use it in Console tab, or
 'cpasbiendurpassword'
 ```
 
-> Flag: `cpasbiendurpassword`
+::: tip Flag
+`cpasbiendurpassword`
+:::
 
 ## Obfuscation 2
 
@@ -40,7 +42,9 @@ Use console to get the value
 'hDufjdki156'
 ```
 
-> Flag: `hDufjdki156`
+::: tip Flag
+`hDufjdki156`
+:::
 
 ## Obfuscation 3
 
@@ -89,7 +93,9 @@ The deobfuscator abuse unescaped the characters, if we do that and then convert 
 '786OsErtk12'
 ```
 
-> Flag: `786OsErtk12`
+::: tip Flag
+`786OsErtk12`
+:::
 
 ## Obfuscation 4
 
@@ -348,7 +354,9 @@ for (char of charset) {
 
 Not positive why `3` was not found in the first loop 🤔
 
-> Flag: `MyP4sS`
+::: tip Flag
+`MyP4sS`
+:::
 
 ## Obfuscation 5 - NOPE
 

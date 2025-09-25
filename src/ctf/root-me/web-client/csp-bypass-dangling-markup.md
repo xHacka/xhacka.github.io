@@ -49,7 +49,9 @@ But sending URL to bot works...?? [http://challenge01.root-me.org:58029/page?use
 
 ![csp-bypass-dangling-markup-4.png](/assets/ctf/root-me/csp-bypass-dangling-markup-4.png)
 
-> Flag: `D4NGL1NG_M4RKUP_W1TH_FIREF0X_EASY`
+::: tip Flag
+`D4NGL1NG_M4RKUP_W1TH_FIREF0X_EASY`
+:::
 
 ## Dangling markup 2
 
@@ -85,5 +87,7 @@ Following payload worked, not on us (user) but on bot..
 
 ![csp-bypass-dangling-markup-7.png](/assets/ctf/root-me/csp-bypass-dangling-markup-7.png)
 
-> Flag: `D4NGL1NG_M4RKUP_W1TH_CHR0ME_NO_N3W_LINE`
+::: tip Flag
+`D4NGL1NG_M4RKUP_W1TH_CHR0ME_NO_N3W_LINE`
+:::
 

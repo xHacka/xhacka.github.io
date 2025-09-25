@@ -76,12 +76,9 @@ Mode                LastWriteTime         Length Name
 cyborg3 Password: 172.31.45.167\_ipv4
 :::
 
-{% hint style="info" %}
+::: info
 [nslookup](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/nslookup) Can Also Be Used.
 :::
-
-
-
 
 ## Cyborg3
 
@@ -311,12 +308,9 @@ ZoneId=4
 cyborg9 Password: 4
 :::
 
-{% hint style="info" %}
+::: info
 [_Alternate Data Streams_](https://www.digital-detective.net/forensic-analysis-of-zone-identifier-stream/)
 :::
-
-
-
 
 ## Cyborg9
 
@@ -405,7 +399,7 @@ Mode                LastWriteTime         Length Name
 cyborg11 Password: terminated!99
 :::
 
-{% hint style="warning" %}
+::: warning
 `Get-AppLockerPolicy -Effective -XML` Cmdlet Doesn't Output Formatted XML.
 :::
 

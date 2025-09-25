@@ -31,5 +31,7 @@ Following the `LStrCmp` variables I found what seems to be the key our input is 
 
 ![level-9---rev-4.png](/assets/ctf/suninatas/rev/level-9-rev-4.png)
 
-> Flag: `913465`
+::: tip Flag
+`913465`
+:::
 

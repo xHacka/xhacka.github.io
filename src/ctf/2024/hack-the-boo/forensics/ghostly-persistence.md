@@ -100,4 +100,6 @@ $tempPath = "$env:windir\temp\Gh0st.txt"
 _W4s_R3v34l3d} 
 ```
 
-> Flag: `HTB{Gh0st_L0c4t10n_W4s_R3v34l3d}`
+::: tip Flag
+`HTB{Gh0st_L0c4t10n_W4s_R3v34l3d}`
+:::

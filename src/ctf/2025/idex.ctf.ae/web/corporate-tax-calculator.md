@@ -107,5 +107,7 @@ After some digging I found `simplexml_load_file` function which is able to read 
 1 
 ```
 
-> Flag: `flag{fgP37WI1T4N50VgsDMu18jwvpWKqJohR}`
+::: tip Flag
+`flag{fgP37WI1T4N50VgsDMu18jwvpWKqJohR}`
+:::
 

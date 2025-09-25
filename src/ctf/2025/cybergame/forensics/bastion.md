@@ -67,7 +67,9 @@ Decode hex:
 i hope they wont find me, and this flag (SK-CERT{n3v3r_f0r637_4b0u7_d47_p3r51573nc3}) keeps on beaconing 
 ```
 
-> Flag: `SK-CERT{n3v3r_f0r637_4b0u7_d47_p3r51573nc3}`
+::: tip Flag
+`SK-CERT{n3v3r_f0r637_4b0u7_d47_p3r51573nc3}`
+:::
 
 ## \[★☆☆\] Inspect the file system
 
@@ -108,7 +110,9 @@ or just
 === LOG START SK-CERT{l34v3_17_70_7h3_pr05} ===
 ```
 
-> Flag: `SK-CERT{l34v3_17_70_7h3_pr05}`
+::: tip Flag
+`SK-CERT{l34v3_17_70_7h3_pr05}`
+:::
 
 ## \[★☆☆\] Clean bastion
 
@@ -135,7 +139,9 @@ Come in and dont be shy
 uid=1000(ratchet) gid=1000(ratchet) groups=10(wheel),1000(ratchet)
 ```
 
-> Flag: `SK-CERT{bru73_f0rc1n6_u53r5_w0rk5}`
+::: tip Flag
+`SK-CERT{bru73_f0rc1n6_u53r5_w0rk5}`
+:::
 
 ## \[★☆☆\] Feel free to dig in
 
@@ -178,7 +184,9 @@ ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOSeOZtJ
 SK-CERT{h0Ly_M0Lly_TH3y_4r3_5tiLl_h3R3}
 ```
 
-> Flag: `SK-CERT{h0Ly_M0Lly_TH3y_4r3_5tiLl_h3R3}`
+::: tip Flag
+`SK-CERT{h0Ly_M0Lly_TH3y_4r3_5tiLl_h3R3}`
+:::
 
 ## \[★☆☆\] The backdoor culprit
 
@@ -230,5 +238,7 @@ Switched to branch 'suggested_changes'
 * 3f9744d bastion deployment. initial commit
 ```
 
-> Flag: `SK-CERT{r09U3_3MPL0Y33_0r_5uPpLycH41n}`
+::: tip Flag
+`SK-CERT{r09U3_3MPL0Y33_0r_5uPpLycH41n}`
+:::
 

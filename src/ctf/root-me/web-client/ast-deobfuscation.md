@@ -47,5 +47,7 @@ Error: this[statement.type] is not a function
 g00d_j0b_easy_deobfuscation
 ```
 
-> Flag: `g00d_j0b_easy_deobfuscation`
+::: tip Flag
+`g00d_j0b_easy_deobfuscation`
+:::
 

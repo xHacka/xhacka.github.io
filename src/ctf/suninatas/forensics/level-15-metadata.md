@@ -62,5 +62,7 @@ Duration                        : 0:03:32 (approx)
 
 Flag turned out to  be `Conductor` tag value
 
-> Flag: `GoodJobMetaTagSearch`
+::: tip Flag
+`GoodJobMetaTagSearch`
+:::
 

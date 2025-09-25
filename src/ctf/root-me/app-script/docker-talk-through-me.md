@@ -370,7 +370,9 @@ root@1nmyd0ck3r:/dev/shm# bash rce.sh d0046744fed19a9e29490c8cf94fb72c67872623c2
 BYou got Me ! This is the flag : f4f179a78dae34be3e474d9b3f258da6
 ```
 
-> Flag: `f4f179a78dae34be3e474d9b3f258da6`
+::: tip Flag
+`f4f179a78dae34be3e474d9b3f258da6`
+:::
 
 - For CTF-ATD
 ```bash
@@ -378,4 +380,6 @@ root@1nmyd0ck3r:/dev/shm# bash rce.sh d0046744fed19a9e29490c8cf94fb72c67872623c2
 "90879d059738acd91fc27e2f66406fa6
 ```
 
-> Flag: `90879d059738acd91fc27e2f66406fa6`
+::: tip Flag
+`90879d059738acd91fc27e2f66406fa6`
+:::

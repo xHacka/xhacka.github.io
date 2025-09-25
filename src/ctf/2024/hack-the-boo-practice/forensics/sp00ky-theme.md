@@ -15,5 +15,7 @@ I downloaded a very nice haloween global theme for my Plasma installation and a 
 HTB{pwn3d_by_th3m3s!?_1t_c4n_h4pp3n}
 ```
 
-> Flag: `HTB{pwn3d_by_th3m3s!?_1t_c4n_h4pp3n}`
+::: tip Flag
+`HTB{pwn3d_by_th3m3s!?_1t_c4n_h4pp3n}`
+:::
 

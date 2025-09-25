@@ -39,4 +39,6 @@ Check for hidden files:
 
 ![level-21---puzzle-1.png](/assets/ctf/suninatas/forensics/level-21-puzzle-1.png)
 
-> Flag: `H4CC3R_IN_TH3_MIDD33_4TT4CK`
+::: tip Flag
+`H4CC3R_IN_TH3_MIDD33_4TT4CK`
+:::

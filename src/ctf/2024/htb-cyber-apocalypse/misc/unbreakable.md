@@ -52,6 +52,6 @@ WHAT WAS THAT?!
 Break me, shake me!
 ```
 
-> Flag: HTB{3v4l\_0r\_3vuln??}
-> \
-> {: .prompt-tip}
+::: tip Flag
+HTB{3v4l\_0r\_3vuln??}
+::: 

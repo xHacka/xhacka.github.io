@@ -271,4 +271,6 @@ Dump environment manually `#=(slurp "/proc/self/environ")`
 
 ![Manifesto-5.png](/assets/ctf/0xl4ugh/manifesto-5.png)
 
-> Flag: `flag{eENYXJGL2gnkZbMaPIKZzyPzFH3oBjri}`
+::: tip Flag
+`flag{eENYXJGL2gnkZbMaPIKZzyPzFH3oBjri}`
+:::

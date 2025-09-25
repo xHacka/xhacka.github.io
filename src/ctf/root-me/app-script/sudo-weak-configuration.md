@@ -66,5 +66,7 @@ app-script-ch1@challenge02:~$ sudo -u app-script-ch1-cracked /bin/cat /challenge
 b3_c4r3ful_w1th_sud0
 ```
 
-> Flag: `b3_c4r3ful_w1th_sud0`
+::: tip Flag
+`b3_c4r3ful_w1th_sud0`
+:::
 

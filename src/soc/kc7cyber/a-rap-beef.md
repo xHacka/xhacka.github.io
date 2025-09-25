@@ -24,7 +24,9 @@ Employees
 | project name
 ```
 
-> Flag: `Sean Crater`
+::: tip Flag
+`Sean Crater`
+:::
 
 ### 5. You can use the following query to search for browsing activity to your company's website. How many results (rows) did you get back?
 
@@ -35,7 +37,9 @@ InboundNetworkEvents
 | count 
 ```
 
-> Flag: `19`
+::: tip Flag
+`19`
+:::
 
 ### 6. What piece of information were they looking to get for Dwake? (two words)
 
@@ -54,13 +58,17 @@ InboundNetworkEvents
 | [https://owl-records.com/search=Dwake+booking+info+pls](https://owl-records.com/search=Dwake+booking+info+pls)                                                                                             |
 | [https://owl-records.com/artists/Dwake/](https://owl-records.com/artists/Dwake/)                                                                                                                           |
 | [https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_audrey@owl-records.com](https://owl-records.com/account/reset-password?username=dwaubrey&email=dwake_audrey@owl-records.com) |
-> Flag: `email`
+::: tip Flag
+`email`
+:::
 
 ### 7. The operator is wondering why Dwake's music is so _
 
 From previous query: `https://owl-records.com/search=why is Dwake music much soo trasshhhh`
 
-> Flag: `trash`
+::: tip Flag
+`trash`
+:::
 
 ### 8. What is Dwake's email address?
 
@@ -70,21 +78,29 @@ Employees
 | project email_addr
 ```
 
-> Flag: `dwake_audrey@owl-records.com`
+::: tip Flag
+`dwake_audrey@owl-records.com`
+:::
 
 ### 9. Which of the following did Dwake disclose in his verse? (pick one)
 
 ![writeup.png](/assets/soc/kc7cyber/a-rap-beef/writeup.png)
 
-> Flag: `1 and 3`
+::: tip Flag
+`1 and 3`
+:::
 
 ### 10. What is Dwake's mother's maiden name?
 
-> Flag: `Washington`
+::: tip Flag
+`Washington`
+:::
 
 ### 11. What is the name of Dwake's childhood pet?
 
-> Flag: `Fluffy`
+::: tip Flag
+`Fluffy`
+:::
 
 ### 12. Copy and paste the full URL that shows the operator resetting the password to Dwake’s account.
 
@@ -96,7 +112,9 @@ InboundNetworkEvents
 | project url
 ```
 
-> Flag: `https://owl-records.com/account/security-questions?question_1=mother's+maiden+name&answer_1=Washington&question_2=first+pet's+name&answer_2=Fluffy`
+::: tip Flag
+`https://owl-records.com/account/security-questions?question_1=mother's+maiden+name&answer_1=Washington&question_2=first+pet's+name&answer_2=Fluffy`
+:::
 
 ## Less beef, more phish
 ### 3. What domain did IP 18.66.52.227 resolve to?
@@ -107,13 +125,17 @@ PassiveDns
 | distinct domain
 ```
 
-> Flag: `betterlyrics4u.com`
+::: tip Flag
+`betterlyrics4u.com`
+:::
 
 ### 4. Which column in the email table is most likely to contain our domain?
 
 ![writeup-1.png](/assets/soc/kc7cyber/a-rap-beef/writeup-1.png)
 
-> Flag: `link`
+::: tip Flag
+`link`
+:::
 
 ### 5. How many results did we get from this query?
 
@@ -123,7 +145,9 @@ Email
 | count 
 ```
 
-> Flag: `13`
+::: tip Flag
+`13`
+:::
 
 ### 6. Which email address was used to send most of these emails?
 
@@ -137,11 +161,15 @@ Email
 | ------------------------------------ | ----- |
 | ghostwritersanonymous@protonmail.com | 11    |
 | wemakebeatz@gmail.com                | 2     |
-> Flag: `ghostwritersanonymous@protonmail.com`
+::: tip Flag
+`ghostwritersanonymous@protonmail.com`
+:::
 
 ### 7. What was the other email address used to send these phishing emails?
 
-> Flag: `wemakebeatz@gmail.com`
+::: tip Flag
+`wemakebeatz@gmail.com`
+:::
 
 ### 8. Which role was targeted the most of all?
 
@@ -158,11 +186,15 @@ Employees
 | ----------- | ----- |
 | Rapper      | 9     |
 | Lead Rapper | 1     |
-> Flag: `Rapper`
+::: tip Flag
+`Rapper`
+:::
 
 ### 9. Which role (other than Rapper) was targeted by this phishing campaign?
 
-> Flag: `Lead Rapper`
+::: tip Flag
+`Lead Rapper`
+:::
 
 ### 10. And what is the name of the Lead Rapper?
 
@@ -172,7 +204,9 @@ Employees
 | project name
 ```
 
-> Flag: `Dwake Audrey`
+::: tip Flag
+`Dwake Audrey`
+:::
 
 ### 11. What is Dwake's IP address?
 
@@ -182,7 +216,9 @@ Employees
 | project ip_addr
 ```
 
-> Flag: `10.10.0.5`
+::: tip Flag
+`10.10.0.5`
+:::
 
 ### 12. What was the subject of the email sent to Dwake?
 
@@ -193,25 +229,33 @@ Email
 | project subject
 ```
 
-> Flag: `[EXTERNAL] RE: Need a ghostwriter for your next hit?`
+::: tip Flag
+`[EXTERNAL] RE: Need a ghostwriter for your next hit?`
+:::
 
 ### 13. What link did the adversaries include in their phishing email targeting Dwake?
 
 Change `project subject` to `project link` in previous query.
 
-> Flag: `http://betterlyrics4u.com/share/online/published/enter`
+::: tip Flag
+`http://betterlyrics4u.com/share/online/published/enter`
+:::
 
 ### 14. What was the verdict of the email sent to Dwake?
 
 Change `project subject` to `project verdict` in previous query.
 
-> Flag: `CLEAN`
+::: tip Flag
+`CLEAN`
+:::
 
 ### 15. What name (or nickname) did the adversaries sign the email with?
 
 ![writeup-2.png](/assets/soc/kc7cyber/a-rap-beef/writeup-2.png)
 
-> Flag: `GhostWriter`
+::: tip Flag
+`GhostWriter`
+:::
 
 ### 16. When did Dwake click on the link in email? (copy and paste the time exactly)
 
@@ -224,13 +268,17 @@ OutboundNetworkEvents
 | timestamp            | method | src_ip    | user_agent                                                                                                          | url                                                                                                              |
 | -------------------- | ------ | --------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | 2024-04-15T12:03:12Z | GET    | 10.10.0.5 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 | [http://betterlyrics4u.com/share/online/published/enter](http://betterlyrics4u.com/share/online/published/enter) |
-> Flag: `2024-04-15T12:03:12Z`
+::: tip Flag
+`2024-04-15T12:03:12Z`
+:::
 
 ### 17. What is written in the submit button for this login portal?
 
 ![writeup-3.png](/assets/soc/kc7cyber/a-rap-beef/writeup-3.png)
 
-> Flag: `Login to speak with GHOST WRITER`
+::: tip Flag
+`Login to speak with GHOST WRITER`
+:::
 
 ### 18. When did the adversaries attempt to login to Dwake's account?
 
@@ -241,7 +289,9 @@ AuthenticationEvents
 | project timestamp
 ```
 
-> Flag: `2024-04-15T13:03:12Z`
+::: tip Flag
+`2024-04-15T13:03:12Z`
+:::
 
 ### 19. When did the adversaries attempt to login to Dwake's account?
 
@@ -252,7 +302,9 @@ AuthenticationEvents
 | project result
 ```
 
-> Flag: `Successful Login`
+::: tip Flag
+`Successful Login`
+:::
 
 ### 20. How many results do we get?
 
@@ -264,7 +316,9 @@ InboundNetworkEvents
 | count 
 ```
 
-> Flag: `10`
+::: tip Flag
+`10`
+:::
 
 ### 21. What was the name of the zip file they used to steal information from Dwake's account?
 
@@ -284,5 +338,7 @@ InboundNetworkEvents
 }
 ```
 
-> Flag: `DwakesDirtySecrets.zip`
+::: tip Flag
+`DwakesDirtySecrets.zip`
+:::
 

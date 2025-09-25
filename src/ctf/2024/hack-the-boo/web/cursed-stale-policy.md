@@ -264,5 +264,7 @@ Check websockets communication for flag:
 
 ![Cursed Stale Policy-3.png](/assets/ctf/htb/cursed-stale-policy-3.png)
 
-> Flag: `HTB{br0k3_th3_sp3cter's_st4l3_curs3_2655b1c688aef45b8acb32b6ab623d70}`
+::: tip Flag
+`HTB{br0k3_th3_sp3cter's_st4l3_curs3_2655b1c688aef45b8acb32b6ab623d70}`
+:::
 

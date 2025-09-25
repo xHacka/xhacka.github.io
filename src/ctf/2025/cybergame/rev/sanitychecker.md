@@ -27,7 +27,9 @@ chmod +x lol.sh
 ./lol.sh #SK-CERT{0bfu5c4710n_4nd_5l33p}
 ```
 
-> Flag: `SK-CERT{0bfu5c4710n_4nd_5l33p}`
+::: tip Flag
+`SK-CERT{0bfu5c4710n_4nd_5l33p}`
+:::
 
 ## \[☆☆☆\] Bash dropper
 
@@ -49,7 +51,9 @@ while true; do
 done
 ```
 
-> Flag: `SK-CERT{1_w1ll_l34v3_y0u_50m37h1n6_h3r3}`
+::: tip Flag
+`SK-CERT{1_w1ll_l34v3_y0u_50m37h1n6_h3r3}`
+:::
 
 ## \[☆☆☆\] Password protected
 
@@ -70,5 +74,7 @@ Ideally you would want to use Ghidra or Ida to analyze the file, but since sampl
 
 ![SanityChecker.png](/assets/ctf/cybergame/sanitychecker.png)
 
-> Flag: `SK-CERT{h4rdc0d3d_pl41n73x7}`
+::: tip Flag
+`SK-CERT{h4rdc0d3d_pl41n73x7}`
+:::
 

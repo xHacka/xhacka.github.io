@@ -18,5 +18,7 @@ The data exists on the page, but because of ReadOnly property we can't replace `
 
 ![g00gle2-2.png](/assets/ctf/webhacking.kr/g00gle2-2.png)
 
-> Flag: `FLAG{now_i_pwned_googl3?}`
+::: tip Flag
+`FLAG{now_i_pwned_googl3?}`
+:::
 

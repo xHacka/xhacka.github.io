@@ -20,7 +20,9 @@ Just AES (ECB mode) decrypt with given key
 
 ![Advanced Decryption Standard.png](/assets/ctf/cybergame/advanced-decryption-standard.png)
 
-> Flag: `SK-CERT{f1r57_15_3cb}`
+::: tip Flag
+`SK-CERT{f1r57_15_3cb}`
+:::
 
 ## \[☆☆☆\] Blockchain
 
@@ -38,7 +40,9 @@ key (hex format): 00000000000000000000000000000000 iv (hex format): 010203040506
 
 ![Advanced Decryption Standard-1.png](/assets/ctf/cybergame/advanced-decryption-standard-1.png)
 
-> Flag: `SK-CERT{cbc_m0d3_15_n3x7}`
+::: tip Flag
+`SK-CERT{cbc_m0d3_15_n3x7}`
+:::
 
 ## \[☆☆☆\] Easy like counting up to three
 
@@ -54,5 +58,7 @@ key (hex format): 11111111111111111111111111111111 iv (hex format): 999999999999
 
 ![Advanced Decryption Standard-2.png](/assets/ctf/cybergame/advanced-decryption-standard-2.png)
 
-> Flag: `SK-CERT{4nd_7h3_l457_15_c7r}`
+::: tip Flag
+`SK-CERT{4nd_7h3_l457_15_c7r}`
+:::
 

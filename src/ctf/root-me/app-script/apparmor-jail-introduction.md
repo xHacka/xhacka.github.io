@@ -255,7 +255,9 @@ app-script-ch27@e3deb9f9cb2e:~$ /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 /bin/
 M4nd4t0ry_4cc3ss_C0ntr0l_J0k3
 ```
 
-> Flag: `M4nd4t0ry_4cc3ss_C0ntr0l_J0k3`
+::: tip Flag
+`M4nd4t0ry_4cc3ss_C0ntr0l_J0k3`
+:::
 
 ---
 

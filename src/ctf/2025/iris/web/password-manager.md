@@ -282,5 +282,7 @@ strict-transport-security: max-age=31536000; includeSubDomains
 ]
 ```
 
-> Flag: `irisctf{l00k5_l1k3_w3_h4v3_70_t34ch_sk47_h0w_70_r3m3mb3r_s7uff}`
+::: tip Flag
+`irisctf{l00k5_l1k3_w3_h4v3_70_t34ch_sk47_h0w_70_r3m3mb3r_s7uff}`
+:::
 

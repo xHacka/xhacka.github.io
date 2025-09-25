@@ -28,7 +28,9 @@ Wait for some time and you should get callback with admin cookie
 
 ![xss---stored-2.png](/assets/ctf/root-me/xss-stored-2.png)
 
-> Flag: `NkI9qe4cdLIO2P7MIsWS8ofD6`
+::: tip Flag
+`NkI9qe4cdLIO2P7MIsWS8ofD6`
+:::
 
 ## Stored 2
 
@@ -79,5 +81,7 @@ or just curl
 <h3>Vous pouvez valider ce challenge avec ce mot de passe / You can validate challenge with this pass : E5HKEGyCXQVsYaehaqeJs0AfV
 ```
 
-> Flag: `E5HKEGyCXQVsYaehaqeJs0AfV`
+::: tip Flag
+`E5HKEGyCXQVsYaehaqeJs0AfV`
+:::
 

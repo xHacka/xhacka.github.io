@@ -45,7 +45,9 @@ And it worked...!
 
 > **Note**: In `Profile` page there was no checkmark 😳 (Totally didn't waste too much time on it)
 
-> Flag: `Csrf_Fr33style-L3v3l1!`
+::: tip Flag
+`Csrf_Fr33style-L3v3l1!`
+:::
 
 ## Token Bypass
 
@@ -88,5 +90,7 @@ Send this to Contact:
 
 ![csrf-5.png](/assets/ctf/root-me/csrf-5.png)
 
-> Flag: `Byp4ss_CSRF_T0k3n-w1th-XSS`
+::: tip Flag
+`Byp4ss_CSRF_T0k3n-w1th-XSS`
+:::
 

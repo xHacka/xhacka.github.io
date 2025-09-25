@@ -59,7 +59,9 @@ Recibo flag
 b'Flag: HMV{hell0friendz}'
 ```
 
-> Flag: `HMV{hell0friendz}`
+::: tip Flag
+`HMV{hell0friendz}`
+:::
 
 ## Level 1
 
@@ -115,7 +117,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:44:09: Flag: HMV{3ch03zlol}
 ```
 
-> Flag: `HMV{3ch03zlol}`
+::: tip Flag
+`HMV{3ch03zlol}`
+:::
 
 ## Level 2
 
@@ -158,7 +162,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:47:17: Flag: HMV{uPP3rc4z3z}
 ```
 
-> Flag: `HMV{uPP3rc4z3z}`
+::: tip Flag
+`HMV{uPP3rc4z3z}`
+:::
 
 ## Level 3
 
@@ -202,7 +208,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:50:16: Flag: HMV{baz364WTF}
 ```
 
-> Flag: `HMV{baz364WTF}`
+::: tip Flag
+`HMV{baz364WTF}`
+:::
 
 ## Level 4
 
@@ -245,7 +253,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:51:47: Flag: HMV{r3vr3vr3v}
 ```
 
-> Flag: `HMV{r3vr3vr3v}`
+::: tip Flag
+`HMV{r3vr3vr3v}`
+:::
 
 ## Level 5
 
@@ -288,7 +298,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:53:32: Flag: HMV{l4ztf1v3wh0t}
 ```
 
-> Flag: `HMV{l4ztf1v3wh0t}`
+::: tip Flag
+`HMV{l4ztf1v3wh0t}`
+:::
 
 ## Level 6 
 
@@ -331,7 +343,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:55:44: Flag: HMV{idkl3ng7hzZz}
 ```
 
-> Flag: `HMV{idkl3ng7hzZz}`
+::: tip Flag
+`HMV{idkl3ng7hzZz}`
+:::
 
 ## Level 7
 
@@ -378,7 +392,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 00:58:45: Flag: HMV{zup3rh3x4haha}
 ```
 
-> Flag: `HMV{zup3rh3x4haha}`
+::: tip Flag
+`HMV{zup3rh3x4haha}`
+:::
 
 ## Level 8
 
@@ -426,7 +442,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:04:04: Flag: HMV{1l34rnzum}
 ```
 
-> Flag: `HMV{1l34rnzum}`
+::: tip Flag
+`HMV{1l34rnzum}`
+:::
 
 ## Level 9
 
@@ -480,7 +498,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:24:56: Flag: HMV{r0t13izmyfr1end}
 ```
 
-> Flag: `HMV{r0t13izmyfr1end}`
+::: tip Flag
+`HMV{r0t13izmyfr1end}`
+:::
 
 ## Level 10
 
@@ -529,7 +549,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:28:27: Flag: HMV{1mthez0rt3r}
 ```
 
-> Flag: `HMV{1mthez0rt3r}`
+::: tip Flag
+`HMV{1mthez0rt3r}`
+:::
 
 ## Level 11
 
@@ -591,7 +613,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:34:45: Flag: HMV{d0tz4ndashez}
 ```
 
-> Flag: `HMV{d0tz4ndashez}`
+::: tip Flag
+`HMV{d0tz4ndashez}`
+:::
 
 ## Level 12
 
@@ -639,7 +663,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:37:36: Flag: HMV{ztr1ngc0nc4444t3nat3}
 ```
 
-> Flag: `HMV{ztr1ngc0nc4444t3nat3}`
+::: tip Flag
+`HMV{ztr1ngc0nc4444t3nat3}`
+:::
 
 ## Level 13
 
@@ -688,7 +714,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:41:35: Flag: HMV{WTF1zthatl3vel}
 ```
 
-> Flag: `HMV{WTF1zthatl3vel}`
+::: tip Flag
+`HMV{WTF1zthatl3vel}`
+:::
 
 ## Level 14
 
@@ -743,7 +771,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:43:48: Flag: HMV{f1ndthec0rrectch4r}
 ```
 
-> Flag: `HMV{f1ndthec0rrectch4r}`
+::: tip Flag
+`HMV{f1ndthec0rrectch4r}`
+:::
 
 ## Level 15
 
@@ -797,7 +827,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 01:58:33: Flag: HMV{s3qu3nz3123}
 ```
 
-> Flag: `HMV{s3qu3nz3123}`
+::: tip Flag
+`HMV{s3qu3nz3123}`
+:::
 
 ## Level 16
 
@@ -854,7 +886,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-17 02:08:25: Flag: HMV{p4int3rPNGfile}
 ```
 
-> Flag: `HMV{p4int3rPNGfile}`
+::: tip Flag
+`HMV{p4int3rPNGfile}`
+:::
 
 ## Level 17
 
@@ -1006,7 +1040,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 16:41:16: Flag: HMV{RGBAsteg0u}
 ```
 
-> Flag: `HMV{RGBAsteg0u}`
+::: tip Flag
+`HMV{RGBAsteg0u}`
+:::
 
 ## Level 18
 
@@ -1070,7 +1106,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 16:57:19: Flag: HMV{0n3sandz3r0esuhm}
 ```
 
-> Flag: `HMV{0n3sandz3r0esuhm}`
+::: tip Flag
+`HMV{0n3sandz3r0esuhm}`
+:::
 
 ## Level 19
 
@@ -1131,7 +1169,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 17:06:58: Flag: HMV{z1pandtxtar3h3r3}
 ```
 
-> Flag: `HMV{z1pandtxtar3h3r3}`
+::: tip Flag
+`HMV{z1pandtxtar3h3r3}`
+:::
 
 ## Level 20
 
@@ -1233,7 +1273,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 17:32:59: Flag: HMV{r0ckur0ckme}
 ```
 
-> Flag: `HMV{r0ckur0ckme}`
+::: tip Flag
+`HMV{r0ckur0ckme}`
+:::
 
 ## Level 21
 
@@ -1280,7 +1322,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 17:50:01: Flag: HMV{k1l0b33tz}
 ```
 
-> Flag: `HMV{k1l0b33tz}`
+::: tip Flag
+`HMV{k1l0b33tz}`
+:::
 
 ## Level 22
 
@@ -1328,7 +1372,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 17:52:39: Flag: HMV{4sc111sg00d}
 ```
 
-> Flag: `HMV{4sc111sg00d}`
+::: tip Flag
+`HMV{4sc111sg00d}`
+:::
 
 ## Level 23
 
@@ -1366,7 +1412,9 @@ Update the source code of Level 17:
 [INFO] 2025-08-19 17:58:52: Flag: HMV{n00bzt3g0}
 ```
 
-> Flag: `HMV{n00bzt3g0}`
+::: tip Flag
+`HMV{n00bzt3g0}`
+:::
 
 ## Level 24
 
@@ -1418,7 +1466,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 18:04:54: Flag: HMV{1nt3rn3tw0w}
 ```
 
-> Flag: `HMV{1nt3rn3tw0w}`
+::: tip Flag
+`HMV{1nt3rn3tw0w}`
+:::
 
 ## Level 25
 
@@ -1474,7 +1524,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 18:07:49: Flag: HMV{h3ad3rc0ntr0l}
 ```
 
-> Flag: `HMV{h3ad3rc0ntr0l}`
+::: tip Flag
+`HMV{h3ad3rc0ntr0l}`
+:::
 
 ## Level 26
 
@@ -1536,7 +1588,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 18:42:32: Flag: HMV{c4ptchm3numb3rz}
 ```
 
-> Flag: `HMV{c4ptchm3numb3rz}`
+::: tip Flag
+`HMV{c4ptchm3numb3rz}`
+:::
 
 ## Level 27
 
@@ -1570,7 +1624,9 @@ Hacker(Output): 4735654
 [INFO] 2025-08-19 18:59:28: Flag: HMV{pr0xykn0wur1d}
 ```
 
-> Flag: `HMV{pr0xykn0wur1d}`
+::: tip Flag
+`HMV{pr0xykn0wur1d}`
+:::
 
 ## Level 28
 
@@ -1622,7 +1678,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 19:04:59: Flag: HMV{jWth4f4ck}
 ```
 
-> Flag: `HMV{jWth4f4ck}`
+::: tip Flag
+`HMV{jWth4f4ck}`
+:::
 
 ## Level 29
 
@@ -1683,7 +1741,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 21:21:10: Flag: HMV{wh3r314ml0st}
 ```
 
-> Flag: `HMV{wh3r314ml0st}`
+::: tip Flag
+`HMV{wh3r314ml0st}`
+:::
 
 ## Level 30
 
@@ -1737,7 +1797,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 21:26:19: Flag: HMV{x0rmex0ru}
 ```
 
-> Flag: `HMV{x0rmex0ru}`
+::: tip Flag
+`HMV{x0rmex0ru}`
+:::
 
 ## Level 31
 
@@ -1798,7 +1860,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as io:
 [INFO] 2025-08-19 21:31:20: Flag: HMV{4rtQRc0d3z}
 ```
 
-> Flag: `HMV{4rtQRc0d3z}`
+::: tip Flag
+`HMV{4rtQRc0d3z}`
+:::
 
 ## Level 32
 
@@ -1932,5 +1996,7 @@ CLR Version: 8.0.5
 [INFO] Server says: Flag: HMV{p3rmut4t10n0np3r}
 ```
 
-> Flag: `HMV{p3rmut4t10n0np3r}`
+::: tip Flag
+`HMV{p3rmut4t10n0np3r}`
+:::
 

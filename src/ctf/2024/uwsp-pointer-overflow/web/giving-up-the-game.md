@@ -19,4 +19,6 @@ function BD($base64) { [System.Text.Encoding]::UTF8.GetString([Convert]::FromBas
 function BE($plaintext) { [Convert]::ToBase64String([System.Text.Encoding]::UTF8.GetBytes($plaintext)) }
 ```
 
-> Flag: `poctf{uwsp_1_7H1nk_7H3r3r0_1_4m}`
+::: tip Flag
+`poctf{uwsp_1_7H1nk_7H3r3r0_1_4m}`
+:::

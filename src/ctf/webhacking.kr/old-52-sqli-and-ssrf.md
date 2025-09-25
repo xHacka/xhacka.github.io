@@ -73,5 +73,7 @@ Start cooking in CyberChef, [Recipe](https://gchq.github.io/CyberChef/#recipe=Fi
 
 ![old-52-4.png](/assets/ctf/webhacking.kr/old-52-4.png)
 
-> Flag: `FLAG{Server_Side_Request_Forgery_with_proxy!}`
+::: tip Flag
+`FLAG{Server_Side_Request_Forgery_with_proxy!}`
+:::
 

@@ -49,4 +49,6 @@ Table to dump:
 > exit
 ```
 
-> Flag: `SecureIEXpassword`
+::: tip Flag
+`SecureIEXpassword`
+:::

@@ -54,7 +54,9 @@ Guvf srryf yvxr SK-CERT{pl41n_5iGh7} gb zr. Pnaabg uvqr zl orfg jbex urer.
 └─$ sudo umount /mnt # Dont forget to umount
 ```
 
-> Flag: `SK-CERT{pl41n_5iGh7}`
+::: tip Flag
+`SK-CERT{pl41n_5iGh7}`
+:::
 
 ## \[★★☆\] Is that it?
 
@@ -253,7 +255,9 @@ zeLm
 >A_#
 ```
 
-> Flag: `SK-CERT{R3c0V3r3D_R3cip3}`
+::: tip Flag
+`SK-CERT{R3c0V3r3D_R3cip3}`
+:::
 
 ## \[★★☆\] It tastes like a poem
 
@@ -375,7 +379,9 @@ just nonsense knocking at the door.
 SK-CERT{d0esnt_m4ke_s3nse_7o_d0_f0rensics_anym0r3}
 ```
 
-> Flag: `SK-CERT{d0esnt_m4ke_s3nse_7o_d0_f0rensics_anym0r3}`
+::: tip Flag
+`SK-CERT{d0esnt_m4ke_s3nse_7o_d0_f0rensics_anym0r3}`
+:::
 
 From discord: `key='0'*63, iv='0'*31`
 

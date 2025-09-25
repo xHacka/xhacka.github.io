@@ -79,4 +79,6 @@ After few seconds we get flag:
 
 ![Phantom's Script-2.png](/assets/ctf/htb/phantom-script-2.png)
 
-> Flag: `HTB{xSS-1S_E4SY_wh4t_d0_y0u_th1nk?_0fecfbf221be3ef89cf8e5007eda4836}`
+::: tip Flag
+`HTB{xSS-1S_E4SY_wh4t_d0_y0u_th1nk?_0fecfbf221be3ef89cf8e5007eda4836}`
+:::

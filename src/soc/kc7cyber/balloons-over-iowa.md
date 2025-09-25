@@ -949,8 +949,9 @@ Authors:
 Searching for Eric I ended up on [Eric Hutchins](https://www.cyberwarcon.com/eric-hutchins).<br>
 The website contains GitHub link, which contains twitter handle.
 
-> @ refers to Twitter (or X now...)
-{: .prompt-info }
+::: info Note
+@ refers to Twitter (or X now...)
+:::
 
 ### 16: This Twitter user is the Director of Intel at Red Canary and an instructor for SANS FOR578. (enter their @ username)
 

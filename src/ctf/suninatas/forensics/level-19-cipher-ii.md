@@ -8,5 +8,7 @@ Decode binary and then bruteforce ROT-13 cipher
 
 ![level-19---cipher-ii-1.png](/assets/ctf/suninatas/forensics/level-19-cipher-ii-1.png)
 
-> Flag: `PLAIDCTFISVERYHARD`
+::: tip Flag
+`PLAIDCTFISVERYHARD`
+:::
 

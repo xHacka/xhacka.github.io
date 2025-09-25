@@ -58,5 +58,7 @@ Connect to the database With the secure Password: System.Security.SecureString. 
 SecureStringBypass
 ```
 
-> Flag: `SecureStringBypass`
+::: tip Flag
+`SecureStringBypass`
+:::
 

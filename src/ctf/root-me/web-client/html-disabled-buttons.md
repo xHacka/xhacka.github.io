@@ -26,5 +26,7 @@ Alternatively just `curl`. Most of the times variable names that server processe
 
 `auth-login` can be anything for this challenge, as long as it's not empty.
 
-> Flag: `HTMLCantStopYou`
+::: tip Flag
+`HTMLCantStopYou`
+:::
 

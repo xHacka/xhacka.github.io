@@ -10,5 +10,7 @@ After decoding the numbers we are given weird string which looks like [https://e
 
 ![level-18---cipher-i-1.png](/assets/ctf/suninatas/forensics/level-18-cipher-i-1.png)
 
-> Flag: `VeryVeryTongTongGuri!`
+::: tip Flag
+`VeryVeryTongTongGuri!`
+:::
 

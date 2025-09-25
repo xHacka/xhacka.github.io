@@ -45,5 +45,6 @@ Payload:
 
 ![Parts Shop-5](/assets/ctf/uscybergames/parts_shop-5.png)
 
- > Flag: **SIVBGR{fu11y_upgr4d3d}**
- {: .prompt-tip }
+::: tip Flag
+**SIVBGR{fu11y_upgr4d3d}**
+:::

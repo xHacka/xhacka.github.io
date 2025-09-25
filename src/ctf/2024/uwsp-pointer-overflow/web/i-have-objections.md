@@ -84,5 +84,7 @@ if __name__ == '__main__':
     app.run(host="0.0.0.0", port=8449)
 ```
 
-> Flag: `poctf{uwsp_71m3_15_4n_1llu510n}`
+::: tip Flag
+`poctf{uwsp_71m3_15_4n_1llu510n}`
+:::
 

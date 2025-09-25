@@ -17,7 +17,9 @@ Main file to focus right now is `TestKt.java`. Right off the bat we see first ba
       String start_token = "U0stQ0VSVHtqNHJfZDNjMG1wX2s3fQ==";
 ```
 
-> Flag: `SK-CERT{j4r_d3c0mp_k7}`
+::: tip Flag
+`SK-CERT{j4r_d3c0mp_k7}`
+:::
 
 ## \[★☆☆\] Lies
 
@@ -53,7 +55,9 @@ class Main {
 }
 ```
 
-> Flag: `SK-CERT{k3y_f0r_c253rv3r}`
+::: tip Flag
+`SK-CERT{k3y_f0r_c253rv3r}`
+:::
 
 ## \[★☆☆\] Executer
 
@@ -173,5 +177,7 @@ print(''.join(
 # u = "http://attacker.address/leak_file#SK-CERT{py7h0n_p4yl04d}"
 ```
 
-> Flag: `SK-CERT{py7h0n_p4yl04d}`
+::: tip Flag
+`SK-CERT{py7h0n_p4yl04d}`
+:::
 

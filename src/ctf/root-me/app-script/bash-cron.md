@@ -65,5 +65,7 @@ app-script-ch4@challenge02:~$ cat /tmp/ch4out
 Vys3OS3iStUapDj
 ```
 
-> Flag: `Vys3OS3iStUapDj`
+::: tip Flag
+`Vys3OS3iStUapDj`
+:::
 

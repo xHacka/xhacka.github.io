@@ -28,5 +28,7 @@ Whole text doesn't work as flag. Considering the challenge author it's probably 
 - `kim yuna` doesn't work
 - `kimyuna` works
 
-> Flag: `kimyuna`
+::: tip Flag
+`kimyuna`
+:::
 

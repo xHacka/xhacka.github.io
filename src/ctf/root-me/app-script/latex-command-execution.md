@@ -119,4 +119,6 @@ app-script-ch24@challenge02:/challenge/app-script/ch24$ cat /tmp/ch24out
 LaTeX_wr1t3_18_a_us3ful_c0mm4nd_3x3cut10n
 ```
 
-> Flag: `LaTeX_wr1t3_18_a_us3ful_c0mm4nd_3x3cut10n`
+::: tip Flag
+`LaTeX_wr1t3_18_a_us3ful_c0mm4nd_3x3cut10n`
+:::

@@ -26,7 +26,9 @@ C: We dont have time to set up anything better. Come to the usual place in the P
 B: Fine but if we get compromised because of the cipher you have to double your stakes. SK-CERT{have_you_ever_heard_about_a_block_cipher???}
 ```
 
-> Flag: `SK-CERT{have_you_ever_heard_about_a_block_cipher???}`
+::: tip Flag
+`SK-CERT{have_you_ever_heard_about_a_block_cipher???}`
+:::
 
 ## \[★☆☆\] 3AES
 
@@ -80,7 +82,9 @@ Decrypted bytes: We had to flee. Our guy will wait for you near Slavin. Come rig
 Decrypted bytes: FINE but if this fails again I pick the crypto we use! What is the drop point?
 ```
 
-> Flag: `SK-CERT{1_w0nd3r_why_th3y_d0nt_us3_7h1s_1rl}`
+::: tip Flag
+`SK-CERT{1_w0nd3r_why_th3y_d0nt_us3_7h1s_1rl}`
+:::
 
 ## \[★☆☆\] Key exchange
 
@@ -168,5 +172,7 @@ based on Diffie Hellman.
 # Agreed. SK-CERT{d1ff13_h3llm4n_15_n07_7h47_51mpl3_l0l}
 ```
 
-> Flag: `SK-CERT{d1ff13_h3llm4n_15_n07_7h47_51mpl3_l0l}`
+::: tip Flag
+`SK-CERT{d1ff13_h3llm4n_15_n07_7h47_51mpl3_l0l}`
+:::
 

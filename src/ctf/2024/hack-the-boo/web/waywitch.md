@@ -325,5 +325,7 @@ Verify with [https://jwt.io](https://jwt.io), "*signature verified*" indicates t
 },
 ```
 
-> Flag: `HTB{k33p_jwt_s3cr3t_s4f3_br0_030ead857c45d72b4180d57241819b8c}`
+::: tip Flag
+`HTB{k33p_jwt_s3cr3t_s4f3_br0_030ead857c45d72b4180d57241819b8c}`
+:::
 

@@ -49,5 +49,7 @@ readLines('/home/prof-stats/corriges_examens_analyses_stats/2021/flag.txt')
 
 ![r-code-execution-3.png](/assets/ctf/root-me/r-code-execution-3.png)
 
-> Flag: `C0nGr47ul4T10n_y0u_ll_H4v3_A_G00d_Gr4D3`
+::: tip Flag
+`C0nGr47ul4T10n_y0u_ll_H4v3_A_G00d_Gr4D3`
+:::
 

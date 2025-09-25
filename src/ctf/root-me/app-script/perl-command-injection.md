@@ -135,7 +135,9 @@ Chars: 0
 PerlCanDoBetterThanYouThink
 ```
 
-> Flag: `PerlCanDoBetterThanYouThink`
+::: tip Flag
+`PerlCanDoBetterThanYouThink`
+:::
 
 ---
 

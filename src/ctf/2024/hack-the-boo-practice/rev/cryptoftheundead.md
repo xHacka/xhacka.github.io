@@ -46,4 +46,6 @@ plaintext = cipher.decrypt(ciphertext)
 print("Decrypted data:", plaintext.decode())
 ```
 
-> Flag: `HTB{und01ng_th3_curs3_0f_und34th}`
+::: tip Flag
+`HTB{und01ng_th3_curs3_0f_und34th}`
+:::

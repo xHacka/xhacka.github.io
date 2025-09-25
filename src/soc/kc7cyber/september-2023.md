@@ -6,7 +6,9 @@
 
 [Qakbot Historical Bot Infections Special Report](https://www.shadowserver.org/news/qakbot-historical-bot-infections-special-report/): _On Tuesday 29th August 2023, the US DoJ and FBI, together with other global law enforcement partners, announced a disruption action against the Qakbot botnet._ 
 
-> Flag: `Qakbot`
+::: tip Flag
+`Qakbot`
+:::
 
 ## 41: September 2, 2023
 
@@ -14,14 +16,18 @@
 
 [Invoke-WebRequest](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.4): _Gets content from a web page on the internet._
 
-> Flag: `Invoke-WebRequest`
+::: tip Flag
+`Invoke-WebRequest`
+:::
 ## 42: September 3, 2023
 
 ### 1. What country is the IP address 45.95.169.148 located in?
 
 [https://www.abuseipdb.com/check/45.95.169.148](https://www.abuseipdb.com/check/45.95.169.148)
 
-> Flag: `Croatia`
+::: tip Flag
+`Croatia`
+:::
 
 ## 43: September 4, 2023
 
@@ -29,7 +35,9 @@
 
 Nope, just when you think you are safe, think again. [Thanksgiving 2023 security incident](https://blog.cloudflare.com/thanksgiving-2023-security-incident/)
 
-> Flag: `False`
+::: tip Flag
+`False`
+:::
 
 ## 44: September 5, 2023
 
@@ -37,7 +45,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [Threat Actors Targeting Microsoft SQL Servers to Deploy FreeWorld Ransomware](https://thehackernews.com/2023/09/threat-actors-targeting-microsoft-sql.html)
 
-> Flag: `MSSQL`
+::: tip Flag
+`MSSQL`
+:::
 
 ## 45: September 6, 2023
 
@@ -45,7 +55,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [Lapsus$: GTA 6 hacker handed indefinite hospital order](https://www.bbc.com/news/technology-67663128)
 
-> Flag: `Lapsus$`
+::: tip Flag
+`Lapsus$`
+:::
 
 ## 46: September 7, 2023
 
@@ -53,7 +65,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [SapphireStealer: Open-source information stealer enables credential and data theft](https://blog.talosintelligence.com/sapphirestealer-goes-open-source/)
 
-> Flag: `SapphireStealer`
+::: tip Flag
+`SapphireStealer`
+:::
 
 ## 47: September 8, 2023
 
@@ -61,7 +75,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [Japan’s cybersecurity agency breached by suspected Chinese hackers: report](https://therecord.media/japan-cybersecurity-agency-breached-report)
 
-> Flag: `China`
+::: tip Flag
+`China`
+:::
 
 ## 48: September 9, 2023
 
@@ -69,7 +85,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [APPLE ROLLED OUT EMERGENCY UPDATES TO ADDRESS 3 NEW ACTIVELY EXPLOITED ZERO-DAY FLAWS](securityaffairs.com/151174/hacking/apple-zero-days.html)
 
-> Flag: `Apple`
+::: tip Flag
+`Apple`
+:::
 
 ## 49: September 10, 2023
 
@@ -77,7 +95,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [Microsoft Teams phishing attack pushes DarkGate malware](https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-attack-pushes-darkgate-malware/)
 
-> Flag: `DarkGate`
+::: tip Flag
+`DarkGate`
+:::
 
 ## 50: September 11, 2023
 
@@ -85,14 +105,18 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 [TAG Bulletin: Q3 2023](blog.google/threat-analysis-group/tag-bulletin-q3-2023): _We terminated 7,467 YouTube channels and 183 Blogger blogs as part of our ongoing investigation into coordinated influence operations linked to the People’s Republic of China (PRC). These channels mostly uploaded spammy content in Chinese about music, entertainment and lifestyle. A very small subset uploaded content in Chinese and English about China and U.S. foreign affairs. These findings are consistent with our previous reports._
 
-> Flag: `7467`
+::: tip Flag
+`7467`
+:::
 
 ## 51: September 12, 2023
 
 ### 1. What conference is KC7 speaking at in October that's based in the Philly area?
 
 
-> Flag: `xxx`
+::: tip Flag
+`xxx`
+:::
 
 ## 52: September 13, 2023
 
@@ -102,7 +126,9 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 ![autopsy-logo](https://www.autopsy.com/wp-content/uploads/2019/08/autopsy-logo.svg)
 
-> Flag: `Autopsy`
+::: tip Flag
+`Autopsy`
+:::
 
 ## 53: September 14, 2023
 
@@ -112,7 +138,9 @@ Google dorking: `site:cisa.gov "2023-09-06"` -> [Known Exploited Vulnerabilities
 
 **Apache RocketMQ Command Execution Vulnerability**: Several components of Apache RocketMQ, including NameServer, Broker, and Controller, are exposed to the extranet and lack permission verification. An attacker can exploit this vulnerability by using the update configuration function to execute commands as the system users that RocketMQ is running as or achieve the same effect by forging the RocketMQ protocol content.
 
-> Flag: `CVE-2023-33246``
+::: tip Flag
+`CVE-2023-33246``
+:::
 
 ## 54: September 15, 2023
 
@@ -120,13 +148,17 @@ Google dorking: `site:cisa.gov "2023-09-06"` -> [Known Exploited Vulnerabilities
 
 ["Modern cars are a privacy nightmare", the worst Mozilla’s seen](https://www.theverge.com/2023/9/6/23861047/car-user-privacy-report-mozilla-foundation-data-collection)
 
-> Flag: `Mozilla`
+::: tip Flag
+`Mozilla`
+:::
  
 ## 55: September 16, 2023
 
 ### 1.Port 3306 is commonly used for which application service?
 
-> Flag: `MySQL`
+::: tip Flag
+`MySQL`
+:::
 
 ## 56: September 17, 2023
 
@@ -134,7 +166,9 @@ Google dorking: `site:cisa.gov "2023-09-06"` -> [Known Exploited Vulnerabilities
 
 _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observe**, **orient**, **decide**, **act**) is a decision-making model developed by [United States Air Force](https://www.wikiwand.com/en/articles/United_States_Air_Force "United States Air Force") Colonel [John Boyd](https://www.wikiwand.com/en/articles/John_Boyd_(military_strategist) "John Boyd (military strategist)"). He applied the concept to the [combat operations process](https://www.wikiwand.com/en/articles/Combat_operations_process "Combat operations process"), often at the operational level during military campaigns. It is often applied to understand commercial operations and learning processes. The approach explains how agility can overcome raw power in dealing with human opponents._
 
-> Flag: `OODA LOOP`
+::: tip Flag
+`OODA LOOP`
+:::
 
 ## 57: September 18, 2023
 
@@ -143,7 +177,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 [Tactics > Enterprise > Command and Control > TA0011](https://attack.mitre.org/tactics/TA0011/)
 [Techniques > Enterprise > Proxy > Domain Fronting > T1090.004](https://attack.mitre.org/techniques/T1090/004/)
 
-> Flag: `T1090.004`
+::: tip Flag
+`T1090.004`
+:::
 
 ## 58: September 19, 2023
 
@@ -151,7 +187,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [What are email headers?](proton.me/blog/what-are-email-headers): _X-headers like the **X-Originating-IP** field, which shows the sender’s IP address, can provide useful clues when investigating suspicious messages._
 
-> Flag: `X-Originating-IP`
+::: tip Flag
+`X-Originating-IP`
+:::
  
 ## 59: September 20, 2023
 
@@ -159,7 +197,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 **[APNIC](https://www.wikiwand.com/en/articles/APNIC)** (the **Asia Pacific Network Information Centre**) is the regional Internet address registry ([RIR](https://www.wikiwand.com/en/articles/Regional_Internet_registry "Regional Internet registry")) for the [Asia–Pacific](https://www.wikiwand.com/en/articles/Asia%E2%80%93Pacific "Asia–Pacific") region. It is one of the world's five RIRs and is part of the Number Resource Organization ([NRO](https://www.wikiwand.com/en/articles/Number_Resource_Organization "Number Resource Organization")).
 
-> Flag: `APNIC`
+::: tip Flag
+`APNIC`
+:::
 
 ## 60: September 21, 2023
 
@@ -167,7 +207,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [United States Cyber Command (USCYBERCOM)](https://www.wikiwand.com/en/articles/United_States_Cyber_Command)
 
-> Flag: `USCYBERCOM`
+::: tip Flag
+`USCYBERCOM`
+:::
 
 ## 61: September 22, 2023
 
@@ -175,7 +217,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 **[evilginx2](https://github.com/hash3liZer/evilginx2)**: _is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, which in turn allows to bypass 2-factor authentication protection._
 
-> Flag: `evilginx2`
+::: tip Flag
+`evilginx2`
+:::
  
 ## 62: September 23, 2023
 
@@ -183,7 +227,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)
 
-> Flag: `Burp Suite`
+::: tip Flag
+`Burp Suite`
+:::
 
 ## 63: September 24, 2023
 
@@ -191,7 +237,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
  
 [https://www.telerik.com/fiddler](https://www.telerik.com/fiddler)
 
-> Flag: `Fiddler`
+::: tip Flag
+`Fiddler`
+:::
 
 ## 64: September 25, 2023
 
@@ -199,7 +247,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 **[scp](https://linux.die.net/man/1/scp)** - secure copy (remote file copy program)
 
-> Flag: `scp`
+::: tip Flag
+`scp`
+:::
 
 ## 65: September 26, 2023
 
@@ -207,7 +257,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [2023 Cyber Attack & Breach on the MGM Resort Explained](https://inszoneinsurance.com/blog/cyberattack-mgm-resort-explained): _MGM Resorts, one of the largest casino operators in the world, was hit by a cyberattack that disrupted its operations for several days in September 2023. The attack affected some of the most iconic properties on the Las Vegas Strip, such as the Bellagio, the Cosmopolitan and the Mandalay Bay, as well as other MGM resorts across the US. Guests reported issues with slot machines, ATMs, digital key cards, electronic payment systems and online reservations. The company had to resort to using pen and paper for some transactions and waived change and cancellation fees for affected bookings._
 
-> Flag: `MGM`
+::: tip Flag
+`MGM`
+:::
 
 ## 66: September 27, 2023
 
@@ -215,7 +267,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [Why Are You Texting Me? UNC3944 Leverages SMS Phishing Campaigns for SIM Swapping, Ransomware, Extortion, and Notoriety](https://cloud.google.com/blog/topics/threat-intelligence/unc3944-sms-phishing-sim-swapping-ransomware/)
 
-> Flag: `UNC3944`
+::: tip Flag
+`UNC3944`
+:::
 
 ## 67: September 28, 2023
 
@@ -223,7 +277,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [Backchannel Diplomacy: APT29’s Rapidly Evolving Diplomatic Phishing Operations](https://cloud.google.com/blog/topics/threat-intelligence/apt29-evolving-diplomatic-phishing/)
 
-> Flag: `APT29`
+::: tip Flag
+`APT29`
+:::
  
 ## 68: September 29, 2023
 
@@ -231,7 +287,9 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 [Initial Access Brokers (IAB)](https://flare.io/glossary/initial-access-brokers/): _Initial Access Brokers (IABs) are cybercriminals who specialize in obtaining and selling access to compromised networks, systems, or accounts._
 
-> Flag: `Initial Access Broker`
+::: tip Flag
+`Initial Access Broker`
+:::
 
 ## 69: September 30, 2023
 
@@ -239,4 +297,6 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 The name “[**Magecart**](https://www.imperva.com/learn/application-security/magecart/)” refers to several [hacker groups](https://www.imperva.com/learn/application-security/ethical-hacking/) that employ online skimming techniques for the purpose of stealing [personal data](https://www.imperva.com/learn/data-security/personally-identifiable-information-pii/) from websites—most commonly, customer details and [credit card information](https://www.imperva.com/learn/application-security/credit-card-cracking-fraud/) on websites that accept online payments. Magecart groups have successfully breached well-known brands. The name is inspired by the original target of these groups—the Magento platform, which provides checkout and shopping cart functionality for retailer sites.
 
-> Flag: `Magecart`
+::: tip Flag
+`Magecart`
+:::

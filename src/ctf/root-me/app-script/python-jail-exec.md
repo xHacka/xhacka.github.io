@@ -136,5 +136,7 @@ app-script-ch10@challenge02:~$ cat ./GetTheFlagInThisDirectory/.passwd
 PythonAlwaysHasAllYouNeed!
 ```
 
-> Flag: `PythonAlwaysHasAllYouNeed!`
+::: tip Flag
+`PythonAlwaysHasAllYouNeed!`
+:::
 

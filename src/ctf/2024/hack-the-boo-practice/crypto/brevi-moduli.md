@@ -144,4 +144,6 @@ print(io.recvallS())
 HTB{this_was_a_warmup_to_get_you_used_to_integer_factoring_and_parsing_pem_formatted_keys_d5c1bffac9d33457e38bdf2ff457c069}
 ```
 
-> Flag: `HTB{this_was_a_warmup_to_get_you_used_to_integer_factoring_and_parsing_pem_formatted_keys_2567a40af997e3c63d271a6d43f09552}`
+::: tip Flag
+`HTB{this_was_a_warmup_to_get_you_used_to_integer_factoring_and_parsing_pem_formatted_keys_2567a40af997e3c63d271a6d43f09552}`
+:::

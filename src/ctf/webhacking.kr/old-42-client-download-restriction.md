@@ -20,7 +20,9 @@ The download is successful. Looks like the restriction was only Client side.
 
 ![old-42-2.png](/assets/ctf/webhacking.kr/old-42-2.png)
 
-> Flag: `FLAG{very_difficult_to_think_up_text_of_the_flag}`
+::: tip Flag
+`FLAG{very_difficult_to_think_up_text_of_the_flag}`
+:::
 
 ---
 

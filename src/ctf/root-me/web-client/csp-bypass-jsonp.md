@@ -81,7 +81,9 @@ After sending the payload on `/report` (like 2-3minutes) we got a callback 🎉
 
 ![csp-bypass---jsonp-5.png](/assets/ctf/root-me/csp-bypass-jsonp-5.png)
 
-> Flag: `CSP_4ND_JS0NP_ENDPOINT_B4D_ID3A`
+::: tip Flag
+`CSP_4ND_JS0NP_ENDPOINT_B4D_ID3A`
+:::
 
 > **Note**: [Dragunov](https://www.root-me.org/Dragunov?lang=en "profil of Dragunov") mentioned that `async` and `defer` attributes could have been used to load scripts after the content is loaded, [docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 

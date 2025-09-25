@@ -15,8 +15,9 @@ Downloads: [flag.txt](https://traboda-arena-87.s3.amazonaws.com/files/attachment
 └─$ cat flag.txt | base64 -d -i > flag.out
 ```
 
-> `-i` to ignore some errors in the base64 decoding.
-{: .prompt-info}
+::: info Note
+`-i` to ignore some errors in the base64 decoding.
+::: 
 
 ```bash
 └─$ file flag.out 

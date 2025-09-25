@@ -460,7 +460,7 @@ utw_team_ned
 groot14 Password: utw\_team\_ned
 :::
 
-{% hint style="info" %}
+::: info
 [https://jdhitsolutions.com/blog/powershell/49/reading-the-registry-in-powershell/](https://jdhitsolutions.com/blog/powershell/49/reading-the-registry-in-powershell/)
 :::
 

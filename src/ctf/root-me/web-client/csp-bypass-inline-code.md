@@ -75,5 +75,7 @@ Send it to `/report`
 At Quackquack corp the developers think that they do not have to patch XSS because they implement the Content Security Policy (CSP). But you are a hacker, right ? I'm sure you will be able to exfiltrate this flag: CSP_34SY_T0_BYP4S_W1TH_SCR1PT. (Only the bot is able to see the flag)
 ```
 
-> Flag: `CSP_34SY_T0_BYP4S_W1TH_SCR1PT`
+::: tip Flag
+`CSP_34SY_T0_BYP4S_W1TH_SCR1PT`
+:::
 

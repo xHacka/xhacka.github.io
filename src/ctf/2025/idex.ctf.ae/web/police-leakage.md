@@ -93,5 +93,7 @@ B0>==@C>==@C>==@C>==@C>==@C>==@C>==@C>==@                </div>
 P>==@C>==@C>==@C>==@C>==@C>==@C>==@C>==@C>==@C>==@C>==@                </div>
 ```
 
-> Flag: `flag{wZRcjUrOyovQBuEHdYPDqKUKcfYCfrtD}`
+::: tip Flag
+`flag{wZRcjUrOyovQBuEHdYPDqKUKcfYCfrtD}`
+:::
 

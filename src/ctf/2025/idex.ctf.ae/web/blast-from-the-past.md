@@ -58,5 +58,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 flag{EUU3ItYVjy6FiIjhMdkgT4SKKyjNmSPx}
 ```
 
-> Flag: `flag{EUU3ItYVjy6FiIjhMdkgT4SKKyjNmSPx}`
+::: tip Flag
+`flag{EUU3ItYVjy6FiIjhMdkgT4SKKyjNmSPx}`
+:::
 

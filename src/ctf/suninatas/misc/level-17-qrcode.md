@@ -28,5 +28,7 @@ Then do your best to recover the black pixels from smudged red
 Good Job! Congraturation! AuthKey is YouAreQRCodeMaster~!
 ```
 
-> Flag: `YouAreQRCodeMaster~!`
+::: tip Flag
+`YouAreQRCodeMaster~!`
+:::
 

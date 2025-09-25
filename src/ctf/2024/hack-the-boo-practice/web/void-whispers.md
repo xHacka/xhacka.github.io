@@ -91,5 +91,7 @@ Get flag:
 
 ![Void Whispers-1.png](/assets/ctf/htb/void-whispers-1.png)
 
-> Flag: `HTB{c0mm4nd_1nj3ct10n_4r3_3457_70_f1nD!!_96353be35ebbc45395fc4867f38d7784}`
+::: tip Flag
+`HTB{c0mm4nd_1nj3ct10n_4r3_3457_70_f1nD!!_96353be35ebbc45395fc4867f38d7784}`
+:::
 

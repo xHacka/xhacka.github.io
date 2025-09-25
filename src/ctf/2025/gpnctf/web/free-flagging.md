@@ -39,5 +39,7 @@ You guessed wrong: The flags hash is 0e457091929243384888029339511631 and the ha
 You correctly guessed the flag - GPNCTF{just_php_d01ng_php_th1ng5_abM2zz}
 ```
 
-> Flag: `GPNCTF{just_php_d01ng_php_th1ng5_abM2zz}`
+::: tip Flag
+`GPNCTF{just_php_d01ng_php_th1ng5_abM2zz}`
+:::
 

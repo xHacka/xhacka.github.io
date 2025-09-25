@@ -93,5 +93,7 @@ Looks like we will need to crack the password.
 iloveu1          (?)
 ```
 
-> Flag: `iloveu1`
+::: tip Flag
+`iloveu1`
+:::
 

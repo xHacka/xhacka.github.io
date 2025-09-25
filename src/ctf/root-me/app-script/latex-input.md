@@ -78,5 +78,7 @@ Download pdf:
 
 ![latex---input.png](/assets/ctf/root-me/latex-input.png)
 
-> Flag: `LaTeX_1nput_1s_n0t_v3ry_s3kur3`
+::: tip Flag
+`LaTeX_1nput_1s_n0t_v3ry_s3kur3`
+:::
 

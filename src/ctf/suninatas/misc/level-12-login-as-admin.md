@@ -38,6 +38,8 @@ on(release) {
 }
 ```
 
-> Flag: `Today is a Good day~~~`
+::: tip Flag
+`Today is a Good day~~~`
+:::
 
 

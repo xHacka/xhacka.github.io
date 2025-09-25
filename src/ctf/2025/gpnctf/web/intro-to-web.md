@@ -178,7 +178,9 @@ Payload sent! Check webhook for the cookie.
 Flag: GPNCTF{forg3_d15_JU1Cy_mOD}
 ```
 
-> Flag: `GPNCTF{forg3_d15_JU1Cy_mOD}`
+::: tip Flag
+`GPNCTF{forg3_d15_JU1Cy_mOD}`
+:::
 
 ## Part 3
 
@@ -188,7 +190,9 @@ Just rerun the above script with 3rd challenge domain and check your webhook for
 
 ![Intro to web-8.png](/assets/ctf/gpnctf/intro-to-web-8.png)
 
-> Flag: `GPNCTF{i_1oVe_s7olen_cooKI3s}`
+::: tip Flag
+`GPNCTF{i_1oVe_s7olen_cooKI3s}`
+:::
 
 ## Part 4
 
@@ -423,5 +427,7 @@ with Session() as session:
 
 ![Intro to web-11.png](/assets/ctf/gpnctf/intro-to-web-11.png)
 
-> Flag: `GPNCTF{rcE_is_EV3RYtH1nG}`
+::: tip Flag
+`GPNCTF{rcE_is_EV3RYtH1nG}`
+:::
 

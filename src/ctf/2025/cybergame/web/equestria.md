@@ -109,7 +109,9 @@ or not...
 pr1ncess:SK-CERT{0ff_by_4_s1ngle_sl4sh_f836a8b1}
 ```
 
-> Flag: `SK-CERT{0ff_by_4_s1ngle_sl4sh_f836a8b1}`
+::: tip Flag
+`SK-CERT{0ff_by_4_s1ngle_sl4sh_f836a8b1}`
+:::
 
 ## \[★★☆\] Equestria - Shadow Realm
 
@@ -218,7 +220,9 @@ Username: 4cc85c3fb3993267143ee4371ecfadf1, Password: 4cc85c3fb3993267143ee4371e
 ({'success': True, 'welcome_msg': 'Access granted. The light has no power here. You walk the path of the unseen, where only those who understand the night may tread. Tread carefully, for even the darkness has its watchers… SK-CERT{r4c3_4g41n5t_th3_l1ght_4nd_w1n_w1th_th3_p0w3r_0f_th3_n1ght}'}, 'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImRhYTVjMzU4LTcyNjUtNGZlZS04NjZjLWU3YzAyMzE2ODgwNCIsInVzZXJuYW1lIjoiNGNjODVjM2ZiMzk5MzI2NzE0M2VlNDM3MWVjZmFkZjEifQ%3D%3D.sq4vdfwmZ3u7AIvj7kSRyjFC8aL1T4yrTzlHNmNv2fo%3D; Path=/; HttpOnly; SameSite=Strict')
 ```
 
-> Flag: `SK-CERT{r4c3_4g41n5t_th3_l1ght_4nd_w1n_w1th_th3_p0w3r_0f_th3_n1ght}`
+::: tip Flag
+`SK-CERT{r4c3_4g41n5t_th3_l1ght_4nd_w1n_w1th_th3_p0w3r_0f_th3_n1ght}`
+:::
 
 ## \[★★☆\] Equestria - The Dark Ruler
 
@@ -345,7 +349,9 @@ print(payload)
 They fear the night, yet they do not understand its power. The fools bask in the daylight, blind to what lurks beyond the stars. But I see. I remember. And soon, they will too. The throne was never meant for the sun alone. The time will come. I must be patient. SK-CERT{1_w1ll_rul3_th3_n1ght_4nd_th3_d4y} 
 ```
 
-> Flag: `SK-CERT{1_w1ll_rul3_th3_n1ght_4nd_th3_d4y} `
+::: tip Flag
+`SK-CERT{1_w1ll_rul3_th3_n1ght_4nd_th3_d4y} `
+:::
 
 ## \[★★☆\] Equestria - Final Curse
 
@@ -398,5 +404,7 @@ Turns out it was never about SQL, but **Javascript**...
 
 > Writeup 2: [lukaskuzmiak: cybergame.sk-2025-writeups, Equestria](https://github.com/lukaskuzmiak/cybergame.sk-2025-writeups/tree/main/Equestria)
 
-> Flag: `SK-CERT{j4v4scr1p7_1s_full_of_curs3d_(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+([][[]]+[])[+[]]+(![]+[])[+[]]+(![]+[])[+[]]}`
+::: tip Flag
+`SK-CERT{j4v4scr1p7_1s_full_of_curs3d_(![]+[])[!+[]+!+[]+!+[]]+(!![]+[])[+[]]+([][[]]+[])[+[]]+(![]+[])[+[]]+(![]+[])[+[]]}`
+:::
 

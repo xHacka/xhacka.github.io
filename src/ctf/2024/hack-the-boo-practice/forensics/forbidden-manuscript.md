@@ -19,5 +19,7 @@ Usually `Data` is point of interest in this type of traffic, as it's plaintext c
 HTB{f0rb1dd3n_m4nu5cr1p7_15_1n_7h3_w1ld}       
 ```
 
-> Flag: `HTB{f0rb1dd3n_m4nu5cr1p7_15_1n_7h3_w1ld}`
+::: tip Flag
+`HTB{f0rb1dd3n_m4nu5cr1p7_15_1n_7h3_w1ld}`
+:::
 

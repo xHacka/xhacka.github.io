@@ -166,5 +166,7 @@ GPNCTF{WHA7_A_8AnGEr_1_DEC14re_yoU_WINNeR!}
 GPNCTF{WHA7_A_8AnGEr_1_DEC14re_yoU_WINNeR!}
 ```
 
-> Flag: `GPNCTF{WHA7_A_8AnGEr_1_DEC14re_yoU_WINNeR!}`
+::: tip Flag
+`GPNCTF{WHA7_A_8AnGEr_1_DEC14re_yoU_WINNeR!}`
+:::
 

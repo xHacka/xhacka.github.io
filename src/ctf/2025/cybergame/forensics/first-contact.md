@@ -24,7 +24,9 @@ Just download file (?) 😳
 The flag is SK-CERT{th1s-w0rks-w3ll}. This first part is easy.
 ```
 
-> Flag: `SK-CERT{th1s-w0rks-w3ll}`
+::: tip Flag
+`SK-CERT{th1s-w0rks-w3ll}`
+:::
 
 ## \[☆☆☆\] In competition with jellyfish
 
@@ -53,7 +55,9 @@ In the console tab:
 SK-CERT{hello}
 ```
 
-> Flag: `SK-CERT{hello}`
+::: tip Flag
+`SK-CERT{hello}`
+:::
 
 ## \[☆☆☆\] So long, but wait, we’re still playing!
 
@@ -82,7 +86,9 @@ Looks ROT13 so that's the first thing I tried
 When it comes to celestial movements, SK-CERT{rot4ti0n} is pivotal.
 ```
 
-> Flag: `SK-CERT{rot4ti0n}`
+::: tip Flag
+`SK-CERT{rot4ti0n}`
+:::
 
 ## \[☆☆☆\] Still fighting
 
@@ -114,7 +120,9 @@ This got very repetitive so I just looped over using CyberChef
 
 [Recipe](https://gchq.github.io/CyberChef/#recipe=Label\('start'\)From_Base64\('A-Za-z0-9%2B/%3D',true,false\)Regular_expression\('Strings','%5BA-Za-z%5C%5Cd/%5C%5C-:.,_$%25%5C%5Cx27%22\(\)%3C%3E%3D!%5C%5C%5B%5C%5C%5D%7B%7D@%5D%7B10,%7D',true,true,false,false,false,false,'List%20matches'\)Jump\('start',4\)&input=VkdobElHVnVZMjlrWldRZ2JXVnpjMkZuWlNCellXbGtJR1JIYUd4SlIxcHpXVmRqWjJGWVRXZGhSMnhyV2tkV2RVbEhVbXhhV0VKc1kybENhVmRHV25GWlZVNURZVEZ3V0ZadVpHRlhSV3h1VjFkNGIxWXlSblJTYTFKclRXMVNjRll3V21GalZteFdWR3RPYUUxWVFsbFdiVFZyV1Zaa1JtSkhOVmRpV0ZKeVdXcEtTMUp0U2taaFJUVlhUVEpvZUZaR1VrSk5WMGw0V2toR1ZHSkdjR2hVVjNSaFYyeGFSMVZ0UmxSaVJYQjVWR3hWZUZaV1NuTlhiRUpXWWxob1dGbDZSbGRqVm5CR1QxWk9UazF0WjNwV2ExcFRVMnN4VjJKR1pHaFNSbkJXV1cxNFlWbFdjRmhrUlhScVlrWktWbFZzVWxOVWF6RnlWMnRhVmxaNlZucFdSM2hQVWpGa2RWWnNjRmRXTVVWM1ZtcEplRmxXV2taT1ZXaGhVbTFTYjFSWGVFdE5iR1JZWkVaa2FrMVZOVWhXTWpWWFZqSktWbGRzVG1GV00yaE1Wa1phUm1WV2JEWmlSa1pXVm5wbk5WRXlZemxRVVc4OUNnPT0)
 
-> Flag: `SK-CERT{4li3nZ_3nc0d3_7h0r0ughlY}`
+::: tip Flag
+`SK-CERT{4li3nZ_3nc0d3_7h0r0ughlY}`
+:::
 
 ## \[☆☆☆\] Between 15 and 17
 
@@ -135,7 +143,9 @@ If you paste Input CyberChef automatically identifies it as Hex (Wand will appea
 
 ![First Contact-5.png](/assets/ctf/cybergame/first-contact-5.png)
 
-> Flag: `SK-CERT{637_u53d_70_h3x4d3c1m4l}`
+::: tip Flag
+`SK-CERT{637_u53d_70_h3x4d3c1m4l}`
+:::
 
 ## \[☆☆☆\] A Day in the Strife
 
@@ -151,7 +161,9 @@ Orcas were right from day one. Turns out these aliens were not friendly AT ALL. 
 
 ![First Contact-6.png](/assets/ctf/cybergame/first-contact-6.png)
 
-> Flag: `SK-CERT{347_7h3_hum4n5,_7h3y_kn0w_700_much}`
+::: tip Flag
+`SK-CERT{347_7h3_hum4n5,_7h3y_kn0w_700_much}`
+:::
 
 ## \[☆☆☆\] Independence day
 
@@ -190,7 +202,9 @@ for letter in cipher.split():
     print(chr(decimal), end='')
 ```
 
-> Flag: `SK-CERT{ThrowJavelinsOnThem}`
+::: tip Flag
+`SK-CERT{ThrowJavelinsOnThem}`
+:::
 
 ## \[☆☆☆\] Or hack their mainframe...
 
@@ -212,5 +226,7 @@ Make AI struggle instead of you and unregex~ d:
 
 It has extra T, fix it and submit.
 
-> Flag: `SK-CERT{v3ry_57r4n63_r363x}`
+::: tip Flag
+`SK-CERT{v3ry_57r4n63_r363x}`
+:::
 

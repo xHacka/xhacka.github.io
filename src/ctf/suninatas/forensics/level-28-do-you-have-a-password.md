@@ -66,4 +66,6 @@ If you open file with Windows Zip explorer it doesn't work, however 7z was able 
 
 The ZIP file was marked as encrypted using ZipCrypto, indicated by bit 0 of the general purpose bit flag (`0x0809`). By flipping this flag to `0x0000` in a hex editor, we disabled the encryption flag, tricking unzip tools into extracting the raw (still encrypted) data without prompting for a password.
 
-> Flag: `dGE1dHlfSDR6M2xudXRfY29mZmVl`
+::: tip Flag
+`dGE1dHlfSDR6M2xudXRfY29mZmVl`
+:::

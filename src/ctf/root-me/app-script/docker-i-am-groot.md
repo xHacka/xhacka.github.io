@@ -61,5 +61,7 @@ root@h3yd0ck3r:/mnt# cat .passwd # <-- Real passwd
 b95d3d00d5336d16d7f27454ebe9cc58
 ```
 
-> Flag: `b95d3d00d5336d16d7f27454ebe9cc58`
+::: tip Flag
+`b95d3d00d5336d16d7f27454ebe9cc58`
+:::
 

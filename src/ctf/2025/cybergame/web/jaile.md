@@ -161,7 +161,9 @@ root@aed68215d20d:~# cat flag.txt
 SK-CERT{r007_u53r_pr3l04d3d_pr1v1l3635}
 ```
 
-> Flag: `SK-CERT{r007_u53r_pr3l04d3d_pr1v1l3635}`
+::: tip Flag
+`SK-CERT{r007_u53r_pr3l04d3d_pr1v1l3635}`
+:::
 
 ```
 nc exp.cybergame.sk 7002
@@ -862,5 +864,7 @@ root@0751d0e17cd7:~# curl --unix-socket /run/docker/docker.sock -X POST \
 
 > Credit: [lukaskuzmiak: cybergame.sk-2025-writeups, JAILE](https://github.com/lukaskuzmiak/cybergame.sk-2025-writeups/tree/main/JAILE)
 
-> Flag: `SK-CERT{4nd_7hat5_h0W_U_3scaP3_A_D0cK3r_c0nt41ne6}`
+::: tip Flag
+`SK-CERT{4nd_7hat5_h0W_U_3scaP3_A_D0cK3r_c0nt41ne6}`
+:::
 

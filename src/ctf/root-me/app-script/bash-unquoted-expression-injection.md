@@ -50,5 +50,7 @@ app-script-ch16@challenge02:~$ ./wrapper '0 -o anythin'
 Well done you can validate the challenge with : 8246320937403
 ```
 
-> Flag: `8246320937403`
+::: tip Flag
+`8246320937403`
+:::
 

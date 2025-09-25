@@ -34,5 +34,7 @@ Delete file:
 
 ![old-48-5.png](/assets/ctf/webhacking.kr/old-48-5.png)
 
-> Flag: `FLAG{i_think_this_chall_is_cool}`
+::: tip Flag
+`FLAG{i_think_this_chall_is_cool}`
+:::
 

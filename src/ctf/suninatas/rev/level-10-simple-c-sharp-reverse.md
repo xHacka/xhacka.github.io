@@ -16,5 +16,7 @@ C# is the easier to decompile with `dnSpy` or `ILSpy`
 
 ![level-10---rev-1.png](/assets/ctf/suninatas/rev/level-10-rev-1.png)
 
-> Flag: `Did U use the Peid?`
+::: tip Flag
+`Did U use the Peid?`
+:::
 

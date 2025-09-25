@@ -31,5 +31,7 @@ Tempering with IDOR `/checkout/0` we get the flag
 
 ![Free Utilities-4.png](/assets/ctf/idex.ctf.ae/free-utilities-4.png)
 
-> Flag: `flag{xOkSO52gXsC2ROhZlylpvYEN1SaUJwgm}`
+::: tip Flag
+`flag{xOkSO52gXsC2ROhZlylpvYEN1SaUJwgm}`
+:::
 

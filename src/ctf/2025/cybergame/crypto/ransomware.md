@@ -95,7 +95,9 @@ Get the key: `83 82 d2 9e 05 59 cf 6f 21 be 0c b2 f9 7e 59 55`
 
 ![Ransomware-3.png](/assets/ctf/cybergame/ransomware-3.png)
 
-> Flag: `SK-CERT{7r1v14l_r4n50mw4r3_f0r_7h3_574r7}`
+::: tip Flag
+`SK-CERT{7r1v14l_r4n50mw4r3_f0r_7h3_574r7}`
+:::
 
 ## \[★☆☆\] Recovery 2
 

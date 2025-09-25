@@ -57,5 +57,7 @@ Exploit the `exit` function:
 Well done flag : YjHRUZEa9irCPS2llubR
 ```
 
-> Flag: `YjHRUZEa9irCPS2llubR`
+::: tip Flag
+`YjHRUZEa9irCPS2llubR`
+:::
 

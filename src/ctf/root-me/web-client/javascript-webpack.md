@@ -39,5 +39,7 @@ export default {
 </script>
 ```
 
-> Flag: `BecauseSourceMapsAreGreatForDebuggingButNotForProduction`
+::: tip Flag
+`BecauseSourceMapsAreGreatForDebuggingButNotForProduction`
+:::
 

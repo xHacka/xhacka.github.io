@@ -59,5 +59,7 @@ command='$output = whoami; '
 output='desktop-pmoil0d\\usr01'
 ```
 
-> Flag: `HTB{f06_d154pp34r3d_4nd_fl46_w4s_f0und!}`
+::: tip Flag
+`HTB{f06_d154pp34r3d_4nd_fl46_w4s_f0und!}`
+:::
 

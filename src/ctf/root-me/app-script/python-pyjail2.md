@@ -85,5 +85,7 @@ Well done ! Here is your so desired flag :
 ValidateMeDude!
 ```
 
-> Flag: `ValidateMeDude!`
+::: tip Flag
+`ValidateMeDude!`
+:::
 

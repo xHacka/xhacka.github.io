@@ -33,5 +33,7 @@ while True:
         break
 ```
 
-> Flag: `N1c3Bilnl)`
+::: tip Flag
+`N1c3Bilnl)`
+:::
 

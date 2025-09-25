@@ -8,13 +8,17 @@
 
 As far as I remember **WormGPT** was the first malicious LLM model that was found, blog next talks about **FraudGPT** so that must be it.
 
-> Flag: `FraudGPT`
+::: tip Flag
+`FraudGPT`
+:::
 ### 2. What common digital forensics tool is used to extract metadata from file formats?
 
 [Exiftool: website](https://exiftool.org)
 [Exiftool: man](https://linux.die.net/man/1/exiftool)
 
-> Flag: `exiftool`
+::: tip Flag
+`exiftool`
+:::
 
 ## 10: August 2, 2023
 
@@ -22,13 +26,17 @@ As far as I remember **WormGPT** was the first malicious LLM model that was foun
 
 [Patchwork Hackers Use Eyeshell Backdoor To Launch Hacking Campaign Against China](https://blog.koddos.net/patchwork-hackers-use-eyeshell-backdoor-to-launch-hacking-campaign-against-china/)
 
-> Flag: `Patchwork`
+::: tip Flag
+`Patchwork`
+:::
 
 ### 2. Where is this group suspected to originate from?
 
 [Patchwork](https://attack.mitre.org/groups/G0040) is a cyber espionage group that was first observed in December 2015. While the group has not been definitively attributed, circumstantial evidence suggests the group may be a pro-Indian or Indian entity.
 
-> Flag: `India`
+::: tip Flag
+`India`
+:::
 
 ### 3. They've using another backdoor implant recently this year. What was it called?
 
@@ -71,21 +79,27 @@ common **VMware file extensions** and their purposes:
 5.  **.vmem**, **.nvram**: The **.vmem** file stores the **memory state** of a virtual machine, while the **.nvram** file holds the **BIOS settings** for the VM.
 6.  **.log**: These are **log files** that record events and activities related to the virtual machine. They can be helpful for troubleshooting and diagnosing issues.
 
-> Flag: `vmdk`
+::: tip Flag
+`vmdk`
+:::
 ### 2: What is the practice of concealing information, typically in a digital photograph or other type of digital visualization file?
 
 [**Steganography**](https://www.wikiwand.com/en/Steganography) is the art of hiding information within other seemingly innocuous data. It conceals messages or files within images, audio, or text, making them imperceptible to casual observers. By subtly altering the carrier medium, steganography ensures that the hidden content remains undetected unless specifically sought out. 🕵️‍♂️🔍
 
 Recommended read: [Steganography - A list of useful tools and resources - 0xRick’s Blog](https://0xrick.github.io/lists/stego/)
 
-> Flag: `Steganography` or `stego`
+::: tip Flag
+`Steganography` or `stego`
+:::
 ### 3: What's the well known Linux tool that verifies the integrity of several media files, including the popular PNG file type?
 
 [pngcheck](https://linuxcommandlibrary.com/man/pngcheck#tldr): Print detailed information about and verify PNG, JNG, and MNG files.
 
 Recommended read: [Pngcheck - bi0s wiki](https://wiki.bi0s.in/steganography/pngcheck/)
 
-> Flag: `pngcheck`
+::: tip Flag
+`pngcheck`
+:::
 ## 12: August 4, 2023
 
 ### 1: A recent mobile management software company disclosed a critical zero day vulnerability. What is the name of this company?
@@ -93,7 +107,9 @@ Recommended read: [Pngcheck - bi0s wiki](https://wiki.bi0s.in/steganography/pngc
 Some OSINT required. I used google filter to limit search results around `August 4`. 
 Ended up on: [Ivanti EPMM zero-day vulnerability exploited in wild | TechTarget](https://www.techtarget.com/searchsecurity/news/366545659/Ivanti-EPMM-zero-day-vulnerability-exploited-in-wild)
 
-> Flag: `Ivanti`
+::: tip Flag
+`Ivanti`
+:::
 
 ### 2: What was the CVE ID of the zero day vulnerability?
 
@@ -101,13 +117,17 @@ From last post we learned CVE ID.
 
 Detailed Report: [CVE-2023-35078: Ivanti Endpoint Manager Mobile (EPMM) / MobileIron Core Unauthenticated API Access Vulnerability - Blog | Tenable](https://www.tenable.com/blog/cve-2023-35078-ivanti-endpoint-manager-mobile-epmm-mobileiron-core-unauthenticated-api-access)
 
-> Flag: `CVE-2023-35078`
+::: tip Flag
+`CVE-2023-35078`
+:::
 
 ### 3: A secondy zero day vulnerability was announcing shortly after from the same company. What was its CVE ID?
 
 Report from previous includes the follow up CVE ID.
 
-> Flag: `CVE-2023-35081`
+::: tip Flag
+`CVE-2023-35081`
+:::
 
 ## 13: August 5, 2023
 
@@ -115,13 +135,17 @@ Report from previous includes the follow up CVE ID.
 
 From a hacker’s perspective, a VPN ([Virtual Private Network](https://www.wikiwand.com/en/Virtual_private_network)) is a tool for obfuscation and protection. It masks your IP address, making your online actions harder to trace back to you. It encrypts your data, protecting it from interception during transmission. It can also bypass geo-restrictions and firewalls, providing access to otherwise inaccessible content or systems. However, remember that ethical and legal use of such tools is crucial. Misuse can lead to serious consequences. Always respect privacy and laws.
  
-> Flag: `Virtual Private Network`
+::: tip Flag
+`Virtual Private Network`
+:::
 
 ### 2: What does TOR stand for?
 
 [The Onion Router](https://www.torproject.org/) (TOR) is a network that enables anonymous communication. It routes internet traffic through a series of volunteer-operated servers worldwide, making the tracking of internet activity extremely difficult. It can also access the dark web, a part of the internet not indexed by traditional search engines. However, it’s important to note that while TOR provides anonymity, it doesn’t guarantee security. Ethical and legal use is paramount.
 
-> Flag: `The Onion Router`
+::: tip Flag
+`The Onion Router`
+:::
 
 ### 3: Is it illegal to use VPNs or Tor? Yay or nay.
 
@@ -129,7 +153,9 @@ Using VPNs and Tor is generally legal, but the legality varies by country and th
 
 More about Privacy and Anonymity: [Internet privacy and security course](https://book.cyberyozh.com/?fl=en) by [CyberYozh](https://cyberyozh.com/).
 
-> Flag: `nay` (_Generally_)
+::: tip Flag
+`nay` (_Generally_)
+:::
 
 ## 14: August 6, 2023
 
@@ -137,7 +163,9 @@ More about Privacy and Anonymity: [Internet privacy and security course](https:/
 
 [Charles Babbage | Biography, Computers, Inventions, & Facts | Britannica](https://www.britannica.com/biography/Charles-Babbage)
  
-> Flag: `Charles Babbage`
+::: tip Flag
+`Charles Babbage`
+:::
 
 ### 2: What did they call it at the time?
 
@@ -145,7 +173,9 @@ From 1 post:
 
 _During the mid-1830s Babbage developed plans for the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine), the forerunner of the modern digital computer. In that device he [envisioned](https://www.merriam-webster.com/dictionary/envisioned) the capability of performing any arithmetical operation on the basis of instructions from punched cards, a memory unit in which to store numbers, sequential control, and most of the other basic elements of the present-day computer._
 
-> Flag: `Analytical Engine`
+::: tip Flag
+`Analytical Engine`
+:::
 
 ### 3: Who realized that it could be used outside of what it was originally intended for, which led to the imagination of the modern day computer?
 
@@ -153,7 +183,9 @@ From 1 post:
 
 _In 1843 Babbage’s friend mathematician [Ada Lovelace](https://www.britannica.com/biography/Ada-Lovelace) translated a French paper about the Analytical Engine and, in her own [annotations](https://www.merriam-webster.com/dictionary/annotations), published how it could perform a sequence of calculations, the first [computer program](https://www.britannica.com/technology/computer-program)._
 
-> Flag: `Ada Lovelace`
+::: tip Flag
+`Ada Lovelace`
+:::
 
 ## 15: August 7, 2023
 
@@ -163,7 +195,9 @@ Source: [History of Python](https://www.wikiwand.com/en/History_of_Python)
 
 Python was named after the [BBC TV](https://www.wikiwand.com/en/BBC_TV "BBC TV") show _[Monty Python's Flying Circus](https://www.wikiwand.com/en/Monty_Python's_Flying_Circus "Monty Python's Flying Circus")_. 
 
-> Flag: `Python`
+::: tip Flag
+`Python`
+:::
 
 ### 2: What common module used by this language is useful for data analytics and working with large amounts of structured data to create dataframes?
 
@@ -171,13 +205,17 @@ Python was named after the [BBC TV](https://www.wikiwand.com/en/BBC_TV "BBC TV")
 
 > The name “Pandas” was derived from the term “Panel Data”, an econometrics term for multidimensional structured data sets.
 
-> Flag: `pandas`
+::: tip Flag
+`pandas`
+:::
 
 ### 3: What application is useful to create a notebook of sorts for this programming language? 
 
 [Jupyter Notebook](https://jupyter.org/) is a web application for creating and sharing documents. It supports live code, visualizations, and text. It’s used for data cleaning, transformation, statistical modeling, visualization, and machine learning. It supports multiple languages, primarily Python. It’s open-source and widely used.
 
-> Flag: `Jupyter`
+::: tip Flag
+`Jupyter`
+:::
 
 ## 16: August 8, 2023
 
@@ -185,13 +223,17 @@ Python was named after the [BBC TV](https://www.wikiwand.com/en/BBC_TV "BBC TV")
 
 [Ghidra](https://github.com/NationalSecurityAgency/ghidra) is a software reverse engineering tool developed by the National Security Agency (NSA). It helps analyze malicious code and malware like viruses, and can give cybersecurity professionals a better understanding of potential vulnerabilities in their networks. It’s open-source and free to use.
 
-> Flag: `Ghidra`
+::: tip Flag
+`Ghidra`
+:::
 
 ### 2: Who developed it?
 
 Discussed in 1.
 
-> Flag: `NSA`
+::: tip Flag
+`NSA`
+:::
 
 ### 3: What is the decompiler component written in?
 
@@ -202,7 +244,9 @@ Surprisingly (to me) the decompiler is written in C++ and not Java (Java 85.6%, 
 > **Fun Fact**: Press `.` while in GitHub repository to open project in `github.dev` (Live VSCode) \[*Requires To Be Logged In*\]
 > **or** you can use `github1s.com` to open project in Live VSCode (just add `1s` to url next to `github`.
 
-> Flag: `C++`
+::: tip Flag
+`C++`
+:::
 
 ## 17: August 9, 2023
 
@@ -210,19 +254,25 @@ Surprisingly (to me) the decompiler is written in C++ and not Java (Java 85.6%, 
 
 The penetration testing distribution that is also the name of a major Hindu goddess is **[Kali](https://www.kali.org/)**. Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing. It is maintained and funded by Offensive Security Ltd. In Hinduism, Kali is a goddess associated with empowerment and destruction.
 
-> Flag: `Kali`
+::: tip Flag
+`Kali`
+:::
 
 ### 2: Who maintains this distribution?
 
 Discussed in 1.
 
-> Flag: `Offensive Security`
+::: tip Flag
+`Offensive Security`
+:::
 
 ### 3: Which penetration testing framework is included with this distribution that's developed by the company Rapid7?
 
 The penetration testing framework developed by Rapid7 that is included with Kali Linux is **[Metasploit](https://www.metasploit.com/)**. Metasploit is an open-source tool used for developing, testing, and executing exploit code against target systems. It's widely used in cybersecurity to find vulnerabilities in networks, systems, and applications¹². It's important to use such tools responsibly and ethically, as misuse can lead to legal consequences. Always respect privacy and laws. 
 
-> Flag: `Metasploit`
+::: tip Flag
+`Metasploit`
+:::
 
 ## 18: August 10, 2023
 
@@ -232,7 +282,9 @@ The penetration testing framework developed by Rapid7 that is included with Kali
 
 _When in doubt [RTFM](https://www.wikiwand.com/en/RTFM)_
 
-> Flag: `man`
+::: tip Flag
+`man`
+:::
 
 ### 2: What is a common linux command to search text data that match a regular expression?
 
@@ -240,7 +292,9 @@ _When in doubt [RTFM](https://www.wikiwand.com/en/RTFM)_
 
 While regular expressions are scary, its a very useful tool in your arsenal.
 
-> Flag: `grep`
+::: tip Flag
+`grep`
+:::
 
 ## 19: August 11, 2023
 
@@ -252,7 +306,9 @@ While regular expressions are scary, its a very useful tool in your arsenal.
 
 [Recipe](https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)Reverse('Character')From_Hex('Auto')&input=WlRRZ1pqUWdNelFnTmpRZ05UUWdORFFnTkRVZ01UUWdOVFFnTWpVZ01UUWdOVFFnTnpVPSA&ieol=CRLF)
 
-> Flag: `WEAREATDEFCON`
+::: tip Flag
+`WEAREATDEFCON`
+:::
 
 ## 20: August 12, 2023
 
@@ -260,19 +316,25 @@ While regular expressions are scary, its a very useful tool in your arsenal.
 
 [Techniques > Enterprise > Phishing > T1566](https://attack.mitre.org/techniques/T1566/)
 
-> Flag: `T1566`
+::: tip Flag
+`T1566`
+:::
 
 ### 2. What tactic is phishing according to MITRE?
 
 It's listed in the T1566.
 
-> Flag: `Initial Access`
+::: tip Flag
+`Initial Access`
+:::
 
 ### 3. What's the ID for that tactic?
 
 [Tactics > Enterprise > Initial Access > TA0001](https://attack.mitre.org/tactics/TA0001/)
 
-> Flag: `TA0001`
+::: tip Flag
+`TA0001`
+:::
 
 ## 21: August 13, 2023
 
@@ -280,15 +342,21 @@ It's listed in the T1566.
 
 [https://linux.die.net/man/1/strings](https://linux.die.net/man/1/strings)
 
-> Flag: `strings`
+::: tip Flag
+`strings`
+:::
 
 ### 2. In reverse engineering, what type of analysis is used to investigate applications or files without executing them?
 
-> Flag: `static`
+::: tip Flag
+`static`
+:::
 
 ### 3. In reverse engineering, what type of analysis is used to investigate applications or files by observing their behavior once executed?
 
-> Flag: `dynamic`
+::: tip Flag
+`dynamic`
+:::
 
 ## 22: August 14, 2023
 
@@ -296,17 +364,23 @@ It's listed in the T1566.
 
 [https://www.offsec.com/metasploit-unleashed/msfconsole-commands/#exploits](https://www.offsec.com/metasploit-unleashed/msfconsole-commands/#exploits)
 
-> Flag: `show exploits`
+::: tip Flag
+`show exploits`
+:::
 ### 2. What common tool is used to enumerate Active Directory in order to find attack paths?
 
 [BloodHound CE](https://github.com/SpecterOps/BloodHound)
 
-> Flag: `bloodhound`
+::: tip Flag
+`bloodhound`
+:::
 ### 3. What file in Linux contains information about a user's password? Provide the full path.
 
 `/etc/passwd` contains user database. Second column is password and `*` means value is taken from `/etc/shadow` as it's only readable/writeable by root.
 
-> Flag: `/etc/shadow`
+::: tip Flag
+`/etc/shadow`
+:::
 
 ## 23: August 15, 2023
 
@@ -314,24 +388,32 @@ It's listed in the T1566.
 
 The **[Viasat hack](https://www.wikiwand.com/en/articles/Viasat_hack)** was a cyberattack against the satellite internet system of American communications company Viasat which affected their [KA-SAT](https://www.wikiwand.com/en/articles/KA-SAT) network. The hack happened on the day of [Russia's invasion of Ukraine](https://www.wikiwand.com/en/articles/Russian_invasion_of_Ukraine). Only the broadband customers were targeted.
 
-> Flag: `Viasat`
+::: tip Flag
+`Viasat`
+:::
 
 ### 2. A wiper malware was associated with this event. What was it called?
 
 _[New variant of AcidRain modem viper that hit Viasat spotted in the wild](https://www.cybersecurity-help.cz/blog/3873.html)_
 
-> Flag: `AcidRain`
+::: tip Flag
+`AcidRain`
+:::
 ### 3. It was loosely similar to what other piece of malware?
 
 From the same blog post: _AcidRain is an ELF MIPS malware designed to wipe modems and routers. Security researchers identified some similarities between AcidRain and the [VPNFilter](https://www.cybersecurity-help.cz/blog/1881.html) malware linked to the Russian state-backed threat actor Sandworm._
 
-> Flag: `VPNFilter`
+::: tip Flag
+`VPNFilter`
+:::
 
 ## 24: August 16, 2023
 
 ### 1. What is the full image URL of the KC7 logo on the top left of the page?
 
-> Flag: `https://kc7cyber.com/static/images/kc7logo.png`
+::: tip Flag
+`https://kc7cyber.com/static/images/kc7logo.png`
+:::
 
 ### 2. What is the md5 hash of the URL?
 
@@ -340,7 +422,9 @@ From the same blog post: _AcidRain is an ELF MIPS malware designed to wipe modem
 fc7efd8e1da69efa638d0dd7f3b94738  -
 ```
 
-> Flag: `fc7efd8e1da69efa638d0dd7f3b94738`
+::: tip Flag
+`fc7efd8e1da69efa638d0dd7f3b94738`
+:::
 
 ## 25: August 17, 2023
 
@@ -348,7 +432,9 @@ fc7efd8e1da69efa638d0dd7f3b94738  -
 
 [Windows.Forensics.Shellbags](https://docs.velociraptor.app/artifact_references/pages/windows.forensics.shellbags/): _Windows uses the Shellbag keys to store user preferences for GUI folder display within Windows Explorer._
 
-> Flag: `Shellbags`
+::: tip Flag
+`Shellbags`
+:::
 
 ### 2. What file is this artifact located in (Windows 7 or later)?
 
@@ -358,7 +444,9 @@ _The UsrClass. dat stores the ShellBag information for the Desktop, ZIP files, r
 
 Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/Microsoft/Windows/UsrClass.dat`
 
-> Flag: `UsrClass.dat`
+::: tip Flag
+`UsrClass.dat`
+:::
 
 ## 26: August 18, 2023
 
@@ -369,17 +457,23 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 | IP Address    | Location             | Network          | Postal Code | Approximate Latitude / Longitude*, and Accuracy Radius | ISP / Organization            | Domain         | Connection Type |
 | ------------- | -------------------- | ---------------- | ----------- | ------------------------------------------------------ | ----------------------------- | -------------- | --------------- |
 | 185.220.102.6 | Germany (DE), Europe | 185.220.102.0/27 | -           | 51.2993, 9.491 (200 km)                                | Stiftung Erneuerbare Freiheit | torservers.net | Corporate       |
-> Flag: `Germany`
+::: tip Flag
+`Germany`
+:::
 
 ### 2. What domain is it associated with (as of 15 August 2023)?
 
-> Flag: `torservers.net`
+::: tip Flag
+`torservers.net`
+:::
 
 ### 3. What was the first issuer CN for the SSL certificate of this domain?
 
 [https://crt.sh/?q=torservers.net](https://crt.sh/?q=torservers.net)
 
-> Flag: `StartCom Class 1 Primary Intermediate Server CA`
+::: tip Flag
+`StartCom Class 1 Primary Intermediate Server CA`
+:::
 
 ## 27: August 19, 2023
 
@@ -387,15 +481,21 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 
 [Raccoon Stealer malware returns with new stealthier version](https://www.bleepingcomputer.com/news/security/raccoon-stealer-malware-returns-with-new-stealthier-version/)
 
-> Flag: `Raccoon Stealer`
+::: tip Flag
+`Raccoon Stealer`
+:::
 
 ### 2. What's the newest version number as of August 19?
 
-> Flag: `2.3.0`
+::: tip Flag
+`2.3.0`
+:::
 
 ### 3. In 2022, one of the developers was arrested. What was their name?
 
-> Flag: `Mark Sokolovsky`
+::: tip Flag
+`Mark Sokolovsky`
+:::
 
 ## 28: August 20, 2023
 
@@ -403,13 +503,17 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 
 [CISA Adds One Known Exploited Vulnerability to Catalog](https://www.cisa.gov/news-events/alerts/2023/08/16/cisa-adds-one-known-exploited-vulnerability-catalog) (Release Date: August 16, 2023)
 
-> Flag: `CVE-2023-24489`
+::: tip Flag
+`CVE-2023-24489`
+:::
 
 ### 2. Which specific product is targeted by this CVE?
 
 [CVE-2023-24489](https://nvd.nist.gov/vuln/detail/CVE-2023-24489) Detail: _A vulnerability has been discovered in the customer-managed ShareFile storage zones controller which, if exploited, could allow an unauthenticated attacker to remotely compromise the customer-managed ShareFile storage zones controller._
 
-> Flag: `ShareFile`
+::: tip Flag
+`ShareFile`
+:::
 
 ## 29: August 21, 2023
 
@@ -425,7 +529,9 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 ...
 ```
 
-> Flag: `-O`
+::: tip Flag
+`-O`
+:::
 ### 2. Which NMAP flag is used for ACK scans?
 
 ```bash
@@ -444,7 +550,9 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 ...
 ```
 
-> Flag: `-sA`
+::: tip Flag
+`-sA`
+:::
 
 ## 30: August 22, 2023
 
@@ -452,13 +560,17 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 
 [AttackIQ > Glossary > What is the Pyramid of Pain?](https://www.attackiq.com/glossary/pyramid-of-pain/)
 
-> Flag: `Pyramid of Pain`
+::: tip Flag
+`Pyramid of Pain`
+:::
 
 ### 2. What is the toughest indicator?
 
 ![blog-pyramid-pain-01-768x432](https://www.attackiq.com/wp-content/uploads/2019/06/blog-pyramid-pain-01-768x432.jpg)
 
-> Flag: `TTPs`
+::: tip Flag
+`TTPs`
+:::
 
 ### 3. What is the most trivial indicator?
 
@@ -470,7 +582,9 @@ Velociraptor also contained this file in parameters: `C:/Users/*/AppData/Local/M
 
 _[CYBERWARCON](https://www.cyberwarcon.com) is a one-day conference in Arlington, VA focused on the specter of destruction, disruption, and malicious influence on our society through cyber capabilities._
 
-> Flag: `CYBERWARCON`
+::: tip Flag
+`CYBERWARCON`
+:::
 
 ### 2. Who talked last year about China's efforts to stand up its cybersecurity talent and pooling pipeline?
 
@@ -478,13 +592,17 @@ _[CYBERWARCON](https://www.cyberwarcon.com) is a one-day conference in Arlington
 Author: Dakota Cary
 Date: July 2021
 
-> Flag: `Dakota Cary`
+::: tip Flag
+`Dakota Cary`
+:::
 
 ### 3. What primary color were the socks sent to some people in the cybersecurity industry this year?
 
 Source: guessing 🥴
 
-> Flag: `Pink`
+::: tip Flag
+`Pink`
+:::
 
 ## 32: August 24, 2023
 
@@ -496,7 +614,9 @@ After trying few expected combinations I was unsuccessful. Then I tried `Magic` 
 
 [Recipe](https://gchq.github.io/CyberChef/#recipe=From_Hex('Space')Gunzip()&ieol=CRLF)
 
-> Flag: `pillowtalkmadness`
+::: tip Flag
+`pillowtalkmadness`
+:::
 
 ## 33: August 25, 2023
 
@@ -504,7 +624,9 @@ After trying few expected combinations I was unsuccessful. Then I tried `Magic` 
 
 `From Hex -> ROT47 -> wowyouarepersistent`
 
-> Flag: `wowyouarepersistent`
+::: tip Flag
+`wowyouarepersistent`
+:::
 
 ## 34: August 26, 2023
 
@@ -551,7 +673,9 @@ a=255, b=254: njkdsrsqxsghrmnv>
 a=255, b=255: okletstrythisnow?
 ```
 
-> Flag: `okletstrythisnow?`
+::: tip Flag
+`okletstrythisnow?`
+:::
 
 ## 35: August 27, 2023
 
@@ -559,7 +683,9 @@ a=255, b=255: okletstrythisnow?
 
 [WinINet](https://learn.microsoft.com/en-us/windows/win32/wininet/about-wininet): _The Windows Internet (WinINet) application programming interface (API) enables your application to interact with FTP and HTTP protocols to access Internet resources. As standards evolve, these functions handle the changes in underlying protocols, enabling them to maintain consistent behavior._
 
-> Flag: `WinINet`
+::: tip Flag
+`WinINet`
+:::
 
 ### 2. Which import function is typically used to make changes to the registry?
 
@@ -572,13 +698,17 @@ Some OSINT:
 
 `ADVAPI32` module also supports the same registry functions.
 
-> Flag: `advapi32`
+::: tip Flag
+`advapi32`
+:::
 
 ## 36: August 28, 2023
 
 ### 1. In Windows Operating Systems, one or more \_\_ may run in context within a running process.
 
-> Flag: `Threads`
+::: tip Flag
+`Threads`
+:::
 
 ## 37: August 29, 2023
 
@@ -586,7 +716,9 @@ Some OSINT:
 
 _Each MD5 hash looks like 32 numbers and letters, but each digit is in hexadecimal and represents four bits. Since a single character represents eight bits (to form a byte), the total bit count of an MD5 hash is **128 bits**._ ([source](www.avast.com/c-md5-hashing-algorithm))
 
-> Flag: `128`
+::: tip Flag
+`128`
+:::
 
 ### 2. Who designed the MD5 hash?
 
@@ -594,7 +726,9 @@ _Each MD5 hash looks like 32 numbers and letters, but each digit is in hexadecim
 
 Network Working Group         R. Rivest
 
-> Flag: `Ronald Rivest`
+::: tip Flag
+`Ronald Rivest`
+:::
 
 ## 38: August 30, 2023
 
@@ -602,7 +736,9 @@ Network Working Group         R. Rivest
 
 [TheWhiteHouse > Red-Teaming Large Language Models to Identify Novel AI Risks](https://www.whitehouse.gov/ostp/news-updates/2023/08/29/red-teaming-large-language-models-to-identify-novel-ai-risks/): _The event was held at the AI Village during DEF CON 31, one of the world’s leading cybersecurity conferences, and organized by AI Village, SeedAI, Humane Intelligence, and their partners._
 
-> Flag: `AI Village`
+::: tip Flag
+`AI Village`
+:::
 
 ## 39: August 31, 2023
 
@@ -610,11 +746,15 @@ Network Working Group         R. Rivest
 
 [parse_json()](https://learn.microsoft.com/en-us/kusto/query/parse-json-function?view=microsoft-fabric)
 
-> Flag: `parse_json`
+::: tip Flag
+`parse_json`
+:::
 
 ### 2. What's the other KQL function that returns the JSON value as a specific type?
 
 [extract_json()](https://learn.microsoft.com/en-us/kusto/query/extract-json-function?view=microsoft-fabric)
 
-> Flag: `extract_json`
+::: tip Flag
+`extract_json`
+:::
 

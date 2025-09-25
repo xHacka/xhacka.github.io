@@ -14,5 +14,7 @@ Password is hardcoded into Javascript
 
 ![javascript---source-1.png](/assets/ctf/root-me/javascript-source-1.png)
 
-> Flag: `123456azerty`
+::: tip Flag
+`123456azerty`
+:::
 

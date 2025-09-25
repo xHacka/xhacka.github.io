@@ -67,5 +67,7 @@ for num in nums:
 print()
 ```
 
-> Flag: `HTB{__protecting_the_secret_in_equations_is_not_secure__}`
+::: tip Flag
+`HTB{__protecting_the_secret_in_equations_is_not_secure__}`
+:::
 

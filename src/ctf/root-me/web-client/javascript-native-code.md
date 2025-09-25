@@ -20,5 +20,7 @@ or use tool like: [https://www.dcode.fr/javascript-unobfuscator](https://www.dco
 function anonymous( ) { a=prompt('Entrez le mot de passe');if(a=='toto123lol'){alert('bravo');}else{alert('fail...');} }
 ```
 
-> Flag: `toto123lol`
+::: tip Flag
+`toto123lol`
+:::
 

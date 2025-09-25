@@ -18,19 +18,25 @@ The picture gives us backstory of the attack, and the image includes attackers e
 
 [Ransomware Note](https://kc7photos.blob.core.windows.net/manualphotos/sharknado_ransom.png)
 
-> Flag: `sharknadorules_gang@onionmail.org`
+::: tip Flag
+`sharknadorules_gang@onionmail.org`
+:::
 
 ### 2: What is the unique decryption ID?
 
 Retrieved from the note.
 
-> Flag: `SUNNYDAY123329JA0`
+::: tip Flag
+`SUNNYDAY123329JA0`
+:::
  
 ### 3: Should this be something you post publicly about? Yes or no?
 
 Publicly disclosing the ransomware is never a good idea, especially if this happens in company environment. The **sensitive** data which belong to organization cannot be disclosed to public, its your job as a SoC to protect that information from attackers.
 
-> Flag: `No`
+::: tip Flag
+`No`
+:::
 
 ### 4: How many notes appeared in Castle&Sand's environment?
 
@@ -43,13 +49,17 @@ FileCreationEvents
 | count 
 ```
 
-> Flag: `774`
+::: tip Flag
+`774`
+:::
 
 ### 5: How many distinct hostnames had the ransom note?
 
 Same answer as in Question 4
 
-> Flag: `774`
+::: tip Flag
+`774`
+:::
 
 ### 6: How many distinct employee roles were affected by the ransomware attack?
 
@@ -65,7 +75,9 @@ Employees
 | count 
 ```
 
-> Flag: `18`
+::: tip Flag
+`18`
+:::
 
 ### 7: How many unique hostnames belong to IT employees?
 
@@ -81,7 +93,9 @@ Employees
 | count 
 ```
 
-> Flag: `25`
+::: tip Flag
+`25`
+:::
 
 ### 8: One of the IT employees has their IP address ending in 46. What's their name?
 
@@ -91,7 +105,9 @@ Employees
 | where ip_addr endswith ".46"
 ```
 
-> Flag: `Simeon Kakpovi`
+::: tip Flag
+`Simeon Kakpovi`
+:::
 
 ### 9: How many security alerts involved the different hosts?
 
@@ -106,7 +122,9 @@ SecurityAlerts
 | count 
 ```
 
-> Flag: `652`
+::: tip Flag
+`652`
+:::
 
 ### 10: How about just the unique hostnames belonging to the IT Helpdesk from Question 7?
 
@@ -127,7 +145,9 @@ SecurityAlerts
 | count 
 ```
 
-> Flag: `27`
+::: tip Flag
+`27`
+:::
 
 ### 11: Who owns the machine that flagged on that alert? 
 
@@ -147,7 +167,9 @@ Employees
 | project name
 ```
 
-> Flag: `Preston Lane`
+::: tip Flag
+`Preston Lane`
+:::
 
 ### 12: When did the file appear on that user's machine? 
 
@@ -159,19 +181,25 @@ FileCreationEvents
 | where filename == 'Chomping-Schedule_Changes.xlsx'
 ```
 
-> Flag: `2023-05-26T09:26:15Z`
+::: tip Flag
+`2023-05-26T09:26:15Z`
+:::
 
 ### 13: What's the SHA256 hash of that file?
 
 Question 12 query, sha256.
 
-> Flag: `71daa56c10f7833848a09cf8160ab5d79da2dd2477b6b3791675e6a8d1635016`
+::: tip Flag
+`71daa56c10f7833848a09cf8160ab5d79da2dd2477b6b3791675e6a8d1635016`
+:::
 
 ### 14: What application created that file?
 
 Question 12 query, `process_name`.
 
-> Flag: `Firefox` or `firefox.exe`
+::: tip Flag
+`Firefox` or `firefox.exe`
+:::
 
 ### 15: Let's look for other files with that same name. How many unique hosts had that file on their systems?
 
@@ -182,7 +210,9 @@ FileCreationEvents
 | count 
 ```
 
-> Flag: `11`
+::: tip Flag
+`11`
+:::
 
 ### 16: How many unique domains did employees download this file from?
 
@@ -197,7 +227,9 @@ https://jawfin.com/published/images/files/Chomping-Schedule_Changes.xlsx
 http://sharkfin.com/modules/public/published/Chomping-Schedule_Changes.xlsx
 ```
 
-> Flag: `2`
+::: tip Flag
+`2`
+:::
 
 ### 17: Based on the employee we've been tracking from Question 11, which domain did they download the file from?
 
@@ -211,7 +243,9 @@ OutboundNetworkEvents
 | project parse_url(url).Host
 ```
 
-> Flag: `jawfin.com`
+::: tip Flag
+`jawfin.com`
+:::
 
 ### 18: How many unique IP addresses did the domain resolve to?
 
@@ -222,7 +256,9 @@ PassiveDns
 | count  
 ``` 
 
-> Flag: `6`
+::: tip Flag
+`6`
+:::
 
 ### 19: Which IP address is closest to when the employee had the file created on their host machine?
 
@@ -240,7 +276,9 @@ PassiveDns
 | extend fileCreatedAt
 ```
 
-> Flag: `193.248.75.126`
+::: tip Flag
+`193.248.75.126`
+:::
 
 ### 20: How many unique IPs did that domain resolve to?
 
@@ -252,7 +290,9 @@ PassiveDns
 | distinct ip
 ``` 
 
-> Flag: `4`
+::: tip Flag
+`4`
+:::
 
 ### 21: Let's take all of the IP addresses from the two domains and search them against network events on Castle&Sand's website. How many records returned from your query?
 
@@ -267,13 +307,17 @@ InboundNetworkEvents
 | count 
 ```
 
-> Flag: `39`
+::: tip Flag
+`39`
+:::
 
 ### 22: When was the first time we saw any of these actor IP addresses from Q21 against Castle&Sand's network?
 
 Replace Question 21 query `count` to `take 1` for first event. (Database is already sorted with timestamps)
 
-> Flag: `2023-05-20T03:11:57Z`
+::: tip Flag
+`2023-05-20T03:11:57Z`
+:::
 
 ### 23: Let's search the actor IPs against AuthenticationEvents to see if they logged into any user machines or email accounts. How many records did you get back?
 
@@ -285,7 +329,9 @@ AuthenticationEvents
 | where src_ip in (susIPs)
 ```
 
-> Flag: `0`
+::: tip Flag
+`0`
+:::
 
 ### 24: Let's look for the malicious domains in Emails. How many records did you get back?
 
@@ -295,19 +341,25 @@ Email
 | count 
 ```
 
-> Flag: `14`
+::: tip Flag
+`14`
+:::
 
 ### 25: When was the earliest email sent?
 
 Replace Question 24 query `count` to `take 1` for first event. (Database is already sorted with timestamps)
 
-> Flag: `2023-05-25T16:33:09Z`
+::: tip Flag
+`2023-05-25T16:33:09Z`
+:::
 
 ### 26: Who was the sender?
 
 Question 25 has the answer.
 
-> Flag: `legal.sand@verizon.com`
+::: tip Flag
+`legal.sand@verizon.com`
+:::
 
 ### 27: How many emails total did that sender send to Castle&Sand employees?
 
@@ -318,7 +370,9 @@ Email
 | count 
 ```
 
-> Flag: `23`
+::: tip Flag
+`23`
+:::
 
 ### 28: Take all of the distinct sender or reply_to emails from the last question. How many emails total are associated with these email addresses?
 
@@ -348,7 +402,9 @@ Email
 | count 
 ```
 
-> Flag: `40`
+::: tip Flag
+`40`
+:::
 
 ### 29: How many unique domains did the email addresses use in their emails?
 
@@ -361,7 +417,9 @@ Same query from Question 28, but instead of
 | distinct tostring(parse_url(link).Host)
 ```
 
-> Flag: `6`
+::: tip Flag
+`6`
+:::
 
 ### 30: How many distinct IP addresses total were used by all of the domains identified in Q28?
 
@@ -383,7 +441,9 @@ PassiveDns
 | count 
 ```
 
-> Flag: `15`
+::: tip Flag
+`15`
+:::
 
 ### 31: How many user accounts did these IPs log into?
 
@@ -406,7 +466,9 @@ AuthenticationEvents
 | where src_ip in (ips)
 ```
 
-> Flag: `0`
+::: tip Flag
+`0`
+:::
 
 ### 32: Looking at these emails (from question 31), how many unique filenames were served by these domains?
 
@@ -426,7 +488,9 @@ Email
 | distinct tostring(parse_path(link).Filename)
 ```
  
-> Flag: `5`
+::: tip Flag
+`5`
+:::
 
 ### 33: How many files with these names were created on employee host machines?
 
@@ -439,7 +503,9 @@ FileCreationEvents
 | count 
 ```
 
-> Flag: `34`
+::: tip Flag
+`34`
+:::
 
 ### 34: When was the first file observed?
 
@@ -452,7 +518,9 @@ FileCreationEvents
 | take 1
 ```
 
-> Flag: `2023-05-25T16:43:20Z`
+::: tip Flag
+`2023-05-25T16:43:20Z`
+:::
 
 ### 35: How many records total are associated with the identified host machines from Q33?
 
@@ -476,7 +544,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `16391`
+::: tip Flag
+`16391`
+:::
 
 ### 36: How many records total do you have now?
 
@@ -488,7 +558,9 @@ We can add one more filter
 | where timestamp > datetime(2023-05-25T16:43:20Z)
 ```
 
-> Flag: `5818`
+::: tip Flag
+`5818`
+:::
 
 ### 37: What IP address is referenced in that command?
 
@@ -508,13 +580,17 @@ ProcessEvents
 
 Weird thing happened in this query, `project process_commandline` decided that it would sort the results on its own? that's why `order by` is necessary with `project` in this query..
 
-> Flag: `220.35.180.137`
+::: tip Flag
+`220.35.180.137`
+:::
 
 ### 38: Which host machine did the powershell activity execute on?
 
 We found it from Question 37 query (first event). 
 
-> Flag: `CL8Q-LAPTOP`
+::: tip Flag
+`CL8Q-LAPTOP`
+:::
 
 ### 39: There's a weird repeating command right before this activity. What's the parent process of the first time this repeated activity occurs?
 
@@ -530,13 +606,17 @@ ProcessEvents
 The results look normal? All listed processes seem legit, but **[scvhost.exe](https://www.wikiwand.com/en/Svchost.exe)** seems a bit weird. <br>
 First of all if you're windows user you probably checked `Task Manager > Details` tab and would have seen bijilion of this programs running for whatever reason... and if we take a closer look we can notice that it's _s**cv**host_ not _s**vc**host_. Sussy indeed 👀
 
-> Flag: `scvhost.exe`
+::: tip Flag
+`scvhost.exe`
+:::
 
 ### 40: What legitimate Windows process was this file trying to masquerade as?
 
 Discussed in Question 39
 
-> Flag: `svchost.exe`
+::: tip Flag
+`svchost.exe`
+:::
 
 ### 41: How many hosts had their passwords dumped?
 
@@ -559,7 +639,9 @@ ProcessEvents
 
 > If you tried `process_commandline has 'mimikatz'` then you would have noticed extra 4 events, which for this question is not revelant.
 
-> Flag: `31`
+::: tip Flag
+`31`
+:::
 
 ### 42: How many hosts did that powershell command execute on?
 
@@ -574,7 +656,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `31`
+::: tip Flag
+`31`
+:::
 
 ### 43: How many unique IP addresses were used in these commands?
 
@@ -591,7 +675,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `14`
+::: tip Flag
+`14`
+:::
 
 ### 44: Which of these IP addresses was seen the most?
 
@@ -608,7 +694,9 @@ ProcessEvents
 
 > KQL automatically names columns and for count it's `count_`
 
-> Flag: `157.242.169.232`
+::: tip Flag
+`157.242.169.232`
+:::
 
 ### 45:  How many records total involved those processes?
 
@@ -623,7 +711,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `62`
+::: tip Flag
+`62`
+:::
 
 ### 46: Let's look to see if any of these files are referenced in the command line. How many records did you find?
 
@@ -638,13 +728,17 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `1548`
+::: tip Flag
+`1548`
+:::
 
 ### 47: When was the earliest time found in Q46?
 
 `| count` -> `| take 1 | project timestamp` from Question 47.
 
-> Flag: `2023-06-09T19:43:58Z`
+::: tip Flag
+`2023-06-09T19:43:58Z`
+:::
 
 ### 48: When was the earliest time you saw these files?
 
@@ -657,7 +751,9 @@ FileCreationEvents
 | take 1
 ```
 
-> Flag: `2023-06-09T19:43:48Z`
+::: tip Flag
+`2023-06-09T19:43:48Z`
+:::
 
 ## Section 3: Hunting the Shark 🔍
 
@@ -665,13 +761,17 @@ FileCreationEvents
 
 _Link to voicemail: <https://twitter.com/webyteyourdata/status/1665825830495219713>_
 
-> Flag: `72`
+::: tip Flag
+`72`
+:::
 
 ### 2: What do the ransomware gang call themselves?
 
 The answer is in Voice mail (~10 seconds) or #tag.
 
-> Flag: `Shark boys`
+::: tip Flag
+`Shark boys`
+:::
 
 ### 3: What Mitre Technique is aligned with what this group did on Castle&Sand systems?
 
@@ -679,7 +779,9 @@ The answer is in Voice mail (~10 seconds) or #tag.
 
 > _Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key._
 
-> Flag: `T1486`
+::: tip Flag
+`T1486`
+:::
 
 ### 4: Let's search for the email domain used in the ransom note. What is the ZIP code of their headquarters?
 
@@ -689,13 +791,17 @@ Flashback To Section 2 Question 1: _[Ransomeware Note](https://kc7photos.blob.co
 We find the domain of the email the attackers used in the Ransom Note. After that we can go to the official website and search for the answer.<br>
 For address we can refer to **Privacy Policy** page and then **Contacting us** header.
 
-> Flag: `10016`
+::: tip Flag
+`10016`
+:::
 
 ### 5: What country is this email service located in?
 
 We learned it from Question 4.
 
-> Flag: `USA`
+::: tip Flag
+`USA`
+:::
 
 ### 6: How many continents total are these IP addresses from?
 
@@ -714,7 +820,9 @@ We can use given website to do GeoIP lookup for found (6) IPs, filter for **dist
 
 > If you have AdBlocker enabled the service may not work
 
-> Flag: `3`
+::: tip Flag
+`3`
+:::
 
 ### 7: What is the Autonomous System (AS) number for the IP address?
 
@@ -730,7 +838,9 @@ These authorities (ASNs) decide how traffic flows within their networks and how 
 
 -- For answer just submit the IP (from Section 2, Question 19) to given website
 
-> Flag: `AS3215`
+::: tip Flag
+`AS3215`
+:::
 
 ### 8: Which one is assigned to a University?
 
@@ -744,7 +854,9 @@ PassiveDns
 
 We can utilize **[MaxMind GeoIP](https://www.maxmind.com/en/geoip-demo)** again to identify source of ips, only 1 IP belong to University.
 
-> Flag: `157.242.169.232`
+::: tip Flag
+`157.242.169.232`
+:::
 
 ### 9: Which email address is associated with a company outside of the United States?
 
@@ -761,19 +873,25 @@ let emails = dynamic([
 
 If you already don't know this company, you can look each one to learn more about them.
 
-> Flag: `urgent_urgent@yandex.com`
+::: tip Flag
+`urgent_urgent@yandex.com`
+:::
 
 ### 10: For the tool found in Section 2, Q41, What is the MITRE ID for that specific software?
 
 [Mimikatz, Software S0002](https://attack.mitre.org/software/S0002/)
 
-> Flag: `S0002`
+::: tip Flag
+`S0002`
+:::
 
 ### 11: For the tool found in Section 2, Q41, what is the MITRE ID for that that type of technique that this tool is typically used for?
 
 We know that attackers used this program to dump credentials of users, so we can lookup `Techniques Used` table for ID referencing this attack's **ID**.
 
-> Flag: `T1003`
+::: tip Flag
+`T1003`
+:::
 
 ### 12: How many unique SHA256 hashes are found in Castle&Sand's environment with these filenames?
 
@@ -792,7 +910,9 @@ FileCreationEvents              // New Lines For Query
 | count 
 ```
 
-> Flag: `9`
+::: tip Flag
+`9`
+:::
 
 ### 13: How many were flagged as malicious on VirusTotal?
 
@@ -891,7 +1011,9 @@ Popular Threat Label: trojan.rorschach/lockbit
 Malicious: 28 / 76
 ```
 
-> Flag: `3`
+::: tip Flag
+`3`
+:::
 
 ### 14: Which file hash was reported by the security community as the ransomware's encrypted payload?
 
@@ -969,7 +1091,9 @@ Comment 1: #BabLock #Ransomware encrypted payload
 
 > For some reason only last hash was accepted 🥴
 
-> Flag: 82a7241d747864a8cf621f226f1446a434d2f98435a93497eafb48b35c12c180
+::: tip Flag
+82a7241d747864a8cf621f226f1446a434d2f98435a93497eafb48b35c12c180
+:::
 
 ### 15: What ransomware family uses a command similar to this process execution?
 
@@ -977,7 +1101,9 @@ _For Section 2, Q46_
 
 We learned about this from Question 13/14 (has more then 1 name).
 
-> Flag: `Bablock` or `Rorschach`
+::: tip Flag
+`Bablock` or `Rorschach`
+:::
 
 ## Section 4: Sand in my 👁️👁️ (New Threat Actor)
 
@@ -992,7 +1118,9 @@ Email
 | count  
 ```
 
-> Flag: `19`
+::: tip Flag
+`19`
+:::
 
 ### 2: There appears to be another email account. How many emails total are referenced by these two email accounts?
 
@@ -1009,7 +1137,9 @@ Email
 | count 
 ```
 
-> Flag: `33`
+::: tip Flag
+`33`
+:::
 
 ### 3: How many unique domains were used by these email accounts?
 
@@ -1024,7 +1154,9 @@ Email
 | distinct tostring(parse_url(link).Host)
 ```
 
-> Flag: `4`
+::: tip Flag
+`4`
+:::
 
 ### 4: Based on these domains, what type of attack did this threat actor conduct?
 
@@ -1058,7 +1190,9 @@ OutboundNetworkEvents
 | evaluate rows_near(url has '?redirect', 1, 0)
 ```
 
-> Flag: `watering hole`
+::: tip Flag
+`watering hole`
+:::
 
 ### 5: How many distinct job roles were targeted by this type of attack?
 
@@ -1079,7 +1213,9 @@ Employees
 | count 
 ```
 
-> Flag: `13`
+::: tip Flag
+`13`
+:::
 
 ### 6: How many external IP addresses were used to successfully log into those user accounts?
 
@@ -1112,7 +1248,9 @@ AuthenticationEvents
 | count 
 ```
 
-> Flag: `43`
+::: tip Flag
+`43`
+:::
 
 ### 7: These IP addresses may have accessed email inboxes and downloaded data. How many unique filenames were downloaded by these IP addresses?
 
@@ -1130,7 +1268,9 @@ InboundNetworkEvents
 | count 
 ```
 
-> Flag: `14`
+::: tip Flag
+`14`
+:::
 
 ### 8: How many distinct IPs were involved in the stealing of downloaded data from the previous questions?
 
@@ -1142,7 +1282,9 @@ InboundNetworkEvents
 | count 
 ```
 
-> Flag: `9`
+::: tip Flag
+`9`
+:::
 
 ### 9: Based on the IPs from Q6, how many unique domains did they resolve to?
 
@@ -1155,7 +1297,9 @@ PassiveDns
 | count 
 ```
 
-> Flag: `5`
+::: tip Flag
+`5`
+:::
 
 ### 10: Let's go back to the user accounts that may have been affected by the phishing campaign. How many hosts have they logged into?
 
@@ -1171,7 +1315,9 @@ AuthenticationEvents
 | count 
 ```
 
-> Flag: `43`
+::: tip Flag
+`43`
+:::
 
 ### 11: Investigate the domains from Q9. How many files are present on Castle&Sand systems that originated from these domains?
 
@@ -1193,7 +1339,9 @@ FileCreationEvents
 > Checking extension doesn't really matter for this case, because filenames will match themselves and extensionless files will get ignored. But cleaner data is always nice.
 {. prompt-info } 
 
-> Flag: `15`
+::: tip Flag
+`15`
+:::
 
 ### 12: Investigate what happens after these files are downloaded and find malicious activity. How many unique malware filenames are created from these files?
 
@@ -1228,7 +1376,9 @@ FileCreationEvents
 
 > procdump64 is part of [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/), but is considered malicious because of usage (Check in ProcessEvents)
 
-> Flag: `5`
+::: tip Flag
+`5`
+:::
 
 ### 13: How many of these files total are present on Castle&Sand systems?
 
@@ -1245,7 +1395,9 @@ FileCreationEvents
 | count 
 ```
 
-> Flag: `14`
+::: tip Flag
+`14`
+:::
 
 ### 14: How many distinct C2 servers are associated with the malware?
 
@@ -1268,7 +1420,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `7`
+::: tip Flag
+`7`
+:::
 
 ### 15:  When is the first time you see this final action by the threat actor? Copy & paste the full timestamp.
 
@@ -1349,13 +1503,17 @@ ProcessEvents
 | take 1
 ```
 
-> Flag: `2023-05-26T10:33:04Z`
+::: tip Flag
+`2023-05-26T10:33:04Z`
+:::
 
 ### 16: What MITRE Technique is this aligned with?
 
 [**(T1048)** Exfiltration Over Alternative Protocol](https://attack.mitre.org/techniques/T1048/)
 
-> Flag: `T1048`
+::: tip Flag
+`T1048`
+:::
 
 ### 17: How many hosts are affected by this action?
 
@@ -1365,7 +1523,9 @@ ProcessEvents
 | count 
 ```
 
-> Flag: `14`
+::: tip Flag
+`14`
+:::
 
 ### 18: How many distinct job roles were affected by this action?
 
@@ -1378,7 +1538,9 @@ Employees
 | distinct role
 ```
 
-> Flag: `5`
+::: tip Flag
+`5`
+:::
 
 ## Section 5: A clean sweep 🧹
 
@@ -1406,13 +1568,17 @@ Some OSINT: [List of Olympic Games host cities](https://www.wikiwand.com/en/List
 
 2023 doesnt have Olympic games. Last Winter Olympic games was in China, but that's 2022 and question mentions _a few years ago_. Before China it was South Korea in 2018.
 
-> Flag: `124.138.210.88`
+::: tip Flag
+`124.138.210.88`
+:::
 
 ### 2: Which one hosted the winter Olympics recently? If there's more than one, post any of them.
 
 Discussed in Question 1, so China.
 
-> Flag: `223.9.222.59` or `43.185.57.65`
+::: tip Flag
+`223.9.222.59` or `43.185.57.65`
+:::
 
 ### 3: Search the malicious files found in Q12 on VirusTotal.com. Which file appears to not be malicious? Copy and paste the SHA256 hash.
 
@@ -1507,13 +1673,17 @@ Malicious: 60 / 76
 
 `procdump` was obvious, but always verify.
 
-> Flag: `e2a7a9a803c6a4d2d503bb78a73cd9951e901beb5fb450a2821eaf740fc48496`
+::: tip Flag
+`e2a7a9a803c6a4d2d503bb78a73cd9951e901beb5fb450a2821eaf740fc48496`
+:::
 
 ### 4: Who signed the file?
 
 [VirusTotal Report: Details](https://www.virustotal.com/gui/file/e2a7a9a803c6a4d2d503bb78a73cd9951e901beb5fb450a2821eaf740fc48496/details)
 
-> Flag: `Microsoft`
+::: tip Flag
+`Microsoft`
+:::
 
 ### 5: Research the malware files some more. Which threat actor group may have used these in the past?
 
@@ -1521,13 +1691,17 @@ Question 3 output has only 1 Meaningful Name with `.exe` extension:
 
 [VirusTotal Report: Community](https://www.virustotal.com/gui/file/bb3d35cba3434f053280fc2887a7e6be703505385e184da4960e8db533cf4428/community)
 
-> Flag: [APT41](https://attack.mitre.org/groups/G0096/)
+::: tip Flag
+[APT41](https://attack.mitre.org/groups/G0096/)
+:::
 
 ### 6: For what you found in Section 4, Q15, who developed this malware? Paste their username.
 
 S4Q15: <https://github.com/Arno0x/DNSExfiltrator>
 
-> Flag: `Arno0x`
+::: tip Flag
+`Arno0x`
+:::
 
 ## Section 6: Security Jeopardy REDUX 🕺
 
@@ -1535,38 +1709,52 @@ S4Q15: <https://github.com/Arno0x/DNSExfiltrator>
 
 _[KC7cyber](https://twitter.com/KC7cyber)_
 
-> Flag: `KC7cyber`
+::: tip Flag
+`KC7cyber`
+:::
 
 ### 2: What was the Sharky Ransomware Gang's Twitter Handle?
 
 From S3Q1: [webyteyourdata](https://twitter.com/webyteyourdata/status/1665825830495219713)
 
-> Flag: `webyteyourdata`
+::: tip Flag
+`webyteyourdata`
+:::
 
 ### 3: What KC7 Learning Module did we post on November 26, 2023? Copy and paste the name of the module
 
 [https://kc7cyber.com](https://kc7cyber.com) > Resources > Learning Modules > JARM Fingerprinting
 
-> Flag: [https://kc7cyber.com/blog/jarm-fingerprinting](https://kc7cyber.com/blog/jarm-fingerprinting)
+::: tip Flag
+[https://kc7cyber.com/blog/jarm-fingerprinting](https://kc7cyber.com/blog/jarm-fingerprinting)
+:::
 ### 4: What was the name of the company from KC7's game module about the culinary arts?
 
 [https://kc7cyber.com/modules](https://kc7cyber.com/modules) > Search food > Dai Wok Foods
 
-> Flag: `Dai Wok Foods`
+::: tip Flag
+`Dai Wok Foods`
+:::
 
 ### 5: How many bits are in a byte?
 
-> Flag: `8`
+::: tip Flag
+`8`
+:::
 ### 6: How many megabytes are in a gigabyte?
 
-> Flag: `1000`
+::: tip Flag
+`1000`
+:::
 ### 7: Who on Twitter likes to IMPOSE COST to adversaries, and really likes Spiderman?
 
 Googling the question literally ledme to him, lol 
 
 [https://x.com/ImposeCost](https://x.com/ImposeCost)
 
-> Flag: `Andrew Thompson`
+::: tip Flag
+`Andrew Thompson`
+:::
 ### 8: What cybersecurity conference is focused on Detection Engineering And Threat Hunting? Provide the domain name of their website.
 
 [https://deathcon.io](https://deathcon.io)
@@ -1577,22 +1765,30 @@ Detection Engineering and Threat Hunting
 16-17 November 2024
 ```
 
-> Flag: [https://deathcon.io](https://deathcon.io)
+::: tip Flag
+[https://deathcon.io](https://deathcon.io)
+:::
 ### 9: What SssSssSecurity conference focused on cyber crime is typically hosted recently in Arlington VA?
 
 From google search it sounded like [https://www.cyberwarcon.com](https://www.cyberwarcon.com), but it turned out to be [https://www.sleuthcon.com](https://www.sleuthcon.com) (~Snakes)
 
-> Flag: `SLEUTHCON`
+::: tip Flag
+`SLEUTHCON`
+:::
 ### 10: What recent ZERO DAY vulnerability in late May / June 2023 where it was reported that the LACE TEMPEST group took responsibility for it? Copy & paste the CVE.
 
 [Microsoft: Lace Tempest Hackers Behind Active Exploitation of MOVEit Transfer App](https://thehackernews.com/2023/06/microsoft-lace-tempest-hackers-behind.html): _"Exploitation is often followed by deployment of a web shell with data exfiltration capabilities," the **Microsoft Threat Intelligence** team [said](https://twitter.com/MsftSecIntel/status/1665537730946670595) in a series of tweets today. "**CVE-2023-34362** allows attackers to authenticate as any user."_
 
-> Flag: `CVE-2023-34362`
+::: tip Flag
+`CVE-2023-34362`
+:::
 ### 11: Who is claiming responsibility for the DDOS attacks at a well know tech company? (June 2023)
 
 [Anonymous Sudan (Storm-1359) campaign against Microsoft](https://atos.net/en/lp/securitydive/distributed-denial-of-2023#:~:text=Microsoft%20suffered%20multiple%20attacks%20on,attacks%20targeting%20several%20US%20companies.)
 
-> Flag: `Anonymous Sudan`
+::: tip Flag
+`Anonymous Sudan`
+:::
 ### 12: 🤫 📡 You intercepted a secret transmission
 
 Message: `eWV2dG5pbnkgcWFuIGxib2VudWY=`
@@ -1605,7 +1801,9 @@ sharboy and lavagirl
 
 > **Note**: shar**k**boy seems to be missing a character.
 
-> Flag: sharkboy and lavagirl
+::: tip Flag
+sharkboy and lavagirl
+:::
 ### 13: Binary blob
 
 ```bash
@@ -1622,7 +1820,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 'https://youtu.be/dQw4w9WgXcQ'
 ```
 
-> Flag: [https://youtu.be/dQw4w9WgXcQ](https://youtu.be/dQw4w9WgXcQ) (It's a f\*cking RickRoll 🤣 Well played KC7... well played)
+::: tip Flag
+[https://youtu.be/dQw4w9WgXcQ](https://youtu.be/dQw4w9WgXcQ) (It's a f\*cking RickRoll 🤣 Well played KC7... well played)
+:::
 
 ---
 
@@ -1631,10 +1831,14 @@ I previously had to leave for some time and questions got changed, leaving solve
 
 OSINT the company [About Us](https://kc7foundation.org/people/)
 
-> Flag: `Garrett Clark`
+::: tip Flag
+`Garrett Clark`
+:::
 
 ### 6: Who's KC7's Content Development Intern?
 
 Same approach as Question 5
 
-> Flag: `Cristina Genao`
+::: tip Flag
+`Cristina Genao`
+:::

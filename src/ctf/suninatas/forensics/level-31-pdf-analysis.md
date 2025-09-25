@@ -370,5 +370,7 @@ Another good tool worth mentioning is **[pdfstreamdumper](https://github.com/zha
 13d45a1e25471e72d2acc46f8ec46e95  -
 ```
 
-> Flag: `13d45a1e25471e72d2acc46f8ec46e95`
+::: tip Flag
+`13d45a1e25471e72d2acc46f8ec46e95`
+:::
 

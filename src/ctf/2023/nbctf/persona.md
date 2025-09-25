@@ -33,5 +33,6 @@ Check [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7135874053
 
 ![persona-6](/assets/ctf/nbctf/persona-6.png)
 
-> Flag: `nbctf{o0p$_y0u_f0u$n_me}`
-{: .prompt-tip}
+::: tip Flag
+`nbctf{o0p$_y0u_f0u$n_me}`
+:::

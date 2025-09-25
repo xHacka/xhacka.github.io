@@ -85,4 +85,6 @@ If we use EDX as the key we get Authkey
 
 ![level-11---rev-3.png](/assets/ctf/suninatas/rev/level-11-rev-3.png)
 
-> Flag: `2abbe4b681aae92244536ca0e32fa0de`
+::: tip Flag
+`2abbe4b681aae92244536ca0e32fa0de`
+:::
