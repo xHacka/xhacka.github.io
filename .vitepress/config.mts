@@ -51,6 +51,7 @@ export default defineConfig({
         hostname: "https://xhacka.github.io",
     },
     themeConfig: {
+        outline: "deep",
         search: {
             provider: "local",
         },
