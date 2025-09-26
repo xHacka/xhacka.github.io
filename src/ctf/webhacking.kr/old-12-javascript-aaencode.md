@@ -68,7 +68,7 @@ Paste in the Console tab:
 
 ![old-12-2.png](/assets/ctf/webhacking.kr/old-12-2.png)
 
-[webhacking.kr/challenge/code-3/youaregod\~\~\~\~\~\~\~!.php](webhacking.kr/challenge/code-3/youaregod~~~~~~~!.php)
+[https://webhacking.kr/challenge/code-3/youaregod\~\~\~\~\~\~\~!.php](https://webhacking.kr/challenge/code-3/youaregod~~~~~~~!.php)
 
 ![old-12-3.png](/assets/ctf/webhacking.kr/old-12-3.png)
 

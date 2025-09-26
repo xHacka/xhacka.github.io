@@ -123,7 +123,7 @@ jobs:
             github.rest.issues.createComment(issueComment);
 ```
 
-The exploit in the yaml is shell command. If you take a look at `TEACHER=$(echo '${{ github.event.issue.body }}' | grep -oP 'Teacher:.*$')` there's no way to exploit it, because for some command to execute bash needs `"` (double quotes), nothing will happen in single quotes. Since there's no validation we can just escape single quotes `'`, add command, close the quote. 
+The exploit in the yaml is shell command. If you take a look at <span v-pre>`TEACHER=$(echo '${{ github.event.issue.body }}' | grep -oP 'Teacher:.*$')`</span> there's no way to exploit it, because for some command to execute bash needs `"` (double quotes), nothing will happen in single quotes. Since there's no validation we can just escape single quotes `'`, add command, close the quote. 
 
 TLDR; sandwich the bash command into Issue Template.
 
@@ -160,8 +160,7 @@ db_pass=EKO{m0ve_y0uR_b0dy}
 
 ### Sources
 
-<details><summary markdown="span">grade.yaml</summary>
-
+::: details grade.yaml
 ```yaml
 on:
   pull_request_target
@@ -194,10 +193,9 @@ jobs:
             body: "👋 Your code looks great, good job! You've passed the exam!"
           })
 ```
-</details>
+:::
 
-<details><summary markdown="span">build.sh</summary>
-
+::: details build.sh
 ```sh
 #!/bin/bash
 
@@ -211,11 +209,9 @@ else
     echo "Build failed. Please check the compilation errors."
 fi
 ```
+:::
 
-</details>
-
-<details><summary markdown="span">test.sh</summary>
-
+::: details test.sh
 ```sh
 #!/bin/bash
 
@@ -239,9 +235,7 @@ else
     exit 1
 fi
 ```
-
-</details>
-
+:::
 
 ### Solution
  

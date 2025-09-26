@@ -94,10 +94,8 @@ Extract messages going in and out:
 
 I used C# to decode the values:
 
-<details>
 
-<summary>Program.cs</summary>
-
+::: details Program.cs
 ```c#
 using System;
 using System.IO;
@@ -167,13 +165,10 @@ public class Program {
     }
 }
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>Program_output.txt</summary>
-
+::: details Program_output.txt
 ```powershell
 PS C:\Users\<>\Desktop> C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe .\Program.cs && .\Program.exe
 Decrypted data: getinfo-0
@@ -193,8 +188,7 @@ Decrypted data: =?b???6?!?F?_??;aQ4caZ.exe?1?29184|
 Decrypted data: ??i?_?5?|??_??4cAcFrqA.ps1
 
 ```
-
-</details>
+:::
 
 Idk why I thought C# would be fun... It wasnt!
 

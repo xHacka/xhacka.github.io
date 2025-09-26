@@ -2,7 +2,7 @@
 
 ## Before Reading
 
-This writeup doesn't contain detailed explanation of everything and assumes you're already familiar with KQL. My assumption is that you completed [Balloons Over Iowa](...) room, also answer queries are very self-explanatory. <br>
+This writeup doesn't contain detailed explanation of everything and assumes you're already familiar with KQL. My assumption is that you completed **Balloons Over Iowa** room, also answer queries are very self-explanatory. 
 If you are looking for beginner friendly detailed writeup look into the post by [Shinigami42](https://medium.com/@Shinigami42): [KC7: Reflections on “Encryptodera” and Using It to Create a Professional Portfolio](https://medium.com/@Shinigami42/kc7-reflections-on-encryptodera-and-using-it-to-create-a-professional-portfolio-b833eae817a6)
 
 Challenge: [Inside Encryptodera](https://kc7cyber.com/challenges/145#)
@@ -321,8 +321,8 @@ ProcessEvents
 
 First we need timestamps of when first enumeration and first exploitation happened, we can get them easily because we already encountered the commands to permform said actions.
 
-**[datetime_diff](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/datetime-diff-function)** function can be used to calculate the delta between timestamps.<br>
-**[toscalar](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/toscalar-function)** function is used to convert **[dynamic](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/scalar-data-types/dynamic)** type to scalar AKA single value.<br>
+**[datetime_diff](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/datetime-diff-function)** function can be used to calculate the delta between timestamps.
+**[toscalar](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/toscalar-function)** function is used to convert **[dynamic](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/scalar-data-types/dynamic)** type to scalar AKA single value.
 **[print](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/print-operator)** operator can be used to show the output.
 
 ```sql
@@ -727,7 +727,7 @@ We got information about this question from Question 13.
 
 ### 15: To what path does Jane point her data exfiltration tool?
 
-If you filter `ProcessEvents` table for known filenames you will get no results and that's odd. The rogue employee must have used them somehow and we know it jane (username: jasmith).<br>
+If you filter `ProcessEvents` table for known filenames you will get no results and that's odd. The rogue employee must have used them somehow and we know it jane (username: jasmith).
 If you remember Barry he executed encoded payload with powershell, lets look into that.
 
 ```sql

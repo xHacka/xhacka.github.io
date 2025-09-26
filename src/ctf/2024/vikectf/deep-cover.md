@@ -6,9 +6,8 @@ As the Viking ship sailed across the vast North Sea, its crew encountered unexpe
 
 [ciphertext.txt](https://ctf.vikesec.ca/files/4c5478cf136d054e93c9b52338c9e82c/ciphertext.txt?token=eyJ1c2VyX2lkIjo1NDcsInRlYW1faWQiOjQwNSwiZmlsZV9pZCI6NX0.Ze4Otg.Y3StsQV83L31dd4HQSztBgKRFh0)
 
-<details>
-<summary markdown="span">ciphertext.txt</summary>
 
+::: details ciphertext.txt
 ```plaintext
 ** Vfyhrfz Zftkzh: Skqmkv **
 
@@ -30,8 +29,7 @@ Gzbnyx: Mlkdnx. 60 tfzmfah mryamf kg lborh qakv ba hrf yghfzakka. Vban qkdhr 40 
 
 Qyhdznyx: Rfycx qakv pfobaabao ba hrf skzabao. Yskdah 40 hk 45 ms. Vban akzhrfyqh 30 us/r cbufMHG{6d5hbao_7k_50_US_t3z_r0dz}. Hfstfzyhdzf zbqbao hk sbadq 10 px fcfabao. Vban mrbll afyz sbadq 21.
 ```
-
-</details>
+:::
 
 
 ## Solution
@@ -43,9 +41,8 @@ There's a great tool called [quipqiup](https://www.quipqiup.com) for this kind o
 
 
 
-<details>
-<summary markdown="span">decoded.txt</summary>
 
+::: details decoded.txt
 ```plaintext
 Flsx isoyvl aows isoyvl vpajwvodv suvoj. Krs Whg.
 ** Weather Report: Moscow ** 
@@ -59,8 +56,7 @@ Thursday: A few clouds. Wind becoming south 30 km/h after midnight. Low minus 18
 Friday: Cloudy. 60 percent chance of light snow in the afternoon. Wind south 40 km/h gusting to 60. High minus 7. Wind chill minus 26 in the morning and minus 18 in the afternoon. 
 Saturday: Heavy snow beginning in the morning. Amount 40 to 45 cm. Wind northeast 30 km/h vikeCTF{6u5ting_7o_50_KM_p3r_h0ur}. Temperature rising to minus 10 by evening. Wind chill near minus 21.
 ```
-
-</details>
+:::
 
 ::: tip Flag
 `vikeCTF{6u5ting_7o_50_KM_p3r_h0ur}`

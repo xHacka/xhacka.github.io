@@ -70,7 +70,7 @@ $b = $a.GetFields('NonPublic,Static') | ?{$_.Name -like '*siContext'}
 
 ### Disable Defender
 
-Source: [www.liberiangeek.net/2023/11/how-to-disable-windows-defender-using-powershell/](www.liberiangeek.net/2023/11/how-to-disable-windows-defender-using-powershell/)
+Source: [https://liberiangeek.net/2023/11/how-to-disable-windows-defender-using-powershell](https://liberiangeek.net/2023/11/how-to-disable-windows-defender-using-powershell)
 
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $true

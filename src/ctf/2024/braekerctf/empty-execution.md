@@ -18,10 +18,8 @@ Can you help this poor bot execute commands to find direction?
 
 ### Analysis
 
-<details>
 
-<summary>Source Code</summary>
-
+::: details Source Code
 ```py
 from flask import Flask, jsonify, request
 import os
@@ -67,13 +65,10 @@ if __name__ == '__main__':
     # Run server
     app.run(host='0.0.0.0', port=8000)
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>Dockerfile</summary>
-
+::: details Dockerfile
 ```bash
 FROM python:alpine3.19
 
@@ -102,8 +97,7 @@ EXPOSE 80
 
 CMD ["python", "empty_execution.py"] 
 ```
-
-</details>
+:::
 
 The application is pretty straighforward. We can send a POST request to endpoint `run_command` in JSON format, using parameter `command`.\
 

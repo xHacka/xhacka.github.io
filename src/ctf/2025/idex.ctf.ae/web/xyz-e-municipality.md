@@ -51,7 +51,12 @@ if __name__ == "__main__":
 
 ![XYZ E-Municipality-1.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-1.png)
 
-SSTI confirmed with `{{7*7}}`
+SSTI confirmed with 
+::: raw
+```js
+{{7*7}}
+```
+::: 
 
 ![XYZ E-Municipality-2.png](/assets/ctf/idex.ctf.ae/xyz-e-municipality-2.png)
 

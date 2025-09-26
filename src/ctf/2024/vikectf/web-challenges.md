@@ -12,9 +12,8 @@ Welcome to vikeMERCH, your one stop shop for Viking-themed merchandise! We're st
 
 ### Analysis
 
-<details>
-<summary markdown="span">Dockerfile</summary>
 
+::: details Dockerfile
 Dockerfile is normal usual build you can find everywhere, but with a bit of twist. `scratch` container image is used to run single binary files so the container only has binary, assets and database.
 
 ```bash
@@ -61,16 +60,14 @@ COPY --from=builder /app/ .
 EXPOSE 8080
 
 CMD ["./vikemerch"]
-``` 
-
-</details>
+```
+:::
 
 
 The main binary used is `main.go` which handles all requests, it's using latest version of packages so no vulnaribility there.
 
-<details>
-<summary markdown="span">main.go</summary>
 
+::: details main.go
 ```go
 package main
 
@@ -207,8 +204,7 @@ func underConstruction(c *gin.Context) {
 	c.HTML(http.StatusOK, "under-construction.html", gin.H{"BackURL": c.Request.Referer()})
 }
 ```
-
-</details>
+:::
 
 
 The function `underConstruction` seemed vulnarable, because we can control Referer header but no [SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection).

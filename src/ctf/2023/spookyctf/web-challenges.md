@@ -14,7 +14,8 @@ Author: **Exiden**
 
 If you visit website it says: `No auth!`. From description we already have auth so lets send basic auth header.
 
-TLDR version: send Authentication token with `username:password` as Base64. <br>More about [Basic Auth](https://datatracker.ietf.org/doc/html/rfc7617).
+TLDR version: send Authentication token with `username:password` as Base64. 
+More about [Basic Auth](https://datatracker.ietf.org/doc/html/rfc7617).
 
 ```bash
 $ echo -n 'mother:ovomorph' | base64
@@ -36,9 +37,10 @@ NICC{dOnt_d3pEnD_On_h3AdeRs_4_s3eCu1ty}
 
 ### Note
 
-Forgot that curl supports authentication Lol...<br>
-`-u/--user username:password`<br>
-<https://everything.curl.dev/http/auth>
+Forgot that curl supports authentication Lol...
+`-u/--user username:password`
+
+[https://everything.curl.dev/http/auth](https://everything.curl.dev/http/auth)
 
 ## Ghosts in the Code
 
@@ -105,9 +107,10 @@ Part 5 (`Cookies`):
 
 ```
 flagpart5 | 0u_kn0w_wh3
-``` 
+```
+
 ::: tip Flag
-`NICC{gh0sts_c@n_b3_tr1cky_2_s33_bu7_n0t_1f_y0u_kn0w_wh3r3_2_l00k!} `
+`NICC{gh0sts_c@n_b3_tr1cky_2_s33_bu7_n0t_1f_y0u_kn0w_wh3r3_2_l00k!}`
 :::
 
 ## Jasons Baking Services
@@ -120,7 +123,7 @@ Hey intern! We were able to swipe Jasons application from Github, see if you can
  
 Author: **Exiden**
 
-Challenge: [https://spooky-jason-bakeshop-web.chals.io/](https://spooky-jason-bakeshop-web.chals.io/)<br>
+Challenge: [https://spooky-jason-bakeshop-web.chals.io/](https://spooky-jason-bakeshop-web.chals.io/)
 Source: [jasons-bakeshop-src.zip](https://spooky.ctfd.io/files/ddbffcaedbcb8464977930c7a425b372/jasons-bakeshop-src.zip?token=eyJ1c2VyX2lkIjo5NzUsInRlYW1faWQiOjQ1OSwiZmlsZV9pZCI6MjR9.ZT6GUw.MEFri6nVQBHuYeNn769EnqFzVZU)
 
 ### Solution
@@ -134,14 +137,13 @@ SECRET_REFRESH=y5ABWPpr76vyLjWxZQZvxpFZuprCwAZa6HhWaaDgS7WBEbzWWceuAe45htGLa
 
 `SECRET` is a variable which will be used by application to sign/verify JWT tokens, if this secret is known anyone can forge any kind of tokens.
 
-1\. Register<br>
-2\. Login<br>
+1\. Register
+2\. Login
 3\. Copy token
-<details>
-	<summary>Example</summary>
-	eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiV295QWciLCJhdXRob3JpemVkIjp0cnVlLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY5ODU5Nzg3MiwiZXhwIjoxNjk4NTk4MTcyfQ.gpTZ_CkKSbDhn8fP2k-v9iIHFkClLhn0k4cvm2CCWQA
-</details>
-4\. Go to <https://jwt.io><br>
+::: details Example
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiV295QWciLCJhdXRob3JpemVkIjp0cnVlLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY5ODU5Nzg3MiwiZXhwIjoxNjk4NTk4MTcyfQ.gpTZ_CkKSbDhn8fP2k-v9iIHFkClLhn0k4cvm2CCWQA
+:::
+4\. Go to [https://jwt.io](https://jwt.io)
 5\. In `VERIFY SIGNATURE` paste the token (and dont check `secret base64 encoded`, because it's not, in most cases it is)
 
 ![jasons-baking-services-1](/assets/ctf/spookyctf/jasons-baking-services-1.png)

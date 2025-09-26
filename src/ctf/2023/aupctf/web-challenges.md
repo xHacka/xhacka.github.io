@@ -2,7 +2,7 @@
 
 ## Starter
 
-mera tu sir chakra raha tum dekh lo ... [random](https://challs.aupctf.live/starter/)<br>
+mera tu sir chakra raha tum dekh lo ... [random](https://challs.aupctf.live/starter/)
 <small>From Hindi: My head is spinning, you see...</small>
 
 ### Solution
@@ -88,7 +88,7 @@ Challenge: [Click Here](https://iasad.me/tags)
 
 ### Solution
 
-Time travel is unlikely _(for now)_, but there's a great time web machine we can utilize, AKA [Wayback Machine](https://web.archive.org). <br>
+Time travel is unlikely _(for now)_, but there's a great time web machine we can utilize, AKA [Wayback Machine](https://web.archive.org). 
 Let's paste the challenge url and find the flag. We get a lot of matches, most likely the flag was created on first snapshot which is at `MAY 28, 2023`. Visiting the webiste at that time we can see huge tag: `Flag` with blog `You Deserve the Flag`.
 
 <https://web.archive.org/web/20230528105942/https://iasad.me/blogs/flag/>

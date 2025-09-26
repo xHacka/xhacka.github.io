@@ -45,10 +45,8 @@ io.interactive()
 # HTB{p4rs1ng_mft_1s_v3ry_1mp0rt4nt_s0m3t1m3s}
 ```
 
-<details>
 
-<summary>interaction.log</summary>
-
+::: details interaction.log
 ```bash
 └─$ py solve.py 83.136.255.230 47156
 [+] Opening connection to 83.136.255.230 on port 47156: Done
@@ -203,8 +201,7 @@ $
 [*] Interrupted
 [*] Closed connection to 83.136.255.230 port 47156
 ```
-
-</details>
+:::
 
 ::: tip Flag
 `HTB{p4rs1ng\_mft\_1s\_v3ry\_1mp0rt4nt\_s0m3t1m3s}`

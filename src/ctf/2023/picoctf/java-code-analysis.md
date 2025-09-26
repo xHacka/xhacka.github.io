@@ -9,7 +9,8 @@ BookShelf Pico, my premium online book-reading service.I believe that my website
 -   Username: "user"
 -   Password: "user"
 
-Source code can be downloaded  [here](https://artifacts.picoctf.net/c/481/bookshelf-pico.zip).<br>
+Source code can be downloaded  [here](https://artifacts.picoctf.net/c/481/bookshelf-pico.zip).
+
 Website can be accessed  \<Needs Instance Spawned\>
 
 ### Analysis

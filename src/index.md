@@ -8,7 +8,7 @@ You might come across a few errors here and there, but don't worry, that's to be
 
 Although this is mainly my personal space for organizing my cybersecurity journey, I warmly welcome you to join me. Whether you're a fellow enthusiast, a curious reader, or someone looking to learn, there's always something to explore together.
 
-Thanks for stopping by! ✨
+Thanks for stopping by!
 
 <!-- 
     <p>
@@ -20,6 +20,6 @@ Thanks for stopping by! ✨
     </p>
 
     <p>
-        So here's to all the voyages we take, both online and off! 🌍✨
+        So here's to all the voyages we take, both online and off!
     </p>
 -->

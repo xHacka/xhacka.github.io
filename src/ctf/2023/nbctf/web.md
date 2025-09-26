@@ -32,10 +32,7 @@ Given website is statically serving html files, different pages can be found fro
 
 Visit all urls with not so perfect script and grep:
 
-<details>
-
-<summary>Curl Grep Flag.sh</summary>
-
+::: details Curl Grep Flag.sh
 ```bash
 #!/bin/bash
 
@@ -59,8 +56,7 @@ for page in "${pages[@]}"; do
   curl -s "$page" | grep "Flag Part" -i -A1 -B1
 done;
 ```
-
-</details>
+:::
 
 * `<title>Flag Part 1/4:nbctf{G00d_</title>` (gadgetmag.html)
 * `Flag Part 2/4: J06_` (supersecrettopsecret.txt)

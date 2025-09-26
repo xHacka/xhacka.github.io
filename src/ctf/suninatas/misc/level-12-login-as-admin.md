@@ -18,7 +18,7 @@ Flash in 2025 💀
 
 ![level-12---misc-2.png](/assets/ctf/suninatas/misc/level-12-misc-2.png)
 
-Download [suninatas.com/admin/admlogin.swf](suninatas.com/admin/admlogin.swf)
+Download [https://suninatas.com/admin/admlogin.swf](https://suninatas.com/admin/admlogin.swf)
 
 Decompile: [https://pdfrecover.herokuapp.com/swfdecompiler/](https://pdfrecover.herokuapp.com/swfdecompiler/) and export as Scripts
 

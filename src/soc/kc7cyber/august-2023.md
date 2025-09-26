@@ -714,7 +714,7 @@ Some OSINT:
 
 ### 1. How many bits are in an MD5 hash?
 
-_Each MD5 hash looks like 32 numbers and letters, but each digit is in hexadecimal and represents four bits. Since a single character represents eight bits (to form a byte), the total bit count of an MD5 hash is **128 bits**._ ([source](www.avast.com/c-md5-hashing-algorithm))
+_Each MD5 hash looks like 32 numbers and letters, but each digit is in hexadecimal and represents four bits. Since a single character represents eight bits (to form a byte), the total bit count of an MD5 hash is **128 bits**._ ([source](https://www.avast.com/c-md5-hashing-algorithm))
 
 ::: tip Flag
 `128`

@@ -9,9 +9,8 @@ I want to read an env variable, but I'm getting stressed out because of that bla
 Download: [jail.py](https://2023.snakectf.org/files/894de1d49cf2479c23b4c977c30ddda5/jail.py?token=eyJ1c2VyX2lkIjozOTYsInRlYW1faWQiOm51bGwsImZpbGVfaWQiOjMzM30.ZXcalA.9nQViELBJ-gITtN4YfYvXl2ElmI)
 
 Source: 
-<details>
-<summary markdown="span">jail.py</summary>
 
+::: details jail.py
 ```py
 #!/usr/bin/env python3
 import os
@@ -77,8 +76,7 @@ class Jail():
 if (__name__ == "__main__"):
     Jail()
 ```
-
-</details>
+:::
 
 
 ## Analysis
@@ -135,9 +133,8 @@ for goodword in goodwords:
         print(f'{goodword}.{method}')
 ```
 
-<details>
-<summary markdown="span">Allowed Methods</summary>
 
+::: details Allowed Methods
 ```py
 abs.__delattr__
 abs.__ge__
@@ -204,8 +201,7 @@ str.isdigit
 str.istitle
 str.title
 ```
-
-</details>
+:::
 
 
 Now, how to get string FLAG? We see empty strings called `F, L, A, G` in the `__init__` and we can make use of that.

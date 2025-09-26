@@ -236,7 +236,7 @@ oracle8 Password: multiverse111
 
 ### Desciption
 
-The password for oracle9 is the name of the file in the GET Request from \<www.guardian.galaxy.com> within the log file on the desktop.
+The password for oracle9 is the name of the file in the GET Request from **www.guardian.galaxy.com** within the log file on the desktop.
 
 **NOTE:**\
 – Don’t include the extension.\

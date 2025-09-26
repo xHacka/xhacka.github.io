@@ -1,10 +1,12 @@
 {
     "scripts": {
-        "docs:check": "node scripts/validate-images.mjs",
+        "docs:images": "bun scripts/validate-images.mjs",
+
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
         "docs:preview": "vitepress preview",
-        "postinstall": "node postinstall.js"
+
+        "postinstall": "bun scripts/postinstall.js"
     },
     "devDependencies": {
         "@whyframe/core": "^0.1.14",

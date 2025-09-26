@@ -43,19 +43,17 @@ Special cookie is at index 18
 
 I forgot Cookies can Be modified Client-side, so now I decided to encrypt them!  [http://mercury.picoctf.net:34962/](http://mercury.picoctf.net:34962/)
 
-<details>
-    <summary>Hint 1</summary>
-    [Homomorphic Encryption](https://www.wikiwand.com/en/Homomorphic_encryption)
-</details>
+::: details Hint 1
+[Homomorphic Encryption](https://www.wikiwand.com/en/Homomorphic_encryption)
+:::
 
-<details>
-    <summary>Hint 2</summary>
-    The search endpoint is only helpful for telling you if you are admin or not, you won't be able to guess the flag name
-</details>
+::: details Hint 2
+The search endpoint is only helpful for telling you if you are admin or not, you won't be able to guess the flag name
+:::
 
 ### Analysis
 
-Website says: ___Welcome to my cookie search page. Only the admin can use it!___
+Website says: \_\_\_Welcome to my cookie search page. Only the admin can use it!\_\_\_
 
 Description is also written a little funny, `Cookies can Be modifed Client-side` => [CBC Encryption](https://www.wikiwand.com/en/Block_cipher_mode_of_operation). There's a known vulnerability called [The Bit Flipping attack](https://crypto.stackexchange.com/a/66086).
 

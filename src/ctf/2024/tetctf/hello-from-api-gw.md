@@ -62,9 +62,8 @@ while True:
             print(f'{k}: {v}')
 ```
 
-<details>
-<summary markdown="span">index.js</summary>
 
+::: details index.js
 ```js
 exports.handler = async (event) => {
   try {
@@ -87,8 +86,7 @@ exports.handler = async (event) => {
   }
 };
 ```
-
-</details>
+:::
 
 
 ```bash

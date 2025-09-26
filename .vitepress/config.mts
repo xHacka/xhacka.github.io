@@ -1,7 +1,6 @@
-// Import lightbox plugin
 import lightbox from "vitepress-plugin-lightbox";
 
-// Import Pages
+// Pages
 /// CTF
 import ctf_ctftime from "./pages/ctf/ctftime.json";
 import ctf_cmdchallenge from "./pages/ctf/cmdchallenge.json";
@@ -31,6 +30,14 @@ import cheatsheets_etc from "./pages/cheatsheets/etc.json";
 
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";
+import { createLogger } from 'vite';
+
+const logger = createLogger('warn');
+const loggerWarn = logger.warn;
+logger.warn = (msg, options) => {
+  if (msg.includes('Some chunks are larger than')) { throw new Error(msg); }
+  loggerWarn(msg, options);
+};
 
 export default defineConfig({
     title: "WoyAg's Blog",
@@ -38,6 +45,7 @@ export default defineConfig({
         "A personal cybersecurity blog documenting raw notes, findings, and learning experiences. Exported from Obsidian as an evolving knowledge base.",
     srcDir: "src",
     cleanUrls: true,
+    ignoreDeadLinks: "localhostLinks",
     lastUpdated: true,
     sitemap: {
         hostname: "https://xhacka.github.io",
@@ -58,21 +66,6 @@ export default defineConfig({
         ],
         sidebar: {
             "/": [
-                {
-                    text: "CTFs",
-                    items: [
-                        ...ctf_ctftime,
-                        ...ctf_cmdchallenge,
-                        ...ctf_overthewire,
-                        ...ctf_underthewire,
-                        ...ctf_promptriddle,
-                        ...ctf_randoms,
-                        ...ctf_root_me,
-                        ...ctf_suninatas,
-                        ...ctf_webhacking_kr,
-                        ...ctf_hackmyvm,
-                    ],
-                },
                 {
                     text: "Offensive Security",
                     items: [
@@ -97,6 +90,21 @@ export default defineConfig({
                     text: "Defensive Security",
                     items: [...soc_sherlocks, ...soc_kc_seven_cyber],
                 },
+                {
+                    text: "CTFs",
+                    items: [
+                        ...ctf_ctftime,
+                        ...ctf_cmdchallenge,
+                        ...ctf_overthewire,
+                        ...ctf_underthewire,
+                        ...ctf_promptriddle,
+                        ...ctf_randoms,
+                        ...ctf_root_me,
+                        ...ctf_suninatas,
+                        ...ctf_webhacking_kr,
+                        ...ctf_hackmyvm,
+                    ],
+                },
             ],
             "/cheatsheets/": [
                 ...cheatsheets_web,
@@ -106,16 +114,32 @@ export default defineConfig({
             ],
         },
         socialLinks: [
-            {
-                icon: "github",
-                link: "https://github.com/xHacka/xhacka.github.io",
-            },
+            // {
+            //     icon: "github",
+            //     link: "https://github.com/xHacka/xhacka.github.io",
+            // },
         ],
     },
     markdown: {
         config: (md) => {
-            // Use lightbox plugin
             md.use(lightbox, {});
         },
     },
-});
+    build: {
+        chunkSizeWarningLimit: 5124,
+        sourcemap: false,
+        minify: "esbuild",
+        rollupOptions: {
+            output: {
+                manualChunks(id) {
+                    if (id.includes("node_modules")) {
+                        if (id.includes("vue")) return "vendor-vue";
+                        if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
+                        return "vendor";
+                    }
+                },
+            },
+        },
+    },
+    customLogger: logger,
+}); 

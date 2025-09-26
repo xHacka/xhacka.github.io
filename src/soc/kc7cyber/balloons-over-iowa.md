@@ -971,7 +971,7 @@ This kind of attack is called **[Extortion](https://www.imperva.com/blog/dont-be
 
 ### 19: This type of vulnerability is unknown to the people responsible for patching or fixing it
 
-_A **[zero-day](www.imperva.com/learn/application-security/zero-day-exploit/)** (0day) exploit is a cyber attack targeting a software vulnerability which is unknown to the software vendor or to antivirus vendors. The attacker spots the software vulnerability before any parties interested in mitigating it, quickly creates an exploit, and uses it for an attack. Such attacks are highly likely to succeed because defenses are not in place. This makes zero-day attacks a severe security threat._
+_A **[zero-day](https://www.imperva.com/learn/application-security/zero-day-exploit/)** (0day) exploit is a cyber attack targeting a software vulnerability which is unknown to the software vendor or to antivirus vendors. The attacker spots the software vulnerability before any parties interested in mitigating it, quickly creates an exploit, and uses it for an attack. Such attacks are highly likely to succeed because defenses are not in place. This makes zero-day attacks a severe security threat._
 
 ### 20: In this phase of the kill chain, attackers try to gather as much information as possible about their victims
 

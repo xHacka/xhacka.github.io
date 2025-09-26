@@ -83,7 +83,7 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 ### 1. On September 7, 2023, a company released an urgent patch to address CVE-2023-41061 and CVE-2023-41064. What is the name of this company?
 
-[APPLE ROLLED OUT EMERGENCY UPDATES TO ADDRESS 3 NEW ACTIVELY EXPLOITED ZERO-DAY FLAWS](securityaffairs.com/151174/hacking/apple-zero-days.html)
+[APPLE ROLLED OUT EMERGENCY UPDATES TO ADDRESS 3 NEW ACTIVELY EXPLOITED ZERO-DAY FLAWS](https://securityaffairs.com/151174/hacking/apple-zero-days.html)
 
 ::: tip Flag
 `Apple`
@@ -103,7 +103,7 @@ Nope, just when you think you are safe, think again. [Thanksgiving 2023 security
 
 ### 1. On September 8, 2023, Google Threat Analysis Group (TAG) reported Q3 2023 results on their efforts to combat coordinated influence operations. How many YouTube channels linked to the People's Republic of China (PRC) were terminated through Google TAG's efforts?
 
-[TAG Bulletin: Q3 2023](blog.google/threat-analysis-group/tag-bulletin-q3-2023): _We terminated 7,467 YouTube channels and 183 Blogger blogs as part of our ongoing investigation into coordinated influence operations linked to the People’s Republic of China (PRC). These channels mostly uploaded spammy content in Chinese about music, entertainment and lifestyle. A very small subset uploaded content in Chinese and English about China and U.S. foreign affairs. These findings are consistent with our previous reports._
+[TAG Bulletin: Q3 2023](https://blog.google/threat-analysis-group/tag-bulletin-q3-2023): _We terminated 7,467 YouTube channels and 183 Blogger blogs as part of our ongoing investigation into coordinated influence operations linked to the People’s Republic of China (PRC). These channels mostly uploaded spammy content in Chinese about music, entertainment and lifestyle. A very small subset uploaded content in Chinese and English about China and U.S. foreign affairs. These findings are consistent with our previous reports._
 
 ::: tip Flag
 `7467`
@@ -185,7 +185,7 @@ _The **[OODA loop](https://www.wikiwand.com/en/articles/OODA_loop)** (**observ
 
 ### 1. When reviewing e-mail headers, which field commonly has the IP address of the device that sent the email? It may not always be present, but every analyst should look for this field.
 
-[What are email headers?](proton.me/blog/what-are-email-headers): _X-headers like the **X-Originating-IP** field, which shows the sender’s IP address, can provide useful clues when investigating suspicious messages._
+[What are email headers?](https://proton.me/blog/what-are-email-headers): _X-headers like the **X-Originating-IP** field, which shows the sender’s IP address, can provide useful clues when investigating suspicious messages._
 
 ::: tip Flag
 `X-Originating-IP`

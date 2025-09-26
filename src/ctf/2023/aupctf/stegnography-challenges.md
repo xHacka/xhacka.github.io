@@ -150,7 +150,7 @@ __name__r
 
 _Flag format: iron man first appearance year underscore last appearance year in movies_
 
-First appearance: Iron Man, 2008<br>
+First appearance: Iron Man, 2008
 Last appearance: Avengers: Endgame, 2019
 ::: tip Flag
 `aupCTF{2008_2019}`
@@ -168,8 +168,8 @@ First lets find [magic bytes](https://www.wikiwand.com/en/List_of_file_signature
 
 ![obfuscated-1](/assets/ctf/aupctf/obfuscated-1.png)
 
-Im going to cut to the chase and directly approach the problem.<br>
-Flag Header: `FF 8D FF 0E 00 01 A4 64 94 64 00 10`<br>
+Im going to cut to the chase and directly approach the problem.
+Flag Header: `FF 8D FF 0E 00 01 A4 64 94 64 00 10`
 JFIF Header: `FF D8 FF E0 00 10 4A 46 49 46 00 01`
 
 Do you see what's wrong? Because it's actually f\*ing cool D: The hex values are reversed! And the thing is that it's not limited to the header, it's whole file!
@@ -238,8 +238,8 @@ ShortsID: LYkCU8Kn3a8
 
 As someone who (sadly) watches ton of youtube shorts... it was obvious where to look. [almost there](https://www.youtube.com/shorts/LYkCU8Kn3a8)
 
-Description: some kind of cipher i guess<br>
-I found [hexahue](https://www.dcode.fr/hexahue-cipher) cipher and tried decoding.<br>
+Description: some kind of cipher i guess
+I found [hexahue](https://www.dcode.fr/hexahue-cipher) cipher and tried decoding.
 First we need to split video into images
 
 ```bash

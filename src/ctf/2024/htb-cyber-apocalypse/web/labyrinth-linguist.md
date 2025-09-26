@@ -13,10 +13,8 @@ You and your faction find yourselves cornered in a refuge corridor inside a maze
 
 ### Solution
 
-<details>
 
-<summary>main.java</summary>
-
+::: details main.java
 ```java
 import java.io.*;
 import java.util.HashMap;
@@ -105,8 +103,7 @@ public class Main {
 	}
 }
 ```
-
-</details>
+:::
 
 When rendering from string and instead of template, the success of [SSTI](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection) grows.
 

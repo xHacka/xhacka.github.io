@@ -250,7 +250,7 @@ To parse and display only the `User-Agent` headers from the given log entries wi
 
 In the headers we saw `Secragon Offensive Agent` header, specific header like this stands out. If we check for CVE's we find 2 [CVE-2023-3460](https://github.com/gbrsh/CVE-2023-3460) and [CVE-2023-28121](https://github.com/gbrsh/CVE-2023-28121).
 
-I used this program to parse the logs: [Apache-Access-Log-to-CSV-Converter](github.com/mboynes/Apache-Access-Log-to-CSV-Converter) and opened the csv in TimelineExplorer
+I used this program to parse the logs: [Apache-Access-Log-to-CSV-Converter](https://github.com/mboynes/Apache-Access-Log-to-CSV-Converter) and opened the csv in TimelineExplorer
 ```bash
 └─$ php apache_log_to_csv_converter.php ./access.log ./access.log.csv
 ```

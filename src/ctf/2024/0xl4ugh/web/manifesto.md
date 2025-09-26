@@ -221,7 +221,7 @@ Following line is vulnerable to Mass Assignment vulnerability; It's not only upd
 
 Now we are admin, so what?... 💭
 
-This is starting to smell like SSTI, so I started playing around with common payloads. It doesn't like `{{7*7}}` or like just `{{ANYTHING}}` and dies right away with exception. Then I tried `${{7*7}}` but that only outputs `$` and nothing else.  
+This is starting to smell like SSTI, so I started playing around with common payloads. It doesn't like <span v-pre>`{{7*7}}`</span> or like just <span v-pre>`{{ANYTHING}}`</span> and dies right away with exception. Then I tried <span v-pre>`${{7*7}}`</span> but that only outputs `$` and nothing else.  
 
 ![Manifesto-2.png](/assets/ctf/0xl4ugh/manifesto-2.png)
 

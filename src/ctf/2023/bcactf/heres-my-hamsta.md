@@ -12,7 +12,7 @@ Netcat Links: `nc challs.bcactf.com 30435`
 
 ## Analysis
 
-`Awesome, (1 <= 11) is true, so my hamster's ready to run!`<br>
+`Awesome, (1 <= 11) is true, so my hamster's ready to run!`
 Program limits input up to 11 (positive number)
 
 Entering `0` gives no flag, so the condition must be checking if input becomes 0 and each "run" decrements input by 1.

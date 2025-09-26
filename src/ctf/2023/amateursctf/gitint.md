@@ -54,7 +54,8 @@ Nice, we get password, but for what?
 
 ![gitint-7d-4](/assets/ctf/amateursctf/gitint-7d-4.png)
 
-Going back to PRs, let's try changing url manually to view PR #1.<br>
+Going back to PRs, let's try changing url manually to view PR #1.
+
 Great! and there's a link <https://pastebin.com/VeTDwT09>
 
 ![gitint-7d-5](/assets/ctf/amateursctf/gitint-7d-5.png)

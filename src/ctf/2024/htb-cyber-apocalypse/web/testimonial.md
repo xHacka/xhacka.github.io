@@ -6,9 +6,8 @@ As the leader of the Revivalists you are determined to take down the KORP, you a
 
 ## Analysis
 
-<details>
-<summary markdown="span">client.go</summary>
 
+::: details client.go
 ```go
 package client
 
@@ -69,12 +68,10 @@ func (c *Client) SendTestimonialNoFilters(customer, testimonial string) error {
 	return err
 }
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">ptypes.proto</summary>
-
+::: details ptypes.proto
 ```proto
 syntax = "proto3";
 
@@ -93,12 +90,10 @@ message GenericReply {
     string message = 1;
 }
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">index.templ</summary>
-
+::: details index.templ
 ```go
 package home
 
@@ -205,12 +200,10 @@ templ Testimonials() {
   }
 }
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">main.go</summary>
-
+::: details main.go
 ```go
 package main
 
@@ -257,12 +250,10 @@ func startGRPC() error {
 }
 
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">grpc.go</summary>
-
+::: details grpc.go
 ```go
 package main
 
@@ -291,12 +282,10 @@ func (s *server) SubmitTestimonial(ctx context.Context, req *pb.TestimonialSubmi
 }
 
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">Dockerfile</summary>
-
+::: details Dockerfile
 ```bash
 FROM golang:1.22-alpine3.18
 
@@ -318,12 +307,10 @@ RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">entrypoint.sh</summary>
-
+::: details entrypoint.sh
 ```bash
 #!/bin/sh
 
@@ -336,8 +323,7 @@ chmod 600 /entrypoint.sh
 # Start application
 air
 ```
-
-</details>
+:::
 
 
 There's many things to consider in this (somewhat) simple app.

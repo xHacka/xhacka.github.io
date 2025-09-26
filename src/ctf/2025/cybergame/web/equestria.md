@@ -392,7 +392,7 @@ app.post("/api/notes", authMiddleware, async (req, res) => {
 
 Database type is Postgres and the filters are very limited. To begin SQLi we somehow need to escape the quotes, but can't since it's blocked.
 
-Resource: [github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/PostgreSQL%20Injection.md](github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/PostgreSQL%20Injection.md)
+Resource: [https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/PostgreSQL%20Injection](https://swisskyrepo.github.io/PayloadsAllTheThings/SQL%20Injection/PostgreSQL%20Injection)
 
 Turns out it was never about SQL, but **Javascript**...
 

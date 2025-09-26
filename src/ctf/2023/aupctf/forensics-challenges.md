@@ -152,13 +152,9 @@ Remember, Your objective is to crack the encryption and reveal the hidden messag
 
 Challenge file: [encrypted.7z](https://aupctf.s3.eu-north-1.amazonaws.com/encrypted.7z)
 
-<details>
-
-<summary>Hint:</summary>
-
+::: details Hint
 Don't tell anyone that i gave you names of the [_**pets**_](https://aupctf.s3.eu-north-1.amazonaws.com/pets.txt)
-
-</details>
+:::
 
 #### Solution
 

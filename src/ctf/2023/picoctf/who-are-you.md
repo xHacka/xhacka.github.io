@@ -8,10 +8,10 @@ AUTHOR:  MADSTACKS
 
 Let me in. Let me iiiiiiinnnnnnnnnnnnnnnnnnnn  [http://mercury.picoctf.net:46199/](http://mercury.picoctf.net:46199/)
 
-<details>
-<summary>Hint</summary>
-It ain't much, but it's an RFC: https://datatracker.ietf.org/doc/html/rfc2616
-</details>
+
+::: details Hint
+It ain't much, but it's an RFC: [https://datatracker.ietf.org/doc/html/rfc2616](https://datatracker.ietf.org/doc/html/rfc2616)
+:::
 
 ### Solution
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-\<No Description After CTF Ended...\>
+No Description After CTF Ended...
 
 ## Solution
 

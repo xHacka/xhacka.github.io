@@ -46,7 +46,7 @@ Wow... this is nostalgic 🤣 But also cursed because I can't read Korean
 
 ![level-29---brothers-1.png](/assets/ctf/suninatas/forensics/level-29-brothers-1.png)
 
-## Q1 : When you surf "[www.naver.com](www.naver.com)", Web browser shows something wrong. Fix it and you can find a Key
+## Q1 : When you surf "[https://www.naver.com](https://www.naver.com)", Web browser shows something wrong. Fix it and you can find a Key
 
 We can guess what the problem is: DNS. If you tinkered with `/etc/hosts` on Linux it's clear that we can manipulate DNS locally. On Windows it's located at `C:\Windows\System32\drivers\etc\hosts` (no extension)
 

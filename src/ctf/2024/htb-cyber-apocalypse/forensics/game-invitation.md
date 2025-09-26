@@ -10,9 +10,8 @@ We are given a `invitation.docm` file, which is type of Word Document. If you op
 
 ### VB Script
 
-<details>
-<summary markdown="span">script.vba (Somewhat deobfuscated version)</summary>
 
+::: details script.vba (Somewhat deobfuscated version)
 ```vb
 Rem Attribute VBA_ModuleType=VBAModule
 Option VBASupport 1
@@ -102,8 +101,7 @@ Sub AutoOpen()
     End If
 End Sub
 ```
-
-</details>
+:::
 
 
 The script reads itself (document), searches for string pattern, after pattern it reads 13082 bytes, performs XOR on that data and writes to file `mailform.js`.
@@ -150,9 +148,8 @@ The javascript file does lots of operations, but in the end it does `eval`. This
 
 `WScript.Arguments` in script probably refers to command line arguments, since we intercepted vbscript we know the argument and it can be set manually.
 
-<details>
-<summary markdown="span">mailform.deobfuscated.js</summary>
 
+::: details mailform.deobfuscated.js
 ```js
 // var lVky = WScript.Arguments
 // var DASz = lVky(0)
@@ -241,15 +238,13 @@ function lyEK() {
 }
 
 ```
-
-</details>
+:::
 
 
 ### mailform.js (Level 2)
 
-<details>
-<summary markdown="span">mailform.2.deobfuscated.js</summary>
 
+::: details mailform.2.deobfuscated.js
 ```js
 function S7EN(KL3M) {
     var gfjd = WScript.CreateObject('ADODB.Stream')
@@ -707,8 +702,7 @@ function S7EN(KL3M) {
     return wXgO
   }
 ```
-
-</details>
+:::
 
 
 The script does a lot, briefly looking over it I noticed something interesting:

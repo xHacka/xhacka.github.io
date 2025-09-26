@@ -41,7 +41,7 @@ Anyway, we need to find _when last system audit policy was changed_ so let's go 
 ![system-check-2](/assets/ctf/bdsec/system-check-2.png)
 
 Use `Filter` to filter for [4719(S): System audit policy was changed.](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4719)<br>
-Filter Current Log -> 4719 (Inside \<All Event Ids\>)
+Filter Current Log -> 4719 (Inside All Event Ids\>)
 
 ![system-check-3](/assets/ctf/bdsec/system-check-3.png)
 ::: tip Flag

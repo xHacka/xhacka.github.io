@@ -1,6 +1,6 @@
 # Old 34    Javascript (Debug)
 
-URL: [https://webhacking.kr/challenge/js-7/](https://webhacking.kr/challenge/js-7/)
+URL: [https://webhacking.kr/challenge/js-7/index.php](https://webhacking.kr/challenge/js-7/index.php)
 
 Upon visiting the website we get an `alert`:
 
@@ -336,7 +336,7 @@ VM389:5 ./?Passw0RRdd=1
 VM389:6 debug me
 ```
 
-Navigate to [webhacking.kr/challenge/js-7/?Passw0RRdd=1](webhacking.kr/challenge/js-7/?Passw0RRdd=1)
+Navigate to [https://webhacking.kr/challenge/js-7/?Passw0RRdd=1](https://webhacking.kr/challenge/js-7/?Passw0RRdd=1)
 
 ![old-34-1.png](/assets/ctf/webhacking.kr/old-34-1.png)
 

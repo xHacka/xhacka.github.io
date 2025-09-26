@@ -6,9 +6,8 @@ In "The Ransomware Dystopia," LockTalk emerges as a beacon of resistance against
 
 ## Analysis
 
-<details>
-<summary markdown="span">challenge/app/api/routes.py</summary>
 
+::: details challenge/app/api/routes.py
 ```py
 from flask import jsonify, current_app
 import python_jwt as jwt, datetime
@@ -54,12 +53,10 @@ def chat(chat_id):
 def flag():
     return jsonify({'message': current_app.config.get('FLAG')}), 200
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">challenge/app/main/routes.py</summary>
-
+::: details challenge/app/main/routes.py
 ```py
 from flask import render_template
 
@@ -69,12 +66,10 @@ from . import main_blueprint
 def index():
     return render_template('/index.html')
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">challenge/app/middleware/middleware.py</summary>
-
+::: details challenge/app/middleware/middleware.py
 ```py
 from flask import request, jsonify, current_app
 from functools import wraps
@@ -103,12 +98,10 @@ def authorize_roles(roles):
     return decorator
 
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">challenge/config.py</summary>
-
+::: details challenge/config.py
 ```py
 from jwcrypto import jwk
 import os
@@ -118,23 +111,19 @@ class Config:
     FLAG = "HTB{f4k3_fl4g_f0r_t35t1ng}"
     JWT_SECRET_KEY = jwk.JWK.generate(kty='RSA', size=2048)
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">challenge/run.py</summary>
-
+::: details challenge/run.py
 ```py
 from app import create_app
 
 app = create_app()
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">conf/haproxy.cfg</summary>
-
+::: details conf/haproxy.cfg
 ```yaml
 global
     daemon
@@ -158,20 +147,17 @@ backend backend
     server s1 0.0.0.0:5000 maxconn 32 check
 
 ```
+:::
 
-</details>
 
-<details>
-<summary markdown="span">conf/requirements.txt</summary>
-
+::: details conf/requirements.txt
 ```txt
 # uwsgi
 Flask
 requests
 python_jwt==3.3.3
 ```
-
-</details>
+:::
 
 
 The application is based on JWT tokens, you can get token, join chat and get flag. The twist is the proxy:

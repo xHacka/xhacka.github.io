@@ -11,10 +11,8 @@ DIFFICULTY: very easy
 
 As the preparations come to an end, and The Fray draws near each day, our newly established team has started work on refactoring the new CMS application for the competition. However, after some time we noticed that a lot of our work mysteriously has been disappearing! We managed to extract the SSH Logs and the Bash History from our dev server in question. The faction that manages to uncover the perpetrator will have a massive bonus come competition!
 
-<details>
 
-<summary>bash_history.txt</summary>
-
+::: details bash_history.txt
 ```txt
 [2024-02-13 11:31:01] useradd -mG sudo softdev
 [2024-02-13 11:32:12] passwd softdev
@@ -102,13 +100,10 @@ As the preparations come to an end, and The Fray draws near each day, our newly 
 [2024-02-29 18:51:45] git commit -m "[WIP] Add daemon mode"
 [2024-02-29 18:52:20] git push
 ```
+:::
 
-</details>
 
-<details>
-
-<summary>sshd.log</summary>
-
+::: details sshd.log
 ```log
 [2024-01-19 12:59:11] Server listening on 0.0.0.0 port 2221.
 [2024-01-19 12:59:11] Server listening on :: port 2221.
@@ -258,8 +253,7 @@ As the preparations come to an end, and The Fray draws near each day, our newly 
 [2024-02-29 18:59:59] Received disconnect from 100.7.98.129 port 47765:11: disconnected by user
 [2024-02-29 18:59:59] Disconnected from user softdev 100.7.98.129 port 47765
 ```
-
-</details>
+:::
 
 ### Solution
 
