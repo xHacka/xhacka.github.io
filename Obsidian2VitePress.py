@@ -191,7 +191,6 @@ class ObsidianConverter:
                 image_name = Path(self.normalize_filename(str(self.images_path / image.name)))
                 
                 if self.process:
-                    image_name.parent.mkdir(exist_ok=True, parents=True)
                     copy(image, image_name)
                     logger.success(f"Copied: {image.name} → {image_name}")
                 else:
@@ -203,8 +202,8 @@ class ObsidianConverter:
         
         # Create output directories
         if self.process:
-            self.output_path.mkdir(exist_ok=True, parents=True)
-            self.images_path.mkdir(exist_ok=True, parents=True)
+            # self.output_path.mkdir(exist_ok=True, parents=True)
+            Path(self.normalize_filename(self.images_path)).mkdir(exist_ok=True, parents=True)
             logger.debug(f"Created output directories")
         
         # Convert main writeup file

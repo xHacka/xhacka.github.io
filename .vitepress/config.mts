@@ -76,14 +76,14 @@ export default defineConfig({
                             items: [...pentest_htb],
                         },
                         {
-                            text: "VulnHub",
-                            collapsed: true,
-                            items: [...pentest_vulnhub],
-                        },
-                        {
                             text: "HackMyVM",
                             collapsed: true,
                             items: [...pentest_hackmyvm],
+                        },
+                        {
+                            text: "VulnHub",
+                            collapsed: true,
+                            items: [...pentest_vulnhub],
                         },
                     ],
                 },
