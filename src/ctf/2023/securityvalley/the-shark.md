@@ -26,6 +26,7 @@ Host: localhost:7777
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 ```
+
 ```sh
 # Decode basic authorization
 └─$ echo -n 'c2VjdmFsOlNlY1ZhbHs4NDVJYzR1N2hfaTVfNVVQM1JfNWhJN30=' | base64 -d 

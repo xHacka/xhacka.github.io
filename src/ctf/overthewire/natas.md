@@ -564,7 +564,9 @@ if __name__ == '__main__':
     asyncio.run(main())
 ```
 
-> **Note**: For some reason `SUBSTR` function was not case sensitive?... `BINARY` made it case sensitive again.
+::: info Note
+For some reason `SUBSTR` function was not case sensitive?... `BINARY` made it case sensitive again.
+:::
 
 ## Natas 16 -- Command Injection (Blind) 
 
@@ -680,7 +682,9 @@ with requests.Session() as session:
     print(f'\r[{password_i}] {password} | {char}')
 ```
 
-> **Note**: For some reason `SUBSTR` function was not case sensitive?... `BINARY` made it case sensitive again.
+::: info Note
+For some reason `SUBSTR` function was not case sensitive?... `BINARY` made it case sensitive again.
+:::
 
 ## Natas 18 -- Predictable Session ID
 
@@ -1661,7 +1665,9 @@ with requests.Session() as session:
     print(output)
 ```
 
-> **Note**: I thought the repeat size was 12, but it was 9.
+::: info Note
+I thought the repeat size was 12, but it was 9.
+:::
 
 ```bash
 natas29:31F4j3Qi2PnuhIZQokxXk1L3QT9Cppns

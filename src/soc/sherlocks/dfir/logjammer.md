@@ -86,7 +86,9 @@ After opening `Windows Firewall-Firewall.evtx` the very first event I saw was `E
 2051: Tenant Restrictions Policy Update
 ```
 
-> Note: The command only shows unique event ids, descriptions was added manually from evtx.
+::: info Note
+The command only shows unique event ids, descriptions was added manually from evtx.
+:::
 
 ::: tip :bulb: Answer
 `Metasploit C2 Bypass`

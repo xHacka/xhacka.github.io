@@ -199,7 +199,9 @@ find . -type f -printf '%f\n'
 
 ![Basic-24.png](/assets/ctf/cmdchallenge/basic-24.png)
 
-> **Note**: Quotes around format string important to include the newline.
+::: info Note
+Quotes around format string important to include the newline.
+:::
 ## 26. Rename all files removing the extension from them in the current directory recursively.
 
 ```bash
@@ -260,7 +262,9 @@ awk '!array[$0]++' faces.txt
 
 ![Basic-31.png](/assets/ctf/cmdchallenge/basic-31.png)
 
-> **Note**: Looks like there was no escaping from `awk` in this challenge.
+::: info Note
+Looks like there was no escaping from `awk` in this challenge.
+:::
 ## 33. The file `random-numbers.txt` contains a list of 100 random integers. Print the number of unique prime numbers contained in the file.
 
 ```bash

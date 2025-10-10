@@ -4,7 +4,9 @@
 
 Hidden in the shadows, a coven of witches communicates through arcane tokens, their messages cloaked in layers of dark enchantments. These enchanted tokens safeguard their cryptic conversations, masking sinister plots that threaten to unfold under the veil of night. However, whispers suggest that their protective spells are flawed, allowing outsiders to forge their own charms. Can you exploit the weaknesses in their mystical seals, craft a token of your own, and infiltrate their circle to thwart their nefarious plans before the next moon rises?
 
-> NOTE: Access through `https://[IP]:[PORT]/`  
+::: info Note
+Access through `https://[IP]:[PORT]/`  
+:::
 
 ## Source
 

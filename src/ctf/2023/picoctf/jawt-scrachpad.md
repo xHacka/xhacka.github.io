@@ -6,8 +6,9 @@ AUTHOR:  JOHN HAMMOND
 
 Check the admin scratchpad!  `https://jupiter.challenges.picoctf.org/problem/63090/`  or http://jupiter.challenges.picoctf.org:63090
 
-> Internal server errors can be intentionally returned by this challenge. If you experience one, try clearing your cookies.
-{. prompt-info }
+::: info
+Internal server errors can be intentionally returned by this challenge. If you experience one, try clearing your cookies.
+:::
 
 ## Analysis
 

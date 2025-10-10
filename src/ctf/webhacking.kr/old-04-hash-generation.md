@@ -112,6 +112,8 @@ Permissions Size User Date Modified Name
 
 ![old-04-1.png](/assets/ctf/webhacking.kr/old-04-1.png)
 
-> **Note**: The image shows my first attempt, not second. Results still same.
+::: info Note
+The image shows my first attempt, not second. Results still same.
+:::
 
 Submit and pwned!

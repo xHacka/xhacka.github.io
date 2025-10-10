@@ -1336,8 +1336,9 @@ FileCreationEvents
 | count 
 ```
 
-> Checking extension doesn't really matter for this case, because filenames will match themselves and extensionless files will get ignored. But cleaner data is always nice.
-{. prompt-info } 
+::: info 
+Checking extension doesn't really matter for this case, because filenames will match themselves and extensionless files will get ignored. But cleaner data is always nice.
+:::
 
 ::: tip Flag
 `15`
@@ -1799,7 +1800,9 @@ The base64 decoded seemed like ROT13, but after trying each rotation nothing cam
 sharboy and lavagirl
 ```
 
-> **Note**: shar**k**boy seems to be missing a character.
+::: info Note
+shar**k**boy seems to be missing a character.
+:::
 
 ::: tip Flag
 sharkboy and lavagirl

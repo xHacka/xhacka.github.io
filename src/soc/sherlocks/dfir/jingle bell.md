@@ -155,7 +155,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 `2023-04-20 10:34:49`
 :::
 
-> Note: Datetimes should be taken as UTC.
+::: info Note
+Datetimes should be taken as UTC.
+:::
 ### Task 8. For how much money did Torrin leak Forela's secrets?
 
 Latest notification (Question 1) mentions the payment:

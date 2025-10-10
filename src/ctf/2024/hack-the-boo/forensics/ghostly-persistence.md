@@ -4,7 +4,9 @@
 
 On a quiet Halloween night, when the world outside was wrapped in shadows, an intrusion alert pierced through the calm. The alert, triggered by an internal monitoring system, pinpointed unusual activity on a specific workstation. Can you illuminate the darkness and uncover what happened during this intrusion? 
 
-> **Note**: flag is split into two parts
+::: info Note
+flag is split into two parts
+:::
 
 ## Solution
 

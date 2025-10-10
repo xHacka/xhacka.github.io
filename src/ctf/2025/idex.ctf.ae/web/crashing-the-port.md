@@ -139,7 +139,9 @@ with Session() as session:
     log.close()
 ```
 
-> **Note**: Script is far from complete, decent or anything good..
+::: info Note
+Script is far from complete, decent or anything good..
+:::
 
 Now that I have proper LFI we need to A: find the flag or B: get RCE. We can get RCE if we login in Debug Console (it's on since we saw the debug messages)
 

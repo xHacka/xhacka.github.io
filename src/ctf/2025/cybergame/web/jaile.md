@@ -291,7 +291,9 @@ if __name__ == '__main__':
 # ➜ py '.\JAILE - Final Escape.py' -f .\file.py .\file.py # Connects and uploads file.py, file2.py
 ```
 
-> **Note**: Each connections spawns new container, nothing is same (AFAIK)
+::: info Note
+Each connections spawns new container, nothing is same (AFAIK)
+:::
 
 We are indeed inside a Container and have to escape somehow.
 ```bash

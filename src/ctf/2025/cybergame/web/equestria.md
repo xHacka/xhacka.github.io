@@ -212,7 +212,9 @@ if __name__ == "__main__":
     run(main())
 ```
 
-> **Note**: Not 110% winner 😳, may need to rerun to win the race~~
+::: info Note
+Not 110% winner 😳, may need to rerun to win the race~~
+:::
 
 ```bash
 Username: 4cc85c3fb3993267143ee4371ecfadf1, Password: 4cc85c3fb3993267143ee4371ecfadf1, Email: 4cc85c3fb3993267143ee4371ecfadf1@cyberame.sk

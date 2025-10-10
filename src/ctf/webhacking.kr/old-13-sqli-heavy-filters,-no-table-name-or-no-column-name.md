@@ -149,4 +149,6 @@ if __name__ == '__main__':
 # [40] ["flag", "FLAG{challenge13gummyclear}"]
 ```
 
-> **Note**: If you're wondering why Im not using `params` in the get request it's because for some reason the webapp didn't like urlencoded params?..
+::: info Note
+If you're wondering why Im not using `params` in the get request it's because for some reason the webapp didn't like urlencoded params?..
+:::

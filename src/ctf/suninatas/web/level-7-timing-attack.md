@@ -56,7 +56,9 @@ curl 'http://suninatas.com/challenge/web07/web07.asp' -H $cookies -is | select -
 curl 'http://suninatas.com/challenge/web07/web07_1.asp' -H $cookies -d 'web07=Do+U+Like+girls%3F' -i
 ```
 
-> Note: Commands are in powershell
+::: info Note
+Commands are in powershell
+:::
 
 Execute quickly so just paste and spam enter, lol
 ```powershell

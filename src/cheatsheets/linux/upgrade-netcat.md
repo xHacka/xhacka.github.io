@@ -26,6 +26,8 @@ stty raw -echo;fg;
 stty rows 47 cols 211;export TERM=xterm
 ```
 
-> **Note**: This doesn't work with [rlwrap](https://github.com/hanslub42/rlwrap)!
+::: info Note
+This doesn't work with [rlwrap](https://github.com/hanslub42/rlwrap)!
+:::
 
 More methods: [https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html](https://book.hacktricks.wiki/en/generic-hacking/reverse-shells/full-ttys.html)

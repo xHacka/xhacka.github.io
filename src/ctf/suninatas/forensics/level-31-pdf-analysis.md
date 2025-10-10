@@ -322,7 +322,9 @@ while True:
 # [10] I am sorry, This is not Key~!!
 ```
 
-> Note: After some tinkering with encodings I was able to extract following code with strings too: `strings -e l Hello_SuNiNaTaS.pdf`
+::: info Note
+After some tinkering with encodings I was able to extract following code with strings too: `strings -e l Hello_SuNiNaTaS.pdf`
+:::
 
 Remove encryption, or tools like [https://smallpdf.com/unlock-pdf](https://smallpdf.com/unlock-pdf)
 ```bash

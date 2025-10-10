@@ -136,7 +136,9 @@ embed <h1 style=color:red;>LetMeIn</h1>
 
 Okkk.... we can inject any arbitrary html code we want
 
-> **Note**: `fullscreen: false` property was changed from `true` to `false` to make debug easier.
+::: info Note
+`fullscreen: false` property was changed from `true` to `false` to make debug easier.
+:::
 
 Seems promising! [https://x.com/XssPayloads/status/1794627101892759809](https://x.com/XssPayloads/status/1794627101892759809)
 

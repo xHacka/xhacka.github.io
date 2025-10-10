@@ -100,7 +100,9 @@ with open(sys.argv[1], 'rb') as f:
     )
 ```
 
-> Note: `timedelta +5h` was used to sync time with given auth.log.
+::: info Note
+`timedelta +5h` was used to sync time with given auth.log.
+:::
 
 ```bash
 └─$ py parse.py wtmp            

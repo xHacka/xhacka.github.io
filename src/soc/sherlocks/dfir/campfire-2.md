@@ -57,7 +57,9 @@ We are given `evtx` file which is Windows System Events Logs file.
 
 ![Writeup.png](/assets/soc/sherlocks/campfire-2/Writeup.png)
 
-> Note: `Ctrl+R` to reset sizes of columns (so you don't have Message column stretching over the horizon).
+::: info Note
+`Ctrl+R` to reset sizes of columns (so you don't have Message column stretching over the horizon).
+:::
 ## Tasks
 
 ### Task 1. When did the ASREP Roasting attack occur, and when did the attacker request the Kerberos ticket for the vulnerable user?

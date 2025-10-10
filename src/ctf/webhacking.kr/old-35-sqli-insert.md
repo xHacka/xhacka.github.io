@@ -56,7 +56,9 @@ INSERT INTO table(col1, col2) VALUES (val1, val2)
 INSERT INTO table(col1, col2) VALUES (val1, val2 <),(injected_val1, injected_val2> ) 
 ```
 
-> Note: Injection point surrounded with `<>` for visuals.
+::: info Note
+Injection point surrounded with `<>` for visuals.
+:::
 
 Payload:
 ```sql

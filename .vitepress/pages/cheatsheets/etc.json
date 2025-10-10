@@ -1,7 +1,7 @@
 [
     {
         "text": "Etc",
-        "collapsed": true,
+        "collapsed": false,
         "items": [
             {
                 "text": "Data Exfiltration",

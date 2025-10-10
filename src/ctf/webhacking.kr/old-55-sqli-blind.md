@@ -119,7 +119,9 @@ if __name__ == '__main__':
     asyncio.run(main())
 ```
 
-> **Note**: Quotes are not allowed so I used hex strings to bypass that.
+::: info Note
+Quotes are not allowed so I used hex strings to bypass that.
+:::
 
 ```powershell
 ➜ py .\old-55.py

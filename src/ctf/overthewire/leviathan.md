@@ -298,7 +298,9 @@ Ctrl+D -> Interrupt the stdin
 Output: uid=12007(leviathan7) gid=12006(leviathan6) groups=12006(leviathan6)
 ```
 
-> **Note**: Quick and dirty way to exit was to use `Ctrl+D`
+::: info Note
+Quick and dirty way to exit was to use `Ctrl+D`
+:::
 
 ```bash
 leviathan6@gibson:~$ ./leviathan6 7123

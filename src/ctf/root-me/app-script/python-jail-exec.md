@@ -42,7 +42,9 @@ Result: 0
 Error:  cannot concatenate 'str' and 'int' objects
 ```
 
-> **Note**: `>` simply denotes my input
+::: info Note
+`>` simply denotes my input
+:::
 
 Types get evaluated
 ```python

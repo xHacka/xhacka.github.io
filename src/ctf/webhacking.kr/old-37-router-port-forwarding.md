@@ -78,7 +78,9 @@ Router Configuration Page > Advanced Setup > NAT > Virtual Server
 
 ![old-37-2.png](/assets/ctf/webhacking.kr/old-37-2.png)
 
-> **Note**: This may only be specific to CABSAT router.
+::: info Note
+This may only be specific to CABSAT router.
+:::
 
 The file which your host is being read from is created by current timestamp value, current as in when request was made. Since server time may not be 1:1 add some wiggle room by 5 seconds and hopefully catch the request.
 

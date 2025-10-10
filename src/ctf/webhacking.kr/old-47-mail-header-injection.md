@@ -21,7 +21,9 @@ Mail subject : <input type=text name=subject size=50 value="Flag of webhacking.k
 <hr>Mail has been sent<hr>FLAG{wasted_too_much_time_damn}
 ```
 
-> **Note**: Email is not received. 
+::: info Note
+Email is not received. 
+:::
 > `CC` didn't work... only `Cc`
 > After `Cc:` you need space -> `Cc: email`
 

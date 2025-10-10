@@ -123,7 +123,9 @@ Based on IP not appearing on `netscan` I think it's safe to say the file was not
 `NO`
 :::
 
-> Note: There was another line which showed the error `The network path was not found.` and that is the *true* indicator of fail!
+::: info Note
+There was another line which showed the error `The network path was not found.` and that is the *true* indicator of fail!
+:::
 ### Task 7. The attacker tried to create a readme file. What was the full path of the file?
 
 After trying to exfiltrate the files we see encoded powershell being executed.

@@ -30,6 +30,7 @@ for i in range(array_size + 1):
 print()
 print(f"Biggest Subarray Length: {biggest_subarray}")
 ```
+
 ```powershell
 ➜ py .\banana-queries.py
 ...

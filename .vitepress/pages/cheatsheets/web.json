@@ -1,7 +1,7 @@
 [
     {
         "text": "Web",
-        "collapsed": true,
+        "collapsed": false,
         "items": [
             {
                 "text": "Burp SQLi",

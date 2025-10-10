@@ -18,7 +18,9 @@ Ideally we want to activate our account, but only admin's can do that.
 
 ![csrf-1.png](/assets/ctf/root-me/csrf-1.png)
 
-> **Note**: To enable `Status` button edit HTML and remove **disabled** attribute.
+::: info Note
+To enable `Status` button edit HTML and remove **disabled** attribute.
+:::
 
 Because of challenge title I kind of did no brainer and sent mail with html auto submit form
 
@@ -43,7 +45,9 @@ And it worked...!
 
 ![csrf-3.png](/assets/ctf/root-me/csrf-3.png)
 
-> **Note**: In `Profile` page there was no checkmark 😳 (Totally didn't waste too much time on it)
+::: info Note
+In `Profile` page there was no checkmark 😳 (Totally didn't waste too much time on it)
+:::
 
 ::: tip Flag
 `Csrf_Fr33style-L3v3l1!`
@@ -86,7 +90,9 @@ Send this to Contact:
 </script>
 ```
 
-> **Note**: For some reason `async` code didn't work, alongside with `fetch`
+::: info Note
+For some reason `async` code didn't work, alongside with `fetch`
+:::
 
 ![csrf-5.png](/assets/ctf/root-me/csrf-5.png)
 

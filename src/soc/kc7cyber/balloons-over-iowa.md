@@ -81,11 +81,13 @@ Employees
 
 ![balloons-over-iowa-5.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-5.png)
 
-> Note: KQL lets you store the results into variables using _[let](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/let-statement)_ keyword. Since the query returns Array even if we have 1 column and 1 row we need to use _[in](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/in-operator)_ operator (if something in array).
-{ .prompt-tip }
+::: info Note
+KQL lets you store the results into variables using _[let](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/let-statement)_ keyword. Since the query returns Array even if we have 1 column and 1 row we need to use _[in](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/in-operator)_ operator (if something in array).
+:::
 
+::: tip
 > To use variables you need to select the statements correctly and run the query. If variable query is not selected session will not understand what you meant.
-{ .prompt-info }
+:::
 
 ### 8: When did the the user in (6) click on the link? Provide an exact timestamp
 
@@ -145,8 +147,9 @@ Email
 
 ![balloons-over-iowa-7.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-7.png)
 
-> KQL returns _[dynamic](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/scalar-data-types/dynamic)_ type from `parse_path(link).Filename` that's why we need to explicitly convert it to string for proper filtering.
-{ .prompt-info }
+::: info 
+KQL returns _[dynamic](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/scalar-data-types/dynamic)_ type from `parse_path(link).Filename` that's why we need to explicitly convert it to string for proper filtering.
+:::
 
 ### 13: What domain did the email address in (1) use to target Richard Clements?
 
@@ -159,8 +162,9 @@ Email
 | project parse_url(link).Host
 ```
 
-> You can use `where (condition1) and (condition2) and ...` or just chain `where condition1 | where condition2 | ...`
-{ .prompt-info }
+::: info 
+You can use `where (condition1) and (condition2) and ...` or just chain `where condition1 | where condition2 | ...`
+:::
 
 ![balloons-over-iowa-8.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-8.png)
 
@@ -259,8 +263,9 @@ ProcessEvents
 
 ![balloons-over-iowa-16.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-16.png)
 
-> Keep in mind that the answer is not copy pasta of `process_commandline`
-{ .prompt-info }
+::: info 
+Keep in mind that the answer is not copy pasta of `process_commandline`
+:::
 
 ### 25: The attackers enumerated the contents of this folder (name) on Richard's machine and dumped the contents to a text file
 
@@ -361,8 +366,9 @@ FileCreationEvents
 
 ![balloons-over-iowa-20.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-20.png)
 
-> Since the query only returns 1 row and username matches description there's no need for further filters. If there were more data you would narrow down data by `hostname` or `username`.
-{ .prompt-info }
+::: info 
+Since the query only returns 1 row and username matches description there's no need for further filters. If there were more data you would narrow down data by `hostname` or `username`.
+:::
 
 ### 2: From which domain did Son Johnson download the file identified in (1)?
 
@@ -376,8 +382,9 @@ OutboundNetworkEvents
 
 ![balloons-over-iowa-21.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-21.png)
 
-> Question is about domain, not full url.
-{ .prompt-info }
+::: info 
+Question is about domain, not full url.
+:::
 
 ### 3: What IP address does the domain identified in (2) resolve to?
 
@@ -434,8 +441,9 @@ PassiveDns
 
 [startswith](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/not-startswith-operator) operator is good utility function to use in this case.
 
-> To use variable inside second query both queries must be selected.
-{ .prompt-info }
+::: info 
+To use variable inside second query both queries must be selected.
+:::
 
 ### 8: The attackers performed reconnaisance against our organization using the IP identified in (7). As part of this reconnaissance, the attackers searched for a three-word phrase. What was this phrase?
 
@@ -449,8 +457,9 @@ InboundNetworkEvents
 
 ![balloons-over-iowa-26.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-26.png)
 
-> `%20` is [URLEncoded](https://www.wikiwand.com/en/Percent-encoding) Space character
-{ .prompt-info }
+::: info 
+`%20` is [URLEncoded](https://www.wikiwand.com/en/Percent-encoding) Space character
+:::
 
 ### 9: Just before downloading the file identified in (1), Son Johnson browsed to a domain. What was this domain?
 
@@ -710,8 +719,9 @@ ProcessEvents
 
 ![balloons-over-iowa-39.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-39.png)
 
-> Select whole query to run without errors.
-{ .prompt-info } 
+::: info 
+Select whole query to run without errors.
+:::
 
 ## Section 4: Helpdesk ☎️
 
@@ -732,8 +742,9 @@ PassiveDns
 
 ![balloons-over-iowa-40.png](/assets/soc/kc7cyber/balloons-over-iowa/balloons-over-iowa-40.png)
 
-> [=~](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/equals-operator) is to disable case sensitivity (Domain starts with capital D)
-{ .prompt-info }
+::: info 
+[=~](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/equals-operator) is to disable case sensitivity (Domain starts with capital D)
+:::
 
 ### 3: How many domains resolve to the same Ip as "database.io"?
 

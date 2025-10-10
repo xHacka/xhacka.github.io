@@ -1306,7 +1306,9 @@ delia@hades:~$ ./showpass
 FkyuXkkJNONDChoaKzOI
 ```
 
-> **Note**: `tput reset` also worked.
+::: info Note
+`tput reset` also worked.
+:::
 
 > Creds: `demeter:FkyuXkkJNONDChoaKzOI`
 

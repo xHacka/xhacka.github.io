@@ -108,7 +108,9 @@ Filter out status code that start with `4`, server error indicates that attacker
 
 ![Writeup-1.png](/assets/soc/sherlocks/heartbreaker-denouement/Writeup-1.png)
 
-> **Note**: Logs were parsed using [Apache-Access-Log-to-CSV-Converter](https://github.com/mboynes/Apache-Access-Log-to-CSV-Converter)
+::: info Note
+Logs were parsed using [Apache-Access-Log-to-CSV-Converter](https://github.com/mboynes/Apache-Access-Log-to-CSV-Converter)
+:::
 
 Looking into the `error.log` we can identify what the attacker submitted. First malicious input is `file:///etc/passwd`
 ```log

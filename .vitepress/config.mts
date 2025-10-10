@@ -51,19 +51,13 @@ export default defineConfig({
         hostname: "https://xhacka.github.io",
     },
     themeConfig: {
-        outline: "deep",
+        outline: "deep", // TOC
         search: {
             provider: "local",
         },
         nav: [
-            {
-                text: "Blog",
-                link: "/",
-            },
-            {
-                text: "Cheatsheets",
-                link: "/cheatsheets/web/burp-sqli-cheatsheet",
-            },
+            { text: "Blog", link: "/",                                      },
+            { text: "Cheatsheets", link: "/cheatsheets/linux/user-actions", },
         ],
         sidebar: {
             "/": [
@@ -108,9 +102,9 @@ export default defineConfig({
                 },
             ],
             "/cheatsheets/": [
-                ...cheatsheets_web,
                 ...cheatsheets_linux,
                 ...cheatsheets_windows,
+                ...cheatsheets_web,
                 ...cheatsheets_etc,
             ],
         },

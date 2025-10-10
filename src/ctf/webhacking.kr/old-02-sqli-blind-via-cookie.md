@@ -100,11 +100,17 @@ while True:
         break
 ```
 
-> **Note**: Script is plug and play style, and not fully automatic 🥴
+::: info Note
+Script is plug and play style, and not fully automatic 🥴
+:::
 
-> **Note**: For some reason server didn't like *Asnyc* code so this MF took ages to brute.
+::: info Note
+For some reason server didn't like *Asnyc* code so this MF took ages to brute.
+:::
 
-> **Note**: Don't use `LIKE` operator on column values as it's not case sensitive.
+::: info Note
+Don't use `LIKE` operator on column values as it's not case sensitive.
+:::
 
 Submit the password at `/admin.php`
 

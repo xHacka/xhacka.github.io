@@ -1,7 +1,7 @@
 [
     {
         "text": "Windows",
-        "collapsed": true,
+        "collapsed": false,
         "items": [
             {
                 "text": "Cronjobs",

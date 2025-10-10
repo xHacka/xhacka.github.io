@@ -28,6 +28,7 @@ for byte in wrap(enc, 8): # 8bit -> 1byte
     # str -> int (base 2) -> chr
     print(chr(int(byte, 2)), end='')
 ```
+
 ```sh
 ➜ py .\solve.py
 bcactf{n0T_QU!t3_M0r5E_981454}
