@@ -41,6 +41,9 @@ jobs:
       - name: Install dependencies
         run: bun install
 
+      - name: Validate images
+        run: bun run docs:images
+
       - name: Build with VitePress
         run: bun run docs:build
 
