@@ -1,14 +1,14 @@
 {
     "scripts": {
         "docs:images": "bun scripts/validate-images.mjs",
-
         "docs:dev": "vitepress dev",
         "docs:build": "vitepress build",
-        "docs:preview": "vitepress preview",
-
-        "postinstall": "bun scripts/postinstall.js"
+        "docs:preview": "vitepress preview"
     },
     "devDependencies": {
+        "@vuepress/plugin-active-header-links": "^1.9.10",
+        "@vuepress/plugin-back-to-top": "^1.9.10",
+        "@vuepress/plugin-google-analytics": "^1.9.10",
         "@whyframe/core": "^0.1.14",
         "@whyframe/vue": "^0.1.9",
         "postcss": "^8.5.6",

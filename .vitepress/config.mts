@@ -147,4 +147,9 @@ export default defineConfig({
         },
     },
     customLogger: logger,
+    plugins: [
+        '@vuepress/active-header-links',
+        '@vuepress/back-to-top',
+        ['@vuepress/google-analytics', { 'ga': 'G-6XT8WV8JH8' }],
+    ]
 }); 
