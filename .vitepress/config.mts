@@ -12,6 +12,7 @@ import ctf_root_me from "./pages/ctf/root_me.json";
 import ctf_suninatas from "./pages/ctf/suninatas.json";
 import ctf_webhacking_kr from "./pages/ctf/webhacking_kr.json";
 import ctf_hackmyvm from "./pages/ctf/hackmyvm.json";
+import ctf_hackthebox from "./pages/ctf/hackthebox.json";
 
 /// Red Team
 import pentest_htb from "./pages/pentest/htb.json";
@@ -108,6 +109,7 @@ export default defineConfig({
                         ...ctf_suninatas,
                         ...ctf_webhacking_kr,
                         ...ctf_hackmyvm,
+                        ...ctf_hackthebox
                     ],
                 },
             ],
@@ -148,8 +150,6 @@ export default defineConfig({
     },
     customLogger: logger,
     plugins: [
-        '@vuepress/active-header-links',
-        '@vuepress/back-to-top',
         ['@vuepress/google-analytics', { 'ga': 'G-6XT8WV8JH8' }],
     ]
 }); 

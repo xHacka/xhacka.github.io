@@ -1,0 +1,178 @@
+[
+    {
+        "text": "HackTheBox Challenges",
+        "collapsed": true,
+        "items": [
+            {
+                "text": "Crypto",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "The Last Dance",
+                        "link": "/ctf/htb/crypto/the-last-dance.md"
+                    }
+                ]
+            },
+            {
+                "text": "Forensics",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Diagnostic",
+                        "link": "/ctf/htb/forensics/diagnostic.md"
+                    },
+                    {
+                        "text": "Emo",
+                        "link": "/ctf/htb/forensics/emo.md"
+                    },
+                    {
+                        "text": "Fishy HTTP",
+                        "link": "/ctf/htb/forensics/fishy-http.md"
+                    },
+                    {
+                        "text": "Obscure",
+                        "link": "/ctf/htb/forensics/obscure.md"
+                    },
+                    {
+                        "text": "PersistenceIsFutile",
+                        "link": "/ctf/htb/forensics/persistenceisfutile.md"
+                    },
+                    {
+                        "text": "Red Failure",
+                        "link": "/ctf/htb/forensics/red-failure.md"
+                    },
+                    {
+                        "text": "RedTrails",
+                        "link": "/ctf/htb/forensics/redtrails.md"
+                    },
+                    {
+                        "text": "Reminiscent",
+                        "link": "/ctf/htb/forensics/reminiscent.md"
+                    },
+                    {
+                        "text": "Suspicious Threat",
+                        "link": "/ctf/htb/forensics/suspicious-threat.md"
+                    },
+                    {
+                        "text": "The Art of Capture - Needs Fucking Windows",
+                        "link": "/ctf/htb/forensics/the-art-of-capture-needs-fucking-windows.md"
+                    },
+                    {
+                        "text": "TrueSecrets",
+                        "link": "/ctf/htb/forensics/truesecrets.md"
+                    }
+                ]
+            },
+            {
+                "text": "Hardware",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Photon Lockdown",
+                        "link": "/ctf/htb/hardware/photon-lockdown.md"
+                    }
+                ]
+            },
+            {
+                "text": "Misc",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Bashic Calculator",
+                        "link": "/ctf/htb/misc/bashic-calculator.md"
+                    },
+                    {
+                        "text": "QuickR",
+                        "link": "/ctf/htb/misc/quickr.md"
+                    },
+                    {
+                        "text": "Touch",
+                        "link": "/ctf/htb/misc/touch.md"
+                    }
+                ]
+            },
+            {
+                "text": "Web",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "ApacheBlaze",
+                        "link": "/ctf/htb/web/apacheblaze.md"
+                    },
+                    {
+                        "text": "ArtificialUniversity",
+                        "link": "/ctf/htb/web/artificialuniversity.md"
+                    },
+                    {
+                        "text": "Breathtaking View",
+                        "link": "/ctf/htb/web/breathtaking-view.md"
+                    },
+                    {
+                        "text": "C.O.P",
+                        "link": "/ctf/htb/web/c.o.p.md"
+                    },
+                    {
+                        "text": "DoxPit",
+                        "link": "/ctf/htb/web/doxpit.md"
+                    },
+                    {
+                        "text": "Insomnia",
+                        "link": "/ctf/htb/web/insomnia.md"
+                    },
+                    {
+                        "text": "JerryTok",
+                        "link": "/ctf/htb/web/jerrytok.md"
+                    },
+                    {
+                        "text": "Jscalc",
+                        "link": "/ctf/htb/web/jscalc.md"
+                    },
+                    {
+                        "text": "Neonify",
+                        "link": "/ctf/htb/web/neonify.md"
+                    },
+                    {
+                        "text": "No-Threshold",
+                        "link": "/ctf/htb/web/no-threshold.md"
+                    },
+                    {
+                        "text": "PDFy",
+                        "link": "/ctf/htb/web/pdfy.md"
+                    },
+                    {
+                        "text": "Pod Diagnostics",
+                        "link": "/ctf/htb/web/pod-diagnostics.md"
+                    },
+                    {
+                        "text": "ProxyAsAService",
+                        "link": "/ctf/htb/web/proxyasaservice.md"
+                    },
+                    {
+                        "text": "Prying Eyes",
+                        "link": "/ctf/htb/web/prying-eyes.md"
+                    },
+                    {
+                        "text": "RenderQuest",
+                        "link": "/ctf/htb/web/renderquest.md"
+                    },
+                    {
+                        "text": "ScreenCrack",
+                        "link": "/ctf/htb/web/screencrack.md"
+                    },
+                    {
+                        "text": "Stylish",
+                        "link": "/ctf/htb/web/stylish.md"
+                    },
+                    {
+                        "text": "TornadoService",
+                        "link": "/ctf/htb/web/tornadoservice.md"
+                    },
+                    {
+                        "text": "Why Lambda",
+                        "link": "/ctf/htb/web/why-lambda.md"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -11,7 +11,9 @@ Everyone loves free utilities, don't you? Can you bypass the payment and read ot
 `/login` to login
 `/register` to register
 
-> Creds: `test02@ctf.ae:test02@ctf.ae`
+::: tip Creds
+`test02@ctf.ae:test02@ctf.ae`
+:::
 
 Only working route is `/pay_fees`
 

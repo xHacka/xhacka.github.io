@@ -123,7 +123,9 @@ The secret website is protected by a login page. Can you find a way to get in?
 
 This is a follow up challenge to previous one, now we have to login into the application and find another flag.
 
-> Creds: `pr1ncess:SK-CERT{0ff_by_4_s1ngle_sl4sh_f836a8b1}`
+::: tip Creds
+`pr1ncess:SK-CERT{0ff_by_4_s1ngle_sl4sh_f836a8b1}`
+:::
 
 ![Equestria.png](/assets/ctf/cybergame/equestria.png)
 

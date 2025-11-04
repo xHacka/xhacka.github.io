@@ -95,7 +95,9 @@ hashcat (v6.2.6) starting
 ...
 ```
 
-> Creds: `admin:wow`
+::: tip Creds
+`admin:wow`
+:::
 
 ![old-22-3.png](/assets/ctf/webhacking.kr/old-22-3.png)
 

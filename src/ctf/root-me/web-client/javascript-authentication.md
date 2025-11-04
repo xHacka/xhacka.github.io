@@ -12,7 +12,9 @@ Hardcoded credentials in Javascript which is accessible to anyone 😳
 
 ![javascript---authentication.png](/assets/ctf/root-me/javascript-authentication.png)
 
-> Creds: `4dm1n:sh.org`
+::: tip Creds
+`4dm1n:sh.org`
+:::
 
 ::: tip Flag
 `sh.org`

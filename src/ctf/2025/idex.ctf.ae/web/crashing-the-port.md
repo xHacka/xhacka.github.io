@@ -12,7 +12,9 @@ Main page presents Filling a form, but we are soon redirected to `/login`
 
 Since we don't have an account we can `/register`
 
-> Creds: `test02@ctf.ae:test02@ctf.ae`
+::: tip Creds
+`test02@ctf.ae:test02@ctf.ae`
+:::
 
 I uploaded a random  file and it just says Checking file
 

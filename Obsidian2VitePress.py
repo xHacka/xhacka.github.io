@@ -22,7 +22,11 @@ class ObsidianConverter:
     def __init__(self, input_path: Path, output_path: Path, images_path: Path, process: bool):
         self.input_path = input_path
         self.output_path = output_path / input_path.name
-        self.images_path = images_path / input_path.name
+        self.images_path = Path(self.normalize_filename(
+            images_path
+            if input_path.name.endswith('.md')
+            else images_path / input_path.name
+        ))
         self.process = process
         
     def normalize_filename(self, s: str) -> str:
@@ -175,9 +179,12 @@ class ObsidianConverter:
         """Copy images from source to destination."""
         images_src = self.input_path / 'images'
         
-        if not images_src.exists():
-            logger.warning(f"Images directory not found: {images_src}")
-            return
+        if self.input_path.name.endswith('.md'):
+            images_src = self.input_path.parent / 'images'
+        else:
+            if not images_src.exists():
+                logger.warning(f"Images directory not found: {images_src}")
+                return
         
         image_files = list(images_src.glob('*'))
         if not image_files:
@@ -189,7 +196,10 @@ class ObsidianConverter:
         for image in image_files:
             if image.is_file():
                 image_name = Path(self.normalize_filename(str(self.images_path / image.name)))
-                
+                if image_name.exists():
+                    logger.info(f"Skipping existing image: {image_name}")
+                    continue
+
                 if self.process:
                     copy(image, image_name)
                     logger.success(f"Copied: {image.name} → {image_name}")
@@ -207,11 +217,15 @@ class ObsidianConverter:
             logger.debug(f"Created output directories")
         
         # Convert main writeup file
-        writeup = self.input_path / 'Writeup.md'
-        if not writeup.exists():
-            logger.error(f"Writeup file not found: {writeup}")
-            return
-        
+        writeup = self.input_path
+        if writeup.exists() and writeup.name.endswith('.md'):
+            logger.info(f"Writeup file found: {writeup}")
+        else:      
+            writeup = self.input_path / 'Writeup.md'
+            if not writeup.exists():
+                logger.error(f"Writeup file not found: {writeup}")
+                return
+            
         output_file = Path(self.normalize_filename(str(self.output_path))).with_suffix('.md')
         
         if self.process:

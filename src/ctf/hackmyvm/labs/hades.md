@@ -60,7 +60,9 @@ acantha@hades:/pwned$ find / -user acantha 2>/dev/null
 /pazz/acantha_pass.txt
 ```
 
-> Creds: `acantha:mYYLhLBSkrzZqFydxGkn`
+::: tip Creds
+`acantha:mYYLhLBSkrzZqFydxGkn`
+:::
 
 ## Level 2
 
@@ -103,7 +105,9 @@ Enter PIN code:
  DsYzpJQrCEndEWIMxWxu
 ```
 
-> Creds: `alala:DsYzpJQrCEndEWIMxWxu`
+::: tip Creds
+`alala:DsYzpJQrCEndEWIMxWxu`
+:::
 
 ## Level 3
 
@@ -139,7 +143,9 @@ alala@hades:~$ ./read
 ObxEmwisYjERrDfvSbdA
 ```
 
-> Creds: `althea:ObxEmwisYjERrDfvSbdA`
+::: tip Creds
+`althea:ObxEmwisYjERrDfvSbdA`
+:::
 
 ## Level 4
 
@@ -206,7 +212,9 @@ andromeda@hades:~$ cat andromeda_pass.txt
 OTWGTbHzrxhYFSTlKcOt
 ```
 
-> Creds: `andromeda:OTWGTbHzrxhYFSTlKcOt`
+::: tip Creds
+`andromeda:OTWGTbHzrxhYFSTlKcOt`
+:::
 
 ## Level 5
 
@@ -253,7 +261,9 @@ anthea@hades:~$ cat anthea_pass.txt
 yWFLtSNQArEBTHtWgkKd
 ```
 
-> Creds: `anthea:yWFLtSNQArEBTHtWgkKd`
+::: tip Creds
+`anthea:yWFLtSNQArEBTHtWgkKd`
+:::
 
 ## Level 6
 
@@ -303,7 +313,9 @@ aphrodite@hades:~$ cat aphrodite_pass.txt
 HPJVaqRzieKQeyyATsFv
 ```
 
-> Creds: `aphrodite:HPJVaqRzieKQeyyATsFv`
+::: tip Creds
+`aphrodite:HPJVaqRzieKQeyyATsFv`
+:::
 
 ## Level 7
 
@@ -339,7 +351,9 @@ ariadne_pass.txt  flagz.txt  homecontent  mission.txt
 iNgNazuJrmhJKWixktzk
 ```
 
-> Creds: `ariadne:iNgNazuJrmhJKWixktzk`
+::: tip Creds
+`ariadne:iNgNazuJrmhJKWixktzk`
+:::
 
 ## Level 8
 
@@ -392,7 +406,9 @@ Alternative way was to use `umask 000`, that way copied files would have all per
 
 To get the password we can submit the flag and website will show password.
 
-> Creds: `arete:QjrIovHacmGWxVjXRLmA`
+::: tip Creds
+`arete:QjrIovHacmGWxVjXRLmA`
+:::
 
 ## Level 9
 
@@ -429,7 +445,9 @@ artemis@hades:/pwned/arete$ cat /pwned/artemis/flagz.txt
 ^SegGdzPgnNdGAmKjnsa^
 ```
 
-> Creds: `artemis:HIiaojeORLaJBVSPDDCZ`
+::: tip Creds
+`artemis:HIiaojeORLaJBVSPDDCZ`
+:::
 
 ## Level 10
 
@@ -456,7 +474,9 @@ Your SHELL is: /bin/bash
 djqWtkLisbQlrGtLYHCv
 ```
 
-> Creds: `asia:djqWtkLisbQlrGtLYHCv`
+::: tip Creds
+`asia:djqWtkLisbQlrGtLYHCv`
+:::
 
 ## Level 11
 
@@ -492,7 +512,9 @@ asteria@hades:/pwned/asia$ cat /pwned/asteria/flagz.txt
 ^xSRhIftMsAwWvBAnqNZ^
 ```
 
-> Creds: `asteria:hawMVJCYrBgoDAMVhuwT`
+::: tip Creds
+`asteria:hawMVJCYrBgoDAMVhuwT`
+:::
 
 ## Level 12
 
@@ -546,7 +568,9 @@ asteria@hades:~$ curl '0/sihiri.php?pass=240610708'
 nZkEYtjvHElOtupXKzTE
 ```
 
-> Creds: `astraea:nZkEYtjvHElOtupXKzTE`
+::: tip Creds
+`astraea:nZkEYtjvHElOtupXKzTE`
+:::
 
 ## Level 13
 
@@ -627,7 +651,9 @@ mUcSNQlaXtwSvGcgeTYZ
 The user atalanta has done something with our account.
 ```
 
-> Creds: `atalanta:mUcSNQlaXtwSvGcgeTYZ`
+::: tip Creds
+`atalanta:mUcSNQlaXtwSvGcgeTYZ`
+:::
 
 ## Level 14
 
@@ -705,7 +731,9 @@ atalanta@hades:~$ cat /tmp/letmein2
 kmQMpZsXgOsnzGReRcoV
 ```
 
-> Creds: `athena:kmQMpZsXgOsnzGReRcoV`
+::: tip Creds
+`athena:kmQMpZsXgOsnzGReRcoV`
+:::
 
 ## Level 15
 
@@ -763,7 +791,9 @@ This was the check which denied usage of `printenv`!
 if [[ $hackme == *"e"* || $hackme == *"o"* || $hackme == *"?"* ]]; then
 ```
 
-> Creds: `aura:TiqpedAFjwmVyBlYpzRh`
+::: tip Creds
+`aura:TiqpedAFjwmVyBlYpzRh`
+:::
 
 ## Level 16
 
@@ -869,7 +899,9 @@ done
 [✓] Final: 1231239111126
 ```
 
-> Creds: `aegle:YRturIymmHSdBmEClEGe`
+::: tip Creds
+`aegle:YRturIymmHSdBmEClEGe`
+:::
 
 ## Level 17
 
@@ -903,7 +935,9 @@ aegle@hades:~$ sudo -u calliope /bin/cat /pwned/calliope/flagz.txt
   1050117      4 -rw-r-----   1 root     calliope     2592 Apr  5  2024 ./.ssh/id_rsa
 ```
 
-> Creds: `calliope:IlhyWxZuqIHAuqVOpXfQ`
+::: tip Creds
+`calliope:IlhyWxZuqIHAuqVOpXfQ`
+:::
 
 ## Level 18
 
@@ -948,7 +982,9 @@ calliope@hades:~$ ./writeme
 
 By changing the behavior of write we got Password + Hidden Flag
 
-> Creds: `calypso:TAMYefoHcCPmexwImodo`
+::: tip Creds
+`calypso:TAMYefoHcCPmexwImodo`
+:::
 
 ### Hidden Flag (0xM)
 
@@ -983,7 +1019,9 @@ If you're Windows then [Black Cat SSTV](https://www.blackcatsystems.com/software
 
 Password looked like `CKzlnvmHOz`, but didn't work! The last `O` looks kinda skewed and that's because it's actually `Q`!..
 
-> Creds: `cassandra:CKzlnvmHQz`
+::: tip Creds
+`cassandra:CKzlnvmHQz`
+:::
 
 ## Level 20
 
@@ -1126,7 +1164,9 @@ clio@hades:~$ grep cybele /etc/passwd
 cybele:x:2014:2014:UICacOPmJMWbKyPwNZod:/pwned/cybele:/bin/bash
 ```
 
-> Creds: `cybele:UICacOPmJMWbKyPwNZod`
+::: tip Creds
+`cybele:UICacOPmJMWbKyPwNZod`
+:::
 
 ## Level 23
 
@@ -1155,7 +1195,9 @@ The mission is hinting at **Steganography**, we can use **Stegsolve** to inspect
 
 ![hades-3.png](/assets/ctf/hackmyvm/hades-3.png)
 
-> Creds: `cynthia:QHLjXdGSiRShtWpMwFjj`
+::: tip Creds
+`cynthia:QHLjXdGSiRShtWpMwFjj`
+:::
 
 ## Level 24
 
@@ -1202,7 +1244,9 @@ tcp        0      0 :::1965                 :::*                    LISTEN      
 EkdtKuXCJjlFKFpKgddX
 ```
 
-> Creds: `daphne:EkdtKuXCJjlFKFpKgddX`
+::: tip Creds
+`daphne:EkdtKuXCJjlFKFpKgddX`
+:::
 
 ## Level 25
 
@@ -1278,7 +1322,9 @@ done )
 [2]+  Done                    ( sudo -u delia /bin/bash -c /usr/local/src/new.sh )
 ```
 
-> Creds: `delia:bNCvocyOpoMVeCtxrhTt`
+::: tip Creds
+`delia:bNCvocyOpoMVeCtxrhTt`
+:::
 
 ## Level 26
 
@@ -1310,7 +1356,9 @@ FkyuXkkJNONDChoaKzOI
 `tput reset` also worked.
 :::
 
-> Creds: `demeter:FkyuXkkJNONDChoaKzOI`
+::: tip Creds
+`demeter:FkyuXkkJNONDChoaKzOI`
+:::
 
 ## Level 27
 
@@ -1345,7 +1393,9 @@ demeter@hades:~$ sudo -u echo ptx /pwned/echo/flagz.txt
                                    ^   abeDeOxlPMAABepeBHy^
 ```
 
-> Creds: `echo:GztROerShmiyiCIlfepG`
+::: tip Creds
+`echo:GztROerShmiyiCIlfepG`
+:::
 
 ## Level 28
 
@@ -1372,7 +1422,9 @@ The audio is garbage to humans. One common technique is to analyze the Spectrum:
 
 ![hades-4.png](/assets/ctf/hackmyvm/hades-4.png)
 
-> Creds: `eos:CWBKRQX`
+::: tip Creds
+`eos:CWBKRQX`
+:::
 
 ## Level 29
 
@@ -1402,7 +1454,9 @@ heaven           (secretz.kbdx)
 
 ![hades-5.png](/assets/ctf/hackmyvm/hades-5.png)
 
-> Creds: `gaia:sbUcegcdYTTWzTKojzgm`
+::: tip Creds
+`gaia:sbUcegcdYTTWzTKojzgm`
+:::
 
 ## Level 30
 
@@ -1452,7 +1506,9 @@ Password: manuela
 cuMRRameGdmhVxHcYYYs
 ```
 
-> Creds: `halcyon:cuMRRameGdmhVxHcYYYs`
+::: tip Creds
+`halcyon:cuMRRameGdmhVxHcYYYs`
+:::
 
 `newgrp` command can also be used to spawn shell as that group.
 ```bash
@@ -1533,7 +1589,9 @@ halcyon@hades:~$ python3 /tmp/b.py /var/tmp/rockyou-25.txt
 [+] Found: password | Response: tOlbuBLjFWntVDNmjHIG
 ```
 
-> Creds: `hebe:tOlbuBLjFWntVDNmjHIG`
+::: tip Creds
+`hebe:tOlbuBLjFWntVDNmjHIG`
+:::
 
 ## Level 32
 
@@ -1595,7 +1653,9 @@ LIST # Typed
 :hades.hmv 323 hera :End of channel list.
 ```
 
-> Creds: `hera:JzpyRXRzWoHKZwgWzleM`
+::: tip Creds
+`hera:JzpyRXRzWoHKZwgWzleM`
+:::
 
 ## Level 33
 
@@ -1642,7 +1702,9 @@ hera@hades:~$ cat /usr/hera
 vzhOebSSplFoXPKxwtqU
 ```
 
-> Creds: `hermione:vzhOebSSplFoXPKxwtqU`
+::: tip Creds
+`hermione:vzhOebSSplFoXPKxwtqU`
+:::
 
 ## Level 34
 
@@ -1680,7 +1742,9 @@ hermione@hades:~$ sg beast ./beastgroup
 vlImTDSGnTMwLFgRWCOc
 ```
 
-> Creds: `hero:vlImTDSGnTMwLFgRWCOc`
+::: tip Creds
+`hero:vlImTDSGnTMwLFgRWCOc`
+:::
 
 ## Level 35
 
@@ -1713,7 +1777,9 @@ hero@hades:~$ cat /usr/share/libs
 opTNnZQAuFJsauNPHXVq
 ```
 
-> Creds: `hestia:opTNnZQAuFJsauNPHXVq`
+::: tip Creds
+`hestia:opTNnZQAuFJsauNPHXVq`
+:::
 
 ## Level 36
 
@@ -1746,7 +1812,9 @@ hestia@hades:~$ ./less -F /opt/ianthe_pass.txt
 DphioLqgVIIFclTwBsMP
 ```
 
-> Creds: `ianthe:DphioLqgVIIFclTwBsMP`
+::: tip Creds
+`ianthe:DphioLqgVIIFclTwBsMP`
+:::
 
 ## Level 37
 
@@ -1954,7 +2022,9 @@ ianthe@hades:~$ curl 0/irene_auth.php -H 'Origin: hackmyvm.hmv' -d 'username=adm
 </html>
 ```
 
-> Creds: `irene:TDyuLyWLDksEhgmAYDJC`
+::: tip Creds
+`irene:TDyuLyWLDksEhgmAYDJC`
+:::
 
 ## Level 38
 
@@ -2010,7 +2080,9 @@ iris@hades:~$ cat /etc/met.txt
 FiqGNcXumTKwLTPRqXMh
 ```
 
-> Creds: `iris:FiqGNcXumTKwLTPRqXMh`
+::: tip Creds
+`iris:FiqGNcXumTKwLTPRqXMh`
+:::
 
 ## Level 39
 
@@ -2037,7 +2109,9 @@ iris@hades:~$ cat /var/tmp/salida.txt
 mdAXiSXteTPiGGTpmajP
 ```
 
-> Creds: `kore:mdAXiSXteTPiGGTpmajP`
+::: tip Creds
+`kore:mdAXiSXteTPiGGTpmajP`
+:::
 
 ## Level 40
 
@@ -2073,7 +2147,9 @@ ffmpeg version 5.1.4-0+deb12u1 Copyright (c) 2000-2023 the FFmpeg developers
 /etc/led: Invalid data found when processing input
 ```
 
-> Creds: `leda:NODEVILINHELL`
+::: tip Creds
+`leda:NODEVILINHELL`
+:::
 
 ## Level 41
 
@@ -2114,7 +2190,9 @@ leda@hades:~$ sudo -u maia espeak -qXf /pwned/maia/flagz.txt | grep -oP "(Transl
 
 Flag required single `^` symbols, submit and grab next password.
 
-> Creds: `maia:GIVEMEANEWMIND`
+::: tip Creds
+`maia:GIVEMEANEWMIND`
+:::
 
 ## Level 42
 
@@ -2169,7 +2247,9 @@ Quick Image to Text
 rZtaitCxlEIRxBayVpgZ
 ```
 
-> Creds: `nephele:rZtaitCxlEIRxBayVpgZ`
+::: tip Creds
+`nephele:rZtaitCxlEIRxBayVpgZ`
+:::
 
 ## Level 43
 
@@ -2193,7 +2273,9 @@ nephele@hades:~$ curl whatsmypass.hmv
 HXisrOPSdTcSSTEyyaLn
 ```
 
-> Creds: `nyx:HXisrOPSdTcSSTEyyaLn`
+::: tip Creds
+`nyx:HXisrOPSdTcSSTEyyaLn`
+:::
 
 ## Level  44
 
@@ -2234,7 +2316,9 @@ pallas@hades:/pwned/nyx$ cat /pwned/pallas/flagz.txt
 ^irzKewMCfnhnIMTCJlW^
 ```
 
-> Creds: `pallas:wWxyXnNbmjxNMEAIjbjT`
+::: tip Creds
+`pallas:wWxyXnNbmjxNMEAIjbjT`
+:::
 
 ## Level 45
 
@@ -2306,7 +2390,9 @@ pallas@hades:~$ sudo -u pandora qrencode -r /pwned/pandora/flagz.txt -o /tmp/let
 QR-Code:^pjDuPNQVgyhgigOIiwm^
 ```
 
-> Creds: `pandora:HhVHfmbBIiZbZSgcgadh`
+::: tip Creds
+`pandora:HhVHfmbBIiZbZSgcgadh`
+:::
 
 ## Level 46
 
@@ -2338,7 +2424,9 @@ anoRxVKulaoMNKMrddVe
 login: Cannot possibly work without effective root
 ```
 
-> Creds: `penelope:anoRxVKulaoMNKMrddVe`
+::: tip Creds
+`penelope:anoRxVKulaoMNKMrddVe`
+:::
 
 ## Level 47
 
@@ -2454,7 +2542,9 @@ SSH         185.233.104.77  6666   hades.hackmyvm.eu [-] phoebe:yABCtSNQArEBTHtW
 SSH         185.233.104.77  6666   hades.hackmyvm.eu [+] phoebe:FPLwKmmKhcWAwRxiaBDN  Linux - Shell access!
 ```
 
-> Creds: `phoebe:FPLwKmmKhcWAwRxiaBDN`
+::: tip Creds
+`phoebe:FPLwKmmKhcWAwRxiaBDN`
+:::
 
 ## Level 48
 
@@ -2509,7 +2599,9 @@ Estimating resolution as 338
 iKVVfwEDFbBpTnlnKZKr
 ```
 
-> Creds: `rhea:iKVVfwEDFbBpTnlnKZKr`
+::: tip Creds
+`rhea:iKVVfwEDFbBpTnlnKZKr`
+:::
 
 ## Level 49
 
@@ -2578,7 +2670,9 @@ SD+hjsg3DNNJISi5AAAADXNtbEBjYXNzYW5kcmEBAgMEBQ==
 ^VgZLrvZyzGYvqegkslh^
 ```
 
-> Creds: `selene:zZqEimsDlLPqIyqzNyWB`
+::: tip Creds
+`selene:zZqEimsDlLPqIyqzNyWB`
+:::
 
 ## Level 50
 
@@ -2632,4 +2726,6 @@ uid=2042(maria) gid=2042(maria) groups=2042(maria)
 Congrats You did it!! If you like it or you have some ideas, just give us your feedback!! Or maybe this is not the last level?
 ```
 
-> Creds: `maria:KZTKpCZzFqmaahwyzuKo`
+::: tip Creds
+`maria:KZTKpCZzFqmaahwyzuKo`
+:::

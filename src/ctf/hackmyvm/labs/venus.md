@@ -60,7 +60,9 @@ hacker@venus:~$ cat .myhiddenpazz
 Y1o645M3mR84ejc
 ```
 
-> Creds: `sophia:Y1o645M3mR84ejc`
+::: tip Creds
+`sophia:Y1o645M3mR84ejc`
+:::
 
 ## Level 2
 
@@ -93,7 +95,9 @@ sophia@venus:~$ cat /usr/share/whereismypazz.txt
 oh5p9gAABugHBje
 ```
 
-> Creds: `angela:oh5p9gAABugHBje`
+::: tip Creds
+`angela:oh5p9gAABugHBje`
+:::
 
 ## Level 3
 
@@ -124,7 +128,9 @@ angela@venus:~$ awk 'NR==4069' findme.txt
 fIvltaGaq0OUH8O
 ```
 
-> Creds: `emma:fIvltaGaq0OUH8O`
+::: tip Creds
+`emma:fIvltaGaq0OUH8O`
+:::
 
 ## Level 4
 
@@ -154,7 +160,9 @@ emma@venus:~$ cat ./-
 iKXIYg0pyEH2Hos
 ```
 
-> Creds: `mia:iKXIYg0pyEH2Hos`
+::: tip Creds
+`mia:iKXIYg0pyEH2Hos`
+:::
 
 ## Level 5
 
@@ -187,7 +195,9 @@ mia@venus:~$ cat /opt/hereiam/.here
 F67aDmCAAgOOaOc
 ```
 
-> Creds: `camila:F67aDmCAAgOOaOc`
+::: tip Creds
+`camila:F67aDmCAAgOOaOc`
+:::
 
 ## Level 6
 
@@ -216,7 +226,9 @@ camila@venus:~$ cat ./muack/111/111/muack
 j3vkuoKQwvbhkMc
 ```
 
-> Creds: `luna:j3vkuoKQwvbhkMc`
+::: tip Creds
+`luna:j3vkuoKQwvbhkMc`
+:::
 
 ## Level 7
 
@@ -245,7 +257,9 @@ luna@venus:~$ cat /usr/share/moon.txt
 UNDchvln6Bmtu7b
 ```
 
-> Creds: `eleanor:UNDchvln6Bmtu7b`
+::: tip Creds
+`eleanor:UNDchvln6Bmtu7b`
+:::
 
 ## Level 8
 
@@ -274,7 +288,9 @@ eleanor@venus:~$ cat /usr/local/games/yo
 pz8OqvJBFxH0cSj
 ```
 
-> Creds: `victoria:pz8OqvJBFxH0cSj`
+::: tip Creds
+`victoria:pz8OqvJBFxH0cSj`
+:::
 
 ## Level 9
 
@@ -307,7 +323,9 @@ victoria@venus:~$ cat /tmp/tmp.uR5HVe2UYU/pwned/victoria/passw0rd.txt
 D3XTob0FUImsoBb
 ```
 
-> Creds: `isla:D3XTob0FUImsoBb`
+::: tip Creds
+`isla:D3XTob0FUImsoBb`
+:::
 
 ## Level 10
 
@@ -337,7 +355,9 @@ isla@venus:~$ grep -oP '^a9HFX\K.*' passy
 WKINVzNQLKLDVAc
 ```
 
-> Creds: `violet:WKINVzNQLKLDVAc`
+::: tip Creds
+`violet:WKINVzNQLKLDVAc`
+:::
 
 ## Level 11
 
@@ -367,7 +387,9 @@ violet@venus:~$ grep '0JuAZ$' end | sed 's/0JuAZ//'
 OCmMUjebG53giud
 ```
 
-> Creds: `lucy:OCmMUjebG53giud`
+::: tip Creds
+`lucy:OCmMUjebG53giud`
+:::
 
 ## Level 12
 
@@ -397,7 +419,9 @@ lucy@venus:~$ grep -Po 'fu\K.*?(?=ck)' file.yo
 4xZ5lIKYmfPLg9t
 ```
 
-> Creds: `elena:4xZ5lIKYmfPLg9t`
+::: tip Creds
+`elena:4xZ5lIKYmfPLg9t`
+:::
 
 ## Level 13
 
@@ -426,7 +450,9 @@ elena@venus:~$ echo $PASS
 Cgecy2MY2MWbaqt
 ```
 
-> Creds: `alice:Cgecy2MY2MWbaqt`
+::: tip Creds
+`alice:Cgecy2MY2MWbaqt`
+:::
 
 ## Level 14
 
@@ -453,7 +479,9 @@ alice@venus:~$ grep alice /etc/passwd
 alice:x:1014:1014:w8NvY27qkpdePox:/pwned/alice:/bin/bash
 ```
 
-> Creds: `anna:w8NvY27qkpdePox`
+::: tip Creds
+`anna:w8NvY27qkpdePox`
+:::
 
 ## Level 15
 
@@ -488,7 +516,9 @@ natalia@venus:~$ cat nataliapass.txt
 NMuc4DkYKDsmZ5z
 ```
 
-> Creds: `natalia:NMuc4DkYKDsmZ5z`
+::: tip Creds
+`natalia:NMuc4DkYKDsmZ5z`
+:::
 
 ## Level 16
 
@@ -517,7 +547,9 @@ natalia@venus:~$ base64 -d base64.txt
 upsCA3UFu10fDAO
 ```
 
-> Creds: `eva:upsCA3UFu10fDAO`
+::: tip Creds
+`eva:upsCA3UFu10fDAO`
+:::
 
 ## Level 17
 
@@ -557,7 +589,9 @@ eva@venus:~$ cat /usr/lib/cmdo
 39YziWp5gSvgQN9
 ```
 
-> Creds: `clara:39YziWp5gSvgQN9`
+::: tip Creds
+`clara:39YziWp5gSvgQN9`
+:::
 
 ## Level 18
 
@@ -597,7 +631,9 @@ pass123          (protected.zip/pwned/clara/protected.txt)
 Ed4ErEUJEaMcXli
 ```
 
-> Creds: `frida:Ed4ErEUJEaMcXli`
+::: tip Creds
+`frida:Ed4ErEUJEaMcXli`
+:::
 
 ## Level 19
 
@@ -625,7 +661,9 @@ frida@venus:~$ uniq -d ./repeated.txt
 Fg6b6aoksceQqB9
 ```
 
-> Creds: `eliza:Fg6b6aoksceQqB9`
+::: tip Creds
+`eliza:Fg6b6aoksceQqB9`
+:::
 
 ## Level 20
 
@@ -757,7 +795,9 @@ eloise@venus:~$ cat hi | xxd -r -p
 uvMwFDQrQWPMeGP
 ```
 
-> Creds: `lucia:uvMwFDQrQWPMeGP`
+::: tip Creds
+`lucia:uvMwFDQrQWPMeGP`
+:::
 
 ## Level 23
 
@@ -786,7 +826,9 @@ lucia@venus:~$ for file in $(cat dict.txt); do file=/etc/xdg/$file; if [ -f $fil
 H5ol8Z2mrRsorC0
 ```
 
-> Creds: `isabel:H5ol8Z2mrRsorC0`
+::: tip Creds
+`isabel:H5ol8Z2mrRsorC0`
+:::
 
 ## Level 24
 
@@ -814,7 +856,9 @@ isabel@venus:~$ uniq -u different.txt
 EEDyYFDwYsmYawj
 ```
 
-> Creds: `freya:EEDyYFDwYsmYawj`
+::: tip Creds
+`freya:EEDyYFDwYsmYawj`
+:::
 
 ## Level 25
 
@@ -853,7 +897,9 @@ freya@venus:~$ while true; do if ls /free/*.txt 2>/dev/null; then cat /free/*.tx
 mxq9O3MSxxX9Q3S
 ```
 
-> Creds: `alexa:mxq9O3MSxxX9Q3S`
+::: tip Creds
+`alexa:mxq9O3MSxxX9Q3S`
+:::
 
 ## Level 26
 
@@ -884,7 +930,9 @@ alexa@venus:~$ curl 0 # curl localhost, since it had HTTP
 33EtHoz9a0w2Yqo
 ```
 
-> Creds: `ariel:33EtHoz9a0w2Yqo`
+::: tip Creds
+`ariel:33EtHoz9a0w2Yqo`
+:::
 
 ## Level 27
 
@@ -954,7 +1002,9 @@ SUCCESS
 Found: d3LieOzRGX5wud6
 ```
 
-> Creds: `lola:d3LieOzRGX5wud6`
+::: tip Creds
+`lola:d3LieOzRGX5wud6`
+:::
 
 ## Level 28
 
@@ -1041,7 +1091,9 @@ lola@venus:~$ curl http://0/cebolla.html
 VLSNMTKwSV2o8Tn
 ```
 
-> Creds: `celeste:VLSNMTKwSV2o8Tn`
+::: tip Creds
+`celeste:VLSNMTKwSV2o8Tn`
+:::
 
 ## Level 29
 
@@ -1092,7 +1144,9 @@ celeste@venus:~$ mysql -u'celeste' -p'VLSNMTKwSV2o8Tn' venus -e 'SELECT * FROM p
 +-----------+----------+-----------------+
 ```
 
-> Creds: `nina:ixpeqdWuvC5N9kG`
+::: tip Creds
+`nina:ixpeqdWuvC5N9kG`
+:::
 
 ## Level 30
 
@@ -1122,7 +1176,9 @@ nina@venus:~$ curl 0/method.php -X POST    ==> I dont like this method!
 nina@venus:~$ curl 0/method.php -X PUT     ==> tPlqxSKuT4eP3yr
 ```
 
-> Creds: `kira:tPlqxSKuT4eP3yr`
+::: tip Creds
+`kira:tPlqxSKuT4eP3yr`
+:::
 
 ## Level 31
 
@@ -1152,7 +1208,9 @@ kira@venus:~$ curl 0/waiting.php -A PARADISE
 QTOel6BodTx2cwX
 ```
 
-> Creds: `veronica:QTOel6BodTx2cwX`
+::: tip Creds
+`veronica:QTOel6BodTx2cwX`
+:::
 
 ## Level 32
 
@@ -1180,7 +1238,9 @@ alias lanapass='UWbc0zNEVVops1v'
 alias ls='ls --color=auto'
 ```
 
-> Creds: `lana:UWbc0zNEVVops1v`
+::: tip Creds
+`lana:UWbc0zNEVVops1v`
+:::
 
 ## Level 33
 
@@ -1212,7 +1272,9 @@ lana@venus:~$ cat /tmp/tmp.hL8HJ17OM5/pwned/lana/zip
 9WWOPoeJrq6ncvJ
 ```
 
-> Creds: `noa:9WWOPoeJrq6ncvJ`
+::: tip Creds
+`noa:9WWOPoeJrq6ncvJ`
+:::
 
 ## Level 34
 
@@ -1242,7 +1304,9 @@ noa@venus:~$ strings trash -n 14
 \nh1hnDPHpydEjoEN
 ```
 
-> Creds: `maia:h1hnDPHpydEjoEN`
+::: tip Creds
+`maia:h1hnDPHpydEjoEN`
+:::
 
 ## Level 35
 
@@ -1303,7 +1367,9 @@ Success
 [+] Success: v7xUVE2e5bjUcxw
 ```
 
-> Creds: `gloria:v7xUVE2e5bjUcxw`
+::: tip Creds
+`gloria:v7xUVE2e5bjUcxw`
+:::
 
 ## Level 36
 
@@ -1387,7 +1453,9 @@ for y, line in enumerate(ascii_art):
 img.show()
 ```
 
-> Creds: `alora:mhrTFCoxGoqUxtw`
+::: tip Creds
+`alora:mhrTFCoxGoqUxtw`
+:::
 
 ## Level 37
 
@@ -1421,7 +1489,9 @@ alora@venus:~$ strings music.iso | grep -E '^.{15}$' --color=auto
 sjDf4i2MSNgSvOv
 ```
 
-> Creds: `julie:sjDf4i2MSNgSvOv`
+::: tip Creds
+`julie:sjDf4i2MSNgSvOv`
+:::
 
 ## Level 38
 
@@ -1531,7 +1601,9 @@ adela@venus:~$ echo "papaparadise" | su -c 'echo Success' "sky" 2>/dev/null
 Success
 ```
 
-> Creds: `sky:papaparadise`
+::: tip Creds
+`sky:papaparadise`
+:::
 
 ## Level 41
 
@@ -1562,7 +1634,9 @@ sky@venus:~$ curl 0/key.php -H 'Key: true';echo
 LWOHeRgmIxg7fuS
 ```
 
-> Creds: `sarah:LWOHeRgmIxg7fuS`
+::: tip Creds
+`sarah:LWOHeRgmIxg7fuS`
+:::
 
 ## Level 42
 
@@ -1590,7 +1664,9 @@ sarah@venus:~$ cat ./...
 ym5yyXZ163uIS8L
 ```
 
-> Creds: `mercy:ym5yyXZ163uIS8L`
+::: tip Creds
+`mercy:ym5yyXZ163uIS8L`
+:::
 
 ## Level 43
 
@@ -1630,7 +1706,9 @@ logout
 ssh paula@localhost
 ```
 
-> Creds: `paula:dlHZ6cvX6cLuL8p`
+::: tip Creds
+`paula:dlHZ6cvX6cLuL8p`
+:::
 
 ## Level  44
 
@@ -1660,7 +1738,9 @@ paula@venus:~$ cat /usr/src/.karl-a
 gYAmvWY3I7yDKRf
 ```
 
-> Creds: `karla:gYAmvWY3I7yDKRf`
+::: tip Creds
+`karla:gYAmvWY3I7yDKRf`
+:::
 
 ## Level 45
 
@@ -1702,7 +1782,9 @@ About                           : pFg92DpGucMWccA
 ...
 ```
 
-> Creds: `denise:pFg92DpGucMWccA`
+::: tip Creds
+`denise:pFg92DpGucMWccA`
+:::
 
 ## Level 46
 
@@ -1739,7 +1821,9 @@ zora@venus:~$ cat zora_pass.txt
 BWm1R3jCcb53riO
 ```
 
-> Creds: `zora:BWm1R3jCcb53riO`
+::: tip Creds
+`zora:BWm1R3jCcb53riO`
+:::
 
 ## Level 47
 
@@ -1772,7 +1856,9 @@ zora@venus:~$ curl venus.hmv
 2jA0E8bQ4WrGwWZ
 ```
 
-> Creds: `belen:2jA0E8bQ4WrGwWZ`
+::: tip Creds
+`belen:2jA0E8bQ4WrGwWZ`
+:::
 
 ## Level 48
 
@@ -1803,7 +1889,9 @@ $1$leona$lhWp56YnWAMz6z32Bw53L0
 freedom          (?)
 ```
 
-> Creds: `leona:freedom`
+::: tip Creds
+`leona:freedom`
+:::
 
 ## Level 49
 
@@ -1867,7 +1955,9 @@ ns1     IN      A       127.0.0.1
 ava IN      TXT     oCXBeeEeYFX34NU
 ```
 
-> Creds: `ava:oCXBeeEeYFX34NU`
+::: tip Creds
+`ava:oCXBeeEeYFX34NU`
+:::
 
 ## Level 50
 

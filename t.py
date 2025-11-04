@@ -2,21 +2,23 @@
 from pathlib import Path
 import json
 from titlecase import titlecase
-from Obsidian2VitePress import norm
+from Obsidian2VitePress import ObsidianConverter
 
 s = 'Machines'
-base = Path.home() / r'OneDrive\Documents\Obsidian Vault\Labs\HackMyVM' / s
+base = Path(r'D:\Obsidian Vault\Labs\HackTheBox\Challenges') # / s
+
+norm = ObsidianConverter(Path('x'),Path('y'),Path('z'),0).normalize_filename
 
 config = []
 for file in Path(base).rglob('**/*.md'):
     if 'nmap' in file.name: continue
-    section = next((c for c in config if c['text'] == file.parent.parent.name), None)
+    section = next((c for c in config if c['text'] == file.parent.name), None)
     if section is None:
-        section = {'text': file.parent.parent.name, 'collapsed': True, 'items': []}
+        section = {'text': file.parent.name, 'collapsed': True, 'items': []}
         config.append(section)
     # writeup = norm(f'/pentest/{s}/{file.parent.name}/{file.name}')
-    writeup = norm(f'/pentest/hackmyvm/{file.parent.parent.name}/{file.parent.with_suffix(".md").name}')
-    section['items'].append({'text': titlecase(file.parent.stem), 'link': writeup})
+    writeup = norm(f'/ctf/htb/{file.with_suffix(".md").name}')
+    section['items'].append({'text': titlecase(file.stem), 'link': writeup})
 
 print(json.dumps(config, indent=4))
 
