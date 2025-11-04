@@ -267,7 +267,7 @@ func readRemoteFile(url string) (string, error) {
 
 This smells like SSTI: [https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#ssti-in-go](https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection#ssti-in-go)
 
-_For RCE via SSTI in Go, object methods can be invoked. For example, if the provided object has a `System` method executing commands, it can be exploited like `{{ .System "ls" }}`._
+_For RCE via SSTI in Go, object methods can be invoked. For example, if the provided object has a `System` method executing commands, it can be exploited like <span v-pre>`{{ .System "ls" }}`</span>._
 
 `FetchServerInfo` is the perfect target!
 ```go
