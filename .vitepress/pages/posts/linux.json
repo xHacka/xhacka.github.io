@@ -1,0 +1,12 @@
+[
+    {
+        "text": "Linux",
+        "collapsed": false,
+        "items": [
+            {
+                "text": "Local DNS Management",
+                "link": "/posts/dnsmasq.md"
+            }
+        ]
+    }
+]

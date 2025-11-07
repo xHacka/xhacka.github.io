@@ -29,6 +29,9 @@ import cheatsheets_linux from "./pages/cheatsheets/linux.json";
 import cheatsheets_windows from "./pages/cheatsheets/windows.json";
 import cheatsheets_etc from "./pages/cheatsheets/etc.json";
 
+/// Blog
+import posts from "./pages/posts/linux.json";
+
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";
 import { createLogger } from 'vite';
@@ -69,6 +72,7 @@ export default defineConfig({
         nav: [
             { text: "Blog", link: "/",                                      },
             { text: "Cheatsheets", link: "/cheatsheets/linux/user-actions", },
+            { text: "Posts", link: "/posts/dnsmasq", },
         ],
         sidebar: {
             "/": [
@@ -119,6 +123,9 @@ export default defineConfig({
                 ...cheatsheets_web,
                 ...cheatsheets_etc,
             ],
+            "/posts/": [
+                ...posts,
+            ]
         },
         socialLinks: [
             // {
