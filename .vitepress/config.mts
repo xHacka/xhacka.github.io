@@ -34,14 +34,6 @@ import posts from "./pages/posts/linux.json";
 
 // https://vitepress.dev/reference/site-config
 import { defineConfig } from "vitepress";
-import { createLogger } from 'vite';
-
-const logger = createLogger('warn');
-const loggerWarn = logger.warn;
-logger.warn = (msg, options) => {
-  if (msg.includes('Some chunks are larger than')) { throw new Error(msg); }
-  loggerWarn(msg, options);
-};
 
 export default defineConfig({
     title: "WoyAg's Blog",
@@ -139,21 +131,22 @@ export default defineConfig({
             md.use(lightbox, {});
         },
     },
-    build: {
-        chunkSizeWarningLimit: 5124,
-        sourcemap: false,
-        minify: "esbuild",
-        rollupOptions: {
-            output: {
-                manualChunks(id) {
-                    if (id.includes("node_modules")) {
-                        if (id.includes("vue")) return "vendor-vue";
-                        if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
-                        return "vendor";
-                    }
+    vite: {
+        build: {
+            chunkSizeWarningLimit: 5124,
+            sourcemap: false,
+            minify: "esbuild",
+            rollupOptions: {
+                output: {
+                    manualChunks(id) {
+                        if (id.includes("node_modules")) {
+                            if (id.includes("vue")) return "vendor-vue";
+                            if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
+                            return "vendor";
+                        }
+                    },
                 },
-            },
-        },
+            }
+        }
     },
-    customLogger: logger
 }); 
