@@ -7,7 +7,7 @@ openssl passwd -6 -salt salty Password123$
 ```
 
 ```bash
-genpasswd() { openssl passwd -6 -salt $1 $2 }
+genpasswd() { openssl passwd -6 -salt $1 $2 ; }
 genpasswd salty Password123$
 ```
 
@@ -47,12 +47,16 @@ uid=0(root) gid=0(root) groups=1000(lowLevelUserGroups)
 ## Upgrade to SSH
 
 Local
+
 ```bash
-ssh-keygen -f id_rsa -P x -q
-echo "mkdir ~/.ssh; echo '$(cat id_rsa.pub)' > ~/.ssh/authorized_keys"
+└─$ ssh-keygen -f id_rsa -P PASSWORD -q
+└─$ echo "mkdir ~/.ssh; echo '$(cat id_rsa.pub)' >> ~/.ssh/authorized_keys" | tee entry
+mkdir ~/.ssh; echo 'ssh-ed25519 AAAA...lPRe user@pc' >> ~/.ssh/authorized_keys
 ```
 
 Remote
 ```bash
-mkdir ~/.ssh; echo 'ssh-ed25519 AAAA...lPRe usern@machine' > ~/.ssh/authorized_keys
+mkdir ~/.ssh; echo 'ssh-ed25519 AAAA...lPRe user@pc' >> ~/.ssh/authorized_keys
 ```
+
+> Note: Might need to change `~` if HOME is not set.
