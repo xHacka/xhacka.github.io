@@ -155,8 +155,5 @@ export default defineConfig({
             },
         },
     },
-    customLogger: logger,
-    plugins: [
-        ['@vuepress/google-analytics', { 'ga': 'G-6XT8WV8JH8' }],
-    ]
+    customLogger: logger
 }); 
