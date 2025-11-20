@@ -13,6 +13,7 @@
         "@whyframe/vue": "^0.1.9",
         "postcss": "^8.5.6",
         "vitepress": "^2.0.0-alpha.12",
+        "vitepress-plugin-google-analytics": "^1.0.2",
         "vitepress-plugin-lightbox": "^1.0.3",
         "vue": "^3.5.21",
       },
@@ -442,6 +443,8 @@
     "vite": ["vite@7.1.7", "", { "dependencies": { "esbuild": "^0.25.0", "fdir": "^6.5.0", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rollup": "^4.43.0", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "jiti": ">=1.21.0", "less": "^4.0.0", "lightningcss": "^1.21.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "jiti", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-VbA8ScMvAISJNJVbRDTJdCwqQoAareR/wutevKanhR2/1EkoXVZVkkORaYm/tNVCjP/UDTKtcw3bAkwOUdedmA=="],
 
     "vitepress": ["vitepress@2.0.0-alpha.12", "", { "dependencies": { "@docsearch/css": "^4.0.0-beta.7", "@docsearch/js": "^4.0.0-beta.7", "@iconify-json/simple-icons": "^1.2.47", "@shikijs/core": "^3.9.2", "@shikijs/transformers": "^3.9.2", "@shikijs/types": "^3.9.2", "@types/markdown-it": "^14.1.2", "@vitejs/plugin-vue": "^6.0.1", "@vue/devtools-api": "^8.0.0", "@vue/shared": "^3.5.18", "@vueuse/core": "^13.6.0", "@vueuse/integrations": "^13.6.0", "focus-trap": "^7.6.5", "mark.js": "8.11.1", "minisearch": "^7.1.2", "shiki": "^3.9.2", "vite": "^7.1.2", "vue": "^3.5.18" }, "peerDependencies": { "markdown-it-mathjax3": "^4", "oxc-minify": "^0.82.1", "postcss": "^8" }, "optionalPeers": ["markdown-it-mathjax3", "oxc-minify", "postcss"], "bin": { "vitepress": "bin/vitepress.js" } }, "sha512-yZwCwRRepcpN5QeAhwSnEJxS3I6zJcVixqL1dnm6km4cnriLpQyy2sXQDsE5Ti3pxGPbhU51nTMwI+XC1KNnJg=="],
+
+    "vitepress-plugin-google-analytics": ["vitepress-plugin-google-analytics@1.0.2", "", {}, "sha512-ri8bFUAmt3c/DtPrALauGBIUr2gIJ11c1qNRhwd3/+aiuYZBfQpOosSxcO1AswgwRxP9FwBS6Z7jgdDVyXb2hA=="],
 
     "vitepress-plugin-lightbox": ["vitepress-plugin-lightbox@1.0.3", "", { "dependencies": { "medium-zoom": "^1.1.0", "photoswipe": "^5.4.4" } }, "sha512-40E/ofp5Uk9X/yC5Mz/jeVAhaG51fOXqPZokLue2r28czyucini+NmfIiabNZi+1bCvLBF5GNUz5TJIyuQSJLA=="],
 
