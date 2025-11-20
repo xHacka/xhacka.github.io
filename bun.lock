@@ -4,6 +4,7 @@
     "": {
       "dependencies": {
         "fast-glob": "^3.3.3",
+        "mark.js": "^8.11.1",
       },
       "devDependencies": {
         "@whyframe/core": "^0.1.14",
