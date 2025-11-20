@@ -59,4 +59,6 @@ Remote
 mkdir ~/.ssh; echo 'ssh-ed25519 AAAA...lPRe user@pc' >> ~/.ssh/authorized_keys
 ```
 
-> Note: Might need to change `~` if HOME is not set.
+::: info Note
+Might need to change `~` if HOME is not set.
+:::

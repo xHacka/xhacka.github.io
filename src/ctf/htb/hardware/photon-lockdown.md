@@ -9,7 +9,9 @@ We've located the adversary's location and must now secure access to their Optic
 
 In the given zip file we find SquashFS which is mountable readonly mountable image
 
-> Note: [Understanding SquashFS and How to Mount a SquashFS Filesystem](https://www.baeldung.com/linux/squashfs-filesystem-mount)
+::: info Note
+[Understanding SquashFS and How to Mount a SquashFS Filesystem](https://www.baeldung.com/linux/squashfs-filesystem-mount)
+:::
 
 ```bash
 └─$ tree

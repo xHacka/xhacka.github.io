@@ -10,7 +10,9 @@ domain='domain.tld'; ffuf -u "http://$domain/" -H "Host: FUZZ.$domain" -w /usr/s
 domain='domain.tld'; ffuf -k -u "https://$domain/" -H "Host: FUZZ.$domain" -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -mc all -fs CHANGE_FOR_COMMON_SIZE
 ```
 
-> Note: It's more accurate to use SIZE then LINES or WORDS.
+::: info Note
+It's more accurate to use SIZE then LINES or WORDS.
+:::
 
 ## FeroxBuster
 

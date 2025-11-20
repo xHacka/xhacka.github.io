@@ -566,7 +566,9 @@ Now to trigger the bot we need price to be lower then 0 and then bot should trig
 ...
 ```
 
-> Note: Just realized I have a typo in `src`, lol
+::: info Note
+Just realized I have a typo in `src`, lol
+:::
 
 This sadly won't work, because we are not passing `product_id` it's defaulting to 1, and `generate_invoice` uses product with this ID.
 ```python
