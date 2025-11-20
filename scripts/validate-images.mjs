@@ -7,7 +7,7 @@ const assetsDir = "./src/public";
 
 const regex = /!\[[^\]]*\]\(([^)]+)\)/g;
 
-const whitelist = [ "/preview.jpg", "onerror=", ]
+const whitelist = [ "/preview.jpg", "onerror=", "/static/", ]
 
 async function run() {
   const files = await glob(`${contentDir}/**/*.md`);
