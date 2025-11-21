@@ -3,6 +3,7 @@
   "workspaces": {
     "": {
       "dependencies": {
+        "@types/mark.js": "^8.11.12",
         "fast-glob": "^3.3.3",
         "mark.js": "^8.11.1",
       },
@@ -11,7 +12,6 @@
         "@whyframe/vue": "^0.1.9",
         "postcss": "^8.5.6",
         "vitepress": "^2.0.0-alpha.12",
-        "vitepress-plugin-google-analytics": "^1.0.2",
         "vitepress-plugin-lightbox": "^1.0.3",
         "vue": "^3.5.21",
       },
@@ -160,13 +160,19 @@
 
     "@types/hast": ["@types/hast@3.0.4", "", { "dependencies": { "@types/unist": "*" } }, "sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ=="],
 
+    "@types/jquery": ["@types/jquery@3.5.33", "", { "dependencies": { "@types/sizzle": "*" } }, "sha512-SeyVJXlCZpEki5F0ghuYe+L+PprQta6nRZqhONt9F13dWBtR/ftoaIbdRQ7cis7womE+X2LKhsDdDtkkDhJS6g=="],
+
     "@types/linkify-it": ["@types/linkify-it@5.0.0", "", {}, "sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q=="],
+
+    "@types/mark.js": ["@types/mark.js@8.11.12", "", { "dependencies": { "@types/jquery": "*" } }, "sha512-244ZnaIBpz4c6xutliAnYVZp6xJlmC569jZqnR3ElO1Y01ooYASSVQEqpd2x0A2UfrgVMs5V9/9tUAdZaDMytQ=="],
 
     "@types/markdown-it": ["@types/markdown-it@14.1.2", "", { "dependencies": { "@types/linkify-it": "^5", "@types/mdurl": "^2" } }, "sha512-promo4eFwuiW+TfGxhi+0x3czqTYJkG8qB17ZUJiVF10Xm7NLVRSLUsfRTU/6h1e24VvRnXCx+hG7li58lkzog=="],
 
     "@types/mdast": ["@types/mdast@4.0.4", "", { "dependencies": { "@types/unist": "*" } }, "sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA=="],
 
     "@types/mdurl": ["@types/mdurl@2.0.0", "", {}, "sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg=="],
+
+    "@types/sizzle": ["@types/sizzle@2.3.10", "", {}, "sha512-TC0dmN0K8YcWEAEfiPi5gJP14eJe30TTGjkvek3iM/1NdHHsdCA/Td6GvNndMOo/iSnIsZ4HuuhrYPDAmbxzww=="],
 
     "@types/unist": ["@types/unist@3.0.3", "", {}, "sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q=="],
 
@@ -367,8 +373,6 @@
     "vite": ["vite@7.2.4", "", { "dependencies": { "esbuild": "^0.25.0", "fdir": "^6.5.0", "picomatch": "^4.0.3", "postcss": "^8.5.6", "rollup": "^4.43.0", "tinyglobby": "^0.2.15" }, "optionalDependencies": { "fsevents": "~2.3.3" }, "peerDependencies": { "@types/node": "^20.19.0 || >=22.12.0", "jiti": ">=1.21.0", "less": "^4.0.0", "lightningcss": "^1.21.0", "sass": "^1.70.0", "sass-embedded": "^1.70.0", "stylus": ">=0.54.8", "sugarss": "^5.0.0", "terser": "^5.16.0", "tsx": "^4.8.1", "yaml": "^2.4.2" }, "optionalPeers": ["@types/node", "jiti", "less", "lightningcss", "sass", "sass-embedded", "stylus", "sugarss", "terser", "tsx", "yaml"], "bin": { "vite": "bin/vite.js" } }, "sha512-NL8jTlbo0Tn4dUEXEsUg8KeyG/Lkmc4Fnzb8JXN/Ykm9G4HNImjtABMJgkQoVjOBN/j2WAwDTRytdqJbZsah7w=="],
 
     "vitepress": ["vitepress@2.0.0-alpha.13", "", { "dependencies": { "@docsearch/css": "^4.3.2", "@docsearch/js": "^4.3.2", "@iconify-json/simple-icons": "^1.2.58", "@shikijs/core": "^3.15.0", "@shikijs/transformers": "^3.15.0", "@shikijs/types": "^3.15.0", "@types/markdown-it": "^14.1.2", "@vitejs/plugin-vue": "^6.0.1", "@vue/devtools-api": "^8.0.3", "@vue/shared": "^3.5.24", "@vueuse/core": "^14.0.0", "@vueuse/integrations": "^14.0.0", "focus-trap": "^7.6.6", "mark.js": "8.11.1", "minisearch": "^7.2.0", "shiki": "^3.15.0", "vite": "^7.2.2", "vue": "^3.5.24" }, "peerDependencies": { "markdown-it-mathjax3": "^4", "oxc-minify": "*", "postcss": "^8" }, "optionalPeers": ["markdown-it-mathjax3", "oxc-minify", "postcss"], "bin": { "vitepress": "bin/vitepress.js" } }, "sha512-bnUfnyL3TRqqYvOxQ68MxbFyI6qkQ8IQnhwIiGLSMF9GXloyfBCV1hnVJE6yA+Rlk+T+y19gzDKjKIMpiCIUvA=="],
-
-    "vitepress-plugin-google-analytics": ["vitepress-plugin-google-analytics@1.0.2", "", {}, "sha512-ri8bFUAmt3c/DtPrALauGBIUr2gIJ11c1qNRhwd3/+aiuYZBfQpOosSxcO1AswgwRxP9FwBS6Z7jgdDVyXb2hA=="],
 
     "vitepress-plugin-lightbox": ["vitepress-plugin-lightbox@1.0.3", "", { "dependencies": { "medium-zoom": "^1.1.0", "photoswipe": "^5.4.4" } }, "sha512-40E/ofp5Uk9X/yC5Mz/jeVAhaG51fOXqPZokLue2r28czyucini+NmfIiabNZi+1bCvLBF5GNUz5TJIyuQSJLA=="],
 
