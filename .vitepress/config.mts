@@ -131,22 +131,20 @@ export default defineConfig({
             md.use(lightbox, {});
         },
     },
-    vite: {
-        build: {
-            chunkSizeWarningLimit: 5124,
-            sourcemap: false,
-            minify: "esbuild",
-            rollupOptions: {
-                output: {
-                    manualChunks(id) {
-                        if (id.includes("node_modules")) {
-                            if (id.includes("vue")) return "vendor-vue";
-                            if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
-                            return "vendor";
-                        }
-                    },
+    build: {
+        chunkSizeWarningLimit: 5124,
+        sourcemap: false,
+        minify: "esbuild",
+        rollupOptions: {
+            output: {
+                manualChunks(id) {
+                    if (id.includes("node_modules")) {
+                        if (id.includes("vue")) return "vendor-vue";
+                        if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
+                        return "vendor";
+                    }
                 },
-            }
+            },
         }
-    },
+    }
 }); 
