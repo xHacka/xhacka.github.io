@@ -20,6 +20,10 @@
                 "link": "/cheatsheets/linux/linux-things"
             },
             {
+                "text": "Privilege Escalation",
+                "link": "/cheatsheets/linux/privesc"
+            },
+            {
                 "text": "Firewall~",
                 "link": "/cheatsheets/linux/firewall"
             }

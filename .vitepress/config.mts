@@ -37,8 +37,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
     title: "WoyAg's Blog",
-    description:
-        "A personal cybersecurity blog documenting raw notes, findings, and learning experiences. Exported from Obsidian as an evolving knowledge base.",
+    description: "A personal cybersecurity blog documenting raw notes, findings, and learning experiences. Exported from Obsidian as an evolving knowledge base.",
     srcDir: "src",
     cleanUrls: true,
     ignoreDeadLinks: "localhostLinks",
@@ -62,52 +61,40 @@ export default defineConfig({
             provider: "local",
         },
         nav: [
-            { text: "Blog", link: "/",                                      },
-            { text: "Cheatsheets", link: "/cheatsheets/linux/user-actions", },
-            { text: "Posts", link: "/posts/dnsmasq", },
+            { text: "Offensive Security", link: "/" },
+            { text: "Defensive Security", link: "/soc/sherlocks/cloud/heartbreaker-denouement" },
+            { text: "CTFs", link: "/ctf/2023/amateursctf/censorship" },
+            { text: "Cheatsheets", link: "/cheatsheets/linux/user-actions" },
+            { text: "Posts", link: "/posts/dnsmasq" },
         ],
         sidebar: {
             "/": [
                 {
-                    text: "Offensive Security",
-                    items: [
-                        {
-                            text: "HackTheBox",
-                            collapsed: true,
-                            items: [...pentest_htb],
-                        },
-                        {
-                            text: "HackMyVM",
-                            collapsed: true,
-                            items: [...pentest_hackmyvm],
-                        },
-                        {
-                            text: "VulnHub",
-                            collapsed: true,
-                            items: [...pentest_vulnhub],
-                        },
-                    ],
+                    text: "HackTheBox",
+                    items: [...pentest_htb],
                 },
                 {
-                    text: "Defensive Security",
-                    items: [...soc_sherlocks, ...soc_kc_seven_cyber],
+                    text: "HackMyVM",
+                    items: [...pentest_hackmyvm],
                 },
                 {
-                    text: "CTFs",
-                    items: [
-                        ...ctf_ctftime,
-                        ...ctf_cmdchallenge,
-                        ...ctf_overthewire,
-                        ...ctf_underthewire,
-                        ...ctf_promptriddle,
-                        ...ctf_randoms,
-                        ...ctf_root_me,
-                        ...ctf_suninatas,
-                        ...ctf_webhacking_kr,
-                        ...ctf_hackmyvm,
-                        ...ctf_hackthebox
-                    ],
+                    text: "VulnHub",
+                    items: [...pentest_vulnhub],
                 },
+            ],
+            "/soc/": [...soc_sherlocks, ...soc_kc_seven_cyber],
+            "/ctf/": [
+                ...ctf_ctftime,
+                ...ctf_cmdchallenge,
+                ...ctf_overthewire,
+                ...ctf_underthewire,
+                ...ctf_promptriddle,
+                ...ctf_randoms,
+                ...ctf_root_me,
+                ...ctf_suninatas,
+                ...ctf_webhacking_kr,
+                ...ctf_hackmyvm,
+                ...ctf_hackthebox,
             ],
             "/cheatsheets/": [
                 ...cheatsheets_linux,
@@ -115,22 +102,14 @@ export default defineConfig({
                 ...cheatsheets_web,
                 ...cheatsheets_etc,
             ],
-            "/posts/": [
-                ...posts,
-            ]
+            "/posts/": [...posts],
         },
-        socialLinks: [
-            // {
-            //     icon: "github",
-            //     link: "https://github.com/xHacka/xhacka.github.io",
-            // },
-        ],
     },
+
     markdown: {
-        config: (md) => {
-            md.use(lightbox, {});
-        },
+        config: (md) => md.use(lightbox, {}),
     },
+
     build: {
         chunkSizeWarningLimit: 5124,
         sourcemap: false,
@@ -140,11 +119,10 @@ export default defineConfig({
                 manualChunks(id) {
                     if (id.includes("node_modules")) {
                         if (id.includes("vue")) return "vendor-vue";
-                        if (id.includes("recharts") || id.includes("chart")) return "vendor-charts";
                         return "vendor";
                     }
                 },
             },
-        }
-    }
-}); 
+        },
+    },
+});
