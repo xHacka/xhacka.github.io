@@ -3,10 +3,8 @@
         "text": "Linux",
         "collapsed": false,
         "items": [
-            {
-                "text": "Local DNS Management",
-                "link": "/posts/dnsmasq.md"
-            }
+            { "text": "Local DNS Management", "link": "/posts/dnsmasq.md" },
+            { "text": "Kali Setup (TBU)", "link": "/posts/kali_setup.md" }
         ]
     }
 ]

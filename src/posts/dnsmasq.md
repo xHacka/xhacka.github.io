@@ -73,17 +73,15 @@ Create `/usr/local/bin/watch_dns.sh`:
 ```bash
 #!/bin/bash
 
-WATCH_DIR="/etc/dnsmasq.d"
-LOG_FILE="/var/log/dnsmasq-watch.log"
-
-sudo touch "$LOG_FILE"
-sudo chmod 644 "$LOG_FILE"
-
-inotifywait -m -r "$WATCH_DIR" -e modify,create,delete,move |
+/usr/bin/inotifywait -m -r /etc/dnsmasq.d \
+  -e modify,create,delete,move \
+  --format '%w %e %f' |
 while read -r path action file; do
-    echo "$(date): Detected $action on $file in $path. Reloading dnsmasq..." | sudo tee -a "$LOG_FILE"
-    sudo systemctl reload dnsmasq || sudo systemctl restart dnsmasq
-    sleep 2  # Prevent rapid restarts
+    [[ "$file" != *.conf ]] && continue
+
+    echo "$(date): $action $file in $path" >> /var/log/dnsmasq-watch.log
+    /bin/systemctl restart dnsmasq
+    sleep 2
 done
 ```
 

