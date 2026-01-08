@@ -132,7 +132,14 @@ sudo apt install -y \
   enum4linux-ng \     # Active Directory and SMB enumeration tool
   nuclei \            # Fast vulnerability scanner using templated checks
   ltrace \            # Library call tracer for debugging binaries
-  strace              # System call tracer for analyzing program behavior
+  strace \            # System call tracer for analyzing program behavior
+  tesseract-ocr \     # Optical Character Recognition engine for extracting text from images
+  lolcat \            # Utility for rainbow-coloring terminal output
+  steghide \          # Steganography tool for hiding data in images and audio files
+  bettercap \         # Comprehensive framework for network attacks and monitoring
+  ncat \              # Versatile networking tool for reading, writing, and redirecting data
+  gdb \               # The GNU Project debugger for low-level binary analysis
+  ropper              # Tool to display information about files and find ROP gadgets
 ```
 
 ### Language Runtimes
@@ -163,6 +170,8 @@ uv tool install git+https://github.com/mitmproxy/mitmproxy.git
 uv tool install git+https://github.com/Paradoxis/Flask-Unsign.git
 uv tool install git+https://github.com/Pennyw0rth/NetExec.git
 uv tool install git+https://github.com/RsaCtfTool/RsaCtfTool
+
+pip install pytesseract --break-system-packages
 ```
 
 ## 5. Extra Binaries
@@ -175,6 +184,14 @@ sudo mv fzf /usr/local/bin
 # htmlq
 └─$ tar -xzvf <(curl -Ls https://github.com/mgdm/htmlq/releases/download/v0.4.0/htmlq-x86_64-linux.tar.gz -o-)
 └─$ sudo mv htmlq /usr/local/bin
+
+# Websocat
+└─$ curl -LOs https://github.com/vi/websocat/releases/download/v1.14.1/websocat.i686-unknown-linux-musl
+└─$ chmod +x websocat.i686-unknown-linux-musl
+└─$ sudo mv websocat.i686-unknown-linux-musl /usr/local/bin/websocat
+
+# Exploit Development and Reverse Engineering with GDB & LLDB Made Easy
+└─$ curl -qsL 'https://install.pwndbg.re' | sh -s -- -t pwndbg-gdb
 
 # NoMore403
 git clone https://github.com/devploit/nomore403 /opt/nomore403
