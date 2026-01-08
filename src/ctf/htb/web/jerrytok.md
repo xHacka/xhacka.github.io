@@ -126,7 +126,9 @@ payload = '''
 print(get_output(payload))
 ```
 
-> **Note**: Checking the directory via Docker showed that it didn't exist? or this location was correct `/var/www/localhost/cgi-bin`, but it wouldn't update scripts.
+::: info Note
+Checking the directory via Docker showed that it didn't exist? or this location was correct `/var/www/localhost/cgi-bin`, but it wouldn't update scripts.
+:::
 
 [official docs](https://httpd.apache.org/docs/2.4/howto/cgi.html) says that `ScriptAlias /cgi-bin /usr/bin` is the location of cgi binaries that can be executed, but basedir prevents that.
 ```xml

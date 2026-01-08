@@ -303,7 +303,9 @@ return redirect('http://0.0.0.0:3000/register?username=x&password=y')
 <span>User created with token: 53a4ca3d74e165263a0193fb0c7c3bf2</span>
 ```
 
-> **Note**: The auth system is based on GET request which is a huge gaping security hole 💀
+::: info Note
+The auth system is based on GET request which is a huge gaping security hole 💀
+:::
 
 Access home endpoint:
 ```python

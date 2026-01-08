@@ -70,7 +70,9 @@ output = BS(resp.text, 'html.parser').find('h1', class_='glow').get_text(strip=T
 print(output)
 ```
 
-> **Note**: It's important to have something on first line so that regex is satisfied, empty string doesn't satisfy the condition.
+::: info Note
+It's important to have something on first line so that regex is satisfied, empty string doesn't satisfy the condition.
+:::
 
 ```powershell
 ➜ py .\exploit.py

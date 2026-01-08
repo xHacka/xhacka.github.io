@@ -327,7 +327,9 @@ for line in resp.text.split('\n'):
     except: print(line)
 ```
 
-> **Note**: Turns out rebinder service uses any IP between A and B, and is random. I chose `A: 127.0.0.1` and `B: 127.0.0.2` to increase chance of `127.0.0.1`\~\~\~
+::: info Note
+Turns out rebinder service uses any IP between A and B, and is random. I chose `A: 127.0.0.1` and `B: 127.0.0.2` to increase chance of `127.0.0.1`\~\~\~
+:::
 
 ```bash
 payload='INFO keyspace\nQUIT'
@@ -436,7 +438,9 @@ $slashes = addslashes($serialized);
 echo $slashes . PHP_EOL;
 ```
 
-> **Note**: The extension can't really be effected because of programming logic, but we can use the filename!
+::: info Note
+The extension can't really be effected because of programming logic, but we can use the filename!
+:::
 
 The PoC script does following
 1. Create a dummy object

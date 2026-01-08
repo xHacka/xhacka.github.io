@@ -93,4 +93,6 @@ io.close()
 
 > Flag: `HTB{@lriGh7_1_tH1nK_y0u``r3_QuickR_s0ldi3r}`
 
-> **Note**: Flag middle part should have 1 tilde... formatting issue in obsidian soo...
+::: info Note
+Flag middle part should have 1 tilde... formatting issue in obsidian soo...
+:::

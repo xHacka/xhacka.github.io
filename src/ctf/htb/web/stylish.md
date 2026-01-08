@@ -449,7 +449,9 @@ Just like HackTricks said the request is made to our server if character exists:
 
 ![stylish-2.png](/assets/ctf/htb/web/stylish-2.png)
 
-> **Note**: For debug `isAdmin` just returns 1
+::: info Note
+For debug `isAdmin` just returns 1
+:::
 
 This doesn't help much, because we need to know where each character is located at to have a proper approval token. Oh btw, tokens have `display: none` and font face won't make request if items are not actually visible.
 
