@@ -140,6 +140,12 @@ sudo apt install -y \
   ncat \              # Versatile networking tool for reading, writing, and redirecting data
   gdb \               # The GNU Project debugger for low-level binary analysis
   ropper              # Tool to display information about files and find ROP gadgets
+  foremost
+  npm
+  libreoffice
+  gradle
+  freerdp3-dev
+  remmina
 ```
 
 ### Language Runtimes
@@ -170,6 +176,7 @@ uv tool install git+https://github.com/mitmproxy/mitmproxy.git
 uv tool install git+https://github.com/Paradoxis/Flask-Unsign.git
 uv tool install git+https://github.com/Pennyw0rth/NetExec.git
 uv tool install git+https://github.com/RsaCtfTool/RsaCtfTool
+uv tool install git+https://github.com/arthaud/git-dumper.git
 
 pip install pytesseract --break-system-packages
 ```
