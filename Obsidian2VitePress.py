@@ -149,6 +149,36 @@ class ObsidianConverter:
         # Handle generic embeds
         return self.handle_generic_embed(target, target_name)
     
+    def convert_callouts(self, content: str) -> str:
+        """Convert blockquote callouts (e.g. '> Flag: ...', '> Note: ...') to VitePress custom containers."""
+        callout_map = {
+            'Flag': 'tip',
+            'Creds': 'tip',
+            'Note': 'info',
+            'Warning': 'warning',
+            'Danger': 'danger'
+        }
+
+        pattern = re.compile(
+            r'^> \*{0,2}(' + '|'.join(callout_map.keys()) + r')\*{0,2}:\s*(.*(?:\n>.*)*)',
+            re.MULTILINE
+        )
+
+        def replace_callout(match):
+            label = match.group(1)
+            body = match.group(2)
+            # Remove '> ' or '>' prefix from continuation lines
+            body_lines = body.split('\n')
+            cleaned_lines = [body_lines[0]]
+            for line in body_lines[1:]:
+                cleaned_lines.append(re.sub(r'^>\s?', '', line))
+
+            container_type = callout_map[label]
+            body_text = '\n'.join(cleaned_lines).strip()
+            return f'::: {container_type} {label}\n{body_text}\n:::'
+
+        return pattern.sub(replace_callout, content)
+
     def convert_content(self, input_file: Path, output_file: Path) -> None:
         """Convert Obsidian markdown to VitePress format."""
         try:
@@ -164,6 +194,9 @@ class ObsidianConverter:
                 lambda m: self.replace_embed(m, input_file),
                 content
             )
+            
+            # Convert blockquote callouts to VitePress containers
+            content = self.convert_callouts(content)
             
             if self.process:
                 output_file.write_text(content, encoding="utf-8")

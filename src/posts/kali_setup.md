@@ -146,6 +146,7 @@ sudo apt install -y \
   gradle
   freerdp3-dev
   remmina
+  pngcheck
 ```
 
 ### Language Runtimes
@@ -169,6 +170,7 @@ uv tool install certipy-ad
 uv tool install ldapdomaindump
 uv tool install pwntools
 uv tool install registryspy
+uv tool install uncompyle6
 uv tool install git+https://github.com/aniqfakhrul/powerview.py
 uv tool install git+https://github.com/brightio/penelope
 uv tool install git+https://github.com/CravateRouge/bloodyAD.git
