@@ -1611,5 +1611,31 @@
                 ]
             }
         ]
+    },
+    {
+        "text": "2026",
+        "items": [
+            {
+                "text": "DGACTF",
+                "collapsed": true,
+                "items": [
+                    { "text": "A whisper in the noise", "link": "/ctf/2026/dgactf/a-whisper-in-the-noise.md" },
+                    { "text": "Blind Leading the Blind", "link": "/ctf/2026/dgactf/blind-leading-the-blind.md" },
+                    { "text": "C2", "link": "/ctf/2026/dgactf/c2.md" },
+                    { "text": "Can u ROOT me", "link": "/ctf/2026/dgactf/can-u-root-me.md" },
+                    { "text": "Chess", "link": "/ctf/2026/dgactf/chess.md" },
+                    { "text": "CV", "link": "/ctf/2026/dgactf/cv.md" },
+                    { "text": "DGAnsomware", "link": "/ctf/2026/dgactf/dgansomware.md" },
+                    { "text": "I Hate Direct Reading", "link": "/ctf/2026/dgactf/i-hate-direct-reading.md" },
+                    { "text": "Is everything okay", "link": "/ctf/2026/dgactf/is-everything-okay.md" },
+                    { "text": "Message", "link": "/ctf/2026/dgactf/message.md" },
+                    { "text": "Baby nyanCat", "link": "/ctf/2026/dgactf/baby-nyancat.md" },
+                    { "text": "nyanCat - Unsolved", "link": "/ctf/2026/dgactf/nyancat.md" },
+                    { "text": "Proxy VS Server", "link": "/ctf/2026/dgactf/proxy-vs-server.md" },
+                    { "text": "Strange Casino", "link": "/ctf/2026/dgactf/strange-casino.md" },
+                    { "text": "The Stereo Challenge", "link": "/ctf/2026/dgactf/the-stereo-challenge.md" }
+                ]
+            }
+        ]
     }
 ]
