@@ -4,7 +4,8 @@
         "collapsed": false,
         "items": [
             { "text": "Local DNS Management", "link": "/posts/dnsmasq.md" },
-            { "text": "Kali Setup (TBU)", "link": "/posts/kali_setup.md" }
+            { "text": "Kali Setup", "link": "/posts/kali_setup.md" },
+            { "text": "Personal Mail Setup", "link": "/posts/mail-server-guide.md" }
         ]
     }
 ]
