@@ -147,6 +147,14 @@ sudo apt install -y \
   freerdp3-dev
   remmina
   pngcheck
+  ntpdate
+  krb5-user
+  powercat
+  faketime
+```
+
+```bash
+sudo apt remove netexec # Installs not latest version
 ```
 
 ### Language Runtimes
@@ -173,7 +181,7 @@ uv tool install registryspy
 uv tool install uncompyle6
 uv tool install git+https://github.com/aniqfakhrul/powerview.py
 uv tool install git+https://github.com/brightio/penelope
-uv tool install git+https://github.com/CravateRouge/bloodyAD.git
+uv tool install git+https://github.com/CravateRouge/bloodyAD.git --with minikerberos
 uv tool install git+https://github.com/mitmproxy/mitmproxy.git
 uv tool install git+https://github.com/Paradoxis/Flask-Unsign.git
 uv tool install git+https://github.com/Pennyw0rth/NetExec.git
@@ -214,6 +222,9 @@ git clone https://github.com/dirkjanm/PKINITtools.git /opt/PKINITtools
 # Cutter
 curl -L https://github.com/rizinorg/cutter/releases/download/v2.4.1/Cutter-v2.4.1-Linux-x86_64.AppImage -o ~/Desktop/Cutter.AppImage
 chmod +x ~/Desktop/Cutter.AppImage
+
+# Kerbrute
+go install github.com/ropnop/kerbrute@latest
 ```
 
 - [https://my.hex-rays.com/dashboard/download-center/installers/release/9.2/ida-free](https://my.hex-rays.com/dashboard/download-center/installers/release/9.2/ida-free) (Needs account...)
