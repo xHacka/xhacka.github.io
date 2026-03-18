@@ -151,6 +151,7 @@ sudo apt install -y \
   krb5-user
   powercat
   faketime
+  mdbtools
 ```
 
 ```bash
@@ -187,6 +188,8 @@ uv tool install git+https://github.com/Paradoxis/Flask-Unsign.git
 uv tool install git+https://github.com/Pennyw0rth/NetExec.git
 uv tool install git+https://github.com/RsaCtfTool/RsaCtfTool
 uv tool install git+https://github.com/arthaud/git-dumper.git
+uv tool install git+https://github.com/Hackndo/pyGPOAbuse.git
+uv tool install git+https://github.com/unode/firefox_decrypt.git
 
 pip install pytesseract --break-system-packages
 ```
