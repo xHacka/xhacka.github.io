@@ -93,3 +93,22 @@ start /b powershell.exe -ep bypass -e JABj....pAA==
 cmd /c start /b powershell.exe -w hidden -ep bypass -e JABj....pAA==
 ```
 
+## Grep PHP
+
+```powershell
+function Extract-PhpBlocks($f) { [regex]::Matches((Get-Content $f -Raw), '(?s)<\?php.*?\?>') | ForEach-Object { $_.Value; "`n---`n" } }
+```
+
+```
+PS> Extract-PhpBlocks alert_panel.php
+<?php
+session_start();
+if (!(isset($_SESSION['password'])) && !(isset($_GET['auth']) && isset($_GET['username']) && isset($_GET['password']) && isset($_GET['alert']))) { exit(); }
+?>
+<snip>
+```
+
+Equivalent to this in Bash
+```bash
+sed -n '/<?php/,/?>/p'
+```

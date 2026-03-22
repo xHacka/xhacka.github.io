@@ -63,11 +63,26 @@ $c=new mysqli("172.17.0.1","wp_user","wp_password","wordpress");foreach($c->quer
 $c=new mysqli("172.17.0.1","wp_user","wp_password","wordpress");$q=$c->query("SELECT * FROM wp_users");while($r=$q->fetch_assoc())print_r($r)."\n";
 ```
 
+#### Linux
+
 ```bash
 php -r '$c=new mysqli("172.17.0.1","wp_user","wp_password");foreach($c->query("SHOW DATABASES")as$r){echo $r["Database"]."\n";};$c->close();'
 php -r '$c=new mysqli("172.17.0.1","wp_user","wp_password","wordpress");foreach($c->query("SHOW TABLES")->fetch_all()as$r)echo$r[0]."\n";'
 php -r '$c=new mysqli("172.17.0.1","wp_user","wp_password","wordpress");foreach($c->query("SELECT * FROM wp_users")->fetch_all()as$r)echo$r[0]."\n";'
 php -r '$c=new mysqli("172.17.0.1","wp_user","wp_password","wordpress");$q=$c->query("SELECT * FROM wp_users");while($r=$q->fetch_assoc())print_r($r)."\n";'
+```
+
+#### Windows
+
+```powershell
+# Get databases
+C:\xampp\php\php.exe -r "$c=new mysqli('127.0.0.1','USERNAME','PASSWORD');foreach($c->query('SHOW DATABASES') as $r){echo $r['Database'].PHP_EOL;};$c->close();"
+
+# Get tables
+C:\xampp\php\php.exe -r "$c=new mysqli('127.0.0.1','USERNAME','PASSWORD','DATABASE');foreach($c->query('SHOW TABLES')->fetch_all()as$r)echo$r[0].PHP_EOL;"
+
+# Dump table
+C:\xampp\php\php.exe -r "$c=new mysqli('127.0.0.1','USERNAME','PASSWORD','DATABASE');foreach($c->query('SELECT * FROM TABLE')->fetch_all()as$r)print_r($r).PHP_EOL;"
 ```
 
 ## Python
