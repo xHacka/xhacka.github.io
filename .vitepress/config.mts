@@ -18,6 +18,7 @@ import ctf_hackthebox from "./pages/ctf/hackthebox.json";
 import pentest_htb from "./pages/pentest/htb.json";
 import pentest_vulnhub from "./pages/pentest/vulnhub.json";
 import pentest_hackmyvm from "./pages/pentest/hackmyvm.json";
+import pentest_scsa from "./pages/pentest/scsa.json";
 
 /// Blue Team
 import soc_sherlocks from "./pages/soc/sherlocks.json";
@@ -81,6 +82,10 @@ export default defineConfig({
                     text: "VulnHub",
                     items: [...pentest_vulnhub],
                 },
+                {
+                    text: "SCSA",
+                    items: [...pentest_scsa],
+                }
             ],
             "/soc/": [...soc_sherlocks, ...soc_kc_seven_cyber],
             "/ctf/": [
