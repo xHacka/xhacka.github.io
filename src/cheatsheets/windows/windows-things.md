@@ -48,6 +48,11 @@ runas /user:<username> "<command>"
 runas /user:letmein "whoami"
 ```
 
+Uses winrm protocol
+```powershell
+Invoke-Command -ComputerName LOCALHOST -ScriptBlock { COMMANDS; } -credential (New-Object System.Management.Automation.PSCredential("DOMAIN\USERNAME", (ConvertTo-SecureString "PASSWORD" -AsPlainText -Force)))
+```
+
 ### Decrypt SecureString
 
 ```powershell
@@ -133,6 +138,22 @@ faketime -f +{SKEW}h {command}
 
 ### Service Enumeration via Registry
 
+Not native services
 ```bash
 ls HKLM:\SYSTEM\CurrentControlSet\Services | % { $p=(gp $_.PSPath); if($p.ImagePath -and $p.ImagePath -notlike "*system32*"){ [PSCustomObject]@{Name=$_.PSChildName; ProbablyUser=$p.ObjectName; Path=$p.ImagePath} } }
+```
+
+Enumerate services you can manipulate if you can start/stop them
+```bash
+# Type 16 (0x10) = WIN32_OWN_PROCESS, Type 32 (0x20) = WIN32_SHARE_PROCESS
+# Start 3 = Manual, ObjectName = LocalSystem or absent (defaults to SYSTEM)
+PS C:\Users\Hector> ls HKLM:\SYSTEM\CurrentControlSet\Services | %{ $p=gp $_.PSPath; if($p.ImagePath -and $p.Start -eq 3 -and ($p.Type -eq 16 -or $p.Type -eq 32) -and (!$p.ObjectName -or $p.ObjectName -match 'LocalSystem')){ [PSCustomObject]@{Name=$_.PSChildName; ProbablyUser=$p.ObjectName; Path=$p.ImagePath} }} | Out-String -Width 10000
+...
+wercplsupport                            localSystem  C:\Windows\System32\svchost.exe -k netsvcs -p
+WerSvc                                   localSystem  C:\Windows\System32\svchost.exe -k WerSvcGroup
+WiaRpc                                   LocalSystem  C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p
+wlidsvc                                  LocalSystem  C:\Windows\system32\svchost.exe -k netsvcs -p
+wmiApSrv                                 localSystem  C:\Windows\system32\wbem\WmiApSrv.exe
+WPDBusEnum                               LocalSystem  C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted
+wuauserv                                 LocalSystem  C:\Windows\system32\svchost.exe -k netsvcs -p
 ```
