@@ -55,6 +55,8 @@ export default defineConfig({
         ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
         // Android / PWA manifest
         ['link', { rel: 'manifest', href: '/site.webmanifest' }],
+        // Umami analytics
+        ['script', { defer: true, src: 'https://cloud.umami.is/script.js', 'data-website-id': '631439b0-4c4b-4024-8119-427ea764d8e9' }],
     ],
     themeConfig: {
         outline: "deep", // TOC
